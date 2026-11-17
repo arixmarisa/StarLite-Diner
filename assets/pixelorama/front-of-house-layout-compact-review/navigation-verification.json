@@ -1,0 +1,109 @@
+{
+  "status": "passed",
+  "nativeScale": 1,
+  "assetReferences": 52,
+  "instances": 277,
+  "assemblies": 21,
+  "uniqueSceneIds": true,
+  "resolvedParents": true,
+  "cycleChecksPassed": true,
+  "parentLocalOffsetsExact": true,
+  "publicStandingPoints": 22,
+  "staffStandingPoints": 5,
+  "allStandingPointsReachable": true,
+  "publicStaffZoneIsolation": true,
+  "clearCorridors": [
+    {
+      "id": "left-service-aisle",
+      "width": 32
+    },
+    {
+      "id": "right-service-aisle",
+      "width": 32
+    },
+    {
+      "id": "middle-cross-aisle",
+      "width": 32
+    },
+    {
+      "id": "bottom-cross-aisle",
+      "width": 32
+    },
+    {
+      "id": "rear-staff-strip",
+      "width": 32
+    },
+    {
+      "id": "east-staff-passage",
+      "width": 32
+    },
+    {
+      "id": "left-staff-entry",
+      "width": 32
+    },
+    {
+      "id": "entrance-approach",
+      "width": 40
+    }
+  ],
+  "floorEnvelopeOverlaps": 0,
+  "negativeSealedBarrierRejected": true,
+  "originalAssetReferencesAndFurnitureCountsPreserved": true,
+  "measuredTouchingBackSeams": 5,
+  "backJoinsNonWalkable": true,
+  "kitchenDoorInteriorsVisible": true,
+  "chairOpaqueGaps": [
+    {
+      "id": "middle-table-0--chair-south",
+      "before": 6,
+      "now": 2
+    },
+    {
+      "id": "middle-table-0--chair-north",
+      "before": 10,
+      "now": 4
+    },
+    {
+      "id": "middle-table-1--chair-south",
+      "before": 6,
+      "now": 2
+    },
+    {
+      "id": "middle-table-1--chair-north",
+      "before": 10,
+      "now": 4
+    },
+    {
+      "id": "middle-table-2--chair-south",
+      "before": 6,
+      "now": 2
+    },
+    {
+      "id": "middle-table-2--chair-north",
+      "before": 10,
+      "now": 4
+    },
+    {
+      "id": "right-table-0--chair-east",
+      "before": 12,
+      "now": 6
+    },
+    {
+      "id": "right-table-0--chair-west",
+      "before": 12,
+      "now": 6
+    },
+    {
+      "id": "right-table-1--chair-east",
+      "before": 12,
+      "now": 6
+    },
+    {
+      "id": "right-table-1--chair-west",
+      "before": 12,
+      "now": 6
+    }
+  ],
+  "areaReductionPercent": 35.4779411764706,
+  "limits": "Exterior art-layout circulation proposal; closely paired backs are non-walkable joins, not aisles. Final collision/seating and gameplay remain unintegrated."
+}

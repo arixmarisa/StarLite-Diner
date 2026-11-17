@@ -1,0 +1,89 @@
+{
+  "activeProjectUnchanged": true,
+  "allSevenOriginalGrillLayersPreserved": true,
+  "boundForeignImageUnchanged": true,
+  "exactOriginalGrillPng": true,
+  "exports": {
+    "counter-assembly.png": 0,
+    "publicPreview": 0,
+    "scene-floor.png": 0,
+    "sourcePreview": 0
+  },
+  "independentNativeComponentsReconstructExactly": true,
+  "nativeSpriteScale": 1,
+  "opaquePixels": 14080,
+  "outOfPalettePixels": 0,
+  "previewScale": 6,
+  "scene": {
+    "celByteSizes": [
+      56320, 56320, 56320, 56320, 56320, 56320, 56320, 56320, 56320, 56320, 56320, 56320, 56320,
+      56320, 56320
+    ],
+    "exportCode": 0,
+    "fps": 1.0,
+    "frameDuration": 1.0,
+    "frames": 1,
+    "layerNames": [
+      "01 - unchanged native mint cream checker floor",
+      "02 - native counter contact shadow",
+      "03 - native left counter top and open grill join",
+      "04 - native counter cabinet fronts and plinth",
+      "05 - preserved grill 01 - contact shadow",
+      "06 - preserved grill 02 - compact steel top cabinet and plinth",
+      "07 - preserved grill 03 - low backsplash",
+      "08 - preserved grill 04 - bare cooking plate",
+      "09 - preserved grill 05 - grease channel",
+      "10 - preserved grill 06 - controls and cabinet details",
+      "11 - preserved grill 07 - chrome reflections and rose accent",
+      "12 - three reusable ingredient trays",
+      "13 - independent native raw-patty",
+      "14 - independent native raw-sausage",
+      "15 - independent native pancake-batter"
+    ],
+    "paletteSwatches": 16,
+    "populatedLayers": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "sourceCelsMatchAuthoredLayers": true,
+    "sourceMatchesNativePng": true,
+    "sourceSize": [176.0, 80.0],
+    "tag": "grill-station-scene-static"
+  },
+  "semitransparentPixels": 0,
+  "sharedCounterGrillCabinetY": 34,
+  "sharedCounterGrillWorktopY": 16,
+  "sharedFloorContactRow": 46,
+  "tray": {
+    "celByteSizes": [768, 768, 768],
+    "exportCode": 0,
+    "fps": 1.0,
+    "frameDuration": 1.0,
+    "frames": 1,
+    "layerNames": [
+      "01 - tray contact shadow",
+      "02 - shallow recessed steel tray",
+      "03 - top light and near rim"
+    ],
+    "paletteSwatches": 14,
+    "populatedLayers": [true, true, true],
+    "sourceCelsMatchAuthoredLayers": true,
+    "sourceMatchesNativePng": true,
+    "sourceSize": [16.0, 12.0],
+    "tag": "ingredient-tray-static"
+  },
+  "visibleColors": 14
+}

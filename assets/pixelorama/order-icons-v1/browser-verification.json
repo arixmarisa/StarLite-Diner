@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "catalogCoverageExact": true,
+  "icons": 31,
+  "newIcons": 30,
+  "reusedApprovedIcons": 1,
+  "distinctDecodedImages": 31,
+  "frameSize": [16, 16],
+  "individualStaticFrameIndex": 0,
+  "perIconPaletteChecks": 31,
+  "familySheetAtlasPixelChecks": 30,
+  "transparentBorderPixels": 1,
+  "semitransparentPixels": 0,
+  "visibleColorRange": [6, 9],
+  "intentionalMultiComponentIcon": {
+    "id": "cherry-drizzle",
+    "components": 2,
+    "meaning": "Separate pouring drop"
+  },
+  "contactSize": [192, 96],
+  "contactPreviewScale": 6,
+  "contactNativeByteDifferences": 0,
+  "contactPreviewByteDifferences": 0,
+  "allFitApprovedBubbleWithoutScaling": true,
+  "unchangedApprovedSourceAndPNGHashes": 4,
+  "runtimeOrderingAdded": false
+}

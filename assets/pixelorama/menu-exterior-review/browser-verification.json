@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "nativeSize": [384, 216],
+  "visibleBackgroundColors": 35,
+  "nonOpaqueBackgroundPixels": 0,
+  "existingButtonSize": [96, 28],
+  "buttonPosition": [144, 148],
+  "overlayByteDifferences": 0,
+  "previewSize": [1152, 648],
+  "previewScale": 3,
+  "previewByteDifferences": 0,
+  "doorCovered": false,
+  "signCovered": false,
+  "preservedMenuReferences": 7,
+  "gameIntegration": false,
+  "gameplayConnection": false
+}

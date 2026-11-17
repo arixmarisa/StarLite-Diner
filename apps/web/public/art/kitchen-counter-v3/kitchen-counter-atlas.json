@@ -1,0 +1,253 @@
+{
+  "frames": {
+    "steel-counter-top": {
+      "frame": {
+        "x": 8,
+        "y": 8,
+        "w": 16,
+        "h": 18
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 18
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "duration": 1000
+    },
+    "steel-counter-front": {
+      "frame": {
+        "x": 32,
+        "y": 8,
+        "w": 16,
+        "h": 13
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 13
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 13
+      },
+      "duration": 1000
+    },
+    "steel-counter-vertical-top": {
+      "frame": {
+        "x": 56,
+        "y": 8,
+        "w": 20,
+        "h": 16
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 20,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 16
+      },
+      "duration": 1000
+    },
+    "steel-counter-near-fascia": {
+      "frame": {
+        "x": 88,
+        "y": 8,
+        "w": 20,
+        "h": 13
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 20,
+        "h": 13
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 13
+      },
+      "duration": 1000
+    },
+    "steel-counter-end-left": {
+      "frame": {
+        "x": 8,
+        "y": 40,
+        "w": 16,
+        "h": 31
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 31
+      },
+      "duration": 1000
+    },
+    "steel-counter-end-right": {
+      "frame": {
+        "x": 32,
+        "y": 40,
+        "w": 16,
+        "h": 31
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 31
+      },
+      "duration": 1000
+    },
+    "steel-counter-corner-left": {
+      "frame": {
+        "x": 64,
+        "y": 40,
+        "w": 20,
+        "h": 18
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 20,
+        "h": 18
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 18
+      },
+      "duration": 1000
+    },
+    "steel-counter-corner-right": {
+      "frame": {
+        "x": 104,
+        "y": 40,
+        "w": 20,
+        "h": 18
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 20,
+        "h": 18
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 18
+      },
+      "duration": 1000
+    },
+    "steel-counter-side": {
+      "frame": {
+        "x": 8,
+        "y": 88,
+        "w": 20,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 20,
+        "h": 45
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 45
+      },
+      "duration": 1000
+    },
+    "steel-counter-lip-front": {
+      "frame": {
+        "x": 56,
+        "y": 88,
+        "w": 16,
+        "h": 3
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 3
+      },
+      "duration": 1000
+    },
+    "steel-counter-lip-side": {
+      "frame": {
+        "x": 88,
+        "y": 88,
+        "w": 3,
+        "h": 16
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 16
+      },
+      "duration": 1000
+    }
+  },
+  "meta": {
+    "app": "Pixelorama MCP",
+    "image": "kitchen-counter-atlas.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 160,
+      "h": 160
+    },
+    "scale": "1",
+    "frameTags": [
+      {
+        "name": "kitchen-counter-v3-static",
+        "from": 0,
+        "to": 0,
+        "direction": "forward"
+      }
+    ]
+  }
+}

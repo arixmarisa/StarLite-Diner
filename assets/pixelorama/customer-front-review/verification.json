@@ -1,0 +1,52 @@
+{
+  "activeProjectUnchanged": true,
+  "anchor": {
+    "x": 8,
+    "y": 23
+  },
+  "failures": [],
+  "families": {
+    "female": {
+      "bodyAlphaMatchesAcrossOutfits": true,
+      "connectedComponents": [1, 1, 1],
+      "exportedPNGExact": true,
+      "frames": 3,
+      "isolatedRecolorPasses": 18,
+      "layers": 10,
+      "neutralRecolorChanges": 0,
+      "paletteSwatches": 46,
+      "savedTagsLayersPaletteVerified": true,
+      "semiTransparentPixels": 0,
+      "shortsExposedCalfPixels": 8,
+      "sourceCelsVerified": 30,
+      "sourceCompositeExact": true,
+      "tags": 3
+    },
+    "male": {
+      "bodyAlphaMatchesAcrossOutfits": true,
+      "connectedComponents": [1, 1, 1],
+      "exportedPNGExact": true,
+      "frames": 3,
+      "isolatedRecolorPasses": 18,
+      "layers": 10,
+      "neutralRecolorChanges": 0,
+      "paletteSwatches": 48,
+      "savedTagsLayersPaletteVerified": true,
+      "semiTransparentPixels": 0,
+      "shortsExposedCalfPixels": 8,
+      "sourceCelsVerified": 30,
+      "sourceCompositeExact": true,
+      "tags": 3
+    }
+  },
+  "frames": 6,
+  "nativeFrameSize": [16, 24],
+  "recolorDemo": {
+    "alphaChanges": 0,
+    "changedMaterialPixels": 158,
+    "description": "Male tee geometry, first palette then second palette; comparison only, not a seventh candidate",
+    "neutralChanges": 0,
+    "sameGeometry": true
+  },
+  "staticOutfitVariants": true
+}

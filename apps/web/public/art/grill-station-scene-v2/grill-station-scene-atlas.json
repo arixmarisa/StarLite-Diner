@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "grill-station-scene": {
+      "frame": { "x": 0, "y": 0, "w": 176, "h": 80 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 176, "h": 80 },
+      "sourceSize": { "w": 176, "h": 80 },
+      "duration": 1000
+    }
+  },
+  "meta": {
+    "app": "Pixelorama MCP explicit native project",
+    "image": "grill-station-scene.png",
+    "format": "RGBA8888",
+    "size": { "w": 176, "h": 80 },
+    "scale": "1",
+    "frameTags": [
+      { "name": "grill-station-scene-static", "from": 0, "to": 0, "direction": "forward" }
+    ]
+  }
+}

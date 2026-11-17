@@ -1,0 +1,44 @@
+{
+  "frames": [
+    {
+      "filename": "pancake-batter",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 10
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 10
+      },
+      "duration": 1000
+    }
+  ],
+  "meta": {
+    "app": "Pixelorama MCP",
+    "image": "pancake-batter-atlas.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 12,
+      "h": 10
+    },
+    "scale": "1",
+    "frameTags": [
+      {
+        "name": "raw-pancake-batter-static",
+        "from": 0,
+        "to": 0,
+        "direction": "forward"
+      }
+    ]
+  }
+}

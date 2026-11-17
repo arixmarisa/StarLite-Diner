@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "serving-tray-v3",
+  "status": "authorized-compact-kitchen-art",
+  "creationApproved": true,
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/serving-tray-v3/serving-tray.pxo",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/serving-tray-v3/palette.json",
+  "image": "serving-tray.png",
+  "frameSize": {
+    "width": 20,
+    "height": 14
+  },
+  "occupiedBounds": {
+    "height": 11,
+    "width": 17,
+    "x": 2,
+    "y": 2
+  },
+  "bodyBounds": {
+    "x": 2,
+    "y": 2,
+    "width": 16,
+    "height": 10
+  },
+  "orientation": "top-down-countertop-prop",
+  "layers": [
+    "01 - worktop contact shadow",
+    "02 - shallow chrome rim and thickness",
+    "03 - empty dark carrying surface",
+    "04 - upper-left hard chrome reflections"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMs": 1000,
+    "tag": "serving-tray-v3-static"
+  },
+  "counterAttachment": {
+    "surface": "horizontal-countertop",
+    "independentProp": true,
+    "frameMustFitInsideWorktop": true,
+    "minimumSurfaceDepth": 14,
+    "approvedCounterDepth": 18
+  },
+  "components": [
+    {
+      "id": "tray-shadow",
+      "image": "tray-shadow.png",
+      "renderRole": "countertop-contact-shadow",
+      "order": 0
+    },
+    {
+      "id": "tray-body",
+      "image": "tray-body.png",
+      "renderRole": "empty-tray-body",
+      "order": 1
+    }
+  ],
+  "scaleReference": "kitchen-counter-scale-review",
+  "qaReport": "verification.json",
+  "gameplayCapacity": null,
+  "collision": null,
+  "interaction": null,
+  "integrated": true,
+  "roomLayout": "kitchen-layout-v3",
+  "approvedForGameUse": true
+}

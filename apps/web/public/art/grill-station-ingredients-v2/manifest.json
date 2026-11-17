@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "id": "grill-station-ingredients-v2",
+  "source": "assets/pixelorama/grill-station-ingredients-v2/raw-ingredients.pxo",
+  "palette": "assets/pixelorama/grill-station-ingredients-v2/palette.json",
+  "camera": "room-camera oblique overhead",
+  "lighting": "upper-left",
+  "nativeAtlasSize": { "width": 36, "height": 10 },
+  "nativeFrameSize": { "width": 12, "height": 10 },
+  "frameCount": 1,
+  "fps": 1,
+  "durationMultiplier": 1,
+  "tag": "room-ingredients-static",
+  "scope": "art and preview only",
+  "quantity": "Illustrations represent ingredient choices, not inventory counts.",
+  "stationMount": {
+    "sceneSize": { "width": 176, "height": 80 },
+    "trayFrame": { "width": 16, "height": 12 },
+    "ingredientOffset": { "x": 2, "y": 1 },
+    "scale": 1,
+    "artOnly": true
+  },
+  "sprites": [
+    {
+      "id": "raw-patty",
+      "image": "raw-patty.png",
+      "atlasRectangle": { "x": 0, "y": 0, "width": 12, "height": 10 },
+      "contentBounds": { "x": 2, "y": 3, "width": 7, "height": 5 },
+      "stationOrigin": { "x": 15, "y": 20 }
+    },
+    {
+      "id": "raw-sausage",
+      "image": "raw-sausage.png",
+      "atlasRectangle": { "x": 12, "y": 0, "width": 12, "height": 10 },
+      "contentBounds": { "x": 1, "y": 4, "width": 10, "height": 4 },
+      "stationOrigin": { "x": 34, "y": 20 }
+    },
+    {
+      "id": "pancake-batter",
+      "image": "pancake-batter.png",
+      "atlasRectangle": { "x": 24, "y": 0, "width": 12, "height": 10 },
+      "contentBounds": { "x": 2, "y": 0, "width": 10, "height": 10 },
+      "stationOrigin": { "x": 53, "y": 20 }
+    }
+  ]
+}

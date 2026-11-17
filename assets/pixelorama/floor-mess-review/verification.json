@@ -1,0 +1,113 @@
+{
+  "activeProjectUnchanged": true,
+  "assets": {
+    "spill-coffee": {
+      "components": [79],
+      "occupiedBounds": {
+        "height": 8,
+        "width": 14,
+        "x": 1,
+        "y": 4
+      },
+      "opaquePixels": 79,
+      "semitransparentPixels": 0,
+      "visibleColors": 3
+    },
+    "spill-water": {
+      "components": [79],
+      "occupiedBounds": {
+        "height": 8,
+        "width": 14,
+        "x": 1,
+        "y": 4
+      },
+      "opaquePixels": 79,
+      "semitransparentPixels": 0,
+      "visibleColors": 3
+    },
+    "trash-cup": {
+      "components": [41],
+      "occupiedBounds": {
+        "height": 7,
+        "width": 8,
+        "x": 4,
+        "y": 4
+      },
+      "opaquePixels": 41,
+      "semitransparentPixels": 0,
+      "visibleColors": 8
+    },
+    "trash-napkin": {
+      "components": [30],
+      "occupiedBounds": {
+        "height": 6,
+        "width": 7,
+        "x": 4,
+        "y": 5
+      },
+      "opaquePixels": 30,
+      "semitransparentPixels": 0,
+      "visibleColors": 5
+    }
+  },
+  "families": {
+    "contact-sheet": {
+      "fps": 1,
+      "frames": 1,
+      "layers": 4,
+      "nativeSize": [96, 32],
+      "paletteSwatches": 16,
+      "savedCelsExact": 4,
+      "savedLayerNamesTagsTimingExact": true,
+      "sourceCompositeExact": true,
+      "tags": 1
+    },
+    "cup": {
+      "fps": 1,
+      "frames": 1,
+      "layers": 4,
+      "nativeSize": [16, 16],
+      "paletteSwatches": 16,
+      "savedCelsExact": 4,
+      "savedLayerNamesTagsTimingExact": true,
+      "sourceCompositeExact": true,
+      "tags": 1
+    },
+    "floor-context": {
+      "fps": 1,
+      "frames": 1,
+      "layers": 6,
+      "nativeSize": [96, 64],
+      "paletteSwatches": 23,
+      "savedCelsExact": 6,
+      "savedLayerNamesTagsTimingExact": true,
+      "sourceCompositeExact": true,
+      "tags": 1
+    },
+    "napkin": {
+      "fps": 1,
+      "frames": 1,
+      "layers": 4,
+      "nativeSize": [16, 16],
+      "paletteSwatches": 16,
+      "savedCelsExact": 4,
+      "savedLayerNamesTagsTimingExact": true,
+      "sourceCompositeExact": true,
+      "tags": 1
+    },
+    "spills": {
+      "fps": 1,
+      "frames": 2,
+      "layers": 4,
+      "nativeSize": [16, 16],
+      "paletteSwatches": 16,
+      "savedCelsExact": 8,
+      "savedLayerNamesTagsTimingExact": true,
+      "sourceCompositeExact": true,
+      "tags": 2
+    }
+  },
+  "runtimeIntegrated": false,
+  "sameSpillAlpha": true,
+  "sourceCelsExact": 26
+}

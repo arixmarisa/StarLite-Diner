@@ -1,0 +1,1835 @@
+{
+  "bodyOffset": {
+    "x": 24.0,
+    "y": 8.0
+  },
+  "bodySize": {
+    "height": 24.0,
+    "width": 16.0
+  },
+  "capacity": null,
+  "directions": {
+    "east": {
+      "actorForegroundMode": "all",
+      "armDepth": "far",
+      "physicalHand": "left",
+      "projection": "far arm",
+      "supportElbow": {
+        "x": 30.0,
+        "y": 22.0
+      },
+      "supportPalm": {
+        "x": 31.0,
+        "y": 17.0
+      },
+      "trayDepth": "behind",
+      "trayOrigin": {
+        "x": 25.0,
+        "y": 5.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    "north": {
+      "actorForegroundMode": "all",
+      "armDepth": "far",
+      "physicalHand": "left",
+      "projection": "left",
+      "supportElbow": {
+        "x": 24.0,
+        "y": 23.0
+      },
+      "supportPalm": {
+        "x": 24.0,
+        "y": 18.0
+      },
+      "trayDepth": "behind",
+      "trayOrigin": {
+        "x": 6.0,
+        "y": 6.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    "northeast": {
+      "actorForegroundMode": "all",
+      "armDepth": "far",
+      "physicalHand": "left",
+      "projection": "left-far",
+      "supportElbow": {
+        "x": 25.0,
+        "y": 22.0
+      },
+      "supportPalm": {
+        "x": 24.0,
+        "y": 17.0
+      },
+      "trayDepth": "behind",
+      "trayOrigin": {
+        "x": 6.0,
+        "y": 5.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    "northwest": {
+      "actorForegroundMode": "head",
+      "armDepth": "near",
+      "physicalHand": "left",
+      "projection": "left-near",
+      "supportElbow": {
+        "x": 25.0,
+        "y": 24.0
+      },
+      "supportPalm": {
+        "x": 24.0,
+        "y": 19.0
+      },
+      "trayDepth": "front",
+      "trayOrigin": {
+        "x": 6.0,
+        "y": 7.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    "south": {
+      "actorForegroundMode": "none",
+      "armDepth": "near",
+      "physicalHand": "left",
+      "projection": "right",
+      "supportElbow": {
+        "x": 40.0,
+        "y": 23.0
+      },
+      "supportPalm": {
+        "x": 40.0,
+        "y": 18.0
+      },
+      "trayDepth": "front",
+      "trayOrigin": {
+        "x": 34.0,
+        "y": 6.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    "southeast": {
+      "actorForegroundMode": "all",
+      "armDepth": "far",
+      "physicalHand": "left",
+      "projection": "right-far",
+      "supportElbow": {
+        "x": 38.0,
+        "y": 22.0
+      },
+      "supportPalm": {
+        "x": 39.0,
+        "y": 17.0
+      },
+      "trayDepth": "behind",
+      "trayOrigin": {
+        "x": 33.0,
+        "y": 5.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    "southwest": {
+      "actorForegroundMode": "head",
+      "armDepth": "near",
+      "physicalHand": "left",
+      "projection": "right-near",
+      "supportElbow": {
+        "x": 38.0,
+        "y": 23.0
+      },
+      "supportPalm": {
+        "x": 39.0,
+        "y": 18.0
+      },
+      "trayDepth": "front",
+      "trayOrigin": {
+        "x": 33.0,
+        "y": 6.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    "west": {
+      "actorForegroundMode": "head",
+      "armDepth": "near",
+      "physicalHand": "left",
+      "projection": "near arm",
+      "supportElbow": {
+        "x": 33.0,
+        "y": 25.0
+      },
+      "supportPalm": {
+        "x": 33.0,
+        "y": 20.0
+      },
+      "trayDepth": "front",
+      "trayOrigin": {
+        "x": 15.0,
+        "y": 8.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    }
+  },
+  "drawOrder": [
+    "actor-behind-tray.png frame",
+    "tray-body.png at trayOrigin OR tray-overlay.png frame",
+    "future independent items on surface",
+    "actor-in-front-of-tray.png frame"
+  ],
+  "footAnchor": {
+    "x": 32.0,
+    "y": 31.0
+  },
+  "frameSize": {
+    "height": 32.0,
+    "width": 64.0
+  },
+  "frames": [
+    {
+      "actorForegroundMode": "none",
+      "direction": "south",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 0,
+      "step": 0,
+      "supportElbow": {
+        "x": 40.0,
+        "y": 23.0
+      },
+      "supportPalm": {
+        "x": 40.0,
+        "y": 18.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 38,
+        "y": 10
+      },
+      "surfaceFrameCenter": {
+        "x": 46,
+        "y": 13
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 34.0,
+        "y": 6.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "none",
+      "direction": "south",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 1,
+      "step": 1,
+      "supportElbow": {
+        "x": 40.0,
+        "y": 23.0
+      },
+      "supportPalm": {
+        "x": 40.0,
+        "y": 18.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 38,
+        "y": 10
+      },
+      "surfaceFrameCenter": {
+        "x": 46,
+        "y": 13
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 34.0,
+        "y": 6.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "none",
+      "direction": "south",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 2,
+      "step": 2,
+      "supportElbow": {
+        "x": 40.0,
+        "y": 23.0
+      },
+      "supportPalm": {
+        "x": 40.0,
+        "y": 18.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 38,
+        "y": 10
+      },
+      "surfaceFrameCenter": {
+        "x": 46,
+        "y": 13
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 34.0,
+        "y": 6.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "none",
+      "direction": "south",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 3,
+      "step": 3,
+      "supportElbow": {
+        "x": 40.0,
+        "y": 23.0
+      },
+      "supportPalm": {
+        "x": 40.0,
+        "y": 18.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 38,
+        "y": 10
+      },
+      "surfaceFrameCenter": {
+        "x": 46,
+        "y": 13
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 34.0,
+        "y": 6.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "none",
+      "direction": "south",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 4,
+      "step": 4,
+      "supportElbow": {
+        "x": 40.0,
+        "y": 23.0
+      },
+      "supportPalm": {
+        "x": 40.0,
+        "y": 18.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 38,
+        "y": 10
+      },
+      "surfaceFrameCenter": {
+        "x": 46,
+        "y": 13
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 34.0,
+        "y": 6.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "head",
+      "direction": "west",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 5,
+      "step": 0,
+      "supportElbow": {
+        "x": 33.0,
+        "y": 25.0
+      },
+      "supportPalm": {
+        "x": 33.0,
+        "y": 20.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 19,
+        "y": 12
+      },
+      "surfaceFrameCenter": {
+        "x": 27,
+        "y": 15
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 15.0,
+        "y": 8.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "head",
+      "direction": "west",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 6,
+      "step": 1,
+      "supportElbow": {
+        "x": 33.0,
+        "y": 25.0
+      },
+      "supportPalm": {
+        "x": 33.0,
+        "y": 20.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 19,
+        "y": 12
+      },
+      "surfaceFrameCenter": {
+        "x": 27,
+        "y": 15
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 15.0,
+        "y": 8.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "head",
+      "direction": "west",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 7,
+      "step": 2,
+      "supportElbow": {
+        "x": 33.0,
+        "y": 25.0
+      },
+      "supportPalm": {
+        "x": 33.0,
+        "y": 20.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 19,
+        "y": 12
+      },
+      "surfaceFrameCenter": {
+        "x": 27,
+        "y": 15
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 15.0,
+        "y": 8.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "head",
+      "direction": "west",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 8,
+      "step": 3,
+      "supportElbow": {
+        "x": 33.0,
+        "y": 25.0
+      },
+      "supportPalm": {
+        "x": 33.0,
+        "y": 20.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 19,
+        "y": 12
+      },
+      "surfaceFrameCenter": {
+        "x": 27,
+        "y": 15
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 15.0,
+        "y": 8.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "head",
+      "direction": "west",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 9,
+      "step": 4,
+      "supportElbow": {
+        "x": 33.0,
+        "y": 25.0
+      },
+      "supportPalm": {
+        "x": 33.0,
+        "y": 20.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 19,
+        "y": 12
+      },
+      "surfaceFrameCenter": {
+        "x": 27,
+        "y": 15
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 15.0,
+        "y": 8.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "east",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 10,
+      "step": 0,
+      "supportElbow": {
+        "x": 30.0,
+        "y": 22.0
+      },
+      "supportPalm": {
+        "x": 31.0,
+        "y": 17.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 29,
+        "y": 9
+      },
+      "surfaceFrameCenter": {
+        "x": 37,
+        "y": 12
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 25.0,
+        "y": 5.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "east",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 11,
+      "step": 1,
+      "supportElbow": {
+        "x": 30.0,
+        "y": 22.0
+      },
+      "supportPalm": {
+        "x": 31.0,
+        "y": 17.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 29,
+        "y": 9
+      },
+      "surfaceFrameCenter": {
+        "x": 37,
+        "y": 12
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 25.0,
+        "y": 5.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "east",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 12,
+      "step": 2,
+      "supportElbow": {
+        "x": 30.0,
+        "y": 22.0
+      },
+      "supportPalm": {
+        "x": 31.0,
+        "y": 17.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 29,
+        "y": 9
+      },
+      "surfaceFrameCenter": {
+        "x": 37,
+        "y": 12
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 25.0,
+        "y": 5.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "east",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 13,
+      "step": 3,
+      "supportElbow": {
+        "x": 30.0,
+        "y": 22.0
+      },
+      "supportPalm": {
+        "x": 31.0,
+        "y": 17.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 29,
+        "y": 9
+      },
+      "surfaceFrameCenter": {
+        "x": 37,
+        "y": 12
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 25.0,
+        "y": 5.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "east",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 14,
+      "step": 4,
+      "supportElbow": {
+        "x": 30.0,
+        "y": 22.0
+      },
+      "supportPalm": {
+        "x": 31.0,
+        "y": 17.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 29,
+        "y": 9
+      },
+      "surfaceFrameCenter": {
+        "x": 37,
+        "y": 12
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 25.0,
+        "y": 5.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "north",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 15,
+      "step": 0,
+      "supportElbow": {
+        "x": 24.0,
+        "y": 23.0
+      },
+      "supportPalm": {
+        "x": 24.0,
+        "y": 18.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 10,
+        "y": 10
+      },
+      "surfaceFrameCenter": {
+        "x": 18,
+        "y": 13
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 6.0,
+        "y": 6.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "north",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 16,
+      "step": 1,
+      "supportElbow": {
+        "x": 24.0,
+        "y": 23.0
+      },
+      "supportPalm": {
+        "x": 24.0,
+        "y": 18.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 10,
+        "y": 10
+      },
+      "surfaceFrameCenter": {
+        "x": 18,
+        "y": 13
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 6.0,
+        "y": 6.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "north",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 17,
+      "step": 2,
+      "supportElbow": {
+        "x": 24.0,
+        "y": 23.0
+      },
+      "supportPalm": {
+        "x": 24.0,
+        "y": 18.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 10,
+        "y": 10
+      },
+      "surfaceFrameCenter": {
+        "x": 18,
+        "y": 13
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 6.0,
+        "y": 6.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "north",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 18,
+      "step": 3,
+      "supportElbow": {
+        "x": 24.0,
+        "y": 23.0
+      },
+      "supportPalm": {
+        "x": 24.0,
+        "y": 18.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 10,
+        "y": 10
+      },
+      "surfaceFrameCenter": {
+        "x": 18,
+        "y": 13
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 6.0,
+        "y": 6.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "north",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 19,
+      "step": 4,
+      "supportElbow": {
+        "x": 24.0,
+        "y": 23.0
+      },
+      "supportPalm": {
+        "x": 24.0,
+        "y": 18.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 10,
+        "y": 10
+      },
+      "surfaceFrameCenter": {
+        "x": 18,
+        "y": 13
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 6.0,
+        "y": 6.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "head",
+      "direction": "northwest",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 20,
+      "step": 0,
+      "supportElbow": {
+        "x": 25.0,
+        "y": 24.0
+      },
+      "supportPalm": {
+        "x": 24.0,
+        "y": 19.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 10,
+        "y": 11
+      },
+      "surfaceFrameCenter": {
+        "x": 18,
+        "y": 14
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 6.0,
+        "y": 7.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "head",
+      "direction": "northwest",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 21,
+      "step": 1,
+      "supportElbow": {
+        "x": 25.0,
+        "y": 24.0
+      },
+      "supportPalm": {
+        "x": 24.0,
+        "y": 19.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 10,
+        "y": 11
+      },
+      "surfaceFrameCenter": {
+        "x": 18,
+        "y": 14
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 6.0,
+        "y": 7.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "head",
+      "direction": "northwest",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 22,
+      "step": 2,
+      "supportElbow": {
+        "x": 25.0,
+        "y": 24.0
+      },
+      "supportPalm": {
+        "x": 24.0,
+        "y": 19.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 10,
+        "y": 11
+      },
+      "surfaceFrameCenter": {
+        "x": 18,
+        "y": 14
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 6.0,
+        "y": 7.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "head",
+      "direction": "northwest",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 23,
+      "step": 3,
+      "supportElbow": {
+        "x": 25.0,
+        "y": 24.0
+      },
+      "supportPalm": {
+        "x": 24.0,
+        "y": 19.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 10,
+        "y": 11
+      },
+      "surfaceFrameCenter": {
+        "x": 18,
+        "y": 14
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 6.0,
+        "y": 7.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "head",
+      "direction": "northwest",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 24,
+      "step": 4,
+      "supportElbow": {
+        "x": 25.0,
+        "y": 24.0
+      },
+      "supportPalm": {
+        "x": 24.0,
+        "y": 19.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 10,
+        "y": 11
+      },
+      "surfaceFrameCenter": {
+        "x": 18,
+        "y": 14
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 6.0,
+        "y": 7.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "northeast",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 25,
+      "step": 0,
+      "supportElbow": {
+        "x": 25.0,
+        "y": 22.0
+      },
+      "supportPalm": {
+        "x": 24.0,
+        "y": 17.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 10,
+        "y": 9
+      },
+      "surfaceFrameCenter": {
+        "x": 18,
+        "y": 12
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 6.0,
+        "y": 5.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "northeast",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 26,
+      "step": 1,
+      "supportElbow": {
+        "x": 25.0,
+        "y": 22.0
+      },
+      "supportPalm": {
+        "x": 24.0,
+        "y": 17.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 10,
+        "y": 9
+      },
+      "surfaceFrameCenter": {
+        "x": 18,
+        "y": 12
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 6.0,
+        "y": 5.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "northeast",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 27,
+      "step": 2,
+      "supportElbow": {
+        "x": 25.0,
+        "y": 22.0
+      },
+      "supportPalm": {
+        "x": 24.0,
+        "y": 17.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 10,
+        "y": 9
+      },
+      "surfaceFrameCenter": {
+        "x": 18,
+        "y": 12
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 6.0,
+        "y": 5.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "northeast",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 28,
+      "step": 3,
+      "supportElbow": {
+        "x": 25.0,
+        "y": 22.0
+      },
+      "supportPalm": {
+        "x": 24.0,
+        "y": 17.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 10,
+        "y": 9
+      },
+      "surfaceFrameCenter": {
+        "x": 18,
+        "y": 12
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 6.0,
+        "y": 5.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "northeast",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 29,
+      "step": 4,
+      "supportElbow": {
+        "x": 25.0,
+        "y": 22.0
+      },
+      "supportPalm": {
+        "x": 24.0,
+        "y": 17.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 10,
+        "y": 9
+      },
+      "surfaceFrameCenter": {
+        "x": 18,
+        "y": 12
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 6.0,
+        "y": 5.0
+      },
+      "traySupportLocal": {
+        "x": 18.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "head",
+      "direction": "southwest",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 30,
+      "step": 0,
+      "supportElbow": {
+        "x": 38.0,
+        "y": 23.0
+      },
+      "supportPalm": {
+        "x": 39.0,
+        "y": 18.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 37,
+        "y": 10
+      },
+      "surfaceFrameCenter": {
+        "x": 45,
+        "y": 13
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 33.0,
+        "y": 6.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "head",
+      "direction": "southwest",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 31,
+      "step": 1,
+      "supportElbow": {
+        "x": 38.0,
+        "y": 23.0
+      },
+      "supportPalm": {
+        "x": 39.0,
+        "y": 18.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 37,
+        "y": 10
+      },
+      "surfaceFrameCenter": {
+        "x": 45,
+        "y": 13
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 33.0,
+        "y": 6.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "head",
+      "direction": "southwest",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 32,
+      "step": 2,
+      "supportElbow": {
+        "x": 38.0,
+        "y": 23.0
+      },
+      "supportPalm": {
+        "x": 39.0,
+        "y": 18.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 37,
+        "y": 10
+      },
+      "surfaceFrameCenter": {
+        "x": 45,
+        "y": 13
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 33.0,
+        "y": 6.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "head",
+      "direction": "southwest",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 33,
+      "step": 3,
+      "supportElbow": {
+        "x": 38.0,
+        "y": 23.0
+      },
+      "supportPalm": {
+        "x": 39.0,
+        "y": 18.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 37,
+        "y": 10
+      },
+      "surfaceFrameCenter": {
+        "x": 45,
+        "y": 13
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 33.0,
+        "y": 6.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "head",
+      "direction": "southwest",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 34,
+      "step": 4,
+      "supportElbow": {
+        "x": 38.0,
+        "y": 23.0
+      },
+      "supportPalm": {
+        "x": 39.0,
+        "y": 18.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 37,
+        "y": 10
+      },
+      "surfaceFrameCenter": {
+        "x": 45,
+        "y": 13
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 33.0,
+        "y": 6.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "southeast",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 35,
+      "step": 0,
+      "supportElbow": {
+        "x": 38.0,
+        "y": 22.0
+      },
+      "supportPalm": {
+        "x": 39.0,
+        "y": 17.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 37,
+        "y": 9
+      },
+      "surfaceFrameCenter": {
+        "x": 45,
+        "y": 12
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 33.0,
+        "y": 5.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "southeast",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 36,
+      "step": 1,
+      "supportElbow": {
+        "x": 38.0,
+        "y": 22.0
+      },
+      "supportPalm": {
+        "x": 39.0,
+        "y": 17.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 37,
+        "y": 9
+      },
+      "surfaceFrameCenter": {
+        "x": 45,
+        "y": 12
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 33.0,
+        "y": 5.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "southeast",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 37,
+      "step": 2,
+      "supportElbow": {
+        "x": 38.0,
+        "y": 22.0
+      },
+      "supportPalm": {
+        "x": 39.0,
+        "y": 17.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 37,
+        "y": 9
+      },
+      "surfaceFrameCenter": {
+        "x": 45,
+        "y": 12
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 33.0,
+        "y": 5.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "southeast",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 38,
+      "step": 3,
+      "supportElbow": {
+        "x": 38.0,
+        "y": 22.0
+      },
+      "supportPalm": {
+        "x": 39.0,
+        "y": 17.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 37,
+        "y": 9
+      },
+      "surfaceFrameCenter": {
+        "x": 45,
+        "y": 12
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 33.0,
+        "y": 5.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    },
+    {
+      "actorForegroundMode": "all",
+      "direction": "southeast",
+      "footAnchor": {
+        "x": 32.0,
+        "y": 31.0
+      },
+      "index": 39,
+      "step": 4,
+      "supportElbow": {
+        "x": 38.0,
+        "y": 22.0
+      },
+      "supportPalm": {
+        "x": 39.0,
+        "y": 17.0
+      },
+      "surfaceFrameBounds": {
+        "height": 6,
+        "width": 16,
+        "x": 37,
+        "y": 9
+      },
+      "surfaceFrameCenter": {
+        "x": 45,
+        "y": 12
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 33.0,
+        "y": 5.0
+      },
+      "traySupportLocal": {
+        "x": 6.0,
+        "y": 12.0
+      }
+    }
+  ],
+  "holdHeight": "shoulder",
+  "itemSlots": null,
+  "physicalHand": "left",
+  "surfaceLocalBounds": {
+    "height": 6,
+    "width": 16,
+    "x": 4,
+    "y": 4
+  },
+  "surfaceLocalCenter": {
+    "x": 12,
+    "y": 7
+  },
+  "surfaceMask": "tray-surface-mask.png",
+  "trayNativeSize": {
+    "height": 16,
+    "width": 24
+  },
+  "trayVisibleSize": {
+    "height": 11,
+    "width": 20
+  }
+}

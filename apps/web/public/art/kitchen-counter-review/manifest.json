@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 1,
+  "id": "stainless-kitchen-counter-kit",
+  "status": "accepted-art-design",
+  "creationApproved": true,
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/kitchen-counter-review/kitchen-counter-kit.pxo",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/kitchen-counter-review/palette.json",
+  "atlas": "kitchen-counter-atlas.png",
+  "frameSize": {
+    "width": 160,
+    "height": 160
+  },
+  "layers": [
+    "01 - steel worktop planes",
+    "02 - steel cabinet faces and plinths",
+    "03 - chrome edges and plum contours",
+    "04 - handles and rose hardware accents"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "tag": "kitchen-counter-static"
+  },
+  "exports": [
+    {
+      "id": "steel-counter-top",
+      "image": "steel-counter-top.png",
+      "frameSize": {
+        "width": 16,
+        "height": 24
+      },
+      "sourceRect": {
+        "x": 8,
+        "y": 8,
+        "width": 16,
+        "height": 24
+      },
+      "surfaceHeight": 24,
+      "renderRole": "counter-surface-or-trim",
+      "originalReference": "front/counter-top.png",
+      "anchor": null,
+      "collision": null,
+      "interaction": null
+    },
+    {
+      "id": "steel-counter-front",
+      "image": "steel-counter-front.png",
+      "frameSize": {
+        "width": 16,
+        "height": 16
+      },
+      "sourceRect": {
+        "x": 32,
+        "y": 8,
+        "width": 16,
+        "height": 16
+      },
+      "surfaceHeight": 0,
+      "renderRole": "counter-assembly-or-fascia",
+      "originalReference": "front/counter-front.png",
+      "anchor": null,
+      "collision": null,
+      "interaction": null
+    },
+    {
+      "id": "steel-counter-vertical-top",
+      "image": "steel-counter-vertical-top.png",
+      "frameSize": {
+        "width": 24,
+        "height": 16
+      },
+      "sourceRect": {
+        "x": 56,
+        "y": 8,
+        "width": 24,
+        "height": 16
+      },
+      "surfaceHeight": 16,
+      "renderRole": "counter-surface-or-trim",
+      "originalReference": "front/counter-vertical.png",
+      "anchor": null,
+      "collision": null,
+      "interaction": null
+    },
+    {
+      "id": "steel-counter-near-fascia",
+      "image": "steel-counter-near-fascia.png",
+      "frameSize": {
+        "width": 24,
+        "height": 16
+      },
+      "sourceRect": {
+        "x": 88,
+        "y": 8,
+        "width": 24,
+        "height": 16
+      },
+      "surfaceHeight": 0,
+      "renderRole": "counter-assembly-or-fascia",
+      "originalReference": "side/counter-side-fascia.png",
+      "anchor": null,
+      "collision": null,
+      "interaction": null
+    },
+    {
+      "id": "steel-counter-end-left",
+      "image": "steel-counter-end-left.png",
+      "frameSize": {
+        "width": 16,
+        "height": 40
+      },
+      "sourceRect": {
+        "x": 8,
+        "y": 48,
+        "width": 16,
+        "height": 40
+      },
+      "surfaceHeight": 24,
+      "renderRole": "counter-assembly-or-fascia",
+      "originalReference": "front/counter-end-left.png",
+      "anchor": null,
+      "collision": null,
+      "interaction": null
+    },
+    {
+      "id": "steel-counter-end-right",
+      "image": "steel-counter-end-right.png",
+      "frameSize": {
+        "width": 16,
+        "height": 40
+      },
+      "sourceRect": {
+        "x": 32,
+        "y": 48,
+        "width": 16,
+        "height": 40
+      },
+      "surfaceHeight": 24,
+      "renderRole": "counter-assembly-or-fascia",
+      "originalReference": "front/counter-end-right.png",
+      "anchor": null,
+      "collision": null,
+      "interaction": null
+    },
+    {
+      "id": "steel-counter-corner-left",
+      "image": "steel-counter-corner-left.png",
+      "frameSize": {
+        "width": 24,
+        "height": 24
+      },
+      "sourceRect": {
+        "x": 64,
+        "y": 48,
+        "width": 24,
+        "height": 24
+      },
+      "surfaceHeight": 24,
+      "renderRole": "counter-surface-or-trim",
+      "originalReference": "generated-east-south",
+      "anchor": null,
+      "collision": null,
+      "interaction": null
+    },
+    {
+      "id": "steel-counter-corner-right",
+      "image": "steel-counter-corner-right.png",
+      "frameSize": {
+        "width": 24,
+        "height": 24
+      },
+      "sourceRect": {
+        "x": 104,
+        "y": 48,
+        "width": 24,
+        "height": 24
+      },
+      "surfaceHeight": 24,
+      "renderRole": "counter-surface-or-trim",
+      "originalReference": "generated-west-south",
+      "anchor": null,
+      "collision": null,
+      "interaction": null
+    },
+    {
+      "id": "steel-counter-side",
+      "image": "steel-counter-side.png",
+      "frameSize": {
+        "width": 24,
+        "height": 48
+      },
+      "sourceRect": {
+        "x": 8,
+        "y": 104,
+        "width": 24,
+        "height": 48
+      },
+      "surfaceHeight": 32,
+      "renderRole": "counter-assembly-or-fascia",
+      "originalReference": "side/counter-side.png",
+      "anchor": null,
+      "collision": null,
+      "interaction": null
+    },
+    {
+      "id": "steel-counter-lip-front",
+      "image": "steel-counter-lip-front.png",
+      "frameSize": {
+        "width": 16,
+        "height": 4
+      },
+      "sourceRect": {
+        "x": 88,
+        "y": 104,
+        "width": 16,
+        "height": 4
+      },
+      "surfaceHeight": 0,
+      "renderRole": "counter-surface-or-trim",
+      "originalReference": "derived-front",
+      "anchor": null,
+      "collision": null,
+      "interaction": null
+    },
+    {
+      "id": "steel-counter-lip-side",
+      "image": "steel-counter-lip-side.png",
+      "frameSize": {
+        "width": 4,
+        "height": 16
+      },
+      "sourceRect": {
+        "x": 112,
+        "y": 104,
+        "width": 4,
+        "height": 16
+      },
+      "surfaceHeight": 16,
+      "renderRole": "counter-surface-or-trim",
+      "originalReference": "derived-side",
+      "anchor": null,
+      "collision": null,
+      "interaction": null
+    }
+  ],
+  "geometry": {
+    "surfaceCrossSection": 24,
+    "facadeHeightScreenY": 16,
+    "planningGrid": 16,
+    "repeatLength": 16,
+    "corners": {
+      "width": 24,
+      "height": 24,
+      "openings": ["east-south", "west-south"],
+      "facesSeparate": true
+    },
+    "sideAssembly": {
+      "width": 24,
+      "height": 48,
+      "topDepth": 32,
+      "nearFasciaHeight": 16
+    },
+    "horizontalTopProfile": [
+      "outline",
+      "metalLight",
+      "metal x19",
+      "metalLight",
+      "metal",
+      "outline"
+    ],
+    "heightProjection": "positive-screen-y"
+  },
+  "preview": {
+    "source": "assets/pixelorama/kitchen-counter-review/kitchen-counter-preview.pxo",
+    "image": "kitchen-counter-preview.png",
+    "frameSize": {
+      "width": 176,
+      "height": 128
+    },
+    "layers": 2,
+    "scale": 6,
+    "placements": [
+      {
+        "image": "steel-counter-end-left.png",
+        "x": 8,
+        "y": 8,
+        "role": 0
+      },
+      {
+        "image": "steel-counter-top.png",
+        "x": 24,
+        "y": 8,
+        "role": 0
+      },
+      {
+        "image": "steel-counter-front.png",
+        "x": 24,
+        "y": 32,
+        "role": 0
+      },
+      {
+        "image": "steel-counter-end-right.png",
+        "x": 40,
+        "y": 8,
+        "role": 0
+      },
+      {
+        "image": "steel-counter-side.png",
+        "x": 80,
+        "y": 8,
+        "role": 1
+      },
+      {
+        "image": "steel-counter-end-left.png",
+        "x": 48,
+        "y": 80,
+        "role": 0
+      },
+      {
+        "image": "steel-counter-top.png",
+        "x": 64,
+        "y": 80,
+        "role": 0
+      },
+      {
+        "image": "steel-counter-front.png",
+        "x": 64,
+        "y": 104,
+        "role": 0
+      },
+      {
+        "image": "steel-counter-top.png",
+        "x": 80,
+        "y": 80,
+        "role": 0
+      },
+      {
+        "image": "steel-counter-front.png",
+        "x": 80,
+        "y": 104,
+        "role": 0
+      },
+      {
+        "image": "steel-counter-top.png",
+        "x": 96,
+        "y": 80,
+        "role": 0
+      },
+      {
+        "image": "steel-counter-front.png",
+        "x": 96,
+        "y": 104,
+        "role": 0
+      },
+      {
+        "image": "steel-counter-end-right.png",
+        "x": 112,
+        "y": 80,
+        "role": 0
+      },
+      {
+        "image": "steel-counter-top.png",
+        "x": 120,
+        "y": 8,
+        "role": 1
+      },
+      {
+        "image": "steel-counter-front.png",
+        "x": 120,
+        "y": 32,
+        "role": 1
+      },
+      {
+        "image": "steel-counter-corner-right.png",
+        "x": 136,
+        "y": 8,
+        "role": 1
+      },
+      {
+        "image": "steel-counter-vertical-top.png",
+        "x": 136,
+        "y": 32,
+        "role": 1
+      },
+      {
+        "image": "steel-counter-near-fascia.png",
+        "x": 136,
+        "y": 48,
+        "role": 1
+      }
+    ]
+  },
+  "qa": {
+    "sourcePixelsMatchAtlas": true,
+    "all11ModulePngsMatchSavedCels": true,
+    "exactHorizontalVerticalEndAndCornerSeams": true,
+    "opaqueModulePixels": 5116,
+    "semitransparentPixels": 0,
+    "visibleColors": 6,
+    "paletteSwatches": 14,
+    "holes": 0,
+    "orphans": 0,
+    "full40RowEndJoinsMatch": true,
+    "previewSavedCelsMatchNativePng": true,
+    "previewPaletteSwatches": 14
+  },
+  "anchor": null,
+  "collision": null,
+  "interaction": null,
+  "integrated": false,
+  "visualAccepted": true,
+  "acceptedOn": "2026-11-07"
+}

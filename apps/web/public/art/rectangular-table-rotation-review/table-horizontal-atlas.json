@@ -1,0 +1,45 @@
+{
+  "frames": {
+    "table-horizontal-atlas_0": {
+      "duration": 1000,
+      "frame": {
+        "h": 48,
+        "w": 48,
+        "x": 0,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 48,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  },
+  "meta": {
+    "app": "Pixelorama-MCP",
+    "format": "RGBA8888",
+    "frameTags": [
+      {
+        "color": "f1e5d1ff",
+        "direction": "forward",
+        "from": 0,
+        "name": "table-horizontal-static",
+        "to": 0
+      }
+    ],
+    "image": "table-horizontal-atlas.png",
+    "scale": "1",
+    "size": {
+      "h": 48,
+      "w": 48
+    },
+    "version": "0.3.0"
+  }
+}

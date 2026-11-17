@@ -1,0 +1,1607 @@
+{
+  "base": "male",
+  "variants": [
+    {
+      "id": "male-tee-jeans",
+      "name": "Tee and jeans",
+      "topStyle": "tee",
+      "bottomStyle": "jeans",
+      "hairStyle": "crop",
+      "ramps": {
+        "skin": {
+          "shade": "#c58d71",
+          "base": "#f4c7a0",
+          "highlight": "#ffe0bb"
+        },
+        "hair": {
+          "shade": "#322c38",
+          "base": "#5a3c3e",
+          "highlight": "#805a4c"
+        },
+        "top": {
+          "shade": "#4f6c83",
+          "base": "#7ea5bd",
+          "highlight": "#b5cbd7"
+        },
+        "secondary": {
+          "shade": "#a6bcb2",
+          "base": "#f1e5d1",
+          "highlight": "#fff5df"
+        },
+        "bottom": {
+          "shade": "#354757",
+          "base": "#566e83",
+          "highlight": "#8da3ae"
+        },
+        "shoes": {
+          "shade": "#24242c",
+          "base": "#39333e",
+          "highlight": "#675a62"
+        }
+      },
+      "rectangles": [
+        [
+          {
+            "x": 4,
+            "y": 23,
+            "w": 8,
+            "h": 1,
+            "c": "shadow"
+          },
+          {
+            "x": 5,
+            "y": 22,
+            "w": 6,
+            "h": 1,
+            "c": "shadow"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 1,
+            "w": 8,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 3,
+            "y": 2,
+            "w": 10,
+            "h": 4,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 2,
+            "w": 8,
+            "h": 3,
+            "c": "hair.base"
+          },
+          {
+            "x": 4,
+            "y": 2,
+            "w": 4,
+            "h": 1,
+            "c": "hair.highlight"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 22,
+            "w": 3,
+            "h": 2,
+            "c": "outline"
+          },
+          {
+            "x": 9,
+            "y": 22,
+            "w": 3,
+            "h": 2,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 22,
+            "w": 3,
+            "h": 1,
+            "c": "shoes.base"
+          },
+          {
+            "x": 9,
+            "y": 22,
+            "w": 3,
+            "h": 1,
+            "c": "shoes.base"
+          },
+          {
+            "x": 4,
+            "y": 22,
+            "w": 1,
+            "h": 1,
+            "c": "shoes.highlight"
+          },
+          {
+            "x": 9,
+            "y": 22,
+            "w": 1,
+            "h": 1,
+            "c": "shoes.highlight"
+          }
+        ],
+        [
+          {
+            "x": 5,
+            "y": 20,
+            "w": 2,
+            "h": 2,
+            "c": "skin.shade"
+          },
+          {
+            "x": 5,
+            "y": 20,
+            "w": 1,
+            "h": 2,
+            "c": "skin.base"
+          },
+          {
+            "x": 9,
+            "y": 20,
+            "w": 2,
+            "h": 2,
+            "c": "skin.shade"
+          },
+          {
+            "x": 9,
+            "y": 20,
+            "w": 1,
+            "h": 2,
+            "c": "skin.base"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 18,
+            "w": 8,
+            "h": 2,
+            "c": "outline"
+          },
+          {
+            "x": 5,
+            "y": 18,
+            "w": 6,
+            "h": 1,
+            "c": "bottom.base"
+          },
+          {
+            "x": 4,
+            "y": 19,
+            "w": 8,
+            "h": 1,
+            "c": "bottom.shade"
+          },
+          {
+            "x": 5,
+            "y": 20,
+            "w": 2,
+            "h": 2,
+            "c": "bottom.base"
+          },
+          {
+            "x": 9,
+            "y": 20,
+            "w": 2,
+            "h": 2,
+            "c": "bottom.shade"
+          },
+          {
+            "x": 5,
+            "y": 20,
+            "w": 1,
+            "h": 1,
+            "c": "bottom.highlight"
+          },
+          {
+            "x": 9,
+            "y": 20,
+            "w": 1,
+            "h": 1,
+            "c": "bottom.base"
+          },
+          {
+            "x": 5,
+            "y": 21,
+            "w": 2,
+            "h": 1,
+            "c": "bottom.highlight"
+          },
+          {
+            "x": 9,
+            "y": 21,
+            "w": 2,
+            "h": 1,
+            "c": "bottom.base"
+          }
+        ],
+        [],
+        [
+          {
+            "x": 4,
+            "y": 11,
+            "w": 8,
+            "h": 7,
+            "c": "outline"
+          },
+          {
+            "x": 3,
+            "y": 12,
+            "w": 10,
+            "h": 5,
+            "c": "outline"
+          },
+          {
+            "x": 2,
+            "y": 12,
+            "w": 3,
+            "h": 4,
+            "c": "outline"
+          },
+          {
+            "x": 11,
+            "y": 12,
+            "w": 3,
+            "h": 4,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 12,
+            "w": 8,
+            "h": 5,
+            "c": "top.base"
+          },
+          {
+            "x": 5,
+            "y": 11,
+            "w": 6,
+            "h": 1,
+            "c": "top.base"
+          },
+          {
+            "x": 3,
+            "y": 12,
+            "w": 2,
+            "h": 3,
+            "c": "top.base"
+          },
+          {
+            "x": 11,
+            "y": 12,
+            "w": 2,
+            "h": 3,
+            "c": "top.shade"
+          },
+          {
+            "x": 3,
+            "y": 12,
+            "w": 1,
+            "h": 1,
+            "c": "top.highlight"
+          },
+          {
+            "x": 4,
+            "y": 12,
+            "w": 1,
+            "h": 4,
+            "c": "top.highlight"
+          },
+          {
+            "x": 11,
+            "y": 13,
+            "w": 1,
+            "h": 4,
+            "c": "top.shade"
+          },
+          {
+            "x": 4,
+            "y": 17,
+            "w": 8,
+            "h": 1,
+            "c": "top.shade"
+          },
+          {
+            "x": 3,
+            "y": 15,
+            "w": 2,
+            "h": 1,
+            "c": "top.shade"
+          },
+          {
+            "x": 11,
+            "y": 15,
+            "w": 2,
+            "h": 1,
+            "c": "top.shade"
+          },
+          {
+            "x": 6,
+            "y": 12,
+            "w": 4,
+            "h": 1,
+            "c": "top.shade"
+          },
+          {
+            "x": 7,
+            "y": 13,
+            "w": 2,
+            "h": 1,
+            "c": "top.base"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 3,
+            "w": 8,
+            "h": 7,
+            "c": "outline"
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "w": 6,
+            "h": 6,
+            "c": "skin.base"
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "w": 3,
+            "h": 2,
+            "c": "skin.highlight"
+          },
+          {
+            "x": 10,
+            "y": 5,
+            "w": 1,
+            "h": 5,
+            "c": "skin.shade"
+          },
+          {
+            "x": 6,
+            "y": 10,
+            "w": 4,
+            "h": 2,
+            "c": "skin.base"
+          },
+          {
+            "x": 9,
+            "y": 10,
+            "w": 1,
+            "h": 2,
+            "c": "skin.shade"
+          },
+          {
+            "x": 3,
+            "y": 6,
+            "w": 1,
+            "h": 2,
+            "c": "skin.base"
+          },
+          {
+            "x": 12,
+            "y": 6,
+            "w": 1,
+            "h": 2,
+            "c": "skin.shade"
+          },
+          {
+            "x": 2,
+            "y": 16,
+            "w": 2,
+            "h": 3,
+            "c": "outline"
+          },
+          {
+            "x": 12,
+            "y": 16,
+            "w": 2,
+            "h": 3,
+            "c": "outline"
+          },
+          {
+            "x": 2,
+            "y": 16,
+            "w": 1,
+            "h": 2,
+            "c": "skin.base"
+          },
+          {
+            "x": 3,
+            "y": 16,
+            "w": 1,
+            "h": 2,
+            "c": "skin.shade"
+          },
+          {
+            "x": 12,
+            "y": 16,
+            "w": 1,
+            "h": 2,
+            "c": "skin.base"
+          },
+          {
+            "x": 13,
+            "y": 16,
+            "w": 1,
+            "h": 2,
+            "c": "skin.shade"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 2,
+            "w": 8,
+            "h": 2,
+            "c": "hair.base"
+          },
+          {
+            "x": 4,
+            "y": 2,
+            "w": 4,
+            "h": 1,
+            "c": "hair.highlight"
+          },
+          {
+            "x": 4,
+            "y": 3,
+            "w": 2,
+            "h": 1,
+            "c": "hair.shade"
+          },
+          {
+            "x": 10,
+            "y": 3,
+            "w": 2,
+            "h": 1,
+            "c": "hair.shade"
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "w": 1,
+            "h": 2,
+            "c": "hair.base"
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "w": 1,
+            "h": 2,
+            "c": "hair.shade"
+          }
+        ],
+        [
+          {
+            "x": 6,
+            "y": 6,
+            "w": 1,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 9,
+            "y": 6,
+            "w": 1,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 7,
+            "y": 9,
+            "w": 2,
+            "h": 1,
+            "c": "mouth"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "male-polo-khakis",
+      "name": "Polo and khakis",
+      "topStyle": "polo",
+      "bottomStyle": "khakis",
+      "hairStyle": "side-part",
+      "ramps": {
+        "skin": {
+          "shade": "#9a5d43",
+          "base": "#cb8d67",
+          "highlight": "#e9b28b"
+        },
+        "hair": {
+          "shade": "#806044",
+          "base": "#b78851",
+          "highlight": "#dfbd76"
+        },
+        "top": {
+          "shade": "#b7803f",
+          "base": "#d3a657",
+          "highlight": "#f1cf83"
+        },
+        "secondary": {
+          "shade": "#a6bcb2",
+          "base": "#f1e5d1",
+          "highlight": "#fff5df"
+        },
+        "bottom": {
+          "shade": "#81715a",
+          "base": "#b09b79",
+          "highlight": "#d5c7a3"
+        },
+        "shoes": {
+          "shade": "#3c2d30",
+          "base": "#5b4140",
+          "highlight": "#8a6350"
+        }
+      },
+      "rectangles": [
+        [
+          {
+            "x": 4,
+            "y": 23,
+            "w": 8,
+            "h": 1,
+            "c": "shadow"
+          },
+          {
+            "x": 5,
+            "y": 22,
+            "w": 6,
+            "h": 1,
+            "c": "shadow"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 1,
+            "w": 8,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 3,
+            "y": 2,
+            "w": 10,
+            "h": 4,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 2,
+            "w": 8,
+            "h": 3,
+            "c": "hair.base"
+          },
+          {
+            "x": 4,
+            "y": 2,
+            "w": 4,
+            "h": 1,
+            "c": "hair.highlight"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 22,
+            "w": 3,
+            "h": 2,
+            "c": "outline"
+          },
+          {
+            "x": 9,
+            "y": 22,
+            "w": 3,
+            "h": 2,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 22,
+            "w": 3,
+            "h": 1,
+            "c": "shoes.base"
+          },
+          {
+            "x": 9,
+            "y": 22,
+            "w": 3,
+            "h": 1,
+            "c": "shoes.base"
+          },
+          {
+            "x": 4,
+            "y": 22,
+            "w": 1,
+            "h": 1,
+            "c": "shoes.highlight"
+          },
+          {
+            "x": 9,
+            "y": 22,
+            "w": 1,
+            "h": 1,
+            "c": "shoes.highlight"
+          }
+        ],
+        [
+          {
+            "x": 5,
+            "y": 20,
+            "w": 2,
+            "h": 2,
+            "c": "skin.shade"
+          },
+          {
+            "x": 5,
+            "y": 20,
+            "w": 1,
+            "h": 2,
+            "c": "skin.base"
+          },
+          {
+            "x": 9,
+            "y": 20,
+            "w": 2,
+            "h": 2,
+            "c": "skin.shade"
+          },
+          {
+            "x": 9,
+            "y": 20,
+            "w": 1,
+            "h": 2,
+            "c": "skin.base"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 18,
+            "w": 8,
+            "h": 2,
+            "c": "outline"
+          },
+          {
+            "x": 5,
+            "y": 18,
+            "w": 6,
+            "h": 1,
+            "c": "bottom.base"
+          },
+          {
+            "x": 4,
+            "y": 19,
+            "w": 8,
+            "h": 1,
+            "c": "bottom.shade"
+          },
+          {
+            "x": 5,
+            "y": 20,
+            "w": 2,
+            "h": 2,
+            "c": "bottom.base"
+          },
+          {
+            "x": 9,
+            "y": 20,
+            "w": 2,
+            "h": 2,
+            "c": "bottom.shade"
+          },
+          {
+            "x": 5,
+            "y": 20,
+            "w": 1,
+            "h": 1,
+            "c": "bottom.highlight"
+          },
+          {
+            "x": 9,
+            "y": 20,
+            "w": 1,
+            "h": 1,
+            "c": "bottom.base"
+          },
+          {
+            "x": 6,
+            "y": 20,
+            "w": 1,
+            "h": 2,
+            "c": "bottom.highlight"
+          },
+          {
+            "x": 10,
+            "y": 20,
+            "w": 1,
+            "h": 2,
+            "c": "bottom.base"
+          }
+        ],
+        [],
+        [
+          {
+            "x": 4,
+            "y": 11,
+            "w": 8,
+            "h": 7,
+            "c": "outline"
+          },
+          {
+            "x": 3,
+            "y": 12,
+            "w": 10,
+            "h": 5,
+            "c": "outline"
+          },
+          {
+            "x": 2,
+            "y": 12,
+            "w": 3,
+            "h": 4,
+            "c": "outline"
+          },
+          {
+            "x": 11,
+            "y": 12,
+            "w": 3,
+            "h": 4,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 12,
+            "w": 8,
+            "h": 5,
+            "c": "top.base"
+          },
+          {
+            "x": 5,
+            "y": 11,
+            "w": 6,
+            "h": 1,
+            "c": "top.base"
+          },
+          {
+            "x": 3,
+            "y": 12,
+            "w": 2,
+            "h": 3,
+            "c": "top.base"
+          },
+          {
+            "x": 11,
+            "y": 12,
+            "w": 2,
+            "h": 3,
+            "c": "top.shade"
+          },
+          {
+            "x": 3,
+            "y": 12,
+            "w": 1,
+            "h": 1,
+            "c": "top.highlight"
+          },
+          {
+            "x": 4,
+            "y": 12,
+            "w": 1,
+            "h": 4,
+            "c": "top.highlight"
+          },
+          {
+            "x": 11,
+            "y": 13,
+            "w": 1,
+            "h": 4,
+            "c": "top.shade"
+          },
+          {
+            "x": 4,
+            "y": 17,
+            "w": 8,
+            "h": 1,
+            "c": "top.shade"
+          },
+          {
+            "x": 3,
+            "y": 15,
+            "w": 2,
+            "h": 1,
+            "c": "top.shade"
+          },
+          {
+            "x": 11,
+            "y": 15,
+            "w": 2,
+            "h": 1,
+            "c": "top.shade"
+          },
+          {
+            "x": 5,
+            "y": 12,
+            "w": 2,
+            "h": 1,
+            "c": "top.highlight"
+          },
+          {
+            "x": 9,
+            "y": 12,
+            "w": 2,
+            "h": 1,
+            "c": "top.highlight"
+          },
+          {
+            "x": 6,
+            "y": 13,
+            "w": 1,
+            "h": 1,
+            "c": "top.shade"
+          },
+          {
+            "x": 9,
+            "y": 13,
+            "w": 1,
+            "h": 1,
+            "c": "top.shade"
+          },
+          {
+            "x": 7,
+            "y": 13,
+            "w": 2,
+            "h": 3,
+            "c": "top.shade"
+          },
+          {
+            "x": 7,
+            "y": 13,
+            "w": 1,
+            "h": 3,
+            "c": "top.base"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 3,
+            "w": 8,
+            "h": 7,
+            "c": "outline"
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "w": 6,
+            "h": 6,
+            "c": "skin.base"
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "w": 3,
+            "h": 2,
+            "c": "skin.highlight"
+          },
+          {
+            "x": 10,
+            "y": 5,
+            "w": 1,
+            "h": 5,
+            "c": "skin.shade"
+          },
+          {
+            "x": 6,
+            "y": 10,
+            "w": 4,
+            "h": 2,
+            "c": "skin.base"
+          },
+          {
+            "x": 9,
+            "y": 10,
+            "w": 1,
+            "h": 2,
+            "c": "skin.shade"
+          },
+          {
+            "x": 3,
+            "y": 6,
+            "w": 1,
+            "h": 2,
+            "c": "skin.base"
+          },
+          {
+            "x": 12,
+            "y": 6,
+            "w": 1,
+            "h": 2,
+            "c": "skin.shade"
+          },
+          {
+            "x": 2,
+            "y": 16,
+            "w": 2,
+            "h": 3,
+            "c": "outline"
+          },
+          {
+            "x": 12,
+            "y": 16,
+            "w": 2,
+            "h": 3,
+            "c": "outline"
+          },
+          {
+            "x": 2,
+            "y": 16,
+            "w": 1,
+            "h": 2,
+            "c": "skin.base"
+          },
+          {
+            "x": 3,
+            "y": 16,
+            "w": 1,
+            "h": 2,
+            "c": "skin.shade"
+          },
+          {
+            "x": 12,
+            "y": 16,
+            "w": 1,
+            "h": 2,
+            "c": "skin.base"
+          },
+          {
+            "x": 13,
+            "y": 16,
+            "w": 1,
+            "h": 2,
+            "c": "skin.shade"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 2,
+            "w": 8,
+            "h": 2,
+            "c": "hair.base"
+          },
+          {
+            "x": 4,
+            "y": 2,
+            "w": 4,
+            "h": 1,
+            "c": "hair.highlight"
+          },
+          {
+            "x": 4,
+            "y": 3,
+            "w": 3,
+            "h": 2,
+            "c": "hair.base"
+          },
+          {
+            "x": 7,
+            "y": 3,
+            "w": 1,
+            "h": 1,
+            "c": "hair.shade"
+          },
+          {
+            "x": 10,
+            "y": 3,
+            "w": 2,
+            "h": 1,
+            "c": "hair.shade"
+          },
+          {
+            "x": 4,
+            "y": 5,
+            "w": 1,
+            "h": 1,
+            "c": "hair.shade"
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "w": 1,
+            "h": 2,
+            "c": "hair.shade"
+          }
+        ],
+        [
+          {
+            "x": 6,
+            "y": 6,
+            "w": 1,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 9,
+            "y": 6,
+            "w": 1,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 7,
+            "y": 9,
+            "w": 2,
+            "h": 1,
+            "c": "mouth"
+          },
+          {
+            "x": 8,
+            "y": 14,
+            "w": 1,
+            "h": 1,
+            "c": "neutralHighlight"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "male-cardigan-shorts",
+      "name": "Cardigan and shorts",
+      "topStyle": "cardigan",
+      "bottomStyle": "shorts",
+      "hairStyle": "short-waves",
+      "ramps": {
+        "skin": {
+          "shade": "#603b33",
+          "base": "#87523e",
+          "highlight": "#a87354"
+        },
+        "hair": {
+          "shade": "#603b3f",
+          "base": "#935644",
+          "highlight": "#bd7960"
+        },
+        "top": {
+          "shade": "#513b50",
+          "base": "#79556c",
+          "highlight": "#aa7c91"
+        },
+        "secondary": {
+          "shade": "#a6bcb2",
+          "base": "#f1e5d1",
+          "highlight": "#fff5df"
+        },
+        "bottom": {
+          "shade": "#536450",
+          "base": "#829171",
+          "highlight": "#a9b394"
+        },
+        "shoes": {
+          "shade": "#24242c",
+          "base": "#39333e",
+          "highlight": "#675a62"
+        }
+      },
+      "rectangles": [
+        [
+          {
+            "x": 4,
+            "y": 23,
+            "w": 8,
+            "h": 1,
+            "c": "shadow"
+          },
+          {
+            "x": 5,
+            "y": 22,
+            "w": 6,
+            "h": 1,
+            "c": "shadow"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 1,
+            "w": 8,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 3,
+            "y": 2,
+            "w": 10,
+            "h": 4,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 2,
+            "w": 8,
+            "h": 3,
+            "c": "hair.base"
+          },
+          {
+            "x": 4,
+            "y": 2,
+            "w": 4,
+            "h": 1,
+            "c": "hair.highlight"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 22,
+            "w": 3,
+            "h": 2,
+            "c": "outline"
+          },
+          {
+            "x": 9,
+            "y": 22,
+            "w": 3,
+            "h": 2,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 22,
+            "w": 3,
+            "h": 1,
+            "c": "shoes.base"
+          },
+          {
+            "x": 9,
+            "y": 22,
+            "w": 3,
+            "h": 1,
+            "c": "shoes.base"
+          },
+          {
+            "x": 4,
+            "y": 22,
+            "w": 1,
+            "h": 1,
+            "c": "shoes.highlight"
+          },
+          {
+            "x": 9,
+            "y": 22,
+            "w": 1,
+            "h": 1,
+            "c": "shoes.highlight"
+          }
+        ],
+        [
+          {
+            "x": 5,
+            "y": 20,
+            "w": 2,
+            "h": 2,
+            "c": "skin.shade"
+          },
+          {
+            "x": 5,
+            "y": 20,
+            "w": 1,
+            "h": 2,
+            "c": "skin.base"
+          },
+          {
+            "x": 9,
+            "y": 20,
+            "w": 2,
+            "h": 2,
+            "c": "skin.shade"
+          },
+          {
+            "x": 9,
+            "y": 20,
+            "w": 1,
+            "h": 2,
+            "c": "skin.base"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 18,
+            "w": 8,
+            "h": 2,
+            "c": "outline"
+          },
+          {
+            "x": 5,
+            "y": 18,
+            "w": 6,
+            "h": 1,
+            "c": "bottom.base"
+          },
+          {
+            "x": 4,
+            "y": 19,
+            "w": 8,
+            "h": 1,
+            "c": "bottom.shade"
+          },
+          {
+            "x": 5,
+            "y": 18,
+            "w": 2,
+            "h": 1,
+            "c": "bottom.highlight"
+          },
+          {
+            "x": 9,
+            "y": 18,
+            "w": 2,
+            "h": 1,
+            "c": "bottom.base"
+          }
+        ],
+        [
+          {
+            "x": 6,
+            "y": 12,
+            "w": 4,
+            "h": 6,
+            "c": "secondary.base"
+          },
+          {
+            "x": 6,
+            "y": 12,
+            "w": 1,
+            "h": 6,
+            "c": "secondary.highlight"
+          },
+          {
+            "x": 9,
+            "y": 13,
+            "w": 1,
+            "h": 5,
+            "c": "secondary.shade"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 11,
+            "w": 8,
+            "h": 7,
+            "c": "outline"
+          },
+          {
+            "x": 3,
+            "y": 12,
+            "w": 10,
+            "h": 5,
+            "c": "outline"
+          },
+          {
+            "x": 2,
+            "y": 12,
+            "w": 3,
+            "h": 4,
+            "c": "outline"
+          },
+          {
+            "x": 11,
+            "y": 12,
+            "w": 3,
+            "h": 4,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 12,
+            "w": 8,
+            "h": 5,
+            "c": "top.base"
+          },
+          {
+            "x": 5,
+            "y": 11,
+            "w": 6,
+            "h": 1,
+            "c": "top.base"
+          },
+          {
+            "x": 3,
+            "y": 12,
+            "w": 2,
+            "h": 3,
+            "c": "top.base"
+          },
+          {
+            "x": 11,
+            "y": 12,
+            "w": 2,
+            "h": 3,
+            "c": "top.shade"
+          },
+          {
+            "x": 3,
+            "y": 12,
+            "w": 1,
+            "h": 1,
+            "c": "top.highlight"
+          },
+          {
+            "x": 4,
+            "y": 12,
+            "w": 1,
+            "h": 4,
+            "c": "top.highlight"
+          },
+          {
+            "x": 11,
+            "y": 13,
+            "w": 1,
+            "h": 4,
+            "c": "top.shade"
+          },
+          {
+            "x": 4,
+            "y": 17,
+            "w": 8,
+            "h": 1,
+            "c": "top.shade"
+          },
+          {
+            "x": 3,
+            "y": 15,
+            "w": 2,
+            "h": 1,
+            "c": "top.shade"
+          },
+          {
+            "x": 11,
+            "y": 15,
+            "w": 2,
+            "h": 1,
+            "c": "top.shade"
+          },
+          {
+            "x": 6,
+            "y": 12,
+            "w": 4,
+            "h": 6,
+            "c": "clear"
+          },
+          {
+            "x": 5,
+            "y": 12,
+            "w": 1,
+            "h": 5,
+            "c": "top.highlight"
+          },
+          {
+            "x": 10,
+            "y": 12,
+            "w": 1,
+            "h": 5,
+            "c": "top.shade"
+          },
+          {
+            "x": 6,
+            "y": 13,
+            "w": 1,
+            "h": 1,
+            "c": "top.shade"
+          },
+          {
+            "x": 9,
+            "y": 13,
+            "w": 1,
+            "h": 1,
+            "c": "top.highlight"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 3,
+            "w": 8,
+            "h": 7,
+            "c": "outline"
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "w": 6,
+            "h": 6,
+            "c": "skin.base"
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "w": 3,
+            "h": 2,
+            "c": "skin.highlight"
+          },
+          {
+            "x": 10,
+            "y": 5,
+            "w": 1,
+            "h": 5,
+            "c": "skin.shade"
+          },
+          {
+            "x": 6,
+            "y": 10,
+            "w": 4,
+            "h": 2,
+            "c": "skin.base"
+          },
+          {
+            "x": 9,
+            "y": 10,
+            "w": 1,
+            "h": 2,
+            "c": "skin.shade"
+          },
+          {
+            "x": 3,
+            "y": 6,
+            "w": 1,
+            "h": 2,
+            "c": "skin.base"
+          },
+          {
+            "x": 12,
+            "y": 6,
+            "w": 1,
+            "h": 2,
+            "c": "skin.shade"
+          },
+          {
+            "x": 2,
+            "y": 16,
+            "w": 2,
+            "h": 3,
+            "c": "outline"
+          },
+          {
+            "x": 12,
+            "y": 16,
+            "w": 2,
+            "h": 3,
+            "c": "outline"
+          },
+          {
+            "x": 2,
+            "y": 16,
+            "w": 1,
+            "h": 2,
+            "c": "skin.base"
+          },
+          {
+            "x": 3,
+            "y": 16,
+            "w": 1,
+            "h": 2,
+            "c": "skin.shade"
+          },
+          {
+            "x": 12,
+            "y": 16,
+            "w": 1,
+            "h": 2,
+            "c": "skin.base"
+          },
+          {
+            "x": 13,
+            "y": 16,
+            "w": 1,
+            "h": 2,
+            "c": "skin.shade"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 2,
+            "w": 8,
+            "h": 2,
+            "c": "hair.base"
+          },
+          {
+            "x": 4,
+            "y": 2,
+            "w": 2,
+            "h": 1,
+            "c": "hair.highlight"
+          },
+          {
+            "x": 7,
+            "y": 2,
+            "w": 2,
+            "h": 1,
+            "c": "hair.highlight"
+          },
+          {
+            "x": 4,
+            "y": 3,
+            "w": 2,
+            "h": 2,
+            "c": "hair.base"
+          },
+          {
+            "x": 7,
+            "y": 3,
+            "w": 2,
+            "h": 1,
+            "c": "hair.shade"
+          },
+          {
+            "x": 10,
+            "y": 3,
+            "w": 2,
+            "h": 2,
+            "c": "hair.base"
+          },
+          {
+            "x": 4,
+            "y": 5,
+            "w": 1,
+            "h": 1,
+            "c": "hair.shade"
+          },
+          {
+            "x": 11,
+            "y": 5,
+            "w": 1,
+            "h": 1,
+            "c": "hair.shade"
+          }
+        ],
+        [
+          {
+            "x": 6,
+            "y": 6,
+            "w": 1,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 9,
+            "y": 6,
+            "w": 1,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 7,
+            "y": 9,
+            "w": 2,
+            "h": 1,
+            "c": "mouth"
+          },
+          {
+            "x": 10,
+            "y": 15,
+            "w": 1,
+            "h": 1,
+            "c": "neutralHighlight"
+          }
+        ]
+      ]
+    }
+  ]
+}

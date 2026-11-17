@@ -1,0 +1,13 @@
+{
+  "colors": {
+    "bun": "#e2ad68",
+    "bunLight": "#f1ce8d",
+    "bunShade": "#b87948",
+    "glint": "#fff0d5",
+    "outline": "#322c38",
+    "patty": "#81524b",
+    "pattyLight": "#a76d56",
+    "pattyShade": "#573943"
+  },
+  "name": "burger palette"
+}

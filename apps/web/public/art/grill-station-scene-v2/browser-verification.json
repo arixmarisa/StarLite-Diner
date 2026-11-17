@@ -1,0 +1,13 @@
+{
+  "method": "Chromium image decode and independent canvas assembly",
+  "sceneSize": [176, 80],
+  "grillSize": [96, 40],
+  "counterSize": [64, 32],
+  "nativeSpriteScale": 1,
+  "previewScale": 6,
+  "sceneAssemblyMismatchedBytes": 0,
+  "originalGrillOpaquePixelMismatchedBytes": 0,
+  "exact6xPreviewMismatchedBytes": 0,
+  "preservedSourceExportPrototypeHashes": 7,
+  "allPreservedHashesUnchanged": true
+}

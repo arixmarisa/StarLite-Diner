@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "status": "accepted-art-design",
+  "authoring": "Pixelorama MCP",
+  "id": "table-rectangular-horizontal",
+  "source": "assets/pixelorama/rectangular-table-rotation-review/table-horizontal.pxo",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/rectangular-table-rotation-review/palette.json",
+  "image": "table-horizontal.png",
+  "frameSize": {
+    "width": 48,
+    "height": 48
+  },
+  "occupiedBounds": {
+    "x": 6,
+    "y": 4,
+    "width": 35,
+    "height": 38
+  },
+  "layers": [
+    "01 - contact shadow",
+    "02 - upright chrome pedestal and foot",
+    "03 - tabletop outline and front lip",
+    "04 - cream laminate and rim",
+    "05 - upper-left highlights"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "table-horizontal-static"
+  },
+  "reference": {
+    "id": "table-rectangular",
+    "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+    "sourceRect": {
+      "x": 192,
+      "y": 448,
+      "width": 32,
+      "height": 48
+    },
+    "png": "apps/web/public/art/front-of-house-v1/table-rectangular.png",
+    "frameSize": {
+      "width": 32,
+      "height": 48
+    },
+    "measuredLaminateRim": {
+      "x": 3,
+      "y": 2,
+      "width": 26,
+      "height": 33
+    },
+    "measuredCreamInterior": {
+      "x": 4,
+      "y": 3,
+      "width": 24,
+      "height": 31
+    }
+  },
+  "artGeometry": {
+    "laminateRim": {
+      "x": 7,
+      "y": 5,
+      "width": 33,
+      "height": 26
+    },
+    "creamInterior": {
+      "x": 8,
+      "y": 6,
+      "width": 31,
+      "height": 24
+    },
+    "inferredOuterPlan": {
+      "width": 35,
+      "height": 28
+    },
+    "frontLipFillRows": 2,
+    "bottomOutlineRows": 1,
+    "pedestalPost": {
+      "width": 4,
+      "height": 10
+    },
+    "pedestalFoot": {
+      "width": 12,
+      "height": 6
+    },
+    "sameVisiblePaletteAsReference": true,
+    "surfaceDimensionsExactlyTransposed": true
+  },
+  "comparison": {
+    "source": "assets/pixelorama/rectangular-table-rotation-review/table-comparison.pxo",
+    "image": "table-comparison.png",
+    "frameSize": {
+      "width": 96,
+      "height": 56
+    },
+    "placements": [
+      {
+        "asset": "reference",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "asset": "table-rectangular-horizontal",
+        "x": 44,
+        "y": 8
+      }
+    ],
+    "visualFloorBaseline": 48,
+    "tag": "table-comparison-static"
+  },
+  "qa": {
+    "opaquePixels": 1152,
+    "semitransparentPixels": 0,
+    "visibleColors": 8,
+    "paletteSwatches": 14,
+    "orphans": 0,
+    "enclosedHoles": 0,
+    "reopenedSourceMatchesNativePng": true,
+    "comparisonReferenceUnchanged": true,
+    "comparisonRotationExact": true,
+    "comparisonPngExact": true
+  },
+  "anchor": null,
+  "collision": null,
+  "interaction": null,
+  "integrated": false,
+  "acceptedOn": "2026-11-07"
+}

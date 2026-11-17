@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "grill-scale-comparison",
+  "status": "accepted-scale-reference",
+  "source": "assets/pixelorama/kitchen-grill-scale-review/comparison.pxo",
+  "image": "comparison.png",
+  "preview": "comparison-preview.png",
+  "nativeSize": {
+    "width": 352,
+    "height": 96
+  },
+  "previewScale": 3,
+  "nativeSpriteScale": 1,
+  "playerSource": "../player-v3/player.png",
+  "playerFrame": {
+    "x": 0,
+    "y": 48,
+    "width": 16,
+    "height": 24
+  },
+  "playerPositions": [
+    {
+      "x": 8,
+      "y": 57
+    },
+    {
+      "x": 184,
+      "y": 57
+    }
+  ],
+  "originalGrill": {
+    "image": "../kitchen-grill-v2/kitchen-grill.png",
+    "x": 32,
+    "y": 25
+  },
+  "originalCounter": {
+    "image": "original-counter-reference.png",
+    "x": 128,
+    "y": 41,
+    "assembly": [
+      {
+        "image": "../kitchen-counter-review/steel-counter-top.png",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "image": "../kitchen-counter-review/steel-counter-front.png",
+        "x": 0,
+        "y": 24
+      },
+      {
+        "image": "../kitchen-counter-review/steel-counter-end-right.png",
+        "x": 16,
+        "y": 0
+      }
+    ]
+  },
+  "candidateGrill": {
+    "image": "kitchen-grill.png",
+    "x": 208,
+    "y": 45
+  },
+  "acceptedCounter": {
+    "image": "accepted-counter-reference.png",
+    "x": 304,
+    "y": 50,
+    "assembly": [
+      {
+        "image": "../kitchen-counter-scale-review/steel-counter-top.png",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "image": "../kitchen-counter-scale-review/steel-counter-front.png",
+        "x": 0,
+        "y": 18
+      },
+      {
+        "image": "../kitchen-counter-scale-review/steel-counter-end-right.png",
+        "x": 16,
+        "y": 0
+      }
+    ]
+  },
+  "floor": {
+    "image": "../front-of-house-v1/floor-checker.png",
+    "tileSize": 16
+  },
+  "commonFloorContactRow": 80,
+  "candidateWorktopY": 50,
+  "candidateFrontY": 68,
+  "integrated": false,
+  "visualAccepted": true,
+  "acceptedOn": "2026-11-07"
+}

@@ -1,0 +1,40 @@
+{
+  "translation": {
+    "pixels": 0,
+    "samples": []
+  },
+  "native": {
+    "pixels": 0,
+    "samples": []
+  },
+  "rendered": {
+    "pixels": 0,
+    "samples": []
+  },
+  "placements": 331,
+  "runtimeParts": 335,
+  "seats": 84,
+  "seated": 84,
+  "tables": 32,
+  "customerSprites": 84,
+  "doorChecks": [
+    {
+      "side": "west",
+      "entered": true,
+      "returned": true,
+      "noDiningObjects": true,
+      "noKitchenObjects": true
+    },
+    {
+      "side": "east",
+      "entered": true,
+      "returned": true,
+      "noDiningObjects": true,
+      "noKitchenObjects": true
+    }
+  ],
+  "canvasesAfterDisposal": 0,
+  "renderer": "Phaser WebGL",
+  "sourceDraftSha256": "f75e3d54ab05486a3350c195ac0f4518a5da4591feaffd40ad77b14cd7b492fd",
+  "productionStartChecked": true
+}

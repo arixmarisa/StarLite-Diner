@@ -1,0 +1,12 @@
+{
+  "colors": {
+    "cheese": "#e7bc61",
+    "cheeseLight": "#ffe0a0",
+    "cheeseShade": "#ad813e",
+    "glint": "#fff0d5",
+    "hole": "#d49746",
+    "holeShade": "#b87948",
+    "outline": "#322c38"
+  },
+  "id": "cheese"
+}

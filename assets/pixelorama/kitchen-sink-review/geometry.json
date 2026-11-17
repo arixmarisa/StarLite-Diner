@@ -1,0 +1,62 @@
+{
+  "width": 56,
+  "height": 40,
+  "name": "kitchen-sink",
+  "layers": [
+    "01 - steel mounting surround",
+    "02 - recessed basin walls and floor",
+    "03 - draining board ribs",
+    "04 - curved faucet and controls",
+    "05 - hard reflections and drain"
+  ],
+  "palette": [
+    "#322c38",
+    "#46404b",
+    "#676c70",
+    "#9ba8a5",
+    "#d5dfd3",
+    "#fff0d5",
+    "#9f385e",
+    "#c94d7b",
+    "#ee75a3",
+    "#ffacc9",
+    "#ffd2de",
+    "#a6bcb2",
+    "#f1e5d1",
+    "#fff5df"
+  ],
+  "attachment": {
+    "x": 4,
+    "y": 12,
+    "width": 48,
+    "height": 24
+  },
+  "counterProfile": [
+    {
+      "rows": [0, 0],
+      "hex": "#322c38"
+    },
+    {
+      "rows": [1, 1],
+      "hex": "#d5dfd3"
+    },
+    {
+      "rows": [2, 20],
+      "hex": "#9ba8a5"
+    },
+    {
+      "rows": [21, 21],
+      "hex": "#d5dfd3"
+    },
+    {
+      "rows": [22, 22],
+      "hex": "#9ba8a5"
+    },
+    {
+      "rows": [23, 23],
+      "hex": "#322c38"
+    }
+  ],
+  "views": ["back-wall-facing-south"],
+  "cabinetIncluded": false
+}

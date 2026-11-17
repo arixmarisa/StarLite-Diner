@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "assetId": "starlite-diner-exterior",
+  "authoringTool": "Pixelorama MCP",
+  "source": "assets/pixelorama/starlite-diner.pxo",
+  "nativeSize": { "width": 384, "height": 216 },
+  "planningTileSize": 16,
+  "origin": { "x": 0, "y": 0 },
+  "frameCount": 1,
+  "palette": "Starlite • After Hours",
+  "paletteSwatches": 21,
+  "compositeColors": 20,
+  "exports": {
+    "fallback": "starlite-diner.png",
+    "environment": "starlite-base.png",
+    "emission": "starlite-lights.png"
+  },
+  "layersBottomToTop": [
+    "01 · night & distant hills",
+    "02 · architecture & pavement",
+    "03 · interior & fixtures",
+    "04 · cast shadows",
+    "05 · foreground & props",
+    "06 · emissive accents"
+  ],
+  "lighting": "Upper-left global highlights, down-right structural shadows, local window/neon emission",
+  "collision": null,
+  "interactionZones": [],
+  "notes": "Decorative foundation illustration; not a gameplay map. Export all files at 1x with nearest-neighbor sampling."
+}

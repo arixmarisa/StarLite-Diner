@@ -1,0 +1,13 @@
+{
+  "colors": {
+    "base": "#f1e5d1",
+    "glass": "#65878b",
+    "glassLight": "#b8dad3",
+    "glint": "#fff0d5",
+    "highlight": "#fff5df",
+    "outline": "#322c38",
+    "shade": "#c6b69e",
+    "straw": "#d65362"
+  },
+  "id": "milkshake-vanilla"
+}

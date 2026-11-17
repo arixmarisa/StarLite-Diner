@@ -1,0 +1,12 @@
+{
+  "colors": {
+    "glint": "#fff0d5",
+    "label": "#f1e5d1",
+    "labelShade": "#c6b69e",
+    "outline": "#322c38",
+    "red": "#d65362",
+    "redLight": "#ef8c91",
+    "redShade": "#9f385e"
+  },
+  "id": "ketchup"
+}

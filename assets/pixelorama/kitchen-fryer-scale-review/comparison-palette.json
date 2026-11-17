@@ -1,0 +1,101 @@
+{
+  "name": "Existing fryer player and floor palette",
+  "colors": [
+    {
+      "role": "outline",
+      "hex": "#322c38"
+    },
+    {
+      "role": "shadow",
+      "hex": "#46404b"
+    },
+    {
+      "role": "metalDark",
+      "hex": "#676c70"
+    },
+    {
+      "role": "metal",
+      "hex": "#9ba8a5"
+    },
+    {
+      "role": "metalLight",
+      "hex": "#d5dfd3"
+    },
+    {
+      "role": "glint",
+      "hex": "#fff0d5"
+    },
+    {
+      "role": "roseDark",
+      "hex": "#9f385e"
+    },
+    {
+      "role": "roseShade",
+      "hex": "#c94d7b"
+    },
+    {
+      "role": "rose",
+      "hex": "#ee75a3"
+    },
+    {
+      "role": "roseLight",
+      "hex": "#ffacc9"
+    },
+    {
+      "role": "rosePale",
+      "hex": "#ffd2de"
+    },
+    {
+      "role": "tableRim",
+      "hex": "#a6bcb2"
+    },
+    {
+      "role": "table",
+      "hex": "#f1e5d1"
+    },
+    {
+      "role": "tableLight",
+      "hex": "#fff5df"
+    },
+    {
+      "role": "skinShade",
+      "hex": "#e5a381"
+    },
+    {
+      "role": "skin",
+      "hex": "#ffd0a3"
+    },
+    {
+      "role": "hairLight",
+      "hex": "#67505b"
+    },
+    {
+      "role": "floorCream",
+      "hex": "#edf3df"
+    },
+    {
+      "role": "mint",
+      "hex": "#acd4c4"
+    },
+    {
+      "role": "mintDark",
+      "hex": "#6d9b8c"
+    },
+    {
+      "role": "glass",
+      "hex": "#65878b"
+    },
+    {
+      "role": "glassLight",
+      "hex": "#b8dad3"
+    },
+    {
+      "role": "amber",
+      "hex": "#e2ad68"
+    },
+    {
+      "role": "red",
+      "hex": "#d65362"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "bodyOffset": {
+    "x": 4.0,
+    "y": 8.0
+  },
+  "bodySize": {
+    "height": 24.0,
+    "width": 16.0
+  },
+  "collisionReference": {
+    "changed": false,
+    "reference": {
+      "height": 7.0,
+      "width": 10.0,
+      "x": -5.0,
+      "y": -7.0
+    }
+  },
+  "direction": "south",
+  "drawOrder": [
+    "actor.png frame",
+    "original tray-body.png at tray.origin, or tray-overlay.png at frame origin",
+    "future item assets on tray surface"
+  ],
+  "footAnchor": {
+    "x": 12.0,
+    "y": 31.0
+  },
+  "frameSize": {
+    "height": 32.0,
+    "width": 40.0
+  },
+  "frames": [
+    {
+      "footAnchor": {
+        "x": 12.0,
+        "y": 31.0
+      },
+      "index": 0,
+      "supportPalm": {
+        "x": 20.0,
+        "y": 18.0
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 14.0,
+        "y": 6.0
+      }
+    },
+    {
+      "footAnchor": {
+        "x": 12.0,
+        "y": 31.0
+      },
+      "index": 1,
+      "supportPalm": {
+        "x": 20.0,
+        "y": 18.0
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 14.0,
+        "y": 6.0
+      }
+    },
+    {
+      "footAnchor": {
+        "x": 12.0,
+        "y": 31.0
+      },
+      "index": 2,
+      "supportPalm": {
+        "x": 20.0,
+        "y": 18.0
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 14.0,
+        "y": 6.0
+      }
+    },
+    {
+      "footAnchor": {
+        "x": 12.0,
+        "y": 31.0
+      },
+      "index": 3,
+      "supportPalm": {
+        "x": 20.0,
+        "y": 18.0
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 14.0,
+        "y": 6.0
+      }
+    },
+    {
+      "footAnchor": {
+        "x": 12.0,
+        "y": 31.0
+      },
+      "index": 4,
+      "supportPalm": {
+        "x": 20.0,
+        "y": 18.0
+      },
+      "trayMotionOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "trayOrigin": {
+        "x": 14.0,
+        "y": 6.0
+      }
+    }
+  ],
+  "holdHeight": "shoulder",
+  "interactionZone": null,
+  "physicalHand": "left",
+  "screenSide": "right",
+  "surface": {
+    "capacity": null,
+    "center": {
+      "x": 26,
+      "y": 13
+    },
+    "frameBounds": {
+      "height": 6,
+      "width": 16,
+      "x": 18,
+      "y": 10
+    },
+    "itemSlots": null,
+    "localBounds": {
+      "height": 6,
+      "width": 16,
+      "x": 4,
+      "y": 4
+    },
+    "mask": "tray-surface-mask.png",
+    "maskSize": {
+      "height": 16,
+      "width": 24
+    }
+  },
+  "tray": {
+    "contentsIncluded": false,
+    "origin": {
+      "x": 14.0,
+      "y": 6.0
+    },
+    "sourceFrame": {
+      "height": 16.0,
+      "width": 24.0
+    },
+    "sourceImage": "/art/serving-tray-review/tray-body.png",
+    "sourceProject": "assets/pixelorama/serving-tray-review/serving-tray.pxo",
+    "supportPointLocal": {
+      "x": 6.0,
+      "y": 12.0
+    },
+    "worktopShadowIncluded": false
+  }
+}

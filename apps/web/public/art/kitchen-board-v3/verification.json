@@ -1,0 +1,19 @@
+{
+  "activeProjectUnchanged": true,
+  "celByteSizes": [2016, 2016, 2016, 2016],
+  "componentsReconstructExactly": true,
+  "fps": 1.0,
+  "frameDuration": 1.0,
+  "frames": 1,
+  "opaquePixels": 282,
+  "orphans": 0,
+  "paletteSwatches": 21,
+  "populatedLayers": 4,
+  "saved": true,
+  "semitransparentPixels": 0,
+  "sourceLayers": 4,
+  "sourcePixelsMatchNativePng": true,
+  "sourceSize": [28.0, 18.0],
+  "tag": "kitchen-board-v3-static",
+  "visibleColors": 5
+}

@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "grill-food-v2",
+  "status": "requested-two-row-refined-art",
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/grill-food-v2/grill-food.pxo",
+  "palette": "assets/pixelorama/grill-food-v2/palette.json",
+  "image": "grill-food-atlas.png",
+  "frameSize": {
+    "width": 36,
+    "height": 7
+  },
+  "independentFrameSize": {
+    "width": 12,
+    "height": 7
+  },
+  "nativeScale": 1,
+  "layers": [
+    "01 - compact griddle shadows",
+    "02 - rounded raw meat contours",
+    "03 - rose and red meat body ramps",
+    "04 - meat sheen and fine marbling",
+    "05 - warm raw batter edge and body",
+    "06 - batter upper-left sheen and dimples"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "refined-grill-food-static"
+  },
+  "assets": [
+    {
+      "id": "patty",
+      "image": "patty.png",
+      "frameSize": {
+        "width": 12,
+        "height": 7
+      },
+      "atlasRect": {
+        "height": 7,
+        "width": 12,
+        "x": 0,
+        "y": 0
+      },
+      "occupiedBounds": {
+        "height": 6,
+        "width": 10,
+        "x": 1,
+        "y": 1
+      },
+      "cookingState": "raw"
+    },
+    {
+      "id": "sausage",
+      "image": "sausage.png",
+      "frameSize": {
+        "width": 12,
+        "height": 7
+      },
+      "atlasRect": {
+        "height": 7,
+        "width": 12,
+        "x": 12,
+        "y": 0
+      },
+      "occupiedBounds": {
+        "height": 5,
+        "width": 11,
+        "x": 0,
+        "y": 2
+      },
+      "cookingState": "raw"
+    },
+    {
+      "id": "pancake",
+      "image": "pancake.png",
+      "frameSize": {
+        "width": 12,
+        "height": 7
+      },
+      "atlasRect": {
+        "height": 7,
+        "width": 12,
+        "x": 24,
+        "y": 0
+      },
+      "occupiedBounds": {
+        "height": 6,
+        "width": 10,
+        "x": 1,
+        "y": 1
+      },
+      "cookingState": "raw"
+    }
+  ],
+  "preview": "grill-food-preview.png",
+  "previewScale": 10,
+  "registration": {
+    "frameWidth": 12,
+    "frameHeight": 7,
+    "maximumOpaqueY": 6
+  },
+  "pixelArtResized": false,
+  "qaReport": "verification.json",
+  "integrated": true,
+  "roomLayout": "kitchen-layout-v6",
+  "runtimeRole": "Individual placed foods, shared by world and station"
+}

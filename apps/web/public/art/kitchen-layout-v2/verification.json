@@ -1,0 +1,231 @@
+{
+  "activeProjectUnchanged": true,
+  "allInstancesAtNativeScale": true,
+  "assemblyOffsetsMatchWorldPositions": true,
+  "assetCount": 28,
+  "assetSizes": [
+    {
+      "height": 16,
+      "id": "floor",
+      "width": 16
+    },
+    {
+      "height": 32,
+      "id": "wall",
+      "width": 16
+    },
+    {
+      "height": 32,
+      "id": "wall-left",
+      "width": 16
+    },
+    {
+      "height": 32,
+      "id": "wall-right",
+      "width": 16
+    },
+    {
+      "height": 16,
+      "id": "wall-side-left",
+      "width": 8
+    },
+    {
+      "height": 16,
+      "id": "wall-side-right",
+      "width": 8
+    },
+    {
+      "height": 8,
+      "id": "wall-base",
+      "width": 16
+    },
+    {
+      "height": 48,
+      "id": "mixer",
+      "width": 24
+    },
+    {
+      "height": 16,
+      "id": "cups",
+      "width": 12
+    },
+    {
+      "height": 24,
+      "id": "counter-top",
+      "width": 16
+    },
+    {
+      "height": 16,
+      "id": "counter-front",
+      "width": 16
+    },
+    {
+      "height": 40,
+      "id": "counter-left",
+      "width": 16
+    },
+    {
+      "height": 40,
+      "id": "counter-right",
+      "width": 16
+    },
+    {
+      "height": 16,
+      "id": "counter-vertical",
+      "width": 24
+    },
+    {
+      "height": 16,
+      "id": "counter-near",
+      "width": 24
+    },
+    {
+      "height": 24,
+      "id": "counter-turn",
+      "width": 24
+    },
+    {
+      "height": 80,
+      "id": "fridge-shadow",
+      "width": 48
+    },
+    {
+      "height": 80,
+      "id": "fridge",
+      "width": 48
+    },
+    {
+      "height": 58,
+      "id": "grill-shadow",
+      "width": 96
+    },
+    {
+      "height": 58,
+      "id": "grill",
+      "width": 96
+    },
+    {
+      "height": 72,
+      "id": "fryer-shadow",
+      "width": 48
+    },
+    {
+      "height": 72,
+      "id": "fryer",
+      "width": 48
+    },
+    {
+      "height": 32,
+      "id": "trash-shadow",
+      "width": 24
+    },
+    {
+      "height": 32,
+      "id": "trash",
+      "width": 24
+    },
+    {
+      "height": 40,
+      "id": "sink",
+      "width": 56
+    },
+    {
+      "height": 40,
+      "id": "toppings",
+      "width": 56
+    },
+    {
+      "height": 40,
+      "id": "prep-bins",
+      "width": 72
+    },
+    {
+      "height": 16,
+      "id": "serving-tray",
+      "width": 24
+    }
+  ],
+  "celByteSizes": [466944, 466944, 466944, 466944, 466944, 466944, 466944, 466944, 466944],
+  "clearPrepWorktopOccupiedPropPixels": 0,
+  "corridorChecks": [
+    {
+      "clearance": 44,
+      "id": "rear-work-aisle",
+      "occupiedVisualPixels": 0,
+      "visuallyClear": true
+    },
+    {
+      "clearance": 80,
+      "id": "middle-work-aisle",
+      "occupiedVisualPixels": 0,
+      "visuallyClear": true
+    },
+    {
+      "clearance": 72,
+      "id": "left-main-aisle",
+      "occupiedVisualPixels": 0,
+      "visuallyClear": true
+    },
+    {
+      "clearance": 56,
+      "id": "right-main-aisle",
+      "occupiedVisualPixels": 0,
+      "visuallyClear": true
+    },
+    {
+      "clearance": 48,
+      "id": "west-opening-access",
+      "occupiedVisualPixels": 0,
+      "visuallyClear": true
+    },
+    {
+      "clearance": 48,
+      "id": "east-opening-access",
+      "occupiedVisualPixels": 0,
+      "visuallyClear": true
+    }
+  ],
+  "exportCodes": {
+    "native": 0,
+    "preview": 0,
+    "publicPreview": 0
+  },
+  "fixedCuttingBoardInstances": 0,
+  "fps": 1,
+  "frames": 1,
+  "instanceCount": 145,
+  "layers": 9,
+  "nativeSize": [384, 304],
+  "opaquePixels": 104682,
+  "paletteSwatches": 21,
+  "populatedLayers": 9,
+  "privateCompositeMatchesSavedSource": true,
+  "revisionChecks": {
+    "archwayInstances": 0,
+    "bottomWallInteriorY": 288,
+    "counterLeftEdge": 184,
+    "flatOpenings": 2,
+    "grillJoinProfileMismatches": 0,
+    "grillRightEdge": 184,
+    "leftWallInteriorX": 16,
+    "milkshakeCounterLeftEdgeX": 16,
+    "plateInstances": 0,
+    "platingCounterNearEdgeY": 288,
+    "platingCounterVisibleDepth": 24,
+    "platingCounterVisibleFasciaPixels": 0,
+    "platingCounterVisibleTopY": 264,
+    "servingTrayInstances": 3,
+    "sharedCounterTopY": 40,
+    "sharedFasciaY": 64,
+    "trashAdjacentToFryer": true
+  },
+  "saved": true,
+  "semitransparentPixels": 0,
+  "sourcePixelsMatchNativePng": true,
+  "tag": "kitchen-layout-v2-static",
+  "tileCount": 336,
+  "visibleColors": 16,
+  "changedOutsideBottomCounterRegion": 0,
+  "independentBrowserPixelDifferences": 0,
+  "platingEndcapNativeTopCrops": 2
+}

@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "id": "kitchen-counter-v3",
+  "status": "authorized-compact-kitchen-art",
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/kitchen-counter-v3/kitchen-counter-kit.pxo",
+  "palette": "assets/pixelorama/kitchen-counter-v3/palette.json",
+  "image": "kitchen-counter-atlas.png",
+  "frameSize": {
+    "width": 160,
+    "height": 160
+  },
+  "layers": [
+    "01 - steel worktop planes",
+    "02 - steel cabinet faces and low plinths",
+    "03 - chrome edges and plum contours",
+    "04 - recessed handles and rose accents"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMs": 1000,
+    "tag": "kitchen-counter-v3-static"
+  },
+  "modules": [
+    {
+      "frameSize": {
+        "height": 18,
+        "width": 16
+      },
+      "id": "steel-counter-top",
+      "image": "steel-counter-top.png",
+      "rect": [8, 8, 16, 18]
+    },
+    {
+      "frameSize": {
+        "height": 13,
+        "width": 16
+      },
+      "id": "steel-counter-front",
+      "image": "steel-counter-front.png",
+      "rect": [32, 8, 16, 13]
+    },
+    {
+      "frameSize": {
+        "height": 16,
+        "width": 20
+      },
+      "id": "steel-counter-vertical-top",
+      "image": "steel-counter-vertical-top.png",
+      "rect": [56, 8, 20, 16]
+    },
+    {
+      "frameSize": {
+        "height": 13,
+        "width": 20
+      },
+      "id": "steel-counter-near-fascia",
+      "image": "steel-counter-near-fascia.png",
+      "rect": [88, 8, 20, 13]
+    },
+    {
+      "frameSize": {
+        "height": 31,
+        "width": 16
+      },
+      "id": "steel-counter-end-left",
+      "image": "steel-counter-end-left.png",
+      "rect": [8, 40, 16, 31]
+    },
+    {
+      "frameSize": {
+        "height": 31,
+        "width": 16
+      },
+      "id": "steel-counter-end-right",
+      "image": "steel-counter-end-right.png",
+      "rect": [32, 40, 16, 31]
+    },
+    {
+      "frameSize": {
+        "height": 18,
+        "width": 20
+      },
+      "id": "steel-counter-corner-left",
+      "image": "steel-counter-corner-left.png",
+      "rect": [64, 40, 20, 18]
+    },
+    {
+      "frameSize": {
+        "height": 18,
+        "width": 20
+      },
+      "id": "steel-counter-corner-right",
+      "image": "steel-counter-corner-right.png",
+      "rect": [104, 40, 20, 18]
+    },
+    {
+      "frameSize": {
+        "height": 45,
+        "width": 20
+      },
+      "id": "steel-counter-side",
+      "image": "steel-counter-side.png",
+      "rect": [8, 88, 20, 45]
+    },
+    {
+      "frameSize": {
+        "height": 3,
+        "width": 16
+      },
+      "id": "steel-counter-lip-front",
+      "image": "steel-counter-lip-front.png",
+      "rect": [56, 88, 16, 3]
+    },
+    {
+      "frameSize": {
+        "height": 16,
+        "width": 3
+      },
+      "id": "steel-counter-lip-side",
+      "image": "steel-counter-lip-side.png",
+      "rect": [88, 88, 3, 16]
+    }
+  ],
+  "scaleReference": [
+    "kitchen-counter-scale-review",
+    "kitchen-fryer-scale-review",
+    "kitchen-grill-scale-review"
+  ],
+  "geometry": {
+    "horizontalTopDepth": 18,
+    "verticalTopWidth": 20,
+    "cabinetFrontHeight": 10,
+    "plinthHeight": 3,
+    "repeatSpacing": 16
+  },
+  "qaReport": "verification.json",
+  "collision": null,
+  "interaction": null,
+  "integrated": true,
+  "roomLayout": "kitchen-layout-v3",
+  "approvedForGameUse": true
+}

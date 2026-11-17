@@ -1,0 +1,18 @@
+{
+  "activeProjectUnchanged": true,
+  "allSpritesAtNativeScale": true,
+  "approvedFryerFrontTopY": 68,
+  "celByteSizes": [98304, 98304, 98304, 98304, 98304, 98304],
+  "commonFloorContactRow": 80,
+  "fps": 1.0,
+  "frames": 1,
+  "leftPlayerUnchanged": true,
+  "newCounterFrontTopY": 68,
+  "paletteSwatches": 24,
+  "populatedLayers": 6,
+  "rightPlayerUnchanged": true,
+  "savedSourceMatchesComposite": true,
+  "sourceLayers": 6,
+  "sourceSize": [256, 96],
+  "tag": "counter-scale-comparison-static"
+}

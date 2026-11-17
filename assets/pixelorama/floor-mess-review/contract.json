@@ -1,0 +1,38 @@
+{
+  "frameSize": { "width": 16, "height": 16 },
+  "anchor": { "x": 8, "y": 10 },
+  "anchorStatus": "Proposed ground-placement anchor only; no interaction or collision behavior implemented.",
+  "layers": [
+    "01 - contact shadow",
+    "02 - silhouette edge",
+    "03 - material body",
+    "04 - folds rim and wet glints"
+  ],
+  "pixelFormat": "RGBA8; alpha 0 or 255 only",
+  "staticVariants": true,
+  "contactSheet": {
+    "width": 96,
+    "height": 32,
+    "previewScale": 8,
+    "placements": [
+      { "asset": "spill-water", "x": 8, "y": 8 },
+      { "asset": "spill-coffee", "x": 32, "y": 8 },
+      { "asset": "trash-napkin", "x": 56, "y": 8 },
+      { "asset": "trash-cup", "x": 80, "y": 8 }
+    ]
+  },
+  "floorContext": {
+    "width": 96,
+    "height": 64,
+    "previewScale": 8,
+    "floorImage": "/art/front-of-house-v1/floor-checker.png",
+    "playerImage": "/art/player-v3/idle-south.png",
+    "playerPosition": { "x": 40, "y": 2 },
+    "placements": [
+      { "asset": "spill-water", "x": 8, "y": 28 },
+      { "asset": "spill-coffee", "x": 28, "y": 28 },
+      { "asset": "trash-napkin", "x": 48, "y": 28 },
+      { "asset": "trash-cup", "x": 68, "y": 28 }
+    ]
+  }
+}

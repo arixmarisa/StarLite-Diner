@@ -1,0 +1,108 @@
+@import '@fontsource/silkscreen/latin-400.css';
+
+.front-of-house {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100svh;
+  overflow: hidden;
+  outline: none;
+  background: #000;
+}
+
+.order-notepad {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+  width: min(200px, 36vw);
+  max-height: 32svh;
+  overflow: auto;
+  padding: 8px 10px;
+  border: 1px solid #b87889;
+  border-radius: 3px;
+  background: #fff0d5;
+  color: #37243b;
+  font: 12px/1.4 monospace;
+  box-shadow: 0 2px 0 #37243b;
+}
+
+.order-notepad summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+.order-notepad-status {
+  margin: 5px 0 0;
+  font-size: 10px;
+}
+.order-notepad h2 {
+  margin: 8px 0 4px;
+  font-size: 12px;
+}
+.order-notepad section + section {
+  border-top: 1px solid #b87889;
+  margin-top: 8px;
+}
+.order-notepad-tickets p {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 4px 0;
+}
+.order-notepad-tickets span {
+  flex-basis: 100%;
+  font-size: 10px;
+}
+.order-notepad img {
+  image-rendering: pixelated;
+  width: 32px;
+  height: 32px;
+}
+
+@media (max-width: 500px) {
+  .order-notepad {
+    top: 6px;
+    right: 6px;
+    padding: 5px 7px;
+    max-height: 26svh;
+  }
+  .order-notepad img {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.front-of-house canvas {
+  grid-area: 1 / 1;
+  display: block;
+  image-rendering: pixelated;
+}
+
+.order-interaction-prompt {
+  position: absolute;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 5px 9px;
+  border: 1px solid #b87889;
+  background: #37243b;
+  color: #fff0d5;
+  font:
+    400 16px/1.5 'Silkscreen',
+    monospace;
+  font-synthesis: none;
+  text-align: center;
+  overflow-wrap: anywhere;
+  transform: translate(-50%, -100%);
+  pointer-events: none;
+  user-select: none;
+}
+
+.room-status {
+  grid-area: 1 / 1;
+  z-index: 1;
+  color: #fff0d5;
+  font: 16px sans-serif;
+  text-align: center;
+}

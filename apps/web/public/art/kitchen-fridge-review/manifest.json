@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "kitchen-decorative-fridge",
+  "status": "accepted-art-design",
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/kitchen-fridge-review/kitchen-fridge.pxo",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/kitchen-fridge-review/palette.json",
+  "image": "kitchen-fridge-body.png",
+  "reviewComposite": "kitchen-fridge.png",
+  "frameSize": {
+    "width": 48,
+    "height": 80
+  },
+  "orientation": "back-wall-facing-south",
+  "rotationVariants": 0,
+  "layers": [
+    "01 - contact shadow",
+    "02 - cabinet body plinth and feet",
+    "03 - stainless overhead top",
+    "04 - closed steel door planes",
+    "05 - recessed handles and vent",
+    "06 - rose badge and hard reflections"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "kitchen-fridge-static"
+  },
+  "components": [
+    {
+      "image": "kitchen-fridge-shadow.png",
+      "renderRole": "ground-shadow",
+      "order": 0
+    },
+    {
+      "image": "kitchen-fridge-body.png",
+      "renderRole": "decorative-fridge",
+      "order": 1
+    }
+  ],
+  "componentFrameSize": {
+    "width": 48,
+    "height": 80
+  },
+  "componentOrigin": {
+    "x": 0,
+    "y": 0
+  },
+  "artGeometry": {
+    "cabinet": {
+      "x": 4,
+      "y": 6,
+      "width": 40,
+      "height": 64
+    },
+    "topDepth": 24,
+    "frontHeight": 40,
+    "doors": 2,
+    "view": "back-wall-facing-south",
+    "decorativeOnly": true
+  },
+  "qa": {
+    "opaquePixels": 2694,
+    "semitransparentPixels": 0,
+    "visibleColors": 7,
+    "paletteSwatches": 14,
+    "orphans": 0,
+    "intentionalClearance": {
+      "pixels": 66,
+      "bounds": {
+        "x": 13,
+        "y": 70,
+        "width": 22,
+        "height": 3
+      }
+    },
+    "reopenedSourceMatchesNativePng": true,
+    "independentZipPngDifferentPixels": 0,
+    "componentsReconstructExactly": true,
+    "populatedLayers": 6,
+    "activeProjectUnchanged": true
+  },
+  "anchor": null,
+  "collision": null,
+  "interaction": null,
+  "integrated": false,
+  "occupiedBounds": {
+    "x": 4,
+    "y": 6,
+    "width": 42,
+    "height": 70
+  },
+  "creationApproved": true,
+  "visualAccepted": true,
+  "acceptedOn": "2026-11-07"
+}

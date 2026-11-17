@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "status": "accepted-art-design",
+  "id": "player-front-review",
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/player-front-review/player-front.pxo",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/player-front-review/palette.json",
+  "image": "player-front.png",
+  "frameSize": {
+    "width": 16,
+    "height": 24
+  },
+  "occupiedBounds": {
+    "x": 2,
+    "y": 0,
+    "width": 12,
+    "height": 24
+  },
+  "direction": "south",
+  "view": "front",
+  "layers": [
+    "01 - contact shadow",
+    "02 - shoes",
+    "03 - trousers",
+    "04 - outfit primary and cap band",
+    "05 - skin face ears and hands",
+    "06 - hair",
+    "07 - cream apron and collar",
+    "08 - cream service cap",
+    "09 - neutral face and details"
+  ],
+  "anchor": {
+    "x": 8,
+    "y": 23
+  },
+  "footprint": null,
+  "existingFootprintReference": {
+    "x": -5,
+    "y": -7,
+    "width": 10,
+    "height": 7,
+    "implemented": false
+  },
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "idle-south-review",
+    "animated": false
+  },
+  "recolor": {
+    "map": "recolor-map.json",
+    "maskFrameSize": {
+      "width": 16,
+      "height": 24
+    },
+    "roles": {
+      "skin": {
+        "layer": 4,
+        "mask": "skin-mask.png",
+        "layerImage": "skin-layer.png",
+        "toneSlots": ["shade", "base"]
+      },
+      "outfit": {
+        "layer": 3,
+        "mask": "outfit-mask.png",
+        "layerImage": "outfit-layer.png",
+        "toneSlots": ["deepShade", "shade", "base", "highlight"]
+      }
+    },
+    "neutralPixelsExcluded": true,
+    "roleMaskOverlap": 0,
+    "runtimeImplemented": false
+  },
+  "comparison": {
+    "source": "assets/pixelorama/player-front-review/player-front-comparison.pxo",
+    "image": "player-front-comparison.png",
+    "frameSize": {
+      "width": 48,
+      "height": 32
+    },
+    "placements": [
+      {
+        "role": "original-front",
+        "x": 4,
+        "y": 4,
+        "width": 16,
+        "height": 24
+      },
+      {
+        "role": "revised-front",
+        "x": 28,
+        "y": 4,
+        "width": 16,
+        "height": 24
+      }
+    ],
+    "tag": "front-comparison-static",
+    "sameNativeScale": true,
+    "original": "assets/pixelorama/player-v1/player.png",
+    "originalRect": {
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 24
+    }
+  },
+  "qa": {
+    "opaquePixels": 226,
+    "semitransparentPixels": 0,
+    "visibleColors": 13,
+    "paletteSwatches": 17,
+    "orphanPixels": 0,
+    "intentionalLegClearance": [
+      [7, 21],
+      [8, 21]
+    ],
+    "savedSourcePixelsMatchNative": true,
+    "savedComparisonMatchesPng": true,
+    "originalComparisonPixelsUnchanged": true,
+    "groundAnchorUnchanged": true,
+    "recolorIsolation": {
+      "skin": {
+        "eligiblePixels": 48,
+        "changedPixels": 48,
+        "changedOutsideMask": 0,
+        "tonesRestrictedToRoleLayer": true
+      },
+      "outfit": {
+        "eligiblePixels": 48,
+        "changedPixels": 48,
+        "changedOutsideMask": 0,
+        "tonesRestrictedToRoleLayer": true
+      }
+    },
+    "foreignActiveProjectUnchanged": true
+  },
+  "otherDirectionsApproved": true,
+  "walkFramesApproved": true,
+  "integrated": false,
+  "acceptedOn": "2026-11-07"
+}

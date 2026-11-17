@@ -1,0 +1,66 @@
+{
+  "activeProjectUnchanged": true,
+  "boundImageUnchanged": true,
+  "celByteSizes": [1008, 1008, 1008, 1008, 1008, 1008],
+  "fps": 1.0,
+  "frames": 1,
+  "independentSpritesMatchSavedCrops": true,
+  "individualFrameSize": [12, 7],
+  "nativeSize": [36.0, 7.0],
+  "opaquePixels": 135,
+  "orphanPixels": 0,
+  "outOfPalettePixels": 0,
+  "paletteSwatches": 21,
+  "savedSourceMatchesPng": true,
+  "semitransparentPixels": 0,
+  "sourceLayers": 6,
+  "sprites": [
+    {
+      "id": "patty",
+      "occupiedBounds": {
+        "height": 6,
+        "width": 10,
+        "x": 1,
+        "y": 1
+      },
+      "sourceRect": {
+        "height": 7,
+        "width": 12,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "sausage",
+      "occupiedBounds": {
+        "height": 5,
+        "width": 11,
+        "x": 0,
+        "y": 2
+      },
+      "sourceRect": {
+        "height": 7,
+        "width": 12,
+        "x": 12,
+        "y": 0
+      }
+    },
+    {
+      "id": "pancake",
+      "occupiedBounds": {
+        "height": 6,
+        "width": 10,
+        "x": 1,
+        "y": 1
+      },
+      "sourceRect": {
+        "height": 7,
+        "width": 12,
+        "x": 24,
+        "y": 0
+      }
+    }
+  ],
+  "tag": "refined-grill-food-static",
+  "visibleColors": 11
+}

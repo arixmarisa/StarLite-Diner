@@ -1,0 +1,14 @@
+{
+  "colors": {
+    "ceramicShade": "#c6b69e",
+    "coffee": "#81524b",
+    "cream": "#f1e5d1",
+    "dark": "#573943",
+    "glint": "#fff0d5",
+    "light": "#fff5df",
+    "outline": "#322c38",
+    "rim": "#a6bcb2",
+    "steam": "#9ba8a5"
+  },
+  "id": "coffee"
+}

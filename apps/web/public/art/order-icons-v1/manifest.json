@@ -1,0 +1,1433 @@
+{
+  "approvedBubble": {
+    "contentRect": {
+      "height": 16,
+      "width": 24,
+      "x": 4,
+      "y": 3
+    },
+    "exampleIconPlacement": {
+      "x": 8,
+      "y": 3
+    },
+    "image": "/art/order-bubble-review/bubble.png",
+    "source": "assets/pixelorama/order-bubble-review/bubble.pxo"
+  },
+  "contactSheet": {
+    "cellSize": 24,
+    "columns": 8,
+    "image": "contact-sheet.png",
+    "items": [
+      {
+        "height": 16,
+        "id": "burger",
+        "image": "/art/order-bubble-review/burger.png",
+        "label": "Burger",
+        "width": 16,
+        "x": 4,
+        "y": 4
+      },
+      {
+        "height": 16,
+        "id": "hot-dog",
+        "image": "hot-dog.png",
+        "label": "Hot dog",
+        "width": 16,
+        "x": 28,
+        "y": 4
+      },
+      {
+        "height": 16,
+        "id": "fries",
+        "image": "fries.png",
+        "label": "French fries",
+        "width": 16,
+        "x": 52,
+        "y": 4
+      },
+      {
+        "height": 16,
+        "id": "onion-rings",
+        "image": "onion-rings.png",
+        "label": "Onion rings",
+        "width": 16,
+        "x": 76,
+        "y": 4
+      },
+      {
+        "height": 16,
+        "id": "ketchup",
+        "image": "ketchup.png",
+        "label": "Ketchup",
+        "width": 16,
+        "x": 100,
+        "y": 4
+      },
+      {
+        "height": 16,
+        "id": "mustard",
+        "image": "mustard.png",
+        "label": "Mustard",
+        "width": 16,
+        "x": 124,
+        "y": 4
+      },
+      {
+        "height": 16,
+        "id": "mayonnaise",
+        "image": "mayonnaise.png",
+        "label": "Mayonnaise",
+        "width": 16,
+        "x": 148,
+        "y": 4
+      },
+      {
+        "height": 16,
+        "id": "lettuce",
+        "image": "lettuce.png",
+        "label": "Lettuce",
+        "width": 16,
+        "x": 172,
+        "y": 4
+      },
+      {
+        "height": 16,
+        "id": "cheese",
+        "image": "cheese.png",
+        "label": "Cheese",
+        "width": 16,
+        "x": 4,
+        "y": 28
+      },
+      {
+        "height": 16,
+        "id": "onion",
+        "image": "onion.png",
+        "label": "Onion",
+        "width": 16,
+        "x": 28,
+        "y": 28
+      },
+      {
+        "height": 16,
+        "id": "tomato",
+        "image": "tomato.png",
+        "label": "Tomato",
+        "width": 16,
+        "x": 52,
+        "y": 28
+      },
+      {
+        "height": 16,
+        "id": "pancakes-1",
+        "image": "pancakes-1.png",
+        "label": "1 pancake",
+        "width": 16,
+        "x": 76,
+        "y": 28
+      },
+      {
+        "height": 16,
+        "id": "pancakes-2",
+        "image": "pancakes-2.png",
+        "label": "2 pancakes",
+        "width": 16,
+        "x": 100,
+        "y": 28
+      },
+      {
+        "height": 16,
+        "id": "pancakes-3",
+        "image": "pancakes-3.png",
+        "label": "3 pancakes",
+        "width": 16,
+        "x": 124,
+        "y": 28
+      },
+      {
+        "height": 16,
+        "id": "banana",
+        "image": "banana.png",
+        "label": "Banana",
+        "width": 16,
+        "x": 148,
+        "y": 28
+      },
+      {
+        "height": 16,
+        "id": "chocolate",
+        "image": "chocolate.png",
+        "label": "Chocolate",
+        "width": 16,
+        "x": 172,
+        "y": 28
+      },
+      {
+        "height": 16,
+        "id": "blueberry",
+        "image": "blueberry.png",
+        "label": "Blueberry",
+        "width": 16,
+        "x": 4,
+        "y": 52
+      },
+      {
+        "height": 16,
+        "id": "strawberry",
+        "image": "strawberry.png",
+        "label": "Strawberry",
+        "width": 16,
+        "x": 28,
+        "y": 52
+      },
+      {
+        "height": 16,
+        "id": "pickle",
+        "image": "pickle.png",
+        "label": "Pickles",
+        "width": 16,
+        "x": 52,
+        "y": 52
+      },
+      {
+        "height": 16,
+        "id": "relish",
+        "image": "relish.png",
+        "label": "Relish",
+        "width": 16,
+        "x": 76,
+        "y": 52
+      },
+      {
+        "height": 16,
+        "id": "cherry",
+        "image": "cherry.png",
+        "label": "Cherry",
+        "width": 16,
+        "x": 100,
+        "y": 52
+      },
+      {
+        "height": 16,
+        "id": "coffee",
+        "image": "coffee.png",
+        "label": "Coffee",
+        "width": 16,
+        "x": 124,
+        "y": 52
+      },
+      {
+        "height": 16,
+        "id": "tea",
+        "image": "tea.png",
+        "label": "Tea",
+        "width": 16,
+        "x": 148,
+        "y": 52
+      },
+      {
+        "height": 16,
+        "id": "soda",
+        "image": "soda.png",
+        "label": "Soda",
+        "width": 16,
+        "x": 172,
+        "y": 52
+      },
+      {
+        "height": 16,
+        "id": "hot-chocolate",
+        "image": "hot-chocolate.png",
+        "label": "Hot chocolate",
+        "width": 16,
+        "x": 4,
+        "y": 76
+      },
+      {
+        "height": 16,
+        "id": "milkshake-vanilla",
+        "image": "milkshake-vanilla.png",
+        "label": "Vanilla milkshake",
+        "width": 16,
+        "x": 28,
+        "y": 76
+      },
+      {
+        "height": 16,
+        "id": "milkshake-chocolate",
+        "image": "milkshake-chocolate.png",
+        "label": "Chocolate milkshake",
+        "width": 16,
+        "x": 52,
+        "y": 76
+      },
+      {
+        "height": 16,
+        "id": "milkshake-strawberry",
+        "image": "milkshake-strawberry.png",
+        "label": "Strawberry milkshake",
+        "width": 16,
+        "x": 76,
+        "y": 76
+      },
+      {
+        "height": 16,
+        "id": "whipped-cream",
+        "image": "whipped-cream.png",
+        "label": "Whipped cream",
+        "width": 16,
+        "x": 100,
+        "y": 76
+      },
+      {
+        "height": 16,
+        "id": "chocolate-drizzle",
+        "image": "chocolate-drizzle.png",
+        "label": "Chocolate drizzle",
+        "width": 16,
+        "x": 124,
+        "y": 76
+      },
+      {
+        "height": 16,
+        "id": "cherry-drizzle",
+        "image": "cherry-drizzle.png",
+        "label": "Cherry drizzle",
+        "width": 16,
+        "x": 148,
+        "y": 76
+      }
+    ],
+    "padding": 4,
+    "preview": "contact-sheet-preview.png",
+    "previewScale": 6,
+    "purpose": "Review only; not a third content family or a runtime order layout.",
+    "size": {
+      "height": 96,
+      "width": 192
+    },
+    "source": "assets/pixelorama/order-icons-v1/contact-sheet.pxo"
+  },
+  "families": {
+    "drinks": {
+      "atlas": "drinks-atlas.json",
+      "atlasFrameIndexBase": 0,
+      "atlasTagIndexBase": 0,
+      "fps": 1,
+      "frames": 10,
+      "layers": [
+        "01 - plum contour",
+        "02 - secondary structure",
+        "03 - primary material",
+        "04 - light and shade",
+        "05 - identifying details"
+      ],
+      "nativeTagIndexBase": 1,
+      "note": "Ten static icon variants; not an animation.",
+      "palette": "drinks-palette.json",
+      "preview": "drinks-preview.png",
+      "sheet": "drinks-sheet.png",
+      "source": "assets/pixelorama/order-icons-v1/drinks.pxo"
+    },
+    "savory": {
+      "atlas": "savory-atlas.json",
+      "atlasFrameIndexBase": 0,
+      "atlasTagIndexBase": 0,
+      "fps": 1,
+      "frames": 10,
+      "layers": [
+        "01 - plum contour",
+        "02 - secondary structure",
+        "03 - primary material",
+        "04 - light and shade",
+        "05 - identifying details"
+      ],
+      "nativeTagIndexBase": 1,
+      "note": "Ten static icon variants; not an animation.",
+      "palette": "savory-palette.json",
+      "preview": "savory-preview.png",
+      "sheet": "savory-sheet.png",
+      "source": "assets/pixelorama/order-icons-v1/savory.pxo"
+    },
+    "sweet": {
+      "atlas": "sweet-atlas.json",
+      "atlasFrameIndexBase": 0,
+      "atlasTagIndexBase": 0,
+      "fps": 1,
+      "frames": 10,
+      "layers": [
+        "01 - plum contour",
+        "02 - secondary structure",
+        "03 - primary material",
+        "04 - light and shade",
+        "05 - identifying details"
+      ],
+      "nativeTagIndexBase": 1,
+      "note": "Ten static icon variants; not an animation.",
+      "palette": "sweet-palette.json",
+      "preview": "sweet-preview.png",
+      "sheet": "sweet-sheet.png",
+      "source": "assets/pixelorama/order-icons-v1/sweet.pxo"
+    }
+  },
+  "frameSize": {
+    "height": 16,
+    "width": 16
+  },
+  "icons": [
+    {
+      "collision": null,
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "burger",
+      "image": "/art/order-bubble-review/burger.png",
+      "interaction": null,
+      "kind": "base-food",
+      "label": "Burger",
+      "palette": "/art/order-bubble-review/burger-palette.json",
+      "renderRole": "world-overlay",
+      "reused": true,
+      "source": "assets/pixelorama/order-bubble-review/burger.pxo",
+      "sourceFrameIndex": 0,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "burger-icon-static"
+      },
+      "usage": "Approved plain bun and patty; optional toppings remain separate."
+    },
+    {
+      "collision": null,
+      "family": "savory",
+      "familyFrameIndex": 0,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 0,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "hot-dog",
+      "image": "hot-dog.png",
+      "interaction": null,
+      "kind": "food",
+      "label": "Hot dog",
+      "palette": "palettes/hot-dog.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/hot-dog.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/savory.pxo",
+      "sourceFrameIndex": 0,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "hot-dog"
+      },
+      "transparentExterior": true,
+      "usage": "Plain bun and sausage; ketchup, mustard, relish and onion remain separate optional choices."
+    },
+    {
+      "collision": null,
+      "family": "savory",
+      "familyFrameIndex": 1,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 16,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "fries",
+      "image": "fries.png",
+      "interaction": null,
+      "kind": "food",
+      "label": "French fries",
+      "palette": "palettes/fries.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/fries.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/savory.pxo",
+      "sourceFrameIndex": 1,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "fries"
+      },
+      "transparentExterior": true,
+      "usage": "One plain serving; no condiments or portion/count text."
+    },
+    {
+      "collision": null,
+      "family": "savory",
+      "familyFrameIndex": 2,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 32,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "onion-rings",
+      "image": "onion-rings.png",
+      "intentionalDisconnectedBits": "Transparent ring centers are intentional cutouts; the touching ring pile remains one connected silhouette.",
+      "interaction": null,
+      "kind": "food-upgrade",
+      "label": "Onion rings",
+      "palette": "palettes/onion-rings.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/onion-rings.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/savory.pxo",
+      "sourceFrameIndex": 2,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "onion-rings"
+      },
+      "transparentExterior": true,
+      "usage": "Fryer upgrade icon only; this artwork does not enable menu availability."
+    },
+    {
+      "collision": null,
+      "family": "savory",
+      "familyFrameIndex": 3,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 48,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "ketchup",
+      "image": "ketchup.png",
+      "interaction": null,
+      "kind": "topping",
+      "label": "Ketchup",
+      "palette": "palettes/ketchup.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/ketchup.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/savory.pxo",
+      "sourceFrameIndex": 3,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "ketchup"
+      },
+      "transparentExterior": true,
+      "usage": "Optional burger/hot-dog condiment; distinct red straight-nozzle bottle."
+    },
+    {
+      "collision": null,
+      "family": "savory",
+      "familyFrameIndex": 4,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 64,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "mustard",
+      "image": "mustard.png",
+      "interaction": null,
+      "kind": "topping",
+      "label": "Mustard",
+      "palette": "palettes/mustard.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/mustard.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/savory.pxo",
+      "sourceFrameIndex": 4,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "mustard"
+      },
+      "transparentExterior": true,
+      "usage": "Optional burger/hot-dog condiment; broad yellow squeeze bottle with offset tapered nozzle."
+    },
+    {
+      "collision": null,
+      "family": "savory",
+      "familyFrameIndex": 5,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 80,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "mayonnaise",
+      "image": "mayonnaise.png",
+      "interaction": null,
+      "kind": "topping",
+      "label": "Mayonnaise",
+      "palette": "palettes/mayonnaise.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/mayonnaise.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/savory.pxo",
+      "sourceFrameIndex": 5,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "mayonnaise"
+      },
+      "transparentExterior": true,
+      "usage": "Optional burger condiment; cream mayonnaise dollop in a rose ramekin, not a whipped-cream topping."
+    },
+    {
+      "collision": null,
+      "family": "savory",
+      "familyFrameIndex": 6,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 96,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "lettuce",
+      "image": "lettuce.png",
+      "interaction": null,
+      "kind": "topping",
+      "label": "Lettuce",
+      "palette": "palettes/lettuce.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/lettuce.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/savory.pxo",
+      "sourceFrameIndex": 6,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "lettuce"
+      },
+      "transparentExterior": true,
+      "usage": "Optional burger topping; frilled green leaf and pale branching veins."
+    },
+    {
+      "collision": null,
+      "family": "savory",
+      "familyFrameIndex": 7,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 112,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "cheese",
+      "image": "cheese.png",
+      "interaction": null,
+      "kind": "topping",
+      "label": "Cheese",
+      "palette": "palettes/cheese.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/cheese.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/savory.pxo",
+      "sourceFrameIndex": 7,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "cheese"
+      },
+      "transparentExterior": true,
+      "usage": "Optional burger topping; thin golden cheese slice with small darker holes."
+    },
+    {
+      "collision": null,
+      "family": "savory",
+      "familyFrameIndex": 8,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 128,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "onion",
+      "image": "onion.png",
+      "interaction": null,
+      "kind": "topping",
+      "label": "Onion",
+      "palette": "palettes/onion.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/onion.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/savory.pxo",
+      "sourceFrameIndex": 8,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "onion"
+      },
+      "transparentExterior": true,
+      "usage": "Optional burger/hot-dog topping; purple onion cross-section rings."
+    },
+    {
+      "collision": null,
+      "family": "savory",
+      "familyFrameIndex": 9,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 144,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "tomato",
+      "image": "tomato.png",
+      "interaction": null,
+      "kind": "topping",
+      "label": "Tomato",
+      "palette": "palettes/tomato.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/tomato.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/savory.pxo",
+      "sourceFrameIndex": 9,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "tomato"
+      },
+      "transparentExterior": true,
+      "usage": "Optional burger topping; red cut tomato slice with seed pockets."
+    },
+    {
+      "collision": null,
+      "family": "sweet",
+      "familyFrameIndex": 0,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 0,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "pancakes-1",
+      "image": "pancakes-1.png",
+      "interaction": null,
+      "kind": "food",
+      "label": "1 pancake",
+      "palette": "palettes/pancakes-1.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/pancakes-1.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/sweet.pxo",
+      "sourceFrameIndex": 0,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "pancakes-1"
+      },
+      "transparentExterior": true,
+      "usage": "Pancakes; exact ordered stack count, plain with toppings separate."
+    },
+    {
+      "collision": null,
+      "family": "sweet",
+      "familyFrameIndex": 1,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 16,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "pancakes-2",
+      "image": "pancakes-2.png",
+      "interaction": null,
+      "kind": "food",
+      "label": "2 pancakes",
+      "palette": "palettes/pancakes-2.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/pancakes-2.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/sweet.pxo",
+      "sourceFrameIndex": 1,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "pancakes-2"
+      },
+      "transparentExterior": true,
+      "usage": "Pancakes; exact ordered stack count, plain with toppings separate."
+    },
+    {
+      "collision": null,
+      "family": "sweet",
+      "familyFrameIndex": 2,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 32,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "pancakes-3",
+      "image": "pancakes-3.png",
+      "interaction": null,
+      "kind": "food",
+      "label": "3 pancakes",
+      "palette": "palettes/pancakes-3.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/pancakes-3.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/sweet.pxo",
+      "sourceFrameIndex": 2,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "pancakes-3"
+      },
+      "transparentExterior": true,
+      "usage": "Pancakes; exact ordered stack count, plain with toppings separate."
+    },
+    {
+      "collision": null,
+      "family": "sweet",
+      "familyFrameIndex": 3,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 48,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "banana",
+      "image": "banana.png",
+      "interaction": null,
+      "kind": "topping",
+      "label": "Banana",
+      "palette": "palettes/banana.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/banana.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/sweet.pxo",
+      "sourceFrameIndex": 3,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "banana"
+      },
+      "transparentExterior": true,
+      "usage": "Pancake topping; banana fruit only."
+    },
+    {
+      "collision": null,
+      "family": "sweet",
+      "familyFrameIndex": 4,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 64,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "chocolate",
+      "image": "chocolate.png",
+      "interaction": null,
+      "kind": "topping",
+      "label": "Chocolate",
+      "palette": "palettes/chocolate.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/chocolate.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/sweet.pxo",
+      "sourceFrameIndex": 4,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "chocolate"
+      },
+      "transparentExterior": true,
+      "usage": "Pancake topping; solid chocolate bar, distinct from chocolate drizzle."
+    },
+    {
+      "collision": null,
+      "family": "sweet",
+      "familyFrameIndex": 5,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 80,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "blueberry",
+      "image": "blueberry.png",
+      "interaction": null,
+      "kind": "topping",
+      "label": "Blueberry",
+      "palette": "palettes/blueberry.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/blueberry.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/sweet.pxo",
+      "sourceFrameIndex": 5,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "blueberry"
+      },
+      "transparentExterior": true,
+      "usage": "Pancake topping; overlapping berries with small crowns."
+    },
+    {
+      "collision": null,
+      "family": "sweet",
+      "familyFrameIndex": 6,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 96,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "strawberry",
+      "image": "strawberry.png",
+      "interaction": null,
+      "kind": "topping",
+      "label": "Strawberry",
+      "palette": "palettes/strawberry.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/strawberry.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/sweet.pxo",
+      "sourceFrameIndex": 6,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "strawberry"
+      },
+      "transparentExterior": true,
+      "usage": "Pancake topping; whole seeded strawberry, not cherry sauce."
+    },
+    {
+      "collision": null,
+      "family": "sweet",
+      "familyFrameIndex": 7,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 112,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "pickle",
+      "image": "pickle.png",
+      "interaction": null,
+      "kind": "topping",
+      "label": "Pickles",
+      "palette": "palettes/pickle.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/pickle.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/sweet.pxo",
+      "sourceFrameIndex": 7,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "pickle"
+      },
+      "transparentExterior": true,
+      "usage": "Burger topping explicitly requested in the speech-bubble example; sliced pickle coins."
+    },
+    {
+      "collision": null,
+      "family": "sweet",
+      "familyFrameIndex": 8,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 128,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "relish",
+      "image": "relish.png",
+      "interaction": null,
+      "kind": "topping",
+      "label": "Relish",
+      "palette": "palettes/relish.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/relish.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/sweet.pxo",
+      "sourceFrameIndex": 8,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "relish"
+      },
+      "transparentExterior": true,
+      "usage": "Hot-dog topping; chopped green relish in a small ramekin, distinct from pickle coins."
+    },
+    {
+      "collision": null,
+      "family": "sweet",
+      "familyFrameIndex": 9,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 144,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "cherry",
+      "image": "cherry.png",
+      "interaction": null,
+      "kind": "topping",
+      "label": "Cherry",
+      "palette": "palettes/cherry.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/cherry.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/sweet.pxo",
+      "sourceFrameIndex": 9,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "cherry"
+      },
+      "transparentExterior": true,
+      "usage": "Milkshake topping; one cherry with stem and leaf."
+    },
+    {
+      "collision": null,
+      "family": "drinks",
+      "familyFrameIndex": 0,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 0,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "coffee",
+      "image": "coffee.png",
+      "interaction": null,
+      "kind": "drink",
+      "label": "Coffee",
+      "palette": "palettes/coffee.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/coffee.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/drinks.pxo",
+      "sourceFrameIndex": 0,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "coffee"
+      },
+      "transparentExterior": true,
+      "usage": "Baseline coffee cup; no added milk, sugar or toppings implied."
+    },
+    {
+      "collision": null,
+      "family": "drinks",
+      "familyFrameIndex": 1,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 16,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "tea",
+      "image": "tea.png",
+      "interaction": null,
+      "kind": "drink",
+      "label": "Tea",
+      "palette": "palettes/tea.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/tea.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/drinks.pxo",
+      "sourceFrameIndex": 1,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "tea"
+      },
+      "transparentExterior": true,
+      "usage": "Front drink direction and upgrade-listed tea; art only, not menu enablement."
+    },
+    {
+      "collision": null,
+      "family": "drinks",
+      "familyFrameIndex": 2,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 32,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "soda",
+      "image": "soda.png",
+      "interaction": null,
+      "kind": "drink",
+      "label": "Soda",
+      "palette": "palettes/soda.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/soda.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/drinks.pxo",
+      "sourceFrameIndex": 2,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "soda"
+      },
+      "transparentExterior": true,
+      "usage": "Explicit front-of-house soda direction; art only, not a new enabled recipe."
+    },
+    {
+      "collision": null,
+      "family": "drinks",
+      "familyFrameIndex": 3,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 48,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "hot-chocolate",
+      "image": "hot-chocolate.png",
+      "interaction": null,
+      "kind": "drink",
+      "label": "Hot chocolate",
+      "palette": "palettes/hot-chocolate.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/hot-chocolate.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/drinks.pxo",
+      "sourceFrameIndex": 3,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "hot-chocolate"
+      },
+      "transparentExterior": true,
+      "usage": "Upgrade-listed hot chocolate; art only. No marshmallow, cream or other topping."
+    },
+    {
+      "collision": null,
+      "family": "drinks",
+      "familyFrameIndex": 4,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 64,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "milkshake-vanilla",
+      "image": "milkshake-vanilla.png",
+      "interaction": null,
+      "kind": "drink",
+      "label": "Vanilla milkshake",
+      "palette": "palettes/milkshake-vanilla.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/milkshake-vanilla.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/drinks.pxo",
+      "sourceFrameIndex": 4,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "milkshake-vanilla"
+      },
+      "transparentExterior": true,
+      "usage": "Plain milkshake flavor base. Whipped cream and drizzles remain separate icons."
+    },
+    {
+      "collision": null,
+      "family": "drinks",
+      "familyFrameIndex": 5,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 80,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "milkshake-chocolate",
+      "image": "milkshake-chocolate.png",
+      "interaction": null,
+      "kind": "drink",
+      "label": "Chocolate milkshake",
+      "palette": "palettes/milkshake-chocolate.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/milkshake-chocolate.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/drinks.pxo",
+      "sourceFrameIndex": 5,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "milkshake-chocolate"
+      },
+      "transparentExterior": true,
+      "usage": "Plain milkshake flavor base. Whipped cream and drizzles remain separate icons."
+    },
+    {
+      "collision": null,
+      "family": "drinks",
+      "familyFrameIndex": 6,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 96,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "milkshake-strawberry",
+      "image": "milkshake-strawberry.png",
+      "interaction": null,
+      "kind": "drink",
+      "label": "Strawberry milkshake",
+      "palette": "palettes/milkshake-strawberry.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/milkshake-strawberry.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/drinks.pxo",
+      "sourceFrameIndex": 6,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "milkshake-strawberry"
+      },
+      "transparentExterior": true,
+      "usage": "Plain milkshake flavor base. Whipped cream and drizzles remain separate icons."
+    },
+    {
+      "collision": null,
+      "family": "drinks",
+      "familyFrameIndex": 7,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 112,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "whipped-cream",
+      "image": "whipped-cream.png",
+      "interaction": null,
+      "kind": "topping",
+      "label": "Whipped cream",
+      "palette": "palettes/whipped-cream.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/whipped-cream.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/drinks.pxo",
+      "sourceFrameIndex": 7,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "whipped-cream"
+      },
+      "transparentExterior": true,
+      "usage": "Optional milkshake topping, separate from every base drink."
+    },
+    {
+      "collision": null,
+      "family": "drinks",
+      "familyFrameIndex": 8,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 128,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "chocolate-drizzle",
+      "image": "chocolate-drizzle.png",
+      "interaction": null,
+      "kind": "topping",
+      "label": "Chocolate drizzle",
+      "palette": "palettes/chocolate-drizzle.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/chocolate-drizzle.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/drinks.pxo",
+      "sourceFrameIndex": 8,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "chocolate-drizzle"
+      },
+      "transparentExterior": true,
+      "usage": "Separate chocolate sauce ribbon; no dessert or drink included."
+    },
+    {
+      "collision": null,
+      "family": "drinks",
+      "familyFrameIndex": 9,
+      "familySheetRect": {
+        "height": 16,
+        "width": 16,
+        "x": 144,
+        "y": 0
+      },
+      "frameIndex": 0,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "cherry-drizzle",
+      "image": "cherry-drizzle.png",
+      "intentionalDisconnectedBits": "One separate pouring droplet beside the cherry-sauce ribbon.",
+      "interaction": null,
+      "kind": "topping",
+      "label": "Cherry drizzle",
+      "palette": "palettes/cherry-drizzle.json",
+      "paletteSource": "assets/pixelorama/order-icons-v1/palettes/cherry-drizzle.json",
+      "renderRole": "world-overlay",
+      "reused": false,
+      "source": "assets/pixelorama/order-icons-v1/drinks.pxo",
+      "sourceFrameIndex": 9,
+      "static": {
+        "fps": 1,
+        "frames": [0],
+        "tag": "cherry-drizzle"
+      },
+      "transparentExterior": true,
+      "usage": "Separate cherry sauce ribbon, as named in the brief; not strawberry sauce or a whole cherry.",
+      "expectedComponents": 2
+    }
+  ],
+  "integration": "No runtime ordering, display sequence, notepad, gameplay or availability implementation. Upgrade-listed icons remain art only.",
+  "newIcons": 30,
+  "reusedIcons": 1,
+  "schemaVersion": 1,
+  "sourcePathBase": "repository-root",
+  "status": "complete-art-catalog",
+  "totalIcons": 31
+}

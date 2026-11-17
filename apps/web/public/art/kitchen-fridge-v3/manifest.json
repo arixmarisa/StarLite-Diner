@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "kitchen-fridge-v3",
+  "status": "scaled-art-ready-for-integration",
+  "creationApproved": true,
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/kitchen-fridge-v3/kitchen-fridge.pxo",
+  "palette": "assets/pixelorama/kitchen-fridge-v3/palette.json",
+  "image": "kitchen-fridge-body.png",
+  "reviewComposite": "kitchen-fridge.png",
+  "frameSize": {
+    "width": 40,
+    "height": 60
+  },
+  "occupiedBounds": {
+    "height": 50,
+    "width": 33,
+    "x": 4,
+    "y": 5
+  },
+  "orientation": "fixed-back-wall",
+  "layers": [
+    "01 - contact shadow",
+    "02 - compact cabinet plinth and feet",
+    "03 - stainless overhead top",
+    "04 - closed steel door planes",
+    "05 - recessed handles and vent",
+    "06 - rose badge and hard reflections"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMs": 1000,
+    "tag": "kitchen-fridge-v3-static"
+  },
+  "artGeometry": {
+    "cabinet": {
+      "x": 4,
+      "y": 5,
+      "width": 32,
+      "height": 46
+    },
+    "topPlan": {
+      "x": 4,
+      "y": 5,
+      "width": 32,
+      "height": 18
+    },
+    "uprightFront": {
+      "x": 4,
+      "y": 23,
+      "width": 32,
+      "height": 28
+    },
+    "footContactRow": 52,
+    "bitmapResized": false
+  },
+  "anchor": {
+    "x": 20,
+    "y": 52
+  },
+  "components": [
+    {
+      "image": "kitchen-fridge-shadow.png",
+      "order": 0
+    },
+    {
+      "image": "kitchen-fridge-body.png",
+      "order": 1
+    }
+  ],
+  "qaReport": "verification.json",
+  "collision": null,
+  "interaction": null,
+  "integrated": true,
+  "roomLayout": "kitchen-layout-v3",
+  "approvedForGameUse": true
+}

@@ -1,0 +1,1742 @@
+{
+  "fps": 8,
+  "frameIndexBase": 0,
+  "frames": [
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 0
+      },
+      "id": "male-tee-jeans-south-idle",
+      "index": 0,
+      "outfit": "male-tee-jeans",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 0
+      },
+      "id": "male-tee-jeans-south-walk-1",
+      "index": 1,
+      "outfit": "male-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 0
+      },
+      "id": "male-tee-jeans-south-walk-2",
+      "index": 2,
+      "outfit": "male-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 0
+      },
+      "id": "male-tee-jeans-south-walk-3",
+      "index": 3,
+      "outfit": "male-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 0
+      },
+      "id": "male-tee-jeans-south-walk-4",
+      "index": 4,
+      "outfit": "male-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 0
+      },
+      "id": "male-tee-jeans-south-seated",
+      "index": 5,
+      "outfit": "male-tee-jeans",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 24
+      },
+      "id": "male-tee-jeans-west-idle",
+      "index": 6,
+      "outfit": "male-tee-jeans",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 24
+      },
+      "id": "male-tee-jeans-west-walk-1",
+      "index": 7,
+      "outfit": "male-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 24
+      },
+      "id": "male-tee-jeans-west-walk-2",
+      "index": 8,
+      "outfit": "male-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 24
+      },
+      "id": "male-tee-jeans-west-walk-3",
+      "index": 9,
+      "outfit": "male-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 24
+      },
+      "id": "male-tee-jeans-west-walk-4",
+      "index": 10,
+      "outfit": "male-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 24
+      },
+      "id": "male-tee-jeans-west-seated",
+      "index": 11,
+      "outfit": "male-tee-jeans",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 48
+      },
+      "id": "male-tee-jeans-east-idle",
+      "index": 12,
+      "outfit": "male-tee-jeans",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 48
+      },
+      "id": "male-tee-jeans-east-walk-1",
+      "index": 13,
+      "outfit": "male-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 48
+      },
+      "id": "male-tee-jeans-east-walk-2",
+      "index": 14,
+      "outfit": "male-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 48
+      },
+      "id": "male-tee-jeans-east-walk-3",
+      "index": 15,
+      "outfit": "male-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 48
+      },
+      "id": "male-tee-jeans-east-walk-4",
+      "index": 16,
+      "outfit": "male-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 48
+      },
+      "id": "male-tee-jeans-east-seated",
+      "index": 17,
+      "outfit": "male-tee-jeans",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 72
+      },
+      "id": "male-tee-jeans-north-idle",
+      "index": 18,
+      "outfit": "male-tee-jeans",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 72
+      },
+      "id": "male-tee-jeans-north-walk-1",
+      "index": 19,
+      "outfit": "male-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 72
+      },
+      "id": "male-tee-jeans-north-walk-2",
+      "index": 20,
+      "outfit": "male-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 72
+      },
+      "id": "male-tee-jeans-north-walk-3",
+      "index": 21,
+      "outfit": "male-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 72
+      },
+      "id": "male-tee-jeans-north-walk-4",
+      "index": 22,
+      "outfit": "male-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 72
+      },
+      "id": "male-tee-jeans-north-seated",
+      "index": 23,
+      "outfit": "male-tee-jeans",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 96
+      },
+      "id": "male-polo-khakis-south-idle",
+      "index": 24,
+      "outfit": "male-polo-khakis",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 96
+      },
+      "id": "male-polo-khakis-south-walk-1",
+      "index": 25,
+      "outfit": "male-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 96
+      },
+      "id": "male-polo-khakis-south-walk-2",
+      "index": 26,
+      "outfit": "male-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 96
+      },
+      "id": "male-polo-khakis-south-walk-3",
+      "index": 27,
+      "outfit": "male-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 96
+      },
+      "id": "male-polo-khakis-south-walk-4",
+      "index": 28,
+      "outfit": "male-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 96
+      },
+      "id": "male-polo-khakis-south-seated",
+      "index": 29,
+      "outfit": "male-polo-khakis",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 120
+      },
+      "id": "male-polo-khakis-west-idle",
+      "index": 30,
+      "outfit": "male-polo-khakis",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 120
+      },
+      "id": "male-polo-khakis-west-walk-1",
+      "index": 31,
+      "outfit": "male-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 120
+      },
+      "id": "male-polo-khakis-west-walk-2",
+      "index": 32,
+      "outfit": "male-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 120
+      },
+      "id": "male-polo-khakis-west-walk-3",
+      "index": 33,
+      "outfit": "male-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 120
+      },
+      "id": "male-polo-khakis-west-walk-4",
+      "index": 34,
+      "outfit": "male-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 120
+      },
+      "id": "male-polo-khakis-west-seated",
+      "index": 35,
+      "outfit": "male-polo-khakis",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 144
+      },
+      "id": "male-polo-khakis-east-idle",
+      "index": 36,
+      "outfit": "male-polo-khakis",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 144
+      },
+      "id": "male-polo-khakis-east-walk-1",
+      "index": 37,
+      "outfit": "male-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 144
+      },
+      "id": "male-polo-khakis-east-walk-2",
+      "index": 38,
+      "outfit": "male-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 144
+      },
+      "id": "male-polo-khakis-east-walk-3",
+      "index": 39,
+      "outfit": "male-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 144
+      },
+      "id": "male-polo-khakis-east-walk-4",
+      "index": 40,
+      "outfit": "male-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 144
+      },
+      "id": "male-polo-khakis-east-seated",
+      "index": 41,
+      "outfit": "male-polo-khakis",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 168
+      },
+      "id": "male-polo-khakis-north-idle",
+      "index": 42,
+      "outfit": "male-polo-khakis",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 168
+      },
+      "id": "male-polo-khakis-north-walk-1",
+      "index": 43,
+      "outfit": "male-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 168
+      },
+      "id": "male-polo-khakis-north-walk-2",
+      "index": 44,
+      "outfit": "male-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 168
+      },
+      "id": "male-polo-khakis-north-walk-3",
+      "index": 45,
+      "outfit": "male-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 168
+      },
+      "id": "male-polo-khakis-north-walk-4",
+      "index": 46,
+      "outfit": "male-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 168
+      },
+      "id": "male-polo-khakis-north-seated",
+      "index": 47,
+      "outfit": "male-polo-khakis",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 192
+      },
+      "id": "male-cardigan-shorts-south-idle",
+      "index": 48,
+      "outfit": "male-cardigan-shorts",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 192
+      },
+      "id": "male-cardigan-shorts-south-walk-1",
+      "index": 49,
+      "outfit": "male-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 192
+      },
+      "id": "male-cardigan-shorts-south-walk-2",
+      "index": 50,
+      "outfit": "male-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 192
+      },
+      "id": "male-cardigan-shorts-south-walk-3",
+      "index": 51,
+      "outfit": "male-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 192
+      },
+      "id": "male-cardigan-shorts-south-walk-4",
+      "index": 52,
+      "outfit": "male-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 192
+      },
+      "id": "male-cardigan-shorts-south-seated",
+      "index": 53,
+      "outfit": "male-cardigan-shorts",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 216
+      },
+      "id": "male-cardigan-shorts-west-idle",
+      "index": 54,
+      "outfit": "male-cardigan-shorts",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 216
+      },
+      "id": "male-cardigan-shorts-west-walk-1",
+      "index": 55,
+      "outfit": "male-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 216
+      },
+      "id": "male-cardigan-shorts-west-walk-2",
+      "index": 56,
+      "outfit": "male-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 216
+      },
+      "id": "male-cardigan-shorts-west-walk-3",
+      "index": 57,
+      "outfit": "male-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 216
+      },
+      "id": "male-cardigan-shorts-west-walk-4",
+      "index": 58,
+      "outfit": "male-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 216
+      },
+      "id": "male-cardigan-shorts-west-seated",
+      "index": 59,
+      "outfit": "male-cardigan-shorts",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 240
+      },
+      "id": "male-cardigan-shorts-east-idle",
+      "index": 60,
+      "outfit": "male-cardigan-shorts",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 240
+      },
+      "id": "male-cardigan-shorts-east-walk-1",
+      "index": 61,
+      "outfit": "male-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 240
+      },
+      "id": "male-cardigan-shorts-east-walk-2",
+      "index": 62,
+      "outfit": "male-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 240
+      },
+      "id": "male-cardigan-shorts-east-walk-3",
+      "index": 63,
+      "outfit": "male-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 240
+      },
+      "id": "male-cardigan-shorts-east-walk-4",
+      "index": 64,
+      "outfit": "male-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 240
+      },
+      "id": "male-cardigan-shorts-east-seated",
+      "index": 65,
+      "outfit": "male-cardigan-shorts",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 264
+      },
+      "id": "male-cardigan-shorts-north-idle",
+      "index": 66,
+      "outfit": "male-cardigan-shorts",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 264
+      },
+      "id": "male-cardigan-shorts-north-walk-1",
+      "index": 67,
+      "outfit": "male-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 264
+      },
+      "id": "male-cardigan-shorts-north-walk-2",
+      "index": 68,
+      "outfit": "male-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 264
+      },
+      "id": "male-cardigan-shorts-north-walk-3",
+      "index": 69,
+      "outfit": "male-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 264
+      },
+      "id": "male-cardigan-shorts-north-walk-4",
+      "index": 70,
+      "outfit": "male-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 264
+      },
+      "id": "male-cardigan-shorts-north-seated",
+      "index": 71,
+      "outfit": "male-cardigan-shorts",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    }
+  ],
+  "image": "male.png",
+  "size": {
+    "height": 288,
+    "width": 96
+  },
+  "tagIndexBase": 0,
+  "tags": [
+    {
+      "color": "ee75a3ff",
+      "from": 0,
+      "name": "male-tee-jeans-south-idle",
+      "to": 0
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 1,
+      "name": "male-tee-jeans-south-walk",
+      "to": 4
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 5,
+      "name": "male-tee-jeans-south-seated",
+      "to": 5
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 6,
+      "name": "male-tee-jeans-west-idle",
+      "to": 6
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 7,
+      "name": "male-tee-jeans-west-walk",
+      "to": 10
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 11,
+      "name": "male-tee-jeans-west-seated",
+      "to": 11
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 12,
+      "name": "male-tee-jeans-east-idle",
+      "to": 12
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 13,
+      "name": "male-tee-jeans-east-walk",
+      "to": 16
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 17,
+      "name": "male-tee-jeans-east-seated",
+      "to": 17
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 18,
+      "name": "male-tee-jeans-north-idle",
+      "to": 18
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 19,
+      "name": "male-tee-jeans-north-walk",
+      "to": 22
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 23,
+      "name": "male-tee-jeans-north-seated",
+      "to": 23
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 24,
+      "name": "male-polo-khakis-south-idle",
+      "to": 24
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 25,
+      "name": "male-polo-khakis-south-walk",
+      "to": 28
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 29,
+      "name": "male-polo-khakis-south-seated",
+      "to": 29
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 30,
+      "name": "male-polo-khakis-west-idle",
+      "to": 30
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 31,
+      "name": "male-polo-khakis-west-walk",
+      "to": 34
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 35,
+      "name": "male-polo-khakis-west-seated",
+      "to": 35
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 36,
+      "name": "male-polo-khakis-east-idle",
+      "to": 36
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 37,
+      "name": "male-polo-khakis-east-walk",
+      "to": 40
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 41,
+      "name": "male-polo-khakis-east-seated",
+      "to": 41
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 42,
+      "name": "male-polo-khakis-north-idle",
+      "to": 42
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 43,
+      "name": "male-polo-khakis-north-walk",
+      "to": 46
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 47,
+      "name": "male-polo-khakis-north-seated",
+      "to": 47
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 48,
+      "name": "male-cardigan-shorts-south-idle",
+      "to": 48
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 49,
+      "name": "male-cardigan-shorts-south-walk",
+      "to": 52
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 53,
+      "name": "male-cardigan-shorts-south-seated",
+      "to": 53
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 54,
+      "name": "male-cardigan-shorts-west-idle",
+      "to": 54
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 55,
+      "name": "male-cardigan-shorts-west-walk",
+      "to": 58
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 59,
+      "name": "male-cardigan-shorts-west-seated",
+      "to": 59
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 60,
+      "name": "male-cardigan-shorts-east-idle",
+      "to": 60
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 61,
+      "name": "male-cardigan-shorts-east-walk",
+      "to": 64
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 65,
+      "name": "male-cardigan-shorts-east-seated",
+      "to": 65
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 66,
+      "name": "male-cardigan-shorts-north-idle",
+      "to": 66
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 67,
+      "name": "male-cardigan-shorts-north-walk",
+      "to": 70
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 71,
+      "name": "male-cardigan-shorts-north-seated",
+      "to": 71
+    }
+  ]
+}

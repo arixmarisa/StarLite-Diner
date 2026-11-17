@@ -1,0 +1,57 @@
+{
+  "counts": {
+    "frames": 40,
+    "parts": 40,
+    "actorPartitions": 40,
+    "trays": 40,
+    "approvedFrontActors": 5,
+    "approvedFrontComposites": 5,
+    "heads": 3900,
+    "roleChecks": 80,
+    "skinPixels": 1446,
+    "outfitPixels": 1834,
+    "surfacePixels": 76,
+    "walks": {
+      "south": 4,
+      "west": 4,
+      "east": 4,
+      "north": 4,
+      "northwest": 4,
+      "northeast": 4,
+      "southwest": 4,
+      "southeast": 4
+    }
+  },
+  "motion": {
+    "frames": 4,
+    "plays": 0,
+    "delays": [
+      [1, 8],
+      [1, 8],
+      [1, 8],
+      [1, 8]
+    ]
+  },
+  "failures": [],
+  "approvedFrontComparison": "Independent recheck clips the old 40-pixel frame before applying the +20x translation; all five actors and composites match.",
+  "nativeSource": {
+    "width": 64,
+    "height": 32,
+    "frames": 40,
+    "layers": 11,
+    "tags": 16,
+    "fps": 8,
+    "fullSizeCels": 440,
+    "rgbaBytesPerCel": 8192
+  },
+  "protectedReferenceFiles": 11,
+  "protectedReferencesUnchanged": true,
+  "browserPlayback": {
+    "captures": 8,
+    "distinctPhases": 4,
+    "phaseHashes": [
+      1213472877, 1213472877, 1213472877, 259533110, 3664578177, 1788210153, 259533110, 1213472877
+    ]
+  },
+  "visualReview": "All eight idle directions reviewed at 5x: physical left hand follows facing, short upright support, near/far tray occlusion and common body scale."
+}

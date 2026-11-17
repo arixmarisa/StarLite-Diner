@@ -1,0 +1,39 @@
+{
+  "activeProjectUnchanged": true,
+  "fps": 1,
+  "frameCount": 1,
+  "ingredients": [
+    {
+      "illustratedQuantity": 3,
+      "instanceId": "grill-ingredient-raw-patty",
+      "label": "Three stacked raw burger patties",
+      "trayInstanceId": "grill-tray-raw-patty"
+    },
+    {
+      "illustratedQuantity": 3,
+      "instanceId": "grill-ingredient-raw-sausage",
+      "label": "Three plain hot-dog sausages",
+      "trayInstanceId": "grill-tray-raw-sausage"
+    },
+    {
+      "illustratedQuantity": 1,
+      "instanceId": "grill-ingredient-pancake-batter",
+      "label": "Pancake batter with ladle",
+      "trayInstanceId": "grill-tray-pancake-batter"
+    }
+  ],
+  "layers": 9,
+  "paletteSwatches": 21,
+  "savedSourceMatchesPng": true,
+  "source": "kitchen-layout.pxo",
+  "viewExactlyMatchesKitchenCrop": true,
+  "viewSource": "grill-station-view.pxo",
+  "viewport": {
+    "height": 50,
+    "width": 128,
+    "x": 104,
+    "y": 36
+  },
+  "independentBrowserPixelDifferences": 0,
+  "sharedWorldInstancesVerified": true
+}

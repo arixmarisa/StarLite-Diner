@@ -1,0 +1,76 @@
+{
+  "width": 16,
+  "height": 24,
+  "anchor": {
+    "x": 8,
+    "y": 23
+  },
+  "layers": [
+    "01 - contact shadow",
+    "02 - rear hair",
+    "03 - shoes",
+    "04 - exposed leg skin",
+    "05 - bottoms",
+    "06 - top secondary",
+    "07 - top primary",
+    "08 - skin face neck hands",
+    "09 - front hair",
+    "10 - neutral details"
+  ],
+  "fixedColors": {
+    "outline": "#322c38",
+    "shadow": "#46404b",
+    "neutralHighlight": "#676c70",
+    "mouth": "#67505b"
+  },
+  "roles": {
+    "skin": {
+      "layers": [3, 7],
+      "id": 1
+    },
+    "hair": {
+      "layers": [1, 8],
+      "id": 2
+    },
+    "top": {
+      "layers": [6],
+      "id": 3
+    },
+    "bottom": {
+      "layers": [4],
+      "id": 4
+    },
+    "shoes": {
+      "layers": [2],
+      "id": 5
+    },
+    "secondary": {
+      "layers": [5],
+      "id": 6
+    }
+  },
+  "toneIds": {
+    "shade": 1,
+    "base": 2,
+    "highlight": 3
+  },
+  "familyOrder": ["male", "female"],
+  "variantColumns": 3,
+  "combined": {
+    "width": 64,
+    "height": 60,
+    "positions": [
+      [4, 4],
+      [24, 4],
+      [44, 4],
+      [4, 32],
+      [24, 32],
+      [44, 32]
+    ],
+    "previewScale": 12
+  },
+  "recipes": {
+    "male": "male-variants.json",
+    "female": "female-variants.json"
+  }
+}

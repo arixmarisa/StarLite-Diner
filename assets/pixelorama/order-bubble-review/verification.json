@@ -1,0 +1,61 @@
+{
+  "activeProjectUnchanged": true,
+  "bubble": {
+    "contentUniformEmptyCream": true,
+    "fps": 1.0,
+    "frames": 1,
+    "layers": 5,
+    "paletteSwatches": 4,
+    "pngRoundtripExact": true,
+    "savedCelsExact": 5,
+    "size": [32, 28],
+    "sourceCompositeExact": true,
+    "stats": {
+      "connectedComponents": 1,
+      "occupiedBounds": {
+        "height": 28,
+        "width": 32,
+        "x": 0,
+        "y": 0
+      },
+      "opaquePixels": 702,
+      "semitransparentPixels": 0,
+      "visibleColors": 4
+    },
+    "tag": "speech-bubble-empty-static",
+    "tailAnchorOpaque": true
+  },
+  "burger": {
+    "fps": 1.0,
+    "frames": 1,
+    "layers": 5,
+    "paletteSwatches": 8,
+    "pngRoundtripExact": true,
+    "savedCelsExact": 5,
+    "size": [16, 16],
+    "sourceCompositeExact": true,
+    "stats": {
+      "connectedComponents": 1,
+      "occupiedBounds": {
+        "height": 12,
+        "width": 14,
+        "x": 1,
+        "y": 2
+      },
+      "opaquePixels": 146,
+      "semitransparentPixels": 0,
+      "visibleColors": 8
+    },
+    "tag": "burger-icon-static"
+  },
+  "review": {
+    "fps": 1.0,
+    "frames": 1,
+    "layers": 5,
+    "paletteSwatches": 28,
+    "savedCelsExact": 5,
+    "size": [104, 64],
+    "sourceCompositeExact": true,
+    "tag": "order-bubble-review-static"
+  }
+}

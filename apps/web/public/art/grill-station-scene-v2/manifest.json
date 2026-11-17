@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "grill-station-scene-v2",
+  "status": "integrated-station-entry-view",
+  "authoring": "Pixelorama MCP",
+  "camera": "existing-kitchen-room-perspective",
+  "source": "assets/pixelorama/grill-station-scene-v2/grill-station-scene.pxo",
+  "palette": "assets/pixelorama/grill-station-scene-v2/palette.json",
+  "image": "grill-station-scene.png",
+  "preview": "grill-station-scene-preview.png",
+  "nativeSize": { "width": 176, "height": 80 },
+  "nativeSpriteScale": 1,
+  "previewScale": 6,
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "grill-station-scene-static"
+  },
+  "layerCount": 15,
+  "floor": {
+    "image": "../front-of-house-v1/floor-checker.png",
+    "tileSize": 16,
+    "origin": { "x": 0, "y": 0 },
+    "derivedLayer": "scene-floor.png"
+  },
+  "counter": {
+    "image": "counter-assembly.png",
+    "x": 8,
+    "y": 16,
+    "width": 64,
+    "height": 32,
+    "topDepth": 18,
+    "frontHeight": 10,
+    "plinthHeight": 3,
+    "closedRightEndcap": false,
+    "assembly": [
+      { "image": "../kitchen-counter-scale-review/kitchen-counter-shadow.png", "x": 0, "y": 0 },
+      { "image": "../kitchen-counter-scale-review/steel-counter-end-left.png", "x": 0, "y": 0 },
+      { "image": "../kitchen-counter-scale-review/steel-counter-top.png", "x": 16, "y": 0 },
+      { "image": "../kitchen-counter-scale-review/steel-counter-front.png", "x": 16, "y": 18 },
+      { "image": "../kitchen-counter-scale-review/steel-counter-top.png", "x": 32, "y": 0 },
+      { "image": "../kitchen-counter-scale-review/steel-counter-front.png", "x": 32, "y": 18 },
+      { "image": "../kitchen-counter-scale-review/steel-counter-top.png", "x": 48, "y": 0 },
+      { "image": "../kitchen-counter-scale-review/steel-counter-front.png", "x": 48, "y": 18 }
+    ]
+  },
+  "grill": {
+    "image": "../kitchen-grill-scale-review/kitchen-grill.png",
+    "nativeSource": "assets/pixelorama/kitchen-grill-scale-review/kitchen-grill.pxo",
+    "x": 72,
+    "y": 11,
+    "width": 96,
+    "height": 40,
+    "allSevenSourceLayersPreserved": true,
+    "bitmapResized": false,
+    "localBareCookingPlateBounds": { "x": 5, "y": 8, "width": 85, "height": 11 }
+  },
+  "tray": {
+    "image": "ingredient-tray.png",
+    "source": "assets/pixelorama/grill-station-scene-v2/ingredient-tray.pxo",
+    "size": { "width": 16, "height": 12 },
+    "layers": 3,
+    "paletteSwatches": 14,
+    "animation": { "frames": 1, "fps": 1, "durationMs": 1000, "tag": "ingredient-tray-static" },
+    "positions": [
+      { "x": 13, "y": 19 },
+      { "x": 32, "y": 19 },
+      { "x": 51, "y": 19 }
+    ],
+    "ingredientMountOffset": { "x": 2, "y": 1 }
+  },
+  "ingredients": [
+    {
+      "image": "../grill-station-ingredients-v2/raw-patty.png",
+      "x": 15,
+      "y": 20,
+      "width": 12,
+      "height": 10
+    },
+    {
+      "image": "../grill-station-ingredients-v2/raw-sausage.png",
+      "x": 34,
+      "y": 20,
+      "width": 12,
+      "height": 10
+    },
+    {
+      "image": "../grill-station-ingredients-v2/pancake-batter.png",
+      "x": 53,
+      "y": 20,
+      "width": 12,
+      "height": 10
+    }
+  ],
+  "compositeOrder": ["floor", "counter", "grill", "tray+ingredient for each choice"],
+  "artAlignment": { "worktopY": 16, "cabinetFrontY": 34, "floorContactRow": 46 },
+  "artBoundsOnly": true,
+  "gameplayContracts": {
+    "collision": null,
+    "interaction": null,
+    "capacity": null,
+    "stock": null,
+    "foodPlacement": null,
+    "timers": null
+  },
+  "integrated": true,
+  "runtimeAdapter": "apps/web/src/front-of-house/grill-station.ts",
+  "runtimeScope": "Entry, exit and ingredient hover/focus only; no placement or cooking",
+  "qaReport": "verification.json"
+}

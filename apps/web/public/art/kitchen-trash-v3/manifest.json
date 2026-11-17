@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "kitchen-trash-v3",
+  "status": "authorized-compact-kitchen-art",
+  "creationApproved": true,
+  "proposalApprovedOn": "2026-11-07",
+  "approvedDescription": "Compact lidded stainless trash can at the approved kitchen scale; dark lid inset, small pedal, tiny rose badge, one fixed view.",
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/kitchen-trash-v3/kitchen-trash.pxo",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/kitchen-trash-v3/palette.json",
+  "image": "kitchen-trash-body.png",
+  "reviewComposite": "kitchen-trash.png",
+  "frameSize": {
+    "width": 20,
+    "height": 24
+  },
+  "occupiedBounds": {
+    "height": 21,
+    "width": 14,
+    "x": 3,
+    "y": 2
+  },
+  "orientation": "fixed-overhead-near-right-wall",
+  "rotationVariants": 0,
+  "layers": [
+    "01 - contact shadow",
+    "02 - stainless body and plinth",
+    "03 - lidded top and inset opening",
+    "04 - foot pedal badge and hard reflections"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "kitchen-trash-v3-static"
+  },
+  "components": [
+    {
+      "id": "trash-shadow",
+      "image": "kitchen-trash-shadow.png",
+      "renderRole": "ground-shadow",
+      "order": 0
+    },
+    {
+      "id": "trash-body",
+      "image": "kitchen-trash-body.png",
+      "renderRole": "trash-can-body",
+      "order": 1
+    }
+  ],
+  "componentFrameSize": {
+    "width": 20,
+    "height": 24
+  },
+  "componentOrigin": {
+    "x": 0,
+    "y": 0
+  },
+  "artGeometry": {
+    "body": {
+      "x": 4,
+      "y": 6,
+      "width": 12,
+      "height": 15
+    },
+    "lid": {
+      "x": 3,
+      "y": 2,
+      "width": 14,
+      "height": 6
+    },
+    "pedal": {
+      "x": 8,
+      "y": 19,
+      "width": 5,
+      "height": 3
+    },
+    "darkInsetOpening": true,
+    "contents": false,
+    "animated": false,
+    "footContactRow": 21,
+    "bitmapResized": false
+  },
+  "qa": {
+    "activeProjectUnchanged": true,
+    "bounds": {
+      "height": 21,
+      "width": 14,
+      "x": 3,
+      "y": 2
+    },
+    "celByteSizes": [1920, 1920, 1920, 1920],
+    "componentsReconstructExactly": true,
+    "exportCodes": {
+      "atlas": 0,
+      "body": 0,
+      "native": 0,
+      "preview": 0,
+      "shadow": 0
+    },
+    "fps": 1,
+    "frames": 1,
+    "holes": [],
+    "opaquePixels": 257,
+    "orphans": 0,
+    "paletteSwatches": 14,
+    "populatedLayers": 4,
+    "saved": true,
+    "semitransparentPixels": 0,
+    "sourceLayers": 4,
+    "sourcePixelsMatchNativePng": true,
+    "sourceSize": [20, 24],
+    "tag": "kitchen-trash-v3-static",
+    "visibleColors": 6
+  },
+  "anchor": {
+    "x": 10,
+    "y": 21
+  },
+  "collision": null,
+  "interaction": null,
+  "integrated": true,
+  "anchorStatus": "Art floor-contact reference; simulation uses separately baked contours",
+  "scaleReference": "kitchen-fryer-scale-review",
+  "roomLayout": "kitchen-layout-v3",
+  "approvedForGameUse": true
+}

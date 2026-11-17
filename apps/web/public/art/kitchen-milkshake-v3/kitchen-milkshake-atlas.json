@@ -1,0 +1,43 @@
+{
+  "frames": {
+    "kitchen-milkshake": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 20,
+        "h": 34
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 20,
+        "h": 34
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 34
+      },
+      "duration": 1000
+    }
+  },
+  "meta": {
+    "app": "Pixelorama MCP",
+    "image": "kitchen-milkshake-atlas.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 20,
+      "h": 34
+    },
+    "scale": "1",
+    "frameTags": [
+      {
+        "name": "kitchen-milkshake-v3-static",
+        "from": 0,
+        "to": 0,
+        "direction": "forward"
+      }
+    ]
+  }
+}

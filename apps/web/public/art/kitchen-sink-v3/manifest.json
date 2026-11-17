@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "kitchen-sink-v3",
+  "status": "authorized-compact-scale-rollout",
+  "creationApproved": true,
+  "scaleRevisionAuthorized": true,
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/kitchen-sink-v3/kitchen-sink.pxo",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/kitchen-sink-v3/palette.json",
+  "image": "kitchen-sink.png",
+  "frameSize": {
+    "width": 48,
+    "height": 32
+  },
+  "orientation": "back-wall-facing-south",
+  "layers": [
+    "01 - steel mounting surround",
+    "02 - recessed basin walls and floor",
+    "03 - draining board ribs",
+    "04 - curved faucet and controls",
+    "05 - hard reflections and drain"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "kitchen-sink-v3-static"
+  },
+  "components": [
+    {
+      "id": "sink-surface",
+      "image": "kitchen-sink-surface.png",
+      "order": 0
+    },
+    {
+      "id": "sink-faucet",
+      "image": "kitchen-sink-faucet.png",
+      "order": 1
+    }
+  ],
+  "componentOrigin": {
+    "x": 0,
+    "y": 0
+  },
+  "componentFrameSize": {
+    "width": 48,
+    "height": 32
+  },
+  "artAttachments": {
+    "countertop": {
+      "x": 4,
+      "y": 10,
+      "width": 40,
+      "height": 18,
+      "gameplayContract": false
+    }
+  },
+  "basin": {
+    "count": 1,
+    "interiorArtRect": {
+      "x": 9,
+      "y": 15,
+      "width": 19,
+      "height": 9
+    },
+    "waterAnimation": false
+  },
+  "scaleReference": [
+    "kitchen-fryer-scale-review",
+    "kitchen-counter-scale-review",
+    "kitchen-grill-scale-review"
+  ],
+  "qaReport": "verification.json",
+  "collision": null,
+  "interaction": null,
+  "integrated": true,
+  "roomLayout": "kitchen-layout-v3",
+  "approvedForGameUse": true
+}

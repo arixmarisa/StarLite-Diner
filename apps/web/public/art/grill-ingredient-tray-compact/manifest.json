@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "grill-ingredient-tray-compact",
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/grill-ingredient-tray-compact/ingredient-tray.pxo",
+  "palette": "assets/pixelorama/grill-ingredient-tray-compact/palette.json",
+  "image": "ingredient-tray.png",
+  "frameSize": {
+    "width": 8,
+    "height": 14
+  },
+  "layers": [
+    "01 - compact contact shadow",
+    "02 - narrow steel tray body",
+    "03 - chrome rim and reflection"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMs": 1000,
+    "tag": "compact-ingredient-tray-static"
+  },
+  "nativeScale": 1,
+  "integrated": true,
+  "roomLayout": "kitchen-layout-v5",
+  "qaReport": "verification.json"
+}

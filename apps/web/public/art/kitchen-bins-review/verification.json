@@ -1,0 +1,87 @@
+{
+  "activeProjectUnchanged": true,
+  "allSevenBinsPixelIdentical": true,
+  "binExportCode": 0,
+  "binFrame": [12, 14],
+  "enlargedPreviewCode": 0,
+  "previewExportCode": 0,
+  "previewSaved": true,
+  "previewSource": {
+    "celByteSizes": [32256, 32256, 32256],
+    "frames": 1,
+    "layers": 3,
+    "paletteSwatches": 14,
+    "populatedLayers": 3,
+    "size": [144, 56],
+    "sourcePixelsMatchNativePng": true,
+    "tag": "kitchen-bins-preview-static"
+  },
+  "variants": [
+    {
+      "componentsReconstructExactly": true,
+      "exportCodes": {
+        "atlas": 0,
+        "bins": 0,
+        "mount": 0,
+        "native": 0,
+        "preview": 0
+      },
+      "id": "rear-toppings-rail",
+      "leftRightMountProfilesMatchCounter": true,
+      "occupiedBounds": {
+        "height": 28,
+        "width": 48,
+        "x": 4,
+        "y": 4
+      },
+      "opaquePixels": 1340,
+      "orphans": 0,
+      "saved": true,
+      "savedSource": {
+        "celByteSizes": [8960, 8960, 8960, 8960],
+        "frames": 1,
+        "layers": 4,
+        "paletteSwatches": 14,
+        "populatedLayers": 4,
+        "size": [56, 40],
+        "sourcePixelsMatchNativePng": true,
+        "tag": "rear-toppings-rail-static"
+      },
+      "semitransparentPixels": 0,
+      "visibleColors": 5
+    },
+    {
+      "componentsReconstructExactly": true,
+      "exportCodes": {
+        "atlas": 0,
+        "bins": 0,
+        "mount": 0,
+        "native": 0,
+        "preview": 0
+      },
+      "id": "prep-bins-insert",
+      "leftRightMountProfilesMatchCounter": true,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 64,
+        "x": 4,
+        "y": 8
+      },
+      "opaquePixels": 1536,
+      "orphans": 0,
+      "saved": true,
+      "savedSource": {
+        "celByteSizes": [11520, 11520, 11520, 11520],
+        "frames": 1,
+        "layers": 4,
+        "paletteSwatches": 14,
+        "populatedLayers": 4,
+        "size": [72, 40],
+        "sourcePixelsMatchNativePng": true,
+        "tag": "prep-bins-insert-static"
+      },
+      "semitransparentPixels": 0,
+      "visibleColors": 5
+    }
+  ]
+}

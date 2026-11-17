@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "kitchen-grill-scale-review",
+  "status": "accepted-scale-reference",
+  "creationApproved": true,
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/kitchen-grill-scale-review/kitchen-grill.pxo",
+  "palette": "assets/pixelorama/kitchen-grill-scale-review/palette.json",
+  "image": "kitchen-grill.png",
+  "frameSize": {
+    "width": 96,
+    "height": 40
+  },
+  "layers": [
+    "01 - contact shadow",
+    "02 - compact steel top cabinet and plinth",
+    "03 - low backsplash",
+    "04 - bare cooking plate",
+    "05 - grease channel",
+    "06 - controls and cabinet details",
+    "07 - chrome reflections and rose accent"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMs": 1000,
+    "tag": "kitchen-grill-scale-static"
+  },
+  "artGeometry": {
+    "topPlan": {
+      "x": 0,
+      "y": 5,
+      "width": 96,
+      "height": 18
+    },
+    "nearFacade": {
+      "x": 0,
+      "y": 23,
+      "width": 96,
+      "height": 10
+    },
+    "plinth": {
+      "x": 1,
+      "y": 33,
+      "width": 95,
+      "height": 3
+    },
+    "bareCookingArea": {
+      "x": 5,
+      "y": 8,
+      "width": 85,
+      "height": 11
+    },
+    "footContactRow": 35,
+    "widthPreserved": true,
+    "bitmapResized": false
+  },
+  "components": [
+    {
+      "image": "kitchen-grill-shadow.png",
+      "order": 0
+    },
+    {
+      "image": "kitchen-grill-body.png",
+      "order": 1
+    }
+  ],
+  "scaleReferences": ["kitchen-counter-scale-review", "kitchen-fryer-scale-review"],
+  "rightJoin": {
+    "counterTop": "../kitchen-counter-scale-review/steel-counter-top.png",
+    "counterFront": "../kitchen-counter-scale-review/steel-counter-front.png",
+    "grillX": 95,
+    "grillY": 5,
+    "rows": 31,
+    "mismatches": 0
+  },
+  "qaReport": "verification.json",
+  "comparison": "comparison.json",
+  "collision": null,
+  "interaction": null,
+  "integrated": true,
+  "approvedForGameUse": true,
+  "visualAccepted": true,
+  "acceptedOn": "2026-11-07",
+  "roomLayout": "kitchen-layout-v3"
+}

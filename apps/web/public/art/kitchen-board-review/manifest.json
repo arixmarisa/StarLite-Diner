@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "kitchen-cutting-board",
+  "status": "awaiting-user-review",
+  "proposalApprovedOn": "2026-11-07",
+  "approvedDescription": "Warm cream/amber cutting board for the central prep island, darker rim and small handle notch, matching existing pixel scale; no knife or food attached.",
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/kitchen-board-review/kitchen-board.pxo",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/kitchen-board-review/palette.json",
+  "image": "kitchen-board.png",
+  "frameSize": {
+    "width": 40,
+    "height": 24
+  },
+  "occupiedBounds": {
+    "x": 4,
+    "y": 3,
+    "width": 33,
+    "height": 19
+  },
+  "orientation": "top-down-countertop-prop",
+  "layers": [
+    "01 - worktop contact shadow",
+    "02 - darker board edge and thickness",
+    "03 - warm amber board face",
+    "04 - rim highlights and quiet grain"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "kitchen-board-static"
+  },
+  "components": [
+    {
+      "id": "board-worktop-shadow",
+      "image": "board-shadow.png",
+      "renderRole": "worktop-contact-shadow",
+      "order": 0
+    },
+    {
+      "id": "board-body",
+      "image": "board-body.png",
+      "renderRole": "surface-prop",
+      "order": 1
+    }
+  ],
+  "componentFrameSize": {
+    "width": 40,
+    "height": 24
+  },
+  "componentOrigin": {
+    "x": 0,
+    "y": 0
+  },
+  "artGeometry": {
+    "topArtRect": {
+      "x": 4,
+      "y": 3,
+      "width": 32,
+      "height": 16
+    },
+    "projectedThickness": 2,
+    "handleNotch": {
+      "side": "left",
+      "depth": 3,
+      "fromY": 9,
+      "toYExclusive": 13
+    },
+    "contactShadowOffset": {
+      "x": 1,
+      "y": 3
+    },
+    "noKnife": true,
+    "noFood": true,
+    "existingPaletteOnly": true
+  },
+  "reviewAssembly": {
+    "source": "assets/pixelorama/kitchen-board-review/kitchen-board-preview.pxo",
+    "image": "board-counter-preview.png",
+    "frameSize": {
+      "width": 56,
+      "height": 48
+    },
+    "counterReference": "assets/pixelorama/kitchen-counter-review/kitchen-counter-kit.pxo",
+    "topModule": "../kitchen-counter-review/steel-counter-top.png",
+    "fasciaModule": "../kitchen-counter-review/steel-counter-front.png",
+    "countertop": {
+      "x": 4,
+      "y": 4,
+      "width": 48,
+      "height": 24
+    },
+    "boardFrameOrigin": {
+      "x": 8,
+      "y": 3
+    },
+    "allPlacedAtNativeScale": true,
+    "entireBoardAndShadowWithinCountertop": true,
+    "previewOnly": true,
+    "permanentCounterAsset": false
+  },
+  "qa": {
+    "opaquePixels": 603,
+    "semitransparentPixels": 0,
+    "visibleColors": 5,
+    "paletteSwatches": 21,
+    "orphans": 0,
+    "holes": 0,
+    "populatedLayers": 4,
+    "reopenedSourceMatchesNativePng": true,
+    "componentsReconstructExactly": true,
+    "previewSourceMatchesNativePng": true,
+    "onlyExistingPaletteColors": true,
+    "activeProjectUnchanged": true
+  },
+  "anchor": null,
+  "collision": null,
+  "interaction": null,
+  "integrated": false,
+  "placement": {
+    "authority": "game-engine",
+    "surface": "any-countertop",
+    "fixedRoomPlacement": false,
+    "currentlyPlaced": false
+  }
+}

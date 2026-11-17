@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "existingChairSize": [16, 24],
+  "searchFacingUp": "chair-north",
+  "searchFacingDown": "chair-south",
+  "visibleChairDirections": 4,
+  "bothUpDownButtonsEnabledAndSelectable": true,
+  "comparisonSize": [40, 32],
+  "comparisonPreviewScale": 12,
+  "contextSize": [64, 96],
+  "contextPreviewScale": 6,
+  "nativeCompositionByteDifferences": 0,
+  "previewScalingByteDifferences": 0,
+  "newStandaloneGameSprites": 0,
+  "preservedReferenceHashes": 9,
+  "originalMapsChanged": false
+}

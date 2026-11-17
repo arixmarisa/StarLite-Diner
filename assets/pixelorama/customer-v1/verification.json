@@ -1,0 +1,57 @@
+{
+  "activeProjectUnchanged": true,
+  "approvedFrontExact": 6,
+  "failures": [],
+  "families": {
+    "female": {
+      "disconnectedFrames": [],
+      "distinctWalkPoses": {
+        "female-cardigan-shorts-east": 4,
+        "female-cardigan-shorts-north": 4,
+        "female-cardigan-shorts-south": 4,
+        "female-cardigan-shorts-west": 4,
+        "female-polo-khakis-east": 4,
+        "female-polo-khakis-north": 4,
+        "female-polo-khakis-south": 4,
+        "female-polo-khakis-west": 4,
+        "female-tee-jeans-east": 4,
+        "female-tee-jeans-north": 4,
+        "female-tee-jeans-south": 4,
+        "female-tee-jeans-west": 4
+      },
+      "frames": 72,
+      "frontExact": 3,
+      "layers": 10,
+      "paletteSwatches": 46,
+      "semiTransparentPixels": 0,
+      "tags": 36
+    },
+    "male": {
+      "disconnectedFrames": [],
+      "distinctWalkPoses": {
+        "male-cardigan-shorts-east": 4,
+        "male-cardigan-shorts-north": 4,
+        "male-cardigan-shorts-south": 4,
+        "male-cardigan-shorts-west": 4,
+        "male-polo-khakis-east": 4,
+        "male-polo-khakis-north": 4,
+        "male-polo-khakis-south": 4,
+        "male-polo-khakis-west": 4,
+        "male-tee-jeans-east": 4,
+        "male-tee-jeans-north": 4,
+        "male-tee-jeans-south": 4,
+        "male-tee-jeans-west": 4
+      },
+      "frames": 72,
+      "frontExact": 3,
+      "layers": 10,
+      "paletteSwatches": 48,
+      "semiTransparentPixels": 0,
+      "tags": 36
+    }
+  },
+  "frames": 144,
+  "isolatedRecolorPasses": 864,
+  "neutralChanges": 0,
+  "sourceCelsExact": 1440
+}

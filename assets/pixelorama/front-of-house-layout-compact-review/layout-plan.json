@@ -1,0 +1,172 @@
+{
+  "size": {
+    "width": 624,
+    "height": 432
+  },
+  "counts": {
+    "leftBooths": 2,
+    "rightBooths": 3,
+    "bottomBooths": 3,
+    "circleBooths": 1,
+    "middleTables": 3,
+    "rightTables": 2,
+    "barStools": 8
+  },
+  "compactComparison": {
+    "original": {
+      "width": 768,
+      "height": 544,
+      "area": 417792
+    },
+    "compact": {
+      "width": 624,
+      "height": 432,
+      "area": 269568
+    },
+    "areaReductionPercent": 35.47794117647059,
+    "countsUnchanged": true,
+    "sourceAssetPixelsUnchanged": true,
+    "pitches": {
+      "leftBooths": {
+        "before": 120,
+        "now": 80
+      },
+      "rightBooths": {
+        "before": 128,
+        "now": 80
+      },
+      "bottomBooths": {
+        "before": 112,
+        "now": 68
+      },
+      "middleTables": {
+        "before": 128,
+        "now": 64
+      },
+      "rightTables": {
+        "before": 128,
+        "now": 80
+      },
+      "frontStools": {
+        "before": 40,
+        "now": 32
+      }
+    },
+    "chairOffsets": {
+      "middle": {
+        "north": -22,
+        "south": 38
+      },
+      "right": {
+        "west": -18,
+        "east": 34
+      }
+    }
+  },
+  "backToBackSeams": [
+    {
+      "members": ["booth-left-0", "booth-left-1"],
+      "axis": "y",
+      "pitch": 80,
+      "renderedBackGapPixels": 0,
+      "floorEnvelopeGap": 12,
+      "walkAisle": false,
+      "nonwalkableJoin": "back-join-booth-left-0--booth-left-1"
+    },
+    {
+      "members": ["booth-right-0", "booth-right-1"],
+      "axis": "y",
+      "pitch": 80,
+      "renderedBackGapPixels": 0,
+      "floorEnvelopeGap": 12,
+      "walkAisle": false,
+      "nonwalkableJoin": "back-join-booth-right-0--booth-right-1"
+    },
+    {
+      "members": ["booth-right-1", "booth-right-2"],
+      "axis": "y",
+      "pitch": 80,
+      "renderedBackGapPixels": 0,
+      "floorEnvelopeGap": 12,
+      "walkAisle": false,
+      "nonwalkableJoin": "back-join-booth-right-1--booth-right-2"
+    },
+    {
+      "members": ["booth-bottom-0", "booth-bottom-1"],
+      "axis": "x",
+      "pitch": 68,
+      "renderedBackGapPixels": 0,
+      "floorEnvelopeGap": 0,
+      "walkAisle": false
+    },
+    {
+      "members": ["booth-bottom-1", "booth-bottom-2"],
+      "axis": "x",
+      "pitch": 68,
+      "renderedBackGapPixels": 0,
+      "floorEnvelopeGap": 0,
+      "walkAisle": false
+    }
+  ],
+  "corridors": [
+    {
+      "id": "left-service-aisle",
+      "x": 80,
+      "y": 176,
+      "width": 32,
+      "height": 152
+    },
+    {
+      "id": "right-service-aisle",
+      "x": 508,
+      "y": 96,
+      "width": 32,
+      "height": 232
+    },
+    {
+      "id": "middle-cross-aisle",
+      "x": 112,
+      "y": 208,
+      "width": 304,
+      "height": 32
+    },
+    {
+      "id": "bottom-cross-aisle",
+      "x": 128,
+      "y": 328,
+      "width": 384,
+      "height": 32
+    },
+    {
+      "id": "rear-staff-strip",
+      "x": 120,
+      "y": 100,
+      "width": 192,
+      "height": 32,
+      "access": "staff"
+    },
+    {
+      "id": "east-staff-passage",
+      "x": 312,
+      "y": 56,
+      "width": 32,
+      "height": 64,
+      "access": "staff"
+    },
+    {
+      "id": "left-staff-entry",
+      "x": 72,
+      "y": 96,
+      "width": 32,
+      "height": 40,
+      "access": "staff"
+    },
+    {
+      "id": "entrance-approach",
+      "x": 504,
+      "y": 360,
+      "width": 40,
+      "height": 56
+    }
+  ]
+}

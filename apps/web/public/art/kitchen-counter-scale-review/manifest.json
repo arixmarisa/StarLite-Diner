@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "kitchen-counter-scale-review",
+  "status": "accepted-scale-reference",
+  "creationApproved": true,
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/kitchen-counter-scale-review/kitchen-counter.pxo",
+  "palette": "assets/pixelorama/kitchen-counter-scale-review/palette.json",
+  "image": "kitchen-counter.png",
+  "frameSize": {
+    "width": 64,
+    "height": 32
+  },
+  "layers": [
+    "01 - contact shadow",
+    "02 - steel top plane",
+    "03 - cabinet fronts and low plinth",
+    "04 - chrome rim and plum contours",
+    "05 - recessed handles and rose hardware"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMs": 1000,
+    "tag": "kitchen-counter-scale-static"
+  },
+  "artGeometry": {
+    "topPlan": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 18
+    },
+    "nearFacade": {
+      "x": 0,
+      "y": 18,
+      "width": 64,
+      "height": 10
+    },
+    "plinth": {
+      "x": 1,
+      "y": 28,
+      "width": 62,
+      "height": 3
+    },
+    "floorContactRow": 30,
+    "repeatSpacing": 16,
+    "bitmapResized": false
+  },
+  "components": [
+    {
+      "image": "kitchen-counter-shadow.png",
+      "order": 0
+    },
+    {
+      "image": "kitchen-counter-body.png",
+      "order": 1
+    }
+  ],
+  "scaleReference": "kitchen-fryer-scale-review",
+  "candidateScope": "One straight64px counter profile only; cropped straight parts are authoring conveniences, not a validated full modular kit.",
+  "qaReport": "verification.json",
+  "comparison": "comparison.json",
+  "collision": null,
+  "interaction": null,
+  "integrated": false,
+  "approvedForGameUse": false,
+  "visualAccepted": true,
+  "acceptedOn": "2026-11-07",
+  "scaleReferenceApproved": true
+}

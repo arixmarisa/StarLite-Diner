@@ -1,0 +1,60 @@
+{
+  "id": "kitchen-milkshake-review",
+  "status": "requested-revision-awaiting-visual-review",
+  "description": "Independent chrome spindle milkshake maker with rose motor band, open steel mixing cup, rear support and shallow oval base.",
+  "image": "kitchen-milkshake.png",
+  "source": "../../../../../assets/pixelorama/kitchen-milkshake-review/kitchen-milkshake.pxo",
+  "frameSize": {
+    "width": 24,
+    "height": 48
+  },
+  "nativeScale": 1,
+  "orientation": "front-overhead-countertop-view",
+  "layers": [
+    "counter contact shadow",
+    "steel column and oval base",
+    "chrome motor and rose band",
+    "mixing spindle",
+    "open steel mixing cup",
+    "control and hard reflections"
+  ],
+  "palette": "palette.json",
+  "frame": {
+    "count": 1,
+    "fps": 1,
+    "duration": 1,
+    "tag": "kitchen-milkshake-static"
+  },
+  "components": {
+    "body": "kitchen-milkshake-body.png",
+    "shadow": "kitchen-milkshake-shadow.png"
+  },
+  "counterAttachment": {
+    "footprint": {
+      "x": 2,
+      "y": 32,
+      "width": 20,
+      "height": 12
+    },
+    "anchor": {
+      "x": 12,
+      "y": 40
+    },
+    "proposedLayoutSourceOrigin": {
+      "x": 16,
+      "y": 88
+    },
+    "notes": "Independent asset. At this proposed placement, footprint is world x18..37/y120..131, inside the flush left-wall worktop. Motor head extends upward in screen space."
+  },
+  "gameplay": {
+    "collision": null,
+    "interaction": null,
+    "capacity": null,
+    "highlight": "engine-owned"
+  },
+  "preview": {
+    "image": "kitchen-milkshake-preview.png",
+    "scale": 6
+  },
+  "preservedOriginal": "../front-of-house-v1/milkshake-mixer.png"
+}

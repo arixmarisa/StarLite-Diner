@@ -1,0 +1,2123 @@
+{
+  "schemaVersion": 1,
+  "authoringTool": "Pixelorama MCP",
+  "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+  "atlas": "atlas.png",
+  "atlasSize": {
+    "width": 512,
+    "height": 512
+  },
+  "cellSize": 64,
+  "palette": "Front of house - approved pink cream mint",
+  "coordinateSystem": "Top-left origin; anchors and footprints are native logical pixels. Collision data is proposed for later integration.",
+  "assets": [
+    {
+      "id": "floor-checker",
+      "image": "floor-checker.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 16
+      },
+      "category": "surfaces",
+      "renderRole": "ground",
+      "anchor": {
+        "x": 0,
+        "y": 16
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "floor-cream",
+      "image": "floor-cream.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 64,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 16
+      },
+      "category": "surfaces",
+      "renderRole": "ground",
+      "anchor": {
+        "x": 0,
+        "y": 16
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "floor-mint",
+      "image": "floor-mint.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 128,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 16
+      },
+      "category": "surfaces",
+      "renderRole": "ground",
+      "anchor": {
+        "x": 0,
+        "y": 16
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "floor-border",
+      "image": "floor-border.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 192,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 16
+      },
+      "category": "surfaces",
+      "renderRole": "ground",
+      "anchor": {
+        "x": 0,
+        "y": 16
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "wall-panel",
+      "image": "wall-panel.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 256,
+        "y": 0,
+        "width": 16,
+        "height": 32
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 32
+      },
+      "category": "architecture",
+      "renderRole": "wall",
+      "anchor": {
+        "x": 0,
+        "y": 32
+      },
+      "footprint": {
+        "x": 0,
+        "y": -8,
+        "width": 16,
+        "height": 8
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "wall-left",
+      "image": "wall-left.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 320,
+        "y": 0,
+        "width": 16,
+        "height": 32
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 32
+      },
+      "category": "architecture",
+      "renderRole": "wall",
+      "anchor": {
+        "x": 0,
+        "y": 32
+      },
+      "footprint": {
+        "x": 0,
+        "y": -8,
+        "width": 16,
+        "height": 8
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "wall-right",
+      "image": "wall-right.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 384,
+        "y": 0,
+        "width": 16,
+        "height": 32
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 32
+      },
+      "category": "architecture",
+      "renderRole": "wall",
+      "anchor": {
+        "x": 0,
+        "y": 32
+      },
+      "footprint": {
+        "x": 0,
+        "y": -8,
+        "width": 16,
+        "height": 8
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "wall-inner-corner",
+      "image": "wall-inner-corner.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 448,
+        "y": 0,
+        "width": 16,
+        "height": 32
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 32
+      },
+      "category": "architecture",
+      "renderRole": "wall",
+      "anchor": {
+        "x": 0,
+        "y": 32
+      },
+      "footprint": {
+        "x": 0,
+        "y": -8,
+        "width": 16,
+        "height": 8
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "baseboard",
+      "image": "baseboard.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 0,
+        "y": 64,
+        "width": 16,
+        "height": 8
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 8
+      },
+      "category": "architecture",
+      "renderRole": "wall",
+      "anchor": {
+        "x": 0,
+        "y": 8
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "window",
+      "image": "window.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 64,
+        "y": 64,
+        "width": 48,
+        "height": 32
+      },
+      "frameSize": {
+        "width": 48,
+        "height": 32
+      },
+      "category": "architecture",
+      "renderRole": "wall",
+      "anchor": {
+        "x": 0,
+        "y": 32
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "entrance-door",
+      "image": "entrance-door.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 128,
+        "y": 64,
+        "width": 32,
+        "height": 48
+      },
+      "frameSize": {
+        "width": 32,
+        "height": 48
+      },
+      "category": "architecture",
+      "renderRole": "wall",
+      "anchor": {
+        "x": 16,
+        "y": 47
+      },
+      "footprint": {
+        "x": -14,
+        "y": -7,
+        "width": 28,
+        "height": 7
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "clearOpening": {
+        "x": 4,
+        "y": 6,
+        "width": 24,
+        "height": 40
+      },
+      "note": "Closed door visual; traversal behavior is not implemented."
+    },
+    {
+      "id": "kitchen-doorway",
+      "image": "kitchen-doorway.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 192,
+        "y": 64,
+        "width": 48,
+        "height": 40
+      },
+      "frameSize": {
+        "width": 48,
+        "height": 40
+      },
+      "category": "architecture",
+      "renderRole": "wall",
+      "anchor": {
+        "x": 24,
+        "y": 39
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "footprints": [
+        {
+          "x": -24,
+          "y": -31,
+          "width": 8,
+          "height": 31
+        },
+        {
+          "x": 16,
+          "y": -31,
+          "width": 8,
+          "height": 31
+        }
+      ],
+      "clearOpening": {
+        "x": 8,
+        "y": 8,
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "id": "doorway-lintel",
+      "image": "doorway-lintel.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 256,
+        "y": 64,
+        "width": 48,
+        "height": 8
+      },
+      "frameSize": {
+        "width": 48,
+        "height": 8
+      },
+      "category": "architecture",
+      "renderRole": "foreground",
+      "anchor": {
+        "x": 24,
+        "y": 39
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "parentAssembly": "kitchen-doorway"
+    },
+    {
+      "id": "doorway-jamb-left",
+      "image": "doorway-jamb-left.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 320,
+        "y": 64,
+        "width": 8,
+        "height": 32
+      },
+      "frameSize": {
+        "width": 8,
+        "height": 32
+      },
+      "category": "architecture",
+      "renderRole": "foreground",
+      "anchor": {
+        "x": 0,
+        "y": 31
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "parentAssembly": "kitchen-doorway",
+      "assemblyOffset": {
+        "x": 0,
+        "y": 8
+      }
+    },
+    {
+      "id": "doorway-jamb-right",
+      "image": "doorway-jamb-right.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 384,
+        "y": 64,
+        "width": 8,
+        "height": 32
+      },
+      "frameSize": {
+        "width": 8,
+        "height": 32
+      },
+      "category": "architecture",
+      "renderRole": "foreground",
+      "anchor": {
+        "x": 0,
+        "y": 31
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "parentAssembly": "kitchen-doorway",
+      "assemblyOffset": {
+        "x": 40,
+        "y": 8
+      }
+    },
+    {
+      "id": "threshold",
+      "image": "threshold.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 448,
+        "y": 64,
+        "width": 32,
+        "height": 8
+      },
+      "frameSize": {
+        "width": 32,
+        "height": 8
+      },
+      "category": "architecture",
+      "renderRole": "ground",
+      "anchor": {
+        "x": 0,
+        "y": 8
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "counter-top",
+      "image": "counter-top.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 0,
+        "y": 128,
+        "width": 16,
+        "height": 24
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 24
+      },
+      "category": "counter",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "footprint": {
+        "x": -8,
+        "y": -16,
+        "width": 16,
+        "height": 16
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "connections": ["left", "right"]
+    },
+    {
+      "id": "counter-front",
+      "image": "counter-front.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 64,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 16
+      },
+      "category": "counter",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 8,
+        "y": 15
+      },
+      "footprint": {
+        "x": -8,
+        "y": -12,
+        "width": 16,
+        "height": 12
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "connections": ["left", "right"]
+    },
+    {
+      "id": "counter-end-left",
+      "image": "counter-end-left.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 128,
+        "y": 128,
+        "width": 16,
+        "height": 40
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 40
+      },
+      "category": "counter",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 8,
+        "y": 39
+      },
+      "footprint": {
+        "x": -8,
+        "y": -16,
+        "width": 16,
+        "height": 16
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "counter-end-right",
+      "image": "counter-end-right.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 192,
+        "y": 128,
+        "width": 16,
+        "height": 40
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 40
+      },
+      "category": "counter",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 8,
+        "y": 39
+      },
+      "footprint": {
+        "x": -8,
+        "y": -16,
+        "width": 16,
+        "height": 16
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "counter-corner-left",
+      "image": "counter-corner-left.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 256,
+        "y": 128,
+        "width": 32,
+        "height": 40
+      },
+      "frameSize": {
+        "width": 32,
+        "height": 40
+      },
+      "category": "counter",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 16,
+        "y": 39
+      },
+      "footprint": {
+        "x": -16,
+        "y": -16,
+        "width": 32,
+        "height": 16
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "counter-corner-right",
+      "image": "counter-corner-right.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 320,
+        "y": 128,
+        "width": 32,
+        "height": 40
+      },
+      "frameSize": {
+        "width": 32,
+        "height": 40
+      },
+      "category": "counter",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 16,
+        "y": 39
+      },
+      "footprint": {
+        "x": -16,
+        "y": -16,
+        "width": 32,
+        "height": 16
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "counter-vertical",
+      "image": "counter-vertical.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 384,
+        "y": 128,
+        "width": 24,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 24,
+        "height": 16
+      },
+      "category": "counter",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 12,
+        "y": 15
+      },
+      "footprint": {
+        "x": -8,
+        "y": -16,
+        "width": 16,
+        "height": 16
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "connections": ["up", "down"]
+    },
+    {
+      "id": "counter-inner-corner",
+      "image": "counter-inner-corner.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 448,
+        "y": 128,
+        "width": 32,
+        "height": 32
+      },
+      "frameSize": {
+        "width": 32,
+        "height": 32
+      },
+      "category": "counter",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 16,
+        "y": 31
+      },
+      "footprint": {
+        "x": -16,
+        "y": -16,
+        "width": 32,
+        "height": 16
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "counter-gate",
+      "image": "counter-gate.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 0,
+        "y": 192,
+        "width": 32,
+        "height": 40
+      },
+      "frameSize": {
+        "width": 32,
+        "height": 40
+      },
+      "category": "counter",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 16,
+        "y": 39
+      },
+      "footprint": {
+        "x": -16,
+        "y": -12,
+        "width": 32,
+        "height": 12
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "note": "Closed service gate visual; no gate behavior."
+    },
+    {
+      "id": "stool-pink",
+      "image": "stool-pink.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 64,
+        "y": 192,
+        "width": 16,
+        "height": 24
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 24
+      },
+      "category": "seating",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 8,
+        "y": 22
+      },
+      "footprint": {
+        "x": -5,
+        "y": -5,
+        "width": 10,
+        "height": 5
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "stool-mint",
+      "image": "stool-mint.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 128,
+        "y": 192,
+        "width": 16,
+        "height": 24
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 24
+      },
+      "category": "seating",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 8,
+        "y": 22
+      },
+      "footprint": {
+        "x": -5,
+        "y": -5,
+        "width": 10,
+        "height": 5
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "cafe-table",
+      "image": "cafe-table.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 192,
+        "y": 192,
+        "width": 32,
+        "height": 40
+      },
+      "frameSize": {
+        "width": 32,
+        "height": 40
+      },
+      "category": "tables",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 16,
+        "y": 36
+      },
+      "footprint": {
+        "x": -12,
+        "y": -12,
+        "width": 24,
+        "height": 12
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "attachments": {
+        "surface": {
+          "x": 16,
+          "y": 13
+        }
+      }
+    },
+    {
+      "id": "chair-north",
+      "image": "chair-north.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 256,
+        "y": 192,
+        "width": 16,
+        "height": 24
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 24
+      },
+      "category": "seating",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 8,
+        "y": 22
+      },
+      "footprint": {
+        "x": -6,
+        "y": -8,
+        "width": 12,
+        "height": 8
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "chair-south",
+      "image": "chair-south.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 320,
+        "y": 192,
+        "width": 16,
+        "height": 24
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 24
+      },
+      "category": "seating",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 8,
+        "y": 22
+      },
+      "footprint": {
+        "x": -6,
+        "y": -8,
+        "width": 12,
+        "height": 8
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "chair-west",
+      "image": "chair-west.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 384,
+        "y": 192,
+        "width": 16,
+        "height": 24
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 24
+      },
+      "category": "seating",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 8,
+        "y": 22
+      },
+      "footprint": {
+        "x": -6,
+        "y": -8,
+        "width": 12,
+        "height": 8
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "chair-east",
+      "image": "chair-east.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 448,
+        "y": 192,
+        "width": 16,
+        "height": 24
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 24
+      },
+      "category": "seating",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 8,
+        "y": 22
+      },
+      "footprint": {
+        "x": -6,
+        "y": -8,
+        "width": 12,
+        "height": 8
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "booth-bench-left",
+      "image": "booth-bench-left.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 0,
+        "y": 256,
+        "width": 24,
+        "height": 64
+      },
+      "frameSize": {
+        "width": 24,
+        "height": 64
+      },
+      "category": "booth",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 12,
+        "y": 58
+      },
+      "footprint": {
+        "x": -10,
+        "y": -44,
+        "width": 20,
+        "height": 44
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "parentAssembly": "approved-booth",
+      "assemblyOffset": {
+        "x": 4,
+        "y": 4
+      },
+      "originalSource": "assets/pixelorama/booth-review/booth.pxo"
+    },
+    {
+      "id": "booth-bench-right",
+      "image": "booth-bench-right.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 64,
+        "y": 256,
+        "width": 24,
+        "height": 64
+      },
+      "frameSize": {
+        "width": 24,
+        "height": 64
+      },
+      "category": "booth",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 12,
+        "y": 58
+      },
+      "footprint": {
+        "x": -10,
+        "y": -44,
+        "width": 20,
+        "height": 44
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "parentAssembly": "approved-booth",
+      "assemblyOffset": {
+        "x": 52,
+        "y": 4
+      },
+      "originalSource": "assets/pixelorama/booth-review/booth.pxo"
+    },
+    {
+      "id": "booth-table",
+      "image": "booth-table.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 128,
+        "y": 256,
+        "width": 24,
+        "height": 56
+      },
+      "frameSize": {
+        "width": 24,
+        "height": 56
+      },
+      "category": "booth",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 12,
+        "y": 50
+      },
+      "footprint": {
+        "x": -10,
+        "y": -12,
+        "width": 20,
+        "height": 12
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "parentAssembly": "approved-booth",
+      "assemblyOffset": {
+        "x": 28,
+        "y": 12
+      },
+      "originalSource": "assets/pixelorama/booth-review/booth.pxo"
+    },
+    {
+      "id": "booth-left-back",
+      "image": "booth-left-back.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 192,
+        "y": 256,
+        "width": 8,
+        "height": 52
+      },
+      "frameSize": {
+        "width": 8,
+        "height": 52
+      },
+      "category": "booth",
+      "renderRole": "foreground",
+      "anchor": {
+        "x": 4,
+        "y": 46
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "parentAssembly": "approved-booth",
+      "assemblyOffset": {
+        "x": 6,
+        "y": 6
+      },
+      "originalSource": "assets/pixelorama/booth-review/booth.pxo"
+    },
+    {
+      "id": "booth-right-back",
+      "image": "booth-right-back.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 256,
+        "y": 256,
+        "width": 8,
+        "height": 52
+      },
+      "frameSize": {
+        "width": 8,
+        "height": 52
+      },
+      "category": "booth",
+      "renderRole": "foreground",
+      "anchor": {
+        "x": 4,
+        "y": 46
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "parentAssembly": "approved-booth",
+      "assemblyOffset": {
+        "x": 66,
+        "y": 6
+      },
+      "originalSource": "assets/pixelorama/booth-review/booth.pxo"
+    },
+    {
+      "id": "cash-register",
+      "image": "cash-register.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 320,
+        "y": 256,
+        "width": 24,
+        "height": 24
+      },
+      "frameSize": {
+        "width": 24,
+        "height": 24
+      },
+      "category": "service",
+      "renderRole": "surface",
+      "anchor": {
+        "x": 12,
+        "y": 21
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "napkin-dispenser",
+      "image": "napkin-dispenser.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 384,
+        "y": 256,
+        "width": 12,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 12,
+        "height": 16
+      },
+      "category": "service",
+      "renderRole": "surface",
+      "anchor": {
+        "x": 6,
+        "y": 13
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "condiment-caddy",
+      "image": "condiment-caddy.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 448,
+        "y": 256,
+        "width": 16,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 16
+      },
+      "category": "service",
+      "renderRole": "surface",
+      "anchor": {
+        "x": 8,
+        "y": 13
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "menu-stand",
+      "image": "menu-stand.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 0,
+        "y": 320,
+        "width": 12,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 12,
+        "height": 16
+      },
+      "category": "service",
+      "renderRole": "surface",
+      "anchor": {
+        "x": 6,
+        "y": 13
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "wall-clock",
+      "image": "wall-clock.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 64,
+        "y": 320,
+        "width": 16,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 16
+      },
+      "category": "decor",
+      "renderRole": "wall",
+      "anchor": {
+        "x": 0,
+        "y": 16
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "wall-menu",
+      "image": "wall-menu.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 128,
+        "y": 320,
+        "width": 32,
+        "height": 32
+      },
+      "frameSize": {
+        "width": 32,
+        "height": 32
+      },
+      "category": "decor",
+      "renderRole": "wall",
+      "anchor": {
+        "x": 0,
+        "y": 32
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "wall-record",
+      "image": "wall-record.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 192,
+        "y": 320,
+        "width": 16,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 16
+      },
+      "category": "decor",
+      "renderRole": "wall",
+      "anchor": {
+        "x": 0,
+        "y": 16
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "jukebox",
+      "image": "jukebox.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 256,
+        "y": 320,
+        "width": 32,
+        "height": 48
+      },
+      "frameSize": {
+        "width": 32,
+        "height": 48
+      },
+      "category": "decor",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 16,
+        "y": 45
+      },
+      "footprint": {
+        "x": -13,
+        "y": -12,
+        "width": 26,
+        "height": 12
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "potted-plant",
+      "image": "potted-plant.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 320,
+        "y": 320,
+        "width": 24,
+        "height": 32
+      },
+      "frameSize": {
+        "width": 24,
+        "height": 32
+      },
+      "category": "decor",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 12,
+        "y": 29
+      },
+      "footprint": {
+        "x": -7,
+        "y": -8,
+        "width": 14,
+        "height": 8
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "wall-lamp",
+      "image": "wall-lamp.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 384,
+        "y": 320,
+        "width": 16,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 16
+      },
+      "category": "decor",
+      "renderRole": "wall",
+      "anchor": {
+        "x": 0,
+        "y": 16
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "neon-diner",
+      "image": "neon-diner.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 448,
+        "y": 320,
+        "width": 48,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 48,
+        "height": 16
+      },
+      "category": "decor",
+      "renderRole": "wall",
+      "anchor": {
+        "x": 0,
+        "y": 16
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "entrance-mat",
+      "image": "entrance-mat.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 0,
+        "y": 384,
+        "width": 32,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 32,
+        "height": 16
+      },
+      "category": "surfaces",
+      "renderRole": "ground",
+      "anchor": {
+        "x": 0,
+        "y": 16
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "coffee-maker",
+      "image": "coffee-maker.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 64,
+        "y": 384,
+        "width": 24,
+        "height": 32
+      },
+      "frameSize": {
+        "width": 24,
+        "height": 32
+      },
+      "category": "service",
+      "renderRole": "surface",
+      "anchor": {
+        "x": 12,
+        "y": 29
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "milkshake-mixer",
+      "image": "milkshake-mixer.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 128,
+        "y": 384,
+        "width": 16,
+        "height": 32
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 32
+      },
+      "category": "service",
+      "renderRole": "surface",
+      "anchor": {
+        "x": 8,
+        "y": 29
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "cup-stack",
+      "image": "cup-stack.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 192,
+        "y": 384,
+        "width": 12,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 12,
+        "height": 16
+      },
+      "category": "service",
+      "renderRole": "surface",
+      "anchor": {
+        "x": 6,
+        "y": 13
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "clear-place-setting",
+      "image": "clear-place-setting.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 256,
+        "y": 384,
+        "width": 16,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 16
+      },
+      "category": "table-state",
+      "renderRole": "surface",
+      "anchor": {
+        "x": 8,
+        "y": 13
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "dirty-dishes",
+      "image": "dirty-dishes.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 320,
+        "y": 384,
+        "width": 16,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 16
+      },
+      "category": "table-state",
+      "renderRole": "surface",
+      "anchor": {
+        "x": 8,
+        "y": 13
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "booth-left-seat",
+      "image": "booth-left-seat.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 384,
+        "y": 384,
+        "width": 16,
+        "height": 48
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 48
+      },
+      "category": "booth",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 8,
+        "y": 42
+      },
+      "footprint": {
+        "x": -6,
+        "y": -44,
+        "width": 12,
+        "height": 44
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "parentAssembly": "approved-booth",
+      "assemblyOffset": {
+        "x": 12,
+        "y": 16
+      },
+      "originalSource": "assets/pixelorama/booth-review/booth.pxo"
+    },
+    {
+      "id": "booth-right-seat",
+      "image": "booth-right-seat.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 448,
+        "y": 384,
+        "width": 16,
+        "height": 48
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 48
+      },
+      "category": "booth",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 8,
+        "y": 42
+      },
+      "footprint": {
+        "x": -6,
+        "y": -44,
+        "width": 12,
+        "height": 44
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "parentAssembly": "approved-booth",
+      "assemblyOffset": {
+        "x": 52,
+        "y": 16
+      },
+      "originalSource": "assets/pixelorama/booth-review/booth.pxo"
+    },
+    {
+      "id": "counter-lip",
+      "image": "counter-lip.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 0,
+        "y": 448,
+        "width": 16,
+        "height": 4
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 4
+      },
+      "category": "counter",
+      "renderRole": "foreground",
+      "anchor": {
+        "x": 8,
+        "y": 3
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "parentAssembly": "counter"
+    },
+    {
+      "id": "ceiling-pendant",
+      "image": "ceiling-pendant.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 64,
+        "y": 448,
+        "width": 16,
+        "height": 24
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 24
+      },
+      "category": "decor",
+      "renderRole": "foreground",
+      "anchor": {
+        "x": 8,
+        "y": 21
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "wall-cream-panel",
+      "image": "wall-cream-panel.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 128,
+        "y": 448,
+        "width": 16,
+        "height": 32
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 32
+      },
+      "category": "architecture",
+      "renderRole": "wall",
+      "anchor": {
+        "x": 0,
+        "y": 32
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "table-rectangular",
+      "image": "table-rectangular.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 192,
+        "y": 448,
+        "width": 32,
+        "height": 48
+      },
+      "frameSize": {
+        "width": 32,
+        "height": 48
+      },
+      "category": "tables",
+      "renderRole": "furniture",
+      "anchor": {
+        "x": 16,
+        "y": 44
+      },
+      "footprint": {
+        "x": -12,
+        "y": -12,
+        "width": 24,
+        "height": 12
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      },
+      "attachments": {
+        "surface": {
+          "x": 16,
+          "y": 17
+        }
+      }
+    },
+    {
+      "id": "wall-side-left",
+      "image": "wall-side-left.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 256,
+        "y": 448,
+        "width": 8,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 8,
+        "height": 16
+      },
+      "category": "architecture",
+      "renderRole": "wall",
+      "anchor": {
+        "x": 0,
+        "y": 16
+      },
+      "footprint": {
+        "x": 0,
+        "y": -16,
+        "width": 8,
+        "height": 16
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "wall-side-right",
+      "image": "wall-side-right.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 320,
+        "y": 448,
+        "width": 8,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 8,
+        "height": 16
+      },
+      "category": "architecture",
+      "renderRole": "wall",
+      "anchor": {
+        "x": 0,
+        "y": 16
+      },
+      "footprint": {
+        "x": 0,
+        "y": -16,
+        "width": 8,
+        "height": 16
+      },
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "floor-border-corner",
+      "image": "floor-border-corner.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 384,
+        "y": 448,
+        "width": 16,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 16
+      },
+      "category": "surfaces",
+      "renderRole": "ground",
+      "anchor": {
+        "x": 0,
+        "y": 16
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    },
+    {
+      "id": "floor-transition",
+      "image": "floor-transition.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": {
+        "x": 448,
+        "y": 448,
+        "width": 16,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 16,
+        "height": 16
+      },
+      "category": "surfaces",
+      "renderRole": "ground",
+      "anchor": {
+        "x": 0,
+        "y": 16
+      },
+      "footprint": null,
+      "state": "static",
+      "animations": {
+        "static": {
+          "frames": [0],
+          "fps": 1
+        }
+      }
+    }
+  ]
+}

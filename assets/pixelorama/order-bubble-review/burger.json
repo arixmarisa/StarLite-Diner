@@ -1,0 +1,76 @@
+{
+  "id": "burger",
+  "width": 16,
+  "height": 16,
+  "description": "Plain hamburger icon: golden sesame bun and beef patty only. Optional ordered toppings remain separate future icons.",
+  "occupiedBounds": { "x": 1, "y": 2, "width": 14, "height": 12 },
+  "palette": {
+    "outline": "#322c38",
+    "bunShade": "#b87948",
+    "bun": "#e2ad68",
+    "bunLight": "#f1ce8d",
+    "glint": "#fff0d5",
+    "pattyShade": "#573943",
+    "patty": "#81524b",
+    "pattyLight": "#a76d56"
+  },
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "tag": "burger-icon-static"
+  },
+  "layers": [
+    {
+      "name": "01 - plum silhouette and separators",
+      "rectangles": [
+        { "x": 5, "y": 2, "w": 6, "h": 1, "c": "outline" },
+        { "x": 3, "y": 3, "w": 10, "h": 1, "c": "outline" },
+        { "x": 2, "y": 4, "w": 12, "h": 1, "c": "outline" },
+        { "x": 1, "y": 5, "w": 14, "h": 6, "c": "outline" },
+        { "x": 2, "y": 11, "w": 12, "h": 2, "c": "outline" },
+        { "x": 3, "y": 13, "w": 10, "h": 1, "c": "outline" }
+      ]
+    },
+    {
+      "name": "02 - lower bun",
+      "rectangles": [
+        { "x": 3, "y": 11, "w": 10, "h": 1, "c": "bun" },
+        { "x": 3, "y": 12, "w": 10, "h": 1, "c": "bunShade" },
+        { "x": 3, "y": 11, "w": 4, "h": 1, "c": "bunLight" },
+        { "x": 12, "y": 11, "w": 1, "h": 1, "c": "bunShade" }
+      ]
+    },
+    {
+      "name": "03 - beef patty",
+      "rectangles": [
+        { "x": 2, "y": 8, "w": 12, "h": 2, "c": "pattyShade" },
+        { "x": 2, "y": 8, "w": 10, "h": 1, "c": "patty" },
+        { "x": 3, "y": 9, "w": 7, "h": 1, "c": "patty" },
+        { "x": 3, "y": 8, "w": 3, "h": 1, "c": "pattyLight" }
+      ]
+    },
+    {
+      "name": "04 - upper bun and warm lighting",
+      "rectangles": [
+        { "x": 5, "y": 3, "w": 6, "h": 1, "c": "bunLight" },
+        { "x": 3, "y": 4, "w": 10, "h": 1, "c": "bun" },
+        { "x": 2, "y": 5, "w": 12, "h": 2, "c": "bun" },
+        { "x": 2, "y": 7, "w": 12, "h": 1, "c": "bunShade" },
+        { "x": 3, "y": 4, "w": 3, "h": 1, "c": "bunLight" },
+        { "x": 2, "y": 5, "w": 3, "h": 1, "c": "bunLight" },
+        { "x": 2, "y": 6, "w": 2, "h": 1, "c": "bunLight" },
+        { "x": 12, "y": 5, "w": 2, "h": 2, "c": "bunShade" }
+      ]
+    },
+    {
+      "name": "05 - cream sesame details",
+      "rectangles": [
+        { "x": 6, "y": 4, "w": 1, "h": 1, "c": "glint" },
+        { "x": 10, "y": 4, "w": 1, "h": 1, "c": "glint" },
+        { "x": 8, "y": 5, "w": 1, "h": 1, "c": "glint" },
+        { "x": 4, "y": 6, "w": 1, "h": 1, "c": "glint" }
+      ]
+    }
+  ]
+}

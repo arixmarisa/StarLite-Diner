@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "kitchen-cup-stack-v3",
+  "status": "authorized-compact-scale-rollout",
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/kitchen-cups-v3/cup-stack.pxo",
+  "palette": "assets/pixelorama/kitchen-cups-v3/palette.json",
+  "image": "cup-stack.png",
+  "frameSize": {
+    "width": 8,
+    "height": 10
+  },
+  "nativeScale": 1,
+  "layers": [
+    "01 - counter contact shadow",
+    "02 - cup silhouettes and handle",
+    "03 - warm cream cup stack",
+    "04 - rim glints and rose accent"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMs": 1000,
+    "tag": "kitchen-cups-v3-static"
+  },
+  "placement": {
+    "surface": "countertop",
+    "independentProp": true
+  },
+  "qaReport": "verification.json",
+  "collision": null,
+  "interaction": null,
+  "integrated": true,
+  "roomLayout": "kitchen-layout-v3",
+  "approvedForGameUse": true
+}

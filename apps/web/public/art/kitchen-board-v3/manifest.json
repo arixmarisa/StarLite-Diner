@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "kitchen-cutting-board-v3",
+  "status": "authorized-compact-kitchen-art",
+  "creationApproved": true,
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/kitchen-board-v3/kitchen-board.pxo",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/kitchen-board-v3/palette.json",
+  "image": "kitchen-board.png",
+  "frameSize": {
+    "width": 28,
+    "height": 18
+  },
+  "occupiedBounds": {
+    "x": 4,
+    "y": 3,
+    "width": 21,
+    "height": 14
+  },
+  "bodyBounds": {
+    "x": 4,
+    "y": 3,
+    "width": 20,
+    "height": 12
+  },
+  "orientation": "top-down-countertop-prop",
+  "layers": [
+    "01 - countertop contact shadow",
+    "02 - dark board edge and thickness",
+    "03 - warm amber board face",
+    "04 - rim highlights and quiet grain"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMs": 1000,
+    "tag": "kitchen-board-v3-static"
+  },
+  "artGeometry": {
+    "top": {
+      "x": 4,
+      "y": 3,
+      "width": 20,
+      "height": 10
+    },
+    "thickness": 2,
+    "notch": {
+      "side": "left",
+      "depth": 2,
+      "height": 3
+    },
+    "counterMinimumDepth": 18
+  },
+  "components": [
+    {
+      "id": "board-shadow",
+      "image": "board-shadow.png",
+      "renderRole": "countertop-contact-shadow",
+      "order": 0
+    },
+    {
+      "id": "board-body",
+      "image": "board-body.png",
+      "renderRole": "standalone-prop",
+      "order": 1
+    }
+  ],
+  "placement": {
+    "authority": "game-engine",
+    "surface": "any-countertop",
+    "fixedRoomPlacement": false,
+    "currentlyPlaced": false
+  },
+  "qaReport": "verification.json",
+  "collision": null,
+  "interaction": null,
+  "integrated": false,
+  "availableForGameUse": true,
+  "availableInDesignLibrary": true,
+  "fixedRoomPlacement": false
+}

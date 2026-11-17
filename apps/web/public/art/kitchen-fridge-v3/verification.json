@@ -1,0 +1,24 @@
+{
+  "activeProjectUnchanged": true,
+  "celByteSizes": [9600, 9600, 9600, 9600, 9600, 9600],
+  "componentsReconstructExactly": true,
+  "floorContactAnchor": [20, 52],
+  "fps": 1.0,
+  "frames": 1,
+  "occupiedBounds": {
+    "height": 50,
+    "width": 33,
+    "x": 4,
+    "y": 5
+  },
+  "opaquePixels": 1572,
+  "orphanPixels": 0,
+  "paletteSwatches": 14,
+  "populatedLayers": 6,
+  "semitransparentPixels": 0,
+  "sourceLayers": 6,
+  "sourcePixelsMatchNativePng": true,
+  "sourceSize": [40.0, 60.0],
+  "tag": "kitchen-fridge-v3-static",
+  "visibleColors": 6
+}

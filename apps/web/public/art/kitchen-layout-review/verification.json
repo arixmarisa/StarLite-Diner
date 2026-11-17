@@ -1,0 +1,208 @@
+{
+  "activeProjectUnchanged": true,
+  "allInstancesAtNativeScale": true,
+  "assemblyOffsetsMatchWorldPositions": true,
+  "assetCount": 29,
+  "assetSizes": [
+    {
+      "height": 16,
+      "id": "floor",
+      "width": 16
+    },
+    {
+      "height": 32,
+      "id": "wall",
+      "width": 16
+    },
+    {
+      "height": 32,
+      "id": "wall-left",
+      "width": 16
+    },
+    {
+      "height": 32,
+      "id": "wall-right",
+      "width": 16
+    },
+    {
+      "height": 16,
+      "id": "wall-side-left",
+      "width": 8
+    },
+    {
+      "height": 16,
+      "id": "wall-side-right",
+      "width": 8
+    },
+    {
+      "height": 8,
+      "id": "wall-base",
+      "width": 16
+    },
+    {
+      "height": 40,
+      "id": "kitchen-door",
+      "width": 48
+    },
+    {
+      "height": 32,
+      "id": "mixer",
+      "width": 16
+    },
+    {
+      "height": 16,
+      "id": "cups",
+      "width": 12
+    },
+    {
+      "height": 16,
+      "id": "plate",
+      "width": 16
+    },
+    {
+      "height": 24,
+      "id": "counter-top",
+      "width": 16
+    },
+    {
+      "height": 16,
+      "id": "counter-front",
+      "width": 16
+    },
+    {
+      "height": 40,
+      "id": "counter-left",
+      "width": 16
+    },
+    {
+      "height": 40,
+      "id": "counter-right",
+      "width": 16
+    },
+    {
+      "height": 16,
+      "id": "counter-vertical",
+      "width": 24
+    },
+    {
+      "height": 16,
+      "id": "counter-near",
+      "width": 24
+    },
+    {
+      "height": 24,
+      "id": "counter-turn",
+      "width": 24
+    },
+    {
+      "height": 80,
+      "id": "fridge-shadow",
+      "width": 48
+    },
+    {
+      "height": 80,
+      "id": "fridge",
+      "width": 48
+    },
+    {
+      "height": 64,
+      "id": "grill-shadow",
+      "width": 96
+    },
+    {
+      "height": 64,
+      "id": "grill",
+      "width": 96
+    },
+    {
+      "height": 72,
+      "id": "fryer-shadow",
+      "width": 48
+    },
+    {
+      "height": 72,
+      "id": "fryer",
+      "width": 48
+    },
+    {
+      "height": 32,
+      "id": "trash-shadow",
+      "width": 24
+    },
+    {
+      "height": 32,
+      "id": "trash",
+      "width": 24
+    },
+    {
+      "height": 40,
+      "id": "sink",
+      "width": 56
+    },
+    {
+      "height": 40,
+      "id": "toppings",
+      "width": 56
+    },
+    {
+      "height": 40,
+      "id": "prep-bins",
+      "width": 72
+    }
+  ],
+  "celByteSizes": [466944, 466944, 466944, 466944, 466944, 466944, 466944, 466944, 466944],
+  "clearPrepWorktopOccupiedPropPixels": 0,
+  "corridorChecks": [
+    {
+      "clearance": 48.0,
+      "id": "rear-work-aisle",
+      "occupiedVisualPixels": 0,
+      "visuallyClear": true
+    },
+    {
+      "clearance": 48.0,
+      "id": "middle-work-aisle",
+      "occupiedVisualPixels": 0,
+      "visuallyClear": true
+    },
+    {
+      "clearance": 64.0,
+      "id": "left-main-aisle",
+      "occupiedVisualPixels": 0,
+      "visuallyClear": true
+    },
+    {
+      "clearance": 56.0,
+      "id": "right-main-aisle",
+      "occupiedVisualPixels": 0,
+      "visuallyClear": true
+    },
+    {
+      "clearance": 32.0,
+      "id": "lower-door-access",
+      "occupiedVisualPixels": 0,
+      "visuallyClear": true
+    }
+  ],
+  "exportCodes": {
+    "native": 0,
+    "preview": 0,
+    "publicPreview": 0
+  },
+  "fixedCuttingBoardInstances": 0,
+  "fps": 1.0,
+  "frames": 1,
+  "instanceCount": 154,
+  "layers": 9,
+  "nativeSize": [384.0, 304.0],
+  "opaquePixels": 103914,
+  "paletteSwatches": 21,
+  "populatedLayers": 9,
+  "privateCompositeMatchesSavedSource": true,
+  "saved": true,
+  "semitransparentPixels": 0,
+  "sourcePixelsMatchNativePng": true,
+  "tag": "kitchen-layout-static",
+  "tileCount": 330,
+  "visibleColors": 15
+}

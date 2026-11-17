@@ -1,0 +1,119 @@
+{
+  "activeProjectUnchanged": true,
+  "atlas": {
+    "contentBounds": {
+      "height": 32,
+      "width": 110,
+      "x": 7,
+      "y": 4
+    },
+    "opaquePixels": 1646,
+    "orphanPixels": 0,
+    "outOfPalettePixels": 0,
+    "semitransparentPixels": 0,
+    "visibleColors": 12
+  },
+  "cels": [
+    {
+      "bytes": 19200,
+      "layer": "01 - compact contact shadows",
+      "savedCelMatches": true
+    },
+    {
+      "bytes": 19200,
+      "layer": "02 - raw meat plum contours",
+      "savedCelMatches": true
+    },
+    {
+      "bytes": 19200,
+      "layer": "03 - raw meat pink bodies",
+      "savedCelMatches": true
+    },
+    {
+      "bytes": 19200,
+      "layer": "04 - meat light and fat clusters",
+      "savedCelMatches": true
+    },
+    {
+      "bytes": 19200,
+      "layer": "05 - circular stainless bowl",
+      "savedCelMatches": true
+    },
+    {
+      "bytes": 19200,
+      "layer": "06 - cream pancake batter",
+      "savedCelMatches": true
+    },
+    {
+      "bytes": 19200,
+      "layer": "07 - connected steel ladle",
+      "savedCelMatches": true
+    },
+    {
+      "bytes": 19200,
+      "layer": "08 - steel upper-left glints",
+      "savedCelMatches": true
+    }
+  ],
+  "durationMultiplier": 1.0,
+  "exportCodes": {
+    "atlas": 0,
+    "pancake-batter": 0,
+    "preview": 0,
+    "raw-patty": 0,
+    "raw-sausage": 0
+  },
+  "foreignActiveCelUnchanged": true,
+  "fps": 1.0,
+  "frames": 1,
+  "layers": 8,
+  "paletteSwatches": 14,
+  "saved": true,
+  "savedSourceMatchesAtlas": true,
+  "sourceSize": [120.0, 40.0],
+  "sprites": {
+    "pancake-batter": {
+      "contentBounds": {
+        "height": 32,
+        "width": 31,
+        "x": 6,
+        "y": 4
+      },
+      "nativeCropPngEqual": true,
+      "opaquePixels": 706,
+      "orphanPixels": 0,
+      "outOfPalettePixels": 0,
+      "semitransparentPixels": 0,
+      "visibleColors": 8
+    },
+    "raw-patty": {
+      "contentBounds": {
+        "height": 27,
+        "width": 27,
+        "x": 7,
+        "y": 7
+      },
+      "nativeCropPngEqual": true,
+      "opaquePixels": 577,
+      "orphanPixels": 0,
+      "outOfPalettePixels": 0,
+      "semitransparentPixels": 0,
+      "visibleColors": 6
+    },
+    "raw-sausage": {
+      "contentBounds": {
+        "height": 13,
+        "width": 31,
+        "x": 5,
+        "y": 14
+      },
+      "nativeCropPngEqual": true,
+      "opaquePixels": 363,
+      "orphanPixels": 0,
+      "outOfPalettePixels": 0,
+      "semitransparentPixels": 0,
+      "visibleColors": 5
+    }
+  },
+  "tag": "raw-ingredients-static"
+}

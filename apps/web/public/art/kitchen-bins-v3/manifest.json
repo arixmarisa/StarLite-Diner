@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "id": "kitchen-bins-v3",
+  "status": "authorized-compact-scale-rollout",
+  "creationApproved": true,
+  "scaleRevisionAuthorized": true,
+  "authoring": "Pixelorama MCP",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/kitchen-bins-v3/palette.json",
+  "assets": [
+    {
+      "id": "rear-toppings-rail",
+      "source": "assets/pixelorama/kitchen-bins-v3/rear-toppings-rail.pxo",
+      "image": "rear-toppings-rail.png",
+      "frameSize": {
+        "width": 48,
+        "height": 32
+      },
+      "layers": [
+        "01 - mounting surround and rear lip",
+        "02 - rolled removable bin rims",
+        "03 - empty recessed bin planes",
+        "04 - hard chrome reflections"
+      ],
+      "animation": {
+        "frames": 1,
+        "fps": 1,
+        "durationMultiplier": 1,
+        "durationMs": 1000,
+        "tag": "rear-toppings-rail-v3-static"
+      },
+      "components": [
+        {
+          "id": "rear-toppings-rail-mount",
+          "image": "rear-toppings-rail-mount.png",
+          "order": 0
+        },
+        {
+          "id": "rear-toppings-rail-bins",
+          "image": "rear-toppings-rail-bins.png",
+          "order": 1
+        }
+      ],
+      "artAttachments": {
+        "countertop": {
+          "x": 4,
+          "y": 10,
+          "width": 40,
+          "height": 18,
+          "gameplayContract": false
+        },
+        "binRectangles": [
+          {
+            "x": 8,
+            "y": 14,
+            "width": 8,
+            "height": 10
+          },
+          {
+            "x": 20,
+            "y": 14,
+            "width": 8,
+            "height": 10
+          },
+          {
+            "x": 32,
+            "y": 14,
+            "width": 8,
+            "height": 10
+          }
+        ],
+        "binInteriors": [
+          {
+            "x": 11,
+            "y": 17,
+            "width": 3,
+            "height": 5,
+            "gameplayContract": false
+          },
+          {
+            "x": 23,
+            "y": 17,
+            "width": 3,
+            "height": 5,
+            "gameplayContract": false
+          },
+          {
+            "x": 35,
+            "y": 17,
+            "width": 3,
+            "height": 5,
+            "gameplayContract": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "prep-bins-insert",
+      "source": "assets/pixelorama/kitchen-bins-v3/prep-bins-insert.pxo",
+      "image": "prep-bins-insert.png",
+      "frameSize": {
+        "width": 56,
+        "height": 32
+      },
+      "layers": [
+        "01 - mounting surround and rear lip",
+        "02 - rolled removable bin rims",
+        "03 - empty recessed bin planes",
+        "04 - hard chrome reflections"
+      ],
+      "animation": {
+        "frames": 1,
+        "fps": 1,
+        "durationMultiplier": 1,
+        "durationMs": 1000,
+        "tag": "prep-bins-insert-v3-static"
+      },
+      "components": [
+        {
+          "id": "prep-bins-insert-mount",
+          "image": "prep-bins-insert-mount.png",
+          "order": 0
+        },
+        {
+          "id": "prep-bins-insert-bins",
+          "image": "prep-bins-insert-bins.png",
+          "order": 1
+        }
+      ],
+      "artAttachments": {
+        "countertop": {
+          "x": 4,
+          "y": 10,
+          "width": 48,
+          "height": 18,
+          "gameplayContract": false
+        },
+        "binRectangles": [
+          {
+            "x": 7,
+            "y": 14,
+            "width": 8,
+            "height": 10
+          },
+          {
+            "x": 18,
+            "y": 14,
+            "width": 8,
+            "height": 10
+          },
+          {
+            "x": 29,
+            "y": 14,
+            "width": 8,
+            "height": 10
+          },
+          {
+            "x": 40,
+            "y": 14,
+            "width": 8,
+            "height": 10
+          }
+        ],
+        "binInteriors": [
+          {
+            "x": 10,
+            "y": 17,
+            "width": 3,
+            "height": 5,
+            "gameplayContract": false
+          },
+          {
+            "x": 21,
+            "y": 17,
+            "width": 3,
+            "height": 5,
+            "gameplayContract": false
+          },
+          {
+            "x": 32,
+            "y": 17,
+            "width": 3,
+            "height": 5,
+            "gameplayContract": false
+          },
+          {
+            "x": 43,
+            "y": 17,
+            "width": 3,
+            "height": 5,
+            "gameplayContract": false
+          }
+        ]
+      }
+    }
+  ],
+  "reusableBin": {
+    "image": "steel-empty-bin.png",
+    "frameSize": {
+      "width": 8,
+      "height": 10
+    }
+  },
+  "qaReport": "verification.json",
+  "collision": null,
+  "interaction": null,
+  "capacity": null,
+  "integrated": true,
+  "roomLayout": "kitchen-layout-v3",
+  "approvedForGameUse": true
+}

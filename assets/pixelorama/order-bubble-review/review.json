@@ -1,0 +1,41 @@
+{
+  "customerImage": "/art/customer-v1/female-tee-jeans-south-idle.png",
+  "placements": [
+    {
+      "asset": "bubble",
+      "name": "01 - empty bubble reference",
+      "x": 4,
+      "y": 4
+    },
+    {
+      "asset": "burger",
+      "name": "02 - independent burger reference",
+      "x": 44,
+      "y": 10
+    },
+    {
+      "asset": "bubble",
+      "name": "03 - filled example bubble",
+      "x": 68,
+      "y": 4
+    },
+    {
+      "asset": "burger",
+      "name": "04 - example burger overlay",
+      "x": 76,
+      "y": 7
+    },
+    {
+      "asset": "customer",
+      "name": "05 - unchanged customer scale reference",
+      "x": 76,
+      "y": 36
+    }
+  ],
+  "previewScale": 6,
+  "purpose": "Review only; not an additional game asset or implemented order.",
+  "size": {
+    "height": 64,
+    "width": 104
+  }
+}

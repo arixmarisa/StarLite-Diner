@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "status": "accepted-art-design",
+  "authoring": "Pixelorama MCP",
+  "id": "soda-unit",
+  "source": "assets/pixelorama/soda-unit-review/soda-unit.pxo",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/soda-unit-review/palette.json",
+  "image": "soda-unit.png",
+  "frameSize": {
+    "width": 32,
+    "height": 40
+  },
+  "layers": [
+    "01 - contact shadow",
+    "02 - chrome cabinet and base",
+    "03 - cream header and rose trim",
+    "04 - three taps and drip tray",
+    "05 - highlights and reflections"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "soda-unit-static"
+  },
+  "artGeometry": {
+    "cabinetWidth": 28,
+    "tapCount": 3,
+    "tapLeftEdges": [7, 14, 21],
+    "creamHeader": true,
+    "separateCupSprites": false,
+    "surfaceMountBaseline": 36
+  },
+  "components": [
+    {
+      "id": "soda-unit-shadow",
+      "image": "soda-unit-shadow.png",
+      "order": 0
+    },
+    {
+      "id": "soda-unit-body",
+      "image": "soda-unit-body.png",
+      "order": 1
+    }
+  ],
+  "componentFrameSize": {
+    "width": 32,
+    "height": 40
+  },
+  "componentOrigin": {
+    "x": 0,
+    "y": 0
+  },
+  "qa": {
+    "opaquePixels": 1013,
+    "semitransparentPixels": 0,
+    "visibleColors": 12,
+    "paletteSwatches": 14,
+    "orphans": 0,
+    "enclosedHoles": 0,
+    "savedNativeSourceSize": [32, 40],
+    "savedNativeLayerCount": 5,
+    "savedCelByteSizes": [5120, 5120, 5120, 5120, 5120],
+    "reopenedSourceMatchesNativePng": true,
+    "componentsReconstructExactly": true,
+    "foreignActiveProjectUnchanged": true
+  },
+  "anchor": null,
+  "collision": null,
+  "interaction": null,
+  "integrated": false,
+  "occupiedBounds": {
+    "x": 2,
+    "y": 2,
+    "width": 28,
+    "height": 37
+  },
+  "acceptedOn": "2026-11-07"
+}

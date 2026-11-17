@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "image": "grill-food-atlas.png",
+  "size": {
+    "width": 36,
+    "height": 7
+  },
+  "source": "assets/pixelorama/grill-food-v2/grill-food.pxo",
+  "sourceTimeline": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "refined-grill-food-static"
+  },
+  "sprites": [
+    {
+      "id": "patty",
+      "image": "patty.png",
+      "frameSize": {
+        "width": 12,
+        "height": 7
+      },
+      "atlasRect": {
+        "height": 7,
+        "width": 12,
+        "x": 0,
+        "y": 0
+      },
+      "occupiedBounds": {
+        "height": 6,
+        "width": 10,
+        "x": 1,
+        "y": 1
+      },
+      "cookingState": "raw"
+    },
+    {
+      "id": "sausage",
+      "image": "sausage.png",
+      "frameSize": {
+        "width": 12,
+        "height": 7
+      },
+      "atlasRect": {
+        "height": 7,
+        "width": 12,
+        "x": 12,
+        "y": 0
+      },
+      "occupiedBounds": {
+        "height": 5,
+        "width": 11,
+        "x": 0,
+        "y": 2
+      },
+      "cookingState": "raw"
+    },
+    {
+      "id": "pancake",
+      "image": "pancake.png",
+      "frameSize": {
+        "width": 12,
+        "height": 7
+      },
+      "atlasRect": {
+        "height": 7,
+        "width": 12,
+        "x": 24,
+        "y": 0
+      },
+      "occupiedBounds": {
+        "height": 6,
+        "width": 10,
+        "x": 1,
+        "y": 1
+      },
+      "cookingState": "raw"
+    }
+  ]
+}

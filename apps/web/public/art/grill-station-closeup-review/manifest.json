@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "status": "art-preview-only",
+  "authoring": "Pixelorama MCP",
+  "camera": "straight-top-down",
+  "palette": "../../../../../assets/pixelorama/grill-station-closeup-review/palette.json",
+  "sourceDirectory": "../../../../../assets/pixelorama/grill-station-closeup-review/",
+  "station": {
+    "width": 384,
+    "height": 216,
+    "source": "grill-station.pxo",
+    "preview": "grill-station.png",
+    "transparentAssembly": "grill-station-transparent.png",
+    "optionalBackground": "station-background.png",
+    "tag": "grill-station-static",
+    "layers": 6
+  },
+  "frameMetadata": {
+    "framesPerProject": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "directionalSet": ["top-down"]
+  },
+  "components": [
+    {
+      "id": "grill-topdown",
+      "image": "grill-topdown.png",
+      "source": "grill-topdown.pxo",
+      "width": 288,
+      "height": 192,
+      "layers": 6,
+      "tag": "grill-topdown-static",
+      "stationOrigin": { "x": 88, "y": 12 },
+      "localPlateBounds": { "x": 12, "y": 12, "width": 264, "height": 144 },
+      "uninterruptedDarkInterior": { "x": 13, "y": 13, "width": 263, "height": 143 },
+      "sharedOriginCompositeOrder": [
+        "grill-topdown-steel.png",
+        "grill-topdown-plate.png",
+        "grill-topdown-hardware.png"
+      ]
+    },
+    {
+      "id": "ingredient-tray",
+      "image": "ingredient-tray.png",
+      "source": "ingredient-tray.pxo",
+      "width": 64,
+      "height": 56,
+      "layers": 3,
+      "tag": "ingredient-tray-static",
+      "stationOrigins": [
+        { "x": 8, "y": 12 },
+        { "x": 8, "y": 80 },
+        { "x": 8, "y": 148 }
+      ],
+      "ingredientMountOffset": { "x": 12, "y": 8 }
+    }
+  ],
+  "ingredientPreviewInstances": [
+    {
+      "image": "../grill-raw-food-review/raw-patty.png",
+      "x": 20,
+      "y": 20,
+      "width": 40,
+      "height": 40
+    },
+    {
+      "image": "../grill-raw-food-review/raw-sausage.png",
+      "x": 20,
+      "y": 88,
+      "width": 40,
+      "height": 40
+    },
+    {
+      "image": "../grill-raw-food-review/pancake-batter.png",
+      "x": 20,
+      "y": 156,
+      "width": 40,
+      "height": 40
+    }
+  ],
+  "atlas": {
+    "image": "grill-station-parts-atlas.png",
+    "metadata": "grill-station-parts-atlas.json",
+    "width": 352,
+    "height": 192
+  },
+  "originConvention": "upper-left native pixel; all composition at 1x",
+  "artBoundsOnly": true,
+  "gameplayContracts": {
+    "collision": null,
+    "interaction": null,
+    "capacity": null,
+    "stock": null,
+    "foodPlacement": null,
+    "timers": null
+  },
+  "integration": "none; existing room grill and /grill preserved"
+}

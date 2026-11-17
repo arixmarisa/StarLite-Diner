@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "kitchen-layout-v6",
+  "status": "implemented-two-row-food-experiment",
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/kitchen-layout-v6/kitchen-layout.pxo",
+  "image": "kitchen-layout.png",
+  "preview": "kitchen-layout-preview.png",
+  "previewScale": 2,
+  "frameSize": {
+    "height": 304,
+    "width": 384
+  },
+  "palette": "assets/pixelorama/kitchen-layout-v6/palette.json",
+  "layers": [
+    "01 - checker floor",
+    "02 - appliance ground shadows",
+    "03 - cutaway walls and baseboard",
+    "04 - counter worktop modules",
+    "05 - counter cabinet faces",
+    "06 - appliance bodies",
+    "07 - mounted station inserts",
+    "08 - independent surface props",
+    "09 - flat wall openings"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMs": 1000,
+    "tag": "kitchen-layout-v6-static"
+  },
+  "instanceMap": "layout.json",
+  "textureCount": 32,
+  "individualInstances": 154,
+  "repeatedFloorTiles": 336,
+  "nativeScale": 1,
+  "sourceAssetsRetained": true,
+  "integrated": true,
+  "worldVersion": 6,
+  "playerUnchanged": true,
+  "fixedCuttingBoardInstances": 0,
+  "boardPlacementOwner": "game-engine",
+  "stationView": {
+    "definition": "layout.json#/stationViews/grill",
+    "source": "assets/pixelorama/kitchen-layout-v6/grill-station-view.pxo",
+    "derivedImage": "grill-station-view.png",
+    "preview": "grill-station-view-preview.png",
+    "previewScale": 9,
+    "viewport": {
+      "height": 50,
+      "width": 128,
+      "x": 104,
+      "y": 36
+    },
+    "ingredientCluster": {
+      "height": 14,
+      "width": 24,
+      "x": 106,
+      "y": 49
+    },
+    "runtimeUses": "Shared room instances and viewport, not this derived PNG"
+  },
+  "qaReports": ["verification.json", "grill-view-verification.json"],
+  "dynamicFood": {
+    "source": "apps/web/src/game/front-of-house/grill-contents.ts",
+    "capacity": 12,
+    "columns": 6,
+    "rows": 2,
+    "order": "back then front in each column",
+    "rendering": "shared model and grillFoodInstances registration in both views",
+    "saved": false,
+    "cooking": false
+  }
+}

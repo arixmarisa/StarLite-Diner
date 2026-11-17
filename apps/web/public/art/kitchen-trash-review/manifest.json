@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "kitchen-trash-can",
+  "status": "awaiting-user-review",
+  "creationApproved": true,
+  "proposalApprovedOn": "2026-11-07",
+  "approvedDescription": "Small lidded stainless trash can beside the right-wall fryer, with a foot pedal, dark inset opening and tiny rose accent; one fixed view, no animation.",
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/kitchen-trash-review/kitchen-trash.pxo",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/kitchen-trash-review/palette.json",
+  "image": "kitchen-trash-body.png",
+  "reviewComposite": "kitchen-trash.png",
+  "frameSize": {
+    "width": 24,
+    "height": 32
+  },
+  "occupiedBounds": {
+    "height": 26,
+    "width": 18,
+    "x": 3,
+    "y": 4
+  },
+  "orientation": "fixed-overhead-near-right-wall",
+  "rotationVariants": 0,
+  "layers": [
+    "01 - contact shadow",
+    "02 - stainless body and plinth",
+    "03 - lidded top and inset opening",
+    "04 - foot pedal badge and hard reflections"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "kitchen-trash-static"
+  },
+  "components": [
+    {
+      "id": "trash-shadow",
+      "image": "kitchen-trash-shadow.png",
+      "renderRole": "ground-shadow",
+      "order": 0
+    },
+    {
+      "id": "trash-body",
+      "image": "kitchen-trash-body.png",
+      "renderRole": "trash-can-body",
+      "order": 1
+    }
+  ],
+  "componentFrameSize": {
+    "width": 24,
+    "height": 32
+  },
+  "componentOrigin": {
+    "x": 0,
+    "y": 0
+  },
+  "artGeometry": {
+    "body": {
+      "x": 4,
+      "y": 8,
+      "width": 16,
+      "height": 20
+    },
+    "lid": {
+      "x": 3,
+      "y": 4,
+      "width": 18,
+      "height": 8
+    },
+    "pedal": {
+      "x": 9,
+      "y": 25,
+      "width": 7,
+      "height": 4
+    },
+    "darkInsetOpening": true,
+    "contents": false,
+    "animated": false
+  },
+  "qa": {
+    "opaquePixels": 413,
+    "semitransparentPixels": 0,
+    "visibleColors": 6,
+    "paletteSwatches": 14,
+    "orphans": 0,
+    "holes": [],
+    "populatedLayers": 4,
+    "reopenedSourceMatchesNativePng": true,
+    "componentsReconstructExactly": true,
+    "activeProjectUnchanged": true
+  },
+  "anchor": null,
+  "collision": null,
+  "interaction": null,
+  "integrated": false
+}

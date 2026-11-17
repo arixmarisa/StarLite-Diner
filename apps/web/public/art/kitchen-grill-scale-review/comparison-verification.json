@@ -1,0 +1,18 @@
+{
+  "activeProjectUnchanged": true,
+  "candidateCounterWorktopY": 50,
+  "candidateFrontTopY": 68,
+  "candidateGrillWorktopY": 50,
+  "celByteSizes": [135168, 135168, 135168, 135168, 135168, 135168, 135168],
+  "commonFloorContactRow": 80,
+  "fps": 1.0,
+  "frames": 1,
+  "leftPlayerUnchanged": true,
+  "paletteSwatches": 24,
+  "populatedLayers": 7,
+  "rightPlayerUnchanged": true,
+  "savedSourceMatchesComposite": true,
+  "sourceLayers": 7,
+  "sourceSize": [352, 96],
+  "tag": "grill-scale-comparison-static"
+}

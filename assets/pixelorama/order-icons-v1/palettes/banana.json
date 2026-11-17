@@ -1,0 +1,11 @@
+{
+  "colors": {
+    "base": "#e4ca68",
+    "glint": "#fff0d5",
+    "light": "#f6df91",
+    "outline": "#322c38",
+    "shade": "#bf914c",
+    "stem": "#81524b"
+  },
+  "id": "banana"
+}

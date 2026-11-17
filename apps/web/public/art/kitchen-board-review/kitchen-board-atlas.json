@@ -1,0 +1,44 @@
+{
+  "frames": {
+    "kitchen-board_0": {
+      "duration": 1000,
+      "frame": {
+        "h": 24,
+        "w": 40,
+        "x": 0,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 40
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 40,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  },
+  "meta": {
+    "app": "Pixelorama MCP native project export",
+    "format": "RGBA8888",
+    "frameTags": [
+      {
+        "color": "e2ad68ff",
+        "direction": "forward",
+        "from": 0,
+        "name": "kitchen-board-static",
+        "to": 0
+      }
+    ],
+    "image": "kitchen-board-atlas.png",
+    "scale": "1",
+    "size": {
+      "h": 24,
+      "w": 40
+    }
+  }
+}

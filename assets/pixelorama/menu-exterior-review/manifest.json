@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "kind": "static-main-menu-background-review",
+  "status": "first-visual-review",
+  "integrated": false,
+  "gameplayConnection": false,
+  "authoringTool": "Pixelorama MCP",
+  "source": "assets/pixelorama/menu-exterior-review/menu-exterior.pxo",
+  "reviewSource": "assets/pixelorama/menu-exterior-review/start-comparison.pxo",
+  "palette": "assets/pixelorama/menu-exterior-review/palette.json",
+  "image": "menu-exterior.png",
+  "reviewImage": "start-comparison.png",
+  "preview": "menu-exterior-preview.png",
+  "reviewPreview": "start-comparison-preview.png",
+  "nativeSize": { "width": 384, "height": 216 },
+  "aspectRatio": "16:9",
+  "previewScale": 3,
+  "static": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "menu-exterior-static"
+  },
+  "paletteSwatches": 36,
+  "layers": [
+    "01 - blue hour sky and clouds",
+    "02 - roadside trees and horizon",
+    "03 - parking forecourt and sidewalk",
+    "04 - diner structure chrome and shadows",
+    "05 - rose facade and checker base",
+    "06 - warm window interior hints",
+    "07 - glass doors mullions and reflections",
+    "08 - original rooftop neon and trim",
+    "09 - light pools glints and foreground accents"
+  ],
+  "selectedDirection": {
+    "building": "Low wide pink-and-chrome diner, inspired by supplied reference 3",
+    "lighting": "Blue-hour evening, warm windows and glowing neon",
+    "surroundings": "Quiet roadside, small parking area and a few trees",
+    "sign": "STARLITE DINER"
+  },
+  "startOverlay": {
+    "image": "/art/menu-v1/start-rest.png",
+    "source": "assets/pixelorama/menu-v1/start-button.pxo",
+    "rect": { "x": 144, "y": 148, "width": 96, "height": 28 },
+    "center": { "x": 192, "y": 162 },
+    "bakedIntoBackground": false,
+    "reviewOnly": true
+  },
+  "buildingBounds": { "x": 33, "y": 68, "width": 318, "height": 78 },
+  "signBounds": { "x": 144, "y": 42, "width": 97, "height": 27 },
+  "doorBounds": { "x": 174, "y": 91, "width": 36, "height": 47 },
+  "collision": null,
+  "interactions": null,
+  "responsiveBehavior": "Deferred; no live CSS or loader changes"
+}

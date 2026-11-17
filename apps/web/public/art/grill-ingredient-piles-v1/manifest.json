@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "grill-ingredient-piles-v1",
+  "status": "requested-shared-kitchen-cluster-art",
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/grill-ingredient-piles-v1/ingredient-piles.pxo",
+  "palette": "assets/pixelorama/grill-ingredient-piles-v1/palette.json",
+  "image": "ingredient-piles-atlas.png",
+  "frameSize": {
+    "width": 24,
+    "height": 12
+  },
+  "independentFrameSize": {
+    "width": 8,
+    "height": 12
+  },
+  "nativeScale": 1,
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "grill-ingredient-piles-static"
+  },
+  "layers": [
+    "01 - compact contact shadows",
+    "02 - layered raw meat contours",
+    "03 - raw meat rose light and shade",
+    "04 - compact stainless batter bowl",
+    "05 - cream pancake batter",
+    "06 - connected steel ladle"
+  ],
+  "assets": [
+    {
+      "id": "patty-stack",
+      "image": "patty-stack.png",
+      "source": "assets/pixelorama/grill-ingredient-piles-v1/ingredient-piles.pxo",
+      "frameSize": {
+        "width": 8,
+        "height": 12
+      },
+      "atlasRectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 12
+      },
+      "label": "Three stacked raw patties",
+      "illustratedQuantity": 3,
+      "occupiedBounds": {
+        "height": 11,
+        "width": 6,
+        "x": 1,
+        "y": 1
+      }
+    },
+    {
+      "id": "sausage-pile",
+      "image": "sausage-pile.png",
+      "source": "assets/pixelorama/grill-ingredient-piles-v1/ingredient-piles.pxo",
+      "frameSize": {
+        "width": 8,
+        "height": 12
+      },
+      "atlasRectangle": {
+        "x": 8,
+        "y": 0,
+        "width": 8,
+        "height": 12
+      },
+      "label": "Three plain hot-dog sausages",
+      "illustratedQuantity": 3,
+      "occupiedBounds": {
+        "height": 10,
+        "width": 6,
+        "x": 1,
+        "y": 2
+      }
+    },
+    {
+      "id": "pancake-batter",
+      "image": "pancake-batter.png",
+      "source": "assets/pixelorama/grill-ingredient-piles-v1/ingredient-piles.pxo",
+      "frameSize": {
+        "width": 8,
+        "height": 12
+      },
+      "atlasRectangle": {
+        "x": 16,
+        "y": 0,
+        "width": 8,
+        "height": 12
+      },
+      "label": "Pancake batter with ladle",
+      "illustratedQuantity": 1,
+      "occupiedBounds": {
+        "height": 11,
+        "width": 6,
+        "x": 1,
+        "y": 1
+      }
+    }
+  ],
+  "mountContract": {
+    "trayFrame": {
+      "width": 8,
+      "height": 14
+    },
+    "ingredientOffset": {
+      "x": 0,
+      "y": 1
+    },
+    "visibleLocalXRange": [1, 6],
+    "sharedRoomAndStationSource": true
+  },
+  "gameplayContracts": {
+    "stockQuantity": null,
+    "placement": null,
+    "cooking": null
+  },
+  "illustratedQuantitiesOnly": true,
+  "qaReport": "verification.json",
+  "integrated": true,
+  "roomLayout": "kitchen-layout-v5",
+  "quantityMeaning": "Illustrated piles only, not inventory state"
+}

@@ -1,0 +1,13 @@
+{
+  "colors": {
+    "base": "#83a46d",
+    "dish": "#fff5df",
+    "dishShade": "#a6bcb2",
+    "glint": "#fff0d5",
+    "light": "#b9cc8c",
+    "outline": "#322c38",
+    "rim": "#d5dfd3",
+    "shade": "#4f6b50"
+  },
+  "id": "relish"
+}

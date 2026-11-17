@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "authoringTool": "Pixelorama MCP",
+  "palette": "Player - approved booth style",
+  "coordinateSystem": "Top-left image origin; positive X right, positive Y down. Footprints are offsets from the anchor.",
+  "assets": [
+    {
+      "id": "player",
+      "image": "player.png",
+      "source": "assets/pixelorama/player-v1/player.pxo",
+      "frameSize": {
+        "width": 16,
+        "height": 24
+      },
+      "sheetSize": {
+        "width": 80,
+        "height": 96
+      },
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "footprint": {
+        "x": -5,
+        "y": -7,
+        "width": 10,
+        "height": 7
+      },
+      "rowOrder": ["south", "west", "east", "north"],
+      "frameRects": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 24,
+          "direction": "south",
+          "state": "idle",
+          "step": 0
+        },
+        {
+          "index": 1,
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 24,
+          "direction": "south",
+          "state": "walk",
+          "step": 1
+        },
+        {
+          "index": 2,
+          "x": 32,
+          "y": 0,
+          "width": 16,
+          "height": 24,
+          "direction": "south",
+          "state": "walk",
+          "step": 2
+        },
+        {
+          "index": 3,
+          "x": 48,
+          "y": 0,
+          "width": 16,
+          "height": 24,
+          "direction": "south",
+          "state": "walk",
+          "step": 3
+        },
+        {
+          "index": 4,
+          "x": 64,
+          "y": 0,
+          "width": 16,
+          "height": 24,
+          "direction": "south",
+          "state": "walk",
+          "step": 4
+        },
+        {
+          "index": 5,
+          "x": 0,
+          "y": 24,
+          "width": 16,
+          "height": 24,
+          "direction": "west",
+          "state": "idle",
+          "step": 0
+        },
+        {
+          "index": 6,
+          "x": 16,
+          "y": 24,
+          "width": 16,
+          "height": 24,
+          "direction": "west",
+          "state": "walk",
+          "step": 1
+        },
+        {
+          "index": 7,
+          "x": 32,
+          "y": 24,
+          "width": 16,
+          "height": 24,
+          "direction": "west",
+          "state": "walk",
+          "step": 2
+        },
+        {
+          "index": 8,
+          "x": 48,
+          "y": 24,
+          "width": 16,
+          "height": 24,
+          "direction": "west",
+          "state": "walk",
+          "step": 3
+        },
+        {
+          "index": 9,
+          "x": 64,
+          "y": 24,
+          "width": 16,
+          "height": 24,
+          "direction": "west",
+          "state": "walk",
+          "step": 4
+        },
+        {
+          "index": 10,
+          "x": 0,
+          "y": 48,
+          "width": 16,
+          "height": 24,
+          "direction": "east",
+          "state": "idle",
+          "step": 0
+        },
+        {
+          "index": 11,
+          "x": 16,
+          "y": 48,
+          "width": 16,
+          "height": 24,
+          "direction": "east",
+          "state": "walk",
+          "step": 1
+        },
+        {
+          "index": 12,
+          "x": 32,
+          "y": 48,
+          "width": 16,
+          "height": 24,
+          "direction": "east",
+          "state": "walk",
+          "step": 2
+        },
+        {
+          "index": 13,
+          "x": 48,
+          "y": 48,
+          "width": 16,
+          "height": 24,
+          "direction": "east",
+          "state": "walk",
+          "step": 3
+        },
+        {
+          "index": 14,
+          "x": 64,
+          "y": 48,
+          "width": 16,
+          "height": 24,
+          "direction": "east",
+          "state": "walk",
+          "step": 4
+        },
+        {
+          "index": 15,
+          "x": 0,
+          "y": 72,
+          "width": 16,
+          "height": 24,
+          "direction": "north",
+          "state": "idle",
+          "step": 0
+        },
+        {
+          "index": 16,
+          "x": 16,
+          "y": 72,
+          "width": 16,
+          "height": 24,
+          "direction": "north",
+          "state": "walk",
+          "step": 1
+        },
+        {
+          "index": 17,
+          "x": 32,
+          "y": 72,
+          "width": 16,
+          "height": 24,
+          "direction": "north",
+          "state": "walk",
+          "step": 2
+        },
+        {
+          "index": 18,
+          "x": 48,
+          "y": 72,
+          "width": 16,
+          "height": 24,
+          "direction": "north",
+          "state": "walk",
+          "step": 3
+        },
+        {
+          "index": 19,
+          "x": 64,
+          "y": 72,
+          "width": 16,
+          "height": 24,
+          "direction": "north",
+          "state": "walk",
+          "step": 4
+        }
+      ],
+      "animations": {
+        "idle_south": {
+          "frames": [0],
+          "fps": 8
+        },
+        "walk_south": {
+          "frames": [1, 2, 3, 4],
+          "fps": 8
+        },
+        "idle_west": {
+          "frames": [5],
+          "fps": 8
+        },
+        "walk_west": {
+          "frames": [6, 7, 8, 9],
+          "fps": 8
+        },
+        "idle_east": {
+          "frames": [10],
+          "fps": 8
+        },
+        "walk_east": {
+          "frames": [11, 12, 13, 14],
+          "fps": 8
+        },
+        "idle_north": {
+          "frames": [15],
+          "fps": 8
+        },
+        "walk_north": {
+          "frames": [16, 17, 18, 19],
+          "fps": 8
+        }
+      }
+    }
+  ]
+}

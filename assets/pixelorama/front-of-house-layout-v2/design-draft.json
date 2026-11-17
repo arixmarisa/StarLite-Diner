@@ -1,0 +1,6410 @@
+{
+  "format": "starlite-layout-draft",
+  "schemaVersion": 1,
+  "baseLayout": "/art/front-of-house-layout-compact-review/layout.json",
+  "baseId": "front-of-house-layout-compact-review",
+  "coordinateSystem": "native pixels; top-left origin; positive Y down",
+  "nativeScale": 1,
+  "size": {
+    "height": 432,
+    "width": 624
+  },
+  "layout": {
+    "floor": {
+      "asset": "floor-checker",
+      "x": 16,
+      "y": 48,
+      "width": 592,
+      "height": 376,
+      "visible": true
+    },
+    "assets": [
+      {
+        "id": "floor-checker",
+        "label": "Floor checker",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/floor-checker.png",
+        "width": 16,
+        "height": 16,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 0,
+        "paletteVisible": true
+      },
+      {
+        "id": "wall-panel",
+        "label": "Wall panel",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/wall-panel.png",
+        "width": 16,
+        "height": 32,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 1,
+        "paletteVisible": true
+      },
+      {
+        "id": "baseboard",
+        "label": "Baseboard",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/baseboard.png",
+        "width": 16,
+        "height": 8,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 1,
+        "paletteVisible": true
+      },
+      {
+        "id": "wall-side-left",
+        "label": "Wall side left",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/wall-side-left.png",
+        "width": 8,
+        "height": 16,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 1,
+        "paletteVisible": true
+      },
+      {
+        "id": "wall-side-right",
+        "label": "Wall side right",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/wall-side-right.png",
+        "width": 8,
+        "height": 16,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 1,
+        "paletteVisible": true
+      },
+      {
+        "id": "kitchen-doorway",
+        "label": "Kitchen doorway",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/kitchen-doorway.png",
+        "width": 48,
+        "height": 40,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 1,
+        "paletteVisible": true
+      },
+      {
+        "id": "doorway-lintel",
+        "label": "Doorway lintel",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/doorway-lintel.png",
+        "width": 48,
+        "height": 8,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 7,
+        "paletteVisible": false
+      },
+      {
+        "id": "threshold",
+        "label": "Threshold",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/threshold.png",
+        "width": 32,
+        "height": 8,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 0,
+        "paletteVisible": true
+      },
+      {
+        "id": "entrance-mat",
+        "label": "Entrance mat",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/entrance-mat.png",
+        "width": 32,
+        "height": 16,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 0,
+        "paletteVisible": true
+      },
+      {
+        "id": "wall-record",
+        "label": "Wall record",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/wall-record.png",
+        "width": 16,
+        "height": 16,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 1,
+        "paletteVisible": true
+      },
+      {
+        "id": "wall-lamp",
+        "label": "Wall lamp",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/wall-lamp.png",
+        "width": 16,
+        "height": 16,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 1,
+        "paletteVisible": true
+      },
+      {
+        "id": "neon-diner",
+        "label": "Neon diner",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/neon-diner.png",
+        "width": 48,
+        "height": 16,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 1,
+        "paletteVisible": true
+      },
+      {
+        "id": "wall-menu",
+        "label": "Wall menu",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/wall-menu.png",
+        "width": 32,
+        "height": 32,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 1,
+        "paletteVisible": true
+      },
+      {
+        "id": "wall-clock",
+        "label": "Wall clock",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/wall-clock.png",
+        "width": 16,
+        "height": 16,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 1,
+        "paletteVisible": true
+      },
+      {
+        "id": "counter-end-left",
+        "label": "Counter end left",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/counter-end-left.png",
+        "width": 16,
+        "height": 40,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 2,
+        "paletteVisible": true
+      },
+      {
+        "id": "counter-top",
+        "label": "Counter top",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/counter-top.png",
+        "width": 16,
+        "height": 24,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 2,
+        "paletteVisible": false
+      },
+      {
+        "id": "counter-front",
+        "label": "Counter front",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/counter-front.png",
+        "width": 16,
+        "height": 16,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 2,
+        "paletteVisible": false
+      },
+      {
+        "id": "counter-end-right",
+        "label": "Counter end right",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/counter-end-right.png",
+        "width": 16,
+        "height": 40,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 2,
+        "paletteVisible": true
+      },
+      {
+        "id": "tea-unit",
+        "label": "Tea unit",
+        "category": "Dining room",
+        "image": "/art/tea-unit-review/tea-unit.png",
+        "width": 24,
+        "height": 32,
+        "source": "assets/pixelorama/tea-unit-review/tea-unit.pxo",
+        "layer": 4,
+        "paletteVisible": true
+      },
+      {
+        "id": "soda-unit",
+        "label": "Soda unit",
+        "category": "Dining room",
+        "image": "/art/soda-unit-review/soda-unit.png",
+        "width": 32,
+        "height": 40,
+        "source": "assets/pixelorama/soda-unit-review/soda-unit.pxo",
+        "layer": 4,
+        "paletteVisible": true
+      },
+      {
+        "id": "coffee-maker",
+        "label": "Coffee maker",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/coffee-maker.png",
+        "width": 24,
+        "height": 32,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 4,
+        "paletteVisible": true
+      },
+      {
+        "id": "cup-stack",
+        "label": "Cup stack",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/cup-stack.png",
+        "width": 12,
+        "height": 16,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 4,
+        "paletteVisible": true
+      },
+      {
+        "id": "counter-lip",
+        "label": "Counter lip",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/counter-lip.png",
+        "width": 16,
+        "height": 4,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 6,
+        "paletteVisible": false
+      },
+      {
+        "id": "counter-vertical",
+        "label": "Counter vertical",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/counter-vertical.png",
+        "width": 24,
+        "height": 16,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 2,
+        "paletteVisible": false
+      },
+      {
+        "id": "curve-base",
+        "label": "Curve base",
+        "category": "Dining room",
+        "image": "/art/counter-curve-review/curved-counter-base.png",
+        "width": 40,
+        "height": 56,
+        "source": "assets/pixelorama/counter-curve-review/curved-counter.pxo",
+        "layer": 2,
+        "paletteVisible": false
+      },
+      {
+        "id": "curve-foreground",
+        "label": "Curve foreground",
+        "category": "Dining room",
+        "image": "/art/counter-curve-review/curved-counter-foreground.png",
+        "width": 40,
+        "height": 56,
+        "source": "assets/pixelorama/counter-curve-review/curved-counter.pxo",
+        "layer": 6,
+        "paletteVisible": false
+      },
+      {
+        "id": "cash-register",
+        "label": "Cash register",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/cash-register.png",
+        "width": 24,
+        "height": 24,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 4,
+        "paletteVisible": true
+      },
+      {
+        "id": "condiment-caddy",
+        "label": "Condiment caddy",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/condiment-caddy.png",
+        "width": 16,
+        "height": 16,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 4,
+        "paletteVisible": true
+      },
+      {
+        "id": "stool-pink",
+        "label": "Stool pink",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/stool-pink.png",
+        "width": 16,
+        "height": 24,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 3,
+        "paletteVisible": true
+      },
+      {
+        "id": "stool-mint",
+        "label": "Stool mint",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/stool-mint.png",
+        "width": 16,
+        "height": 24,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 3,
+        "paletteVisible": true
+      },
+      {
+        "id": "booth-ns-base",
+        "label": "Booth ns base",
+        "category": "Dining room",
+        "image": "/art/front-of-house-layout-review/booth-above-below-base.png",
+        "width": 80,
+        "height": 104,
+        "source": "assets/pixelorama/booth-orientations-review/booth-above-below.pxo",
+        "layer": 3,
+        "paletteVisible": false
+      },
+      {
+        "id": "booth-ns-table",
+        "label": "Booth ns table",
+        "category": "Dining room",
+        "image": "/art/front-of-house-layout-review/booth-above-below-table.png",
+        "width": 80,
+        "height": 104,
+        "source": "assets/pixelorama/booth-orientations-review/booth-above-below.pxo",
+        "layer": 3,
+        "paletteVisible": false
+      },
+      {
+        "id": "booth-ns-foreground",
+        "label": "Booth ns foreground",
+        "category": "Dining room",
+        "image": "/art/front-of-house-layout-review/booth-above-below-foreground.png",
+        "width": 80,
+        "height": 104,
+        "source": "assets/pixelorama/booth-orientations-review/booth-above-below.pxo",
+        "layer": 5,
+        "paletteVisible": false
+      },
+      {
+        "id": "booth-bench-left",
+        "label": "Booth bench left",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/booth-bench-left.png",
+        "width": 24,
+        "height": 64,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 3,
+        "paletteVisible": true
+      },
+      {
+        "id": "booth-bench-right",
+        "label": "Booth bench right",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/booth-bench-right.png",
+        "width": 24,
+        "height": 64,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 3,
+        "paletteVisible": true
+      },
+      {
+        "id": "booth-table",
+        "label": "Booth table",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/booth-table.png",
+        "width": 24,
+        "height": 56,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 3,
+        "paletteVisible": true
+      },
+      {
+        "id": "booth-left-back",
+        "label": "Booth left back",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/booth-left-back.png",
+        "width": 8,
+        "height": 52,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 5,
+        "paletteVisible": false
+      },
+      {
+        "id": "booth-right-back",
+        "label": "Booth right back",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/booth-right-back.png",
+        "width": 8,
+        "height": 52,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 5,
+        "paletteVisible": false
+      },
+      {
+        "id": "circle-base",
+        "label": "Circle base",
+        "category": "Dining room",
+        "image": "/art/circle-booth-review/circle-booth-base.png",
+        "width": 128,
+        "height": 112,
+        "source": "assets/pixelorama/circle-booth-review/circle-booth.pxo",
+        "layer": 3,
+        "paletteVisible": false
+      },
+      {
+        "id": "circle-table",
+        "label": "Circle table",
+        "category": "Dining room",
+        "image": "/art/circle-booth-review/round-table.png",
+        "width": 128,
+        "height": 112,
+        "source": "assets/pixelorama/circle-booth-review/circle-booth.pxo",
+        "layer": 3,
+        "paletteVisible": false
+      },
+      {
+        "id": "circle-foreground",
+        "label": "Circle foreground",
+        "category": "Dining room",
+        "image": "/art/circle-booth-review/circle-booth-foreground.png",
+        "width": 128,
+        "height": 112,
+        "source": "assets/pixelorama/circle-booth-review/circle-booth.pxo",
+        "layer": 5,
+        "paletteVisible": false
+      },
+      {
+        "id": "table-horizontal",
+        "label": "Table horizontal",
+        "category": "Dining room",
+        "image": "/art/rectangular-table-rotation-review/table-horizontal.png",
+        "width": 48,
+        "height": 48,
+        "source": "assets/pixelorama/rectangular-table-rotation-review/table-horizontal.pxo",
+        "layer": 3,
+        "paletteVisible": true
+      },
+      {
+        "id": "chair-south",
+        "label": "Table chair facing down (south)",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/chair-south.png",
+        "width": 16,
+        "height": 24,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 3,
+        "paletteVisible": true
+      },
+      {
+        "id": "chair-north",
+        "label": "Table chair facing up (north)",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/chair-north.png",
+        "width": 16,
+        "height": 24,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 3,
+        "paletteVisible": true
+      },
+      {
+        "id": "menu-stand",
+        "label": "Menu stand",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/menu-stand.png",
+        "width": 12,
+        "height": 16,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 4,
+        "paletteVisible": true
+      },
+      {
+        "id": "table-rectangular",
+        "label": "Table rectangular",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/table-rectangular.png",
+        "width": 32,
+        "height": 48,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 3,
+        "paletteVisible": true
+      },
+      {
+        "id": "chair-east",
+        "label": "Table chair facing right (east)",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/chair-east.png",
+        "width": 16,
+        "height": 24,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 3,
+        "paletteVisible": true
+      },
+      {
+        "id": "chair-west",
+        "label": "Table chair facing left (west)",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/chair-west.png",
+        "width": 16,
+        "height": 24,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 3,
+        "paletteVisible": true
+      },
+      {
+        "id": "jukebox",
+        "label": "Jukebox",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/jukebox.png",
+        "width": 32,
+        "height": 48,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 3,
+        "paletteVisible": true
+      },
+      {
+        "id": "potted-plant",
+        "label": "Potted plant",
+        "category": "Dining room",
+        "image": "/art/front-of-house-v1/potted-plant.png",
+        "width": 24,
+        "height": 32,
+        "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+        "layer": 3,
+        "paletteVisible": true
+      },
+      {
+        "id": "booth-above-below",
+        "label": "Booth above below",
+        "category": "Dining room",
+        "image": "/art/booth-orientations-review/booth-above-below.png",
+        "width": 80,
+        "height": 104,
+        "source": "assets/pixelorama/booth-orientations-review/booth-above-below.pxo",
+        "layer": 2,
+        "paletteVisible": true
+      }
+    ],
+    "instances": [
+      {
+        "id": "kitchen-west--threshold",
+        "asset": "threshold",
+        "x": 72,
+        "y": 48,
+        "layer": 0,
+        "parent": "kitchen-west",
+        "role": "threshold",
+        "clip": null
+      },
+      {
+        "id": "kitchen-east--threshold",
+        "asset": "threshold",
+        "x": 448,
+        "y": 48,
+        "layer": 0,
+        "parent": "kitchen-east",
+        "role": "threshold",
+        "clip": null
+      },
+      {
+        "id": "entrance--threshold",
+        "asset": "threshold",
+        "x": 512,
+        "y": 416,
+        "layer": 0,
+        "parent": "entrance",
+        "role": "threshold",
+        "clip": null
+      },
+      {
+        "id": "entrance--entrance-mat",
+        "asset": "entrance-mat",
+        "x": 512,
+        "y": 397,
+        "layer": 0,
+        "parent": "entrance",
+        "role": "ground",
+        "clip": null
+      },
+      {
+        "id": "room--wall-panel--8-16",
+        "asset": "wall-panel",
+        "x": 8,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--8-424",
+        "asset": "baseboard",
+        "x": 8,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--24-16",
+        "asset": "wall-panel",
+        "x": 24,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--24-424",
+        "asset": "baseboard",
+        "x": 24,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--40-16",
+        "asset": "wall-panel",
+        "x": 40,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--40-424",
+        "asset": "baseboard",
+        "x": 40,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--56-16",
+        "asset": "wall-panel",
+        "x": 56,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--56-424",
+        "asset": "baseboard",
+        "x": 56,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--72-16",
+        "asset": "wall-panel",
+        "x": 72,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--72-424",
+        "asset": "baseboard",
+        "x": 72,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--88-16",
+        "asset": "wall-panel",
+        "x": 88,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--88-424",
+        "asset": "baseboard",
+        "x": 88,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--104-16",
+        "asset": "wall-panel",
+        "x": 104,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--104-424",
+        "asset": "baseboard",
+        "x": 104,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--120-16",
+        "asset": "wall-panel",
+        "x": 120,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--120-424",
+        "asset": "baseboard",
+        "x": 120,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--136-16",
+        "asset": "wall-panel",
+        "x": 136,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--136-424",
+        "asset": "baseboard",
+        "x": 136,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--152-16",
+        "asset": "wall-panel",
+        "x": 152,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--152-424",
+        "asset": "baseboard",
+        "x": 152,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--168-16",
+        "asset": "wall-panel",
+        "x": 168,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--168-424",
+        "asset": "baseboard",
+        "x": 168,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--184-16",
+        "asset": "wall-panel",
+        "x": 184,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--184-424",
+        "asset": "baseboard",
+        "x": 184,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--200-16",
+        "asset": "wall-panel",
+        "x": 200,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--200-424",
+        "asset": "baseboard",
+        "x": 200,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--216-16",
+        "asset": "wall-panel",
+        "x": 216,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--216-424",
+        "asset": "baseboard",
+        "x": 216,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--232-16",
+        "asset": "wall-panel",
+        "x": 232,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--232-424",
+        "asset": "baseboard",
+        "x": 232,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--248-16",
+        "asset": "wall-panel",
+        "x": 248,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--248-424",
+        "asset": "baseboard",
+        "x": 248,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--264-16",
+        "asset": "wall-panel",
+        "x": 264,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--264-424",
+        "asset": "baseboard",
+        "x": 264,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--280-16",
+        "asset": "wall-panel",
+        "x": 280,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--280-424",
+        "asset": "baseboard",
+        "x": 280,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--296-16",
+        "asset": "wall-panel",
+        "x": 296,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--296-424",
+        "asset": "baseboard",
+        "x": 296,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--312-16",
+        "asset": "wall-panel",
+        "x": 312,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--312-424",
+        "asset": "baseboard",
+        "x": 312,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--328-16",
+        "asset": "wall-panel",
+        "x": 328,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--328-424",
+        "asset": "baseboard",
+        "x": 328,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--344-16",
+        "asset": "wall-panel",
+        "x": 344,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--344-424",
+        "asset": "baseboard",
+        "x": 344,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--360-16",
+        "asset": "wall-panel",
+        "x": 360,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--360-424",
+        "asset": "baseboard",
+        "x": 360,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--376-16",
+        "asset": "wall-panel",
+        "x": 376,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--376-424",
+        "asset": "baseboard",
+        "x": 376,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--392-16",
+        "asset": "wall-panel",
+        "x": 392,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--392-424",
+        "asset": "baseboard",
+        "x": 392,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--408-16",
+        "asset": "wall-panel",
+        "x": 408,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--408-424",
+        "asset": "baseboard",
+        "x": 408,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--424-16",
+        "asset": "wall-panel",
+        "x": 424,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--424-424",
+        "asset": "baseboard",
+        "x": 424,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--440-16",
+        "asset": "wall-panel",
+        "x": 440,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--440-424",
+        "asset": "baseboard",
+        "x": 440,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--456-16",
+        "asset": "wall-panel",
+        "x": 456,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--456-424",
+        "asset": "baseboard",
+        "x": 456,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--472-16",
+        "asset": "wall-panel",
+        "x": 472,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--472-424",
+        "asset": "baseboard",
+        "x": 472,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--488-16",
+        "asset": "wall-panel",
+        "x": 488,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--488-424",
+        "asset": "baseboard",
+        "x": 488,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--504-16",
+        "asset": "wall-panel",
+        "x": 504,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--504-424",
+        "asset": "baseboard",
+        "x": 504,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--520-16",
+        "asset": "wall-panel",
+        "x": 520,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--wall-panel--536-16",
+        "asset": "wall-panel",
+        "x": 536,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--544-424",
+        "asset": "baseboard",
+        "x": 544,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--552-16",
+        "asset": "wall-panel",
+        "x": 552,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--552-424",
+        "asset": "baseboard",
+        "x": 552,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--568-16",
+        "asset": "wall-panel",
+        "x": 568,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--568-424",
+        "asset": "baseboard",
+        "x": 568,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--584-16",
+        "asset": "wall-panel",
+        "x": 584,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--584-424",
+        "asset": "baseboard",
+        "x": 584,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-panel--600-16",
+        "asset": "wall-panel",
+        "x": 600,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": null
+      },
+      {
+        "id": "room--baseboard--600-424",
+        "asset": "baseboard",
+        "x": 600,
+        "y": 424,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-48",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 48,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-48",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 48,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-64",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 64,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-64",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 64,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-80",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 80,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-80",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 80,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-96",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 96,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-96",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 96,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-112",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 112,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-112",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 112,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-128",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 128,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-128",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 128,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-144",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 144,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-144",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 144,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-160",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 160,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-160",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 160,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-176",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 176,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-176",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 176,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-192",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 192,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-192",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 192,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-208",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 208,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-208",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 208,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-224",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 224,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-224",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 224,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-240",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 240,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-240",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 240,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-256",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 256,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-256",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 256,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-272",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 272,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-272",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 272,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-288",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 288,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-288",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 288,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-304",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 304,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-304",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 304,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-320",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 320,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-320",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 320,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-336",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 336,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-336",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 336,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-352",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 352,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-352",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 352,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-368",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 368,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-368",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 368,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-384",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 384,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-384",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 384,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-400",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 400,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-400",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 400,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "room--wall-side-left--8-416",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 416,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 8
+        }
+      },
+      {
+        "id": "room--wall-side-right--608-416",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 416,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 8
+        }
+      },
+      {
+        "id": "kitchen-west-doorway",
+        "asset": "kitchen-doorway",
+        "x": 72,
+        "y": 16,
+        "layer": 1,
+        "parent": "kitchen-west",
+        "role": "doorway",
+        "clip": null
+      },
+      {
+        "id": "kitchen-east-doorway",
+        "asset": "kitchen-doorway",
+        "x": 432,
+        "y": 16,
+        "layer": 1,
+        "parent": "kitchen-east",
+        "role": "doorway",
+        "clip": null
+      },
+      {
+        "id": "room--wall-record--112-24",
+        "asset": "wall-record",
+        "x": 50,
+        "y": 19,
+        "layer": 1,
+        "parent": null,
+        "role": "wall-decor",
+        "clip": null
+      },
+      {
+        "id": "room--wall-lamp--456-24",
+        "asset": "wall-lamp",
+        "x": 409,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall-decor",
+        "clip": null
+      },
+      {
+        "id": "room--neon-diner--168-20",
+        "asset": "neon-diner",
+        "x": 267,
+        "y": 19,
+        "layer": 1,
+        "parent": null,
+        "role": "wall-decor",
+        "clip": null
+      },
+      {
+        "id": "room--wall-menu--320-16",
+        "asset": "wall-menu",
+        "x": 355,
+        "y": 17,
+        "layer": 1,
+        "parent": null,
+        "role": "wall-decor",
+        "clip": null
+      },
+      {
+        "id": "room--wall-clock--360-24",
+        "asset": "wall-clock",
+        "x": 486,
+        "y": 19,
+        "layer": 1,
+        "parent": null,
+        "role": "wall-decor",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-end-left--120-56",
+        "asset": "counter-end-left",
+        "x": 122,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--136-56",
+        "asset": "counter-top",
+        "x": 138,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--136-80",
+        "asset": "counter-front",
+        "x": 138,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--152-56",
+        "asset": "counter-top",
+        "x": 154,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--152-80",
+        "asset": "counter-front",
+        "x": 154,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--168-56",
+        "asset": "counter-top",
+        "x": 170,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--168-80",
+        "asset": "counter-front",
+        "x": 170,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--184-56",
+        "asset": "counter-top",
+        "x": 186,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--184-80",
+        "asset": "counter-front",
+        "x": 186,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--200-56",
+        "asset": "counter-top",
+        "x": 202,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--200-80",
+        "asset": "counter-front",
+        "x": 202,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--216-56",
+        "asset": "counter-top",
+        "x": 218,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--216-80",
+        "asset": "counter-front",
+        "x": 218,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--232-56",
+        "asset": "counter-top",
+        "x": 234,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--232-80",
+        "asset": "counter-front",
+        "x": 234,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--248-56",
+        "asset": "counter-top",
+        "x": 250,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--248-80",
+        "asset": "counter-front",
+        "x": 250,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--264-56",
+        "asset": "counter-top",
+        "x": 266,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--264-80",
+        "asset": "counter-front",
+        "x": 266,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--280-56",
+        "asset": "counter-top",
+        "x": 282,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--280-80",
+        "asset": "counter-front",
+        "x": 282,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-end-left--104-136",
+        "asset": "counter-end-left",
+        "x": 122,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--120-136",
+        "asset": "counter-top",
+        "x": 170,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--120-160",
+        "asset": "counter-front",
+        "x": 170,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--136-136",
+        "asset": "counter-top",
+        "x": 186,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--136-160",
+        "asset": "counter-front",
+        "x": 186,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--152-136",
+        "asset": "counter-top",
+        "x": 202,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--152-160",
+        "asset": "counter-front",
+        "x": 202,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--168-136",
+        "asset": "counter-top",
+        "x": 218,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--168-160",
+        "asset": "counter-front",
+        "x": 218,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--184-136",
+        "asset": "counter-top",
+        "x": 234,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--184-160",
+        "asset": "counter-front",
+        "x": 234,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--200-136",
+        "asset": "counter-top",
+        "x": 250,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--200-160",
+        "asset": "counter-front",
+        "x": 250,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--216-136",
+        "asset": "counter-top",
+        "x": 266,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--216-160",
+        "asset": "counter-front",
+        "x": 266,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--232-136",
+        "asset": "counter-top",
+        "x": 282,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--232-160",
+        "asset": "counter-front",
+        "x": 282,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--248-136",
+        "asset": "counter-top",
+        "x": 298,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--248-160",
+        "asset": "counter-front",
+        "x": 298,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--264-136",
+        "asset": "counter-top",
+        "x": 314,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--264-160",
+        "asset": "counter-front",
+        "x": 314,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--280-136",
+        "asset": "counter-top",
+        "x": 330,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--280-160",
+        "asset": "counter-front",
+        "x": 330,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--296-136",
+        "asset": "counter-top",
+        "x": 346,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--296-160",
+        "asset": "counter-front",
+        "x": 346,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--312-136",
+        "asset": "counter-top",
+        "x": 362,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--312-160",
+        "asset": "counter-front",
+        "x": 362,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-vertical--344-104",
+        "asset": "counter-vertical",
+        "x": 402,
+        "y": 96,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--curve-base--328-120",
+        "asset": "curve-base",
+        "x": 386,
+        "y": 112,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "bar-stool-front-0",
+        "asset": "stool-pink",
+        "x": 138,
+        "y": 168,
+        "layer": 3,
+        "parent": "bar-stools",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "bar-stool-front-1",
+        "asset": "stool-mint",
+        "x": 170,
+        "y": 168,
+        "layer": 3,
+        "parent": "bar-stools",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "bar-stool-front-2",
+        "asset": "stool-pink",
+        "x": 202,
+        "y": 168,
+        "layer": 3,
+        "parent": "bar-stools",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "bar-stool-front-3",
+        "asset": "stool-mint",
+        "x": 234,
+        "y": 168,
+        "layer": 3,
+        "parent": "bar-stools",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "bar-stool-front-4",
+        "asset": "stool-pink",
+        "x": 266,
+        "y": 168,
+        "layer": 3,
+        "parent": "bar-stools",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "bar-stool-front-5",
+        "asset": "stool-mint",
+        "x": 298,
+        "y": 168,
+        "layer": 3,
+        "parent": "bar-stools",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-left-0--booth-ns-base",
+        "asset": "booth-ns-base",
+        "x": 4,
+        "y": 156,
+        "layer": 3,
+        "parent": "booth-left-0",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-left-0--booth-ns-table",
+        "asset": "booth-ns-table",
+        "x": 4,
+        "y": 156,
+        "layer": 3,
+        "parent": "booth-left-0",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-left-1--booth-ns-base",
+        "asset": "booth-ns-base",
+        "x": 4,
+        "y": 236,
+        "layer": 3,
+        "parent": "booth-left-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-left-1--booth-ns-table",
+        "asset": "booth-ns-table",
+        "x": 4,
+        "y": 236,
+        "layer": 3,
+        "parent": "booth-left-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-right-0--booth-ns-base",
+        "asset": "booth-ns-base",
+        "x": 540,
+        "y": 103,
+        "layer": 3,
+        "parent": "booth-right-0",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-right-0--booth-ns-table",
+        "asset": "booth-ns-table",
+        "x": 540,
+        "y": 103,
+        "layer": 3,
+        "parent": "booth-right-0",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-right-1--booth-ns-base",
+        "asset": "booth-ns-base",
+        "x": 540,
+        "y": 183,
+        "layer": 3,
+        "parent": "booth-right-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-right-1--booth-ns-table",
+        "asset": "booth-ns-table",
+        "x": 540,
+        "y": 183,
+        "layer": 3,
+        "parent": "booth-right-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-right-2--booth-ns-base",
+        "asset": "booth-ns-base",
+        "x": 540,
+        "y": 263,
+        "layer": 3,
+        "parent": "booth-right-2",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-right-2--booth-ns-table",
+        "asset": "booth-ns-table",
+        "x": 540,
+        "y": 263,
+        "layer": 3,
+        "parent": "booth-right-2",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-0--booth-bench-left",
+        "asset": "booth-bench-left",
+        "x": 112,
+        "y": 359,
+        "layer": 3,
+        "parent": "booth-bottom-0",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-0--booth-bench-right",
+        "asset": "booth-bench-right",
+        "x": 160,
+        "y": 359,
+        "layer": 3,
+        "parent": "booth-bottom-0",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-0--booth-table",
+        "asset": "booth-table",
+        "x": 136,
+        "y": 367,
+        "layer": 3,
+        "parent": "booth-bottom-0",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-1--booth-bench-left",
+        "asset": "booth-bench-left",
+        "x": 180,
+        "y": 359,
+        "layer": 3,
+        "parent": "booth-bottom-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-1--booth-bench-right",
+        "asset": "booth-bench-right",
+        "x": 228,
+        "y": 359,
+        "layer": 3,
+        "parent": "booth-bottom-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-1--booth-table",
+        "asset": "booth-table",
+        "x": 204,
+        "y": 367,
+        "layer": 3,
+        "parent": "booth-bottom-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-2--booth-bench-left",
+        "asset": "booth-bench-left",
+        "x": 248,
+        "y": 359,
+        "layer": 3,
+        "parent": "booth-bottom-2",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-2--booth-bench-right",
+        "asset": "booth-bench-right",
+        "x": 296,
+        "y": 359,
+        "layer": 3,
+        "parent": "booth-bottom-2",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-2--booth-table",
+        "asset": "booth-table",
+        "x": 272,
+        "y": 367,
+        "layer": 3,
+        "parent": "booth-bottom-2",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "circle-booth--circle-base",
+        "asset": "circle-base",
+        "x": 0,
+        "y": 320,
+        "layer": 3,
+        "parent": "circle-booth",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "circle-booth--circle-table",
+        "asset": "circle-table",
+        "x": 0,
+        "y": 320,
+        "layer": 3,
+        "parent": "circle-booth",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "middle-table-1-surface",
+        "asset": "table-horizontal",
+        "x": 476,
+        "y": 194,
+        "layer": 3,
+        "parent": "middle-table-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "middle-table-1--chair-south",
+        "asset": "chair-south",
+        "x": 492,
+        "y": 172,
+        "layer": 3,
+        "parent": "middle-table-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "middle-table-1--chair-north",
+        "asset": "chair-north",
+        "x": 492,
+        "y": 232,
+        "layer": 3,
+        "parent": "middle-table-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "middle-table-2-surface",
+        "asset": "table-horizontal",
+        "x": 476,
+        "y": 104,
+        "layer": 3,
+        "parent": "middle-table-2",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "middle-table-2--chair-south",
+        "asset": "chair-south",
+        "x": 492,
+        "y": 82,
+        "layer": 3,
+        "parent": "middle-table-2",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "middle-table-2--chair-north",
+        "asset": "chair-north",
+        "x": 492,
+        "y": 142,
+        "layer": 3,
+        "parent": "middle-table-2",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "entrance-decor--jukebox",
+        "asset": "jukebox",
+        "x": 16,
+        "y": 26,
+        "layer": 3,
+        "parent": "entrance-decor",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "entrance-decor--potted-plant",
+        "asset": "potted-plant",
+        "x": 564,
+        "y": 385,
+        "layer": 3,
+        "parent": "entrance-decor",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "middle-table-1--menu-stand",
+        "asset": "menu-stand",
+        "x": 494,
+        "y": 204,
+        "layer": 4,
+        "parent": "middle-table-1",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "middle-table-2--menu-stand",
+        "asset": "menu-stand",
+        "x": 494,
+        "y": 114,
+        "layer": 4,
+        "parent": "middle-table-2",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "drink-station--coffee-maker--144-40",
+        "asset": "coffee-maker",
+        "x": 180,
+        "y": 20,
+        "layer": 4,
+        "parent": "drink-station",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "drink-station--tea-unit--192-40",
+        "asset": "tea-unit",
+        "x": 208,
+        "y": 20,
+        "layer": 4,
+        "parent": "drink-station",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "drink-station--soda-unit--240-32",
+        "asset": "soda-unit",
+        "x": 144,
+        "y": 12,
+        "layer": 4,
+        "parent": "drink-station",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "drink-station--cup-stack--288-56",
+        "asset": "cup-stack",
+        "x": 124,
+        "y": 35,
+        "layer": 4,
+        "parent": "drink-station",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "main-bar--cash-register--136-121",
+        "asset": "cash-register",
+        "x": 375,
+        "y": 29,
+        "layer": 4,
+        "parent": "main-bar",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "main-bar--condiment-caddy--296-136",
+        "asset": "condiment-caddy",
+        "x": 232,
+        "y": 32,
+        "layer": 4,
+        "parent": "main-bar",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "booth-left-0--booth-ns-foreground",
+        "asset": "booth-ns-foreground",
+        "x": 4,
+        "y": 156,
+        "layer": 5,
+        "parent": "booth-left-0",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-left-1--booth-ns-foreground",
+        "asset": "booth-ns-foreground",
+        "x": 4,
+        "y": 236,
+        "layer": 5,
+        "parent": "booth-left-1",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-right-0--booth-ns-foreground",
+        "asset": "booth-ns-foreground",
+        "x": 540,
+        "y": 103,
+        "layer": 5,
+        "parent": "booth-right-0",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-right-1--booth-ns-foreground",
+        "asset": "booth-ns-foreground",
+        "x": 540,
+        "y": 183,
+        "layer": 5,
+        "parent": "booth-right-1",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-right-2--booth-ns-foreground",
+        "asset": "booth-ns-foreground",
+        "x": 540,
+        "y": 263,
+        "layer": 5,
+        "parent": "booth-right-2",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-0--booth-left-back",
+        "asset": "booth-left-back",
+        "x": 114,
+        "y": 361,
+        "layer": 5,
+        "parent": "booth-bottom-0",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-0--booth-right-back",
+        "asset": "booth-right-back",
+        "x": 174,
+        "y": 361,
+        "layer": 5,
+        "parent": "booth-bottom-0",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-1--booth-left-back",
+        "asset": "booth-left-back",
+        "x": 182,
+        "y": 361,
+        "layer": 5,
+        "parent": "booth-bottom-1",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-1--booth-right-back",
+        "asset": "booth-right-back",
+        "x": 242,
+        "y": 361,
+        "layer": 5,
+        "parent": "booth-bottom-1",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-2--booth-left-back",
+        "asset": "booth-left-back",
+        "x": 250,
+        "y": 361,
+        "layer": 5,
+        "parent": "booth-bottom-2",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-2--booth-right-back",
+        "asset": "booth-right-back",
+        "x": 310,
+        "y": 361,
+        "layer": 5,
+        "parent": "booth-bottom-2",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "circle-booth--circle-foreground",
+        "asset": "circle-foreground",
+        "x": 0,
+        "y": 320,
+        "layer": 5,
+        "parent": "circle-booth",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--120-160",
+        "asset": "counter-lip",
+        "x": 170,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--136-160",
+        "asset": "counter-lip",
+        "x": 186,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--152-160",
+        "asset": "counter-lip",
+        "x": 202,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--168-160",
+        "asset": "counter-lip",
+        "x": 218,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--184-160",
+        "asset": "counter-lip",
+        "x": 234,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--200-160",
+        "asset": "counter-lip",
+        "x": 250,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--216-160",
+        "asset": "counter-lip",
+        "x": 266,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--232-160",
+        "asset": "counter-lip",
+        "x": 282,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--248-160",
+        "asset": "counter-lip",
+        "x": 298,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--264-160",
+        "asset": "counter-lip",
+        "x": 314,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--280-160",
+        "asset": "counter-lip",
+        "x": 330,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--296-160",
+        "asset": "counter-lip",
+        "x": 346,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--312-160",
+        "asset": "counter-lip",
+        "x": 362,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--curve-foreground--328-120",
+        "asset": "curve-foreground",
+        "x": 386,
+        "y": 112,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "kitchen-west--doorway-lintel",
+        "asset": "doorway-lintel",
+        "x": 72,
+        "y": 16,
+        "layer": 7,
+        "parent": "kitchen-west",
+        "role": "doorway-foreground",
+        "clip": null
+      },
+      {
+        "id": "kitchen-east--doorway-lintel",
+        "asset": "doorway-lintel",
+        "x": 432,
+        "y": 16,
+        "layer": 7,
+        "parent": "kitchen-east",
+        "role": "doorway-foreground",
+        "clip": null
+      },
+      {
+        "id": "design-booth-bench-left-1",
+        "asset": "booth-bench-left",
+        "x": 316,
+        "y": 359,
+        "layer": 3,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-booth-table-1",
+        "asset": "booth-table",
+        "x": 340,
+        "y": 367,
+        "layer": 3,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-booth-bench-right-1",
+        "asset": "booth-bench-right",
+        "x": 364,
+        "y": 359,
+        "layer": 3,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-booth-above-below-1",
+        "asset": "booth-above-below",
+        "x": 4,
+        "y": 76,
+        "layer": 2,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-booth-above-below-2",
+        "asset": "booth-above-below",
+        "x": 540,
+        "y": 23,
+        "layer": 2,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-wall-lamp-1",
+        "asset": "wall-lamp",
+        "x": 571,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall-decor",
+        "clip": null
+      },
+      {
+        "id": "design-booth-bench-left-2",
+        "asset": "booth-bench-left",
+        "x": 384,
+        "y": 359,
+        "layer": 3,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-booth-table-2",
+        "asset": "booth-table",
+        "x": 408,
+        "y": 367,
+        "layer": 3,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-booth-bench-right-2",
+        "asset": "booth-bench-right",
+        "x": 432,
+        "y": 359,
+        "layer": 3,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-wall-side-right-1",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 32,
+        "layer": 1,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-wall-side-right-2",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 19,
+        "layer": 1,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-wall-side-left-1",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 32,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "design-wall-side-left-2",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 19,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "design-table-horizontal-1",
+        "asset": "table-horizontal",
+        "x": 476,
+        "y": 283,
+        "layer": 3,
+        "parent": "design-group-1794080739766",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-south-1",
+        "asset": "chair-south",
+        "x": 492,
+        "y": 261,
+        "layer": 3,
+        "parent": "design-group-1794080739766",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-north-1",
+        "asset": "chair-north",
+        "x": 492,
+        "y": 321,
+        "layer": 3,
+        "parent": "design-group-1794080739766",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-menu-stand-1",
+        "asset": "menu-stand",
+        "x": 494,
+        "y": 293,
+        "layer": 4,
+        "parent": "design-group-1794080739766",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "design-potted-plant-1",
+        "asset": "potted-plant",
+        "x": 467,
+        "y": 385,
+        "layer": 3,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-1",
+        "asset": "counter-top",
+        "x": 298,
+        "y": 36,
+        "layer": 2,
+        "parent": "design-group-1794081204152",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-1",
+        "asset": "counter-front",
+        "x": 298,
+        "y": 60,
+        "layer": 2,
+        "parent": "design-group-1794081204152",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-end-right-1",
+        "asset": "counter-end-right",
+        "x": 410,
+        "y": 36,
+        "layer": 2,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-2",
+        "asset": "counter-top",
+        "x": 314,
+        "y": 36,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-2",
+        "asset": "counter-front",
+        "x": 314,
+        "y": 60,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-3",
+        "asset": "counter-front",
+        "x": 330,
+        "y": 60,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-4",
+        "asset": "counter-front",
+        "x": 346,
+        "y": 60,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-5",
+        "asset": "counter-front",
+        "x": 362,
+        "y": 60,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-6",
+        "asset": "counter-front",
+        "x": 378,
+        "y": 60,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-3",
+        "asset": "counter-top",
+        "x": 330,
+        "y": 36,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-4",
+        "asset": "counter-top",
+        "x": 346,
+        "y": 36,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-5",
+        "asset": "counter-top",
+        "x": 362,
+        "y": 36,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-6",
+        "asset": "counter-top",
+        "x": 378,
+        "y": 36,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-7",
+        "asset": "counter-front",
+        "x": 394,
+        "y": 60,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-7",
+        "asset": "counter-top",
+        "x": 394,
+        "y": 36,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-potted-plant-2",
+        "asset": "potted-plant",
+        "x": 47,
+        "y": 36,
+        "layer": 3,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-8",
+        "asset": "counter-top",
+        "x": 154,
+        "y": 128,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-9",
+        "asset": "counter-top",
+        "x": 138,
+        "y": 128,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-8",
+        "asset": "counter-front",
+        "x": 154,
+        "y": 152,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-9",
+        "asset": "counter-front",
+        "x": 138,
+        "y": 152,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-10",
+        "asset": "counter-front",
+        "x": 370,
+        "y": 152,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-10",
+        "asset": "counter-top",
+        "x": 370,
+        "y": 128,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-wall-lamp-2",
+        "asset": "wall-lamp",
+        "x": 122,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall-decor",
+        "clip": null
+      },
+      {
+        "id": "design-wall-menu-1",
+        "asset": "wall-menu",
+        "x": 325,
+        "y": 17,
+        "layer": 1,
+        "parent": null,
+        "role": "wall-decor",
+        "clip": null
+      },
+      {
+        "id": "design-stool-pink-1",
+        "asset": "stool-pink",
+        "x": 328,
+        "y": 168,
+        "layer": 3,
+        "parent": "design-group-1794082564856",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-stool-mint-1",
+        "asset": "stool-mint",
+        "x": 360,
+        "y": 168,
+        "layer": 3,
+        "parent": "design-group-1794082564856",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-table-rectangular-1",
+        "asset": "table-rectangular",
+        "x": 138,
+        "y": 225,
+        "layer": 3,
+        "parent": "design-group-1794083116927",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-east-1",
+        "asset": "chair-east",
+        "x": 120,
+        "y": 233,
+        "layer": 3,
+        "parent": "design-group-1794083116927",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-west-1",
+        "asset": "chair-west",
+        "x": 171,
+        "y": 233,
+        "layer": 3,
+        "parent": "design-group-1794083116927",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-menu-stand-2",
+        "asset": "menu-stand",
+        "x": 148,
+        "y": 237,
+        "layer": 4,
+        "parent": "design-group-1794083116927",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "design-table-rectangular-2",
+        "asset": "table-rectangular",
+        "x": 138,
+        "y": 284,
+        "layer": 3,
+        "parent": "design-group-1794083156293",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-east-2",
+        "asset": "chair-east",
+        "x": 120,
+        "y": 292,
+        "layer": 3,
+        "parent": "design-group-1794083156293",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-west-2",
+        "asset": "chair-west",
+        "x": 171,
+        "y": 292,
+        "layer": 3,
+        "parent": "design-group-1794083156293",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-menu-stand-3",
+        "asset": "menu-stand",
+        "x": 148,
+        "y": 296,
+        "layer": 4,
+        "parent": "design-group-1794083156293",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "design-table-rectangular-3",
+        "asset": "table-rectangular",
+        "x": 376,
+        "y": 225,
+        "layer": 3,
+        "parent": "design-group-1794083191610",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-east-3",
+        "asset": "chair-east",
+        "x": 358,
+        "y": 233,
+        "layer": 3,
+        "parent": "design-group-1794083191610",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-west-3",
+        "asset": "chair-west",
+        "x": 409,
+        "y": 233,
+        "layer": 3,
+        "parent": "design-group-1794083191610",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-menu-stand-4",
+        "asset": "menu-stand",
+        "x": 386,
+        "y": 237,
+        "layer": 4,
+        "parent": "design-group-1794083191610",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "design-table-rectangular-4",
+        "asset": "table-rectangular",
+        "x": 376,
+        "y": 284,
+        "layer": 3,
+        "parent": "design-group-1794083191610",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-east-4",
+        "asset": "chair-east",
+        "x": 358,
+        "y": 292,
+        "layer": 3,
+        "parent": "design-group-1794083191610",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-west-4",
+        "asset": "chair-west",
+        "x": 409,
+        "y": 292,
+        "layer": 3,
+        "parent": "design-group-1794083191610",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-menu-stand-5",
+        "asset": "menu-stand",
+        "x": 386,
+        "y": 296,
+        "layer": 4,
+        "parent": "design-group-1794083191610",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "design-table-rectangular-5",
+        "asset": "table-rectangular",
+        "x": 218,
+        "y": 225,
+        "layer": 3,
+        "parent": "design-group-1794083235327",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-east-5",
+        "asset": "chair-east",
+        "x": 200,
+        "y": 233,
+        "layer": 3,
+        "parent": "design-group-1794083235327",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-west-5",
+        "asset": "chair-west",
+        "x": 251,
+        "y": 233,
+        "layer": 3,
+        "parent": "design-group-1794083235327",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-menu-stand-6",
+        "asset": "menu-stand",
+        "x": 228,
+        "y": 237,
+        "layer": 4,
+        "parent": "design-group-1794083235327",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "design-table-rectangular-6",
+        "asset": "table-rectangular",
+        "x": 217,
+        "y": 284,
+        "layer": 3,
+        "parent": "design-group-1794083235327",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-east-6",
+        "asset": "chair-east",
+        "x": 199,
+        "y": 292,
+        "layer": 3,
+        "parent": "design-group-1794083235327",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-west-6",
+        "asset": "chair-west",
+        "x": 250,
+        "y": 292,
+        "layer": 3,
+        "parent": "design-group-1794083235327",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-menu-stand-7",
+        "asset": "menu-stand",
+        "x": 227,
+        "y": 296,
+        "layer": 4,
+        "parent": "design-group-1794083235327",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "design-table-rectangular-7",
+        "asset": "table-rectangular",
+        "x": 296,
+        "y": 225,
+        "layer": 3,
+        "parent": "design-group-1794083284112",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-east-7",
+        "asset": "chair-east",
+        "x": 278,
+        "y": 233,
+        "layer": 3,
+        "parent": "design-group-1794083284112",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-west-7",
+        "asset": "chair-west",
+        "x": 329,
+        "y": 233,
+        "layer": 3,
+        "parent": "design-group-1794083284112",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-menu-stand-8",
+        "asset": "menu-stand",
+        "x": 306,
+        "y": 237,
+        "layer": 4,
+        "parent": "design-group-1794083284112",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "design-table-rectangular-8",
+        "asset": "table-rectangular",
+        "x": 296,
+        "y": 284,
+        "layer": 3,
+        "parent": "design-group-1794083387595",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-east-8",
+        "asset": "chair-east",
+        "x": 278,
+        "y": 292,
+        "layer": 3,
+        "parent": "design-group-1794083387595",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-west-8",
+        "asset": "chair-west",
+        "x": 329,
+        "y": 292,
+        "layer": 3,
+        "parent": "design-group-1794083387595",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-menu-stand-9",
+        "asset": "menu-stand",
+        "x": 306,
+        "y": 296,
+        "layer": 4,
+        "parent": "design-group-1794083387595",
+        "role": "surface-attachment",
+        "clip": null
+      }
+    ]
+  },
+  "changes": {
+    "added": [
+      {
+        "id": "design-booth-bench-left-1",
+        "asset": "booth-bench-left",
+        "x": 316,
+        "y": 359,
+        "layer": 3,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-booth-table-1",
+        "asset": "booth-table",
+        "x": 340,
+        "y": 367,
+        "layer": 3,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-booth-bench-right-1",
+        "asset": "booth-bench-right",
+        "x": 364,
+        "y": 359,
+        "layer": 3,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-booth-above-below-1",
+        "asset": "booth-above-below",
+        "x": 4,
+        "y": 76,
+        "layer": 2,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-booth-above-below-2",
+        "asset": "booth-above-below",
+        "x": 540,
+        "y": 23,
+        "layer": 2,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-wall-lamp-1",
+        "asset": "wall-lamp",
+        "x": 571,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall-decor",
+        "clip": null
+      },
+      {
+        "id": "design-booth-bench-left-2",
+        "asset": "booth-bench-left",
+        "x": 384,
+        "y": 359,
+        "layer": 3,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-booth-table-2",
+        "asset": "booth-table",
+        "x": 408,
+        "y": 367,
+        "layer": 3,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-booth-bench-right-2",
+        "asset": "booth-bench-right",
+        "x": 432,
+        "y": 359,
+        "layer": 3,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-wall-side-right-1",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 32,
+        "layer": 1,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-wall-side-right-2",
+        "asset": "wall-side-right",
+        "x": 608,
+        "y": 19,
+        "layer": 1,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-wall-side-left-1",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 32,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "design-wall-side-left-2",
+        "asset": "wall-side-left",
+        "x": 8,
+        "y": 19,
+        "layer": 1,
+        "parent": null,
+        "role": "wall",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 16
+        }
+      },
+      {
+        "id": "design-table-horizontal-1",
+        "asset": "table-horizontal",
+        "x": 476,
+        "y": 283,
+        "layer": 3,
+        "parent": "design-group-1794080739766",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-south-1",
+        "asset": "chair-south",
+        "x": 492,
+        "y": 261,
+        "layer": 3,
+        "parent": "design-group-1794080739766",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-north-1",
+        "asset": "chair-north",
+        "x": 492,
+        "y": 321,
+        "layer": 3,
+        "parent": "design-group-1794080739766",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-menu-stand-1",
+        "asset": "menu-stand",
+        "x": 494,
+        "y": 293,
+        "layer": 4,
+        "parent": "design-group-1794080739766",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "design-potted-plant-1",
+        "asset": "potted-plant",
+        "x": 467,
+        "y": 385,
+        "layer": 3,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-1",
+        "asset": "counter-top",
+        "x": 298,
+        "y": 36,
+        "layer": 2,
+        "parent": "design-group-1794081204152",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-1",
+        "asset": "counter-front",
+        "x": 298,
+        "y": 60,
+        "layer": 2,
+        "parent": "design-group-1794081204152",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-end-right-1",
+        "asset": "counter-end-right",
+        "x": 410,
+        "y": 36,
+        "layer": 2,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-2",
+        "asset": "counter-top",
+        "x": 314,
+        "y": 36,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-2",
+        "asset": "counter-front",
+        "x": 314,
+        "y": 60,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-3",
+        "asset": "counter-front",
+        "x": 330,
+        "y": 60,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-4",
+        "asset": "counter-front",
+        "x": 346,
+        "y": 60,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-5",
+        "asset": "counter-front",
+        "x": 362,
+        "y": 60,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-6",
+        "asset": "counter-front",
+        "x": 378,
+        "y": 60,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-3",
+        "asset": "counter-top",
+        "x": 330,
+        "y": 36,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-4",
+        "asset": "counter-top",
+        "x": 346,
+        "y": 36,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-5",
+        "asset": "counter-top",
+        "x": 362,
+        "y": 36,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-6",
+        "asset": "counter-top",
+        "x": 378,
+        "y": 36,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-7",
+        "asset": "counter-front",
+        "x": 394,
+        "y": 60,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-7",
+        "asset": "counter-top",
+        "x": 394,
+        "y": 36,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-potted-plant-2",
+        "asset": "potted-plant",
+        "x": 47,
+        "y": 36,
+        "layer": 3,
+        "parent": null,
+        "role": "design-placement",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-8",
+        "asset": "counter-top",
+        "x": 154,
+        "y": 128,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-9",
+        "asset": "counter-top",
+        "x": 138,
+        "y": 128,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-8",
+        "asset": "counter-front",
+        "x": 154,
+        "y": 152,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-9",
+        "asset": "counter-front",
+        "x": 138,
+        "y": 152,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-front-10",
+        "asset": "counter-front",
+        "x": 370,
+        "y": 152,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-counter-top-10",
+        "asset": "counter-top",
+        "x": 370,
+        "y": 128,
+        "layer": 2,
+        "parent": null,
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-wall-lamp-2",
+        "asset": "wall-lamp",
+        "x": 122,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall-decor",
+        "clip": null
+      },
+      {
+        "id": "design-wall-menu-1",
+        "asset": "wall-menu",
+        "x": 325,
+        "y": 17,
+        "layer": 1,
+        "parent": null,
+        "role": "wall-decor",
+        "clip": null
+      },
+      {
+        "id": "design-stool-pink-1",
+        "asset": "stool-pink",
+        "x": 328,
+        "y": 168,
+        "layer": 3,
+        "parent": "design-group-1794082564856",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-stool-mint-1",
+        "asset": "stool-mint",
+        "x": 360,
+        "y": 168,
+        "layer": 3,
+        "parent": "design-group-1794082564856",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-table-rectangular-1",
+        "asset": "table-rectangular",
+        "x": 138,
+        "y": 225,
+        "layer": 3,
+        "parent": "design-group-1794083116927",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-east-1",
+        "asset": "chair-east",
+        "x": 120,
+        "y": 233,
+        "layer": 3,
+        "parent": "design-group-1794083116927",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-west-1",
+        "asset": "chair-west",
+        "x": 171,
+        "y": 233,
+        "layer": 3,
+        "parent": "design-group-1794083116927",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-menu-stand-2",
+        "asset": "menu-stand",
+        "x": 148,
+        "y": 237,
+        "layer": 4,
+        "parent": "design-group-1794083116927",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "design-table-rectangular-2",
+        "asset": "table-rectangular",
+        "x": 138,
+        "y": 284,
+        "layer": 3,
+        "parent": "design-group-1794083156293",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-east-2",
+        "asset": "chair-east",
+        "x": 120,
+        "y": 292,
+        "layer": 3,
+        "parent": "design-group-1794083156293",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-west-2",
+        "asset": "chair-west",
+        "x": 171,
+        "y": 292,
+        "layer": 3,
+        "parent": "design-group-1794083156293",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-menu-stand-3",
+        "asset": "menu-stand",
+        "x": 148,
+        "y": 296,
+        "layer": 4,
+        "parent": "design-group-1794083156293",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "design-table-rectangular-3",
+        "asset": "table-rectangular",
+        "x": 376,
+        "y": 225,
+        "layer": 3,
+        "parent": "design-group-1794083191610",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-east-3",
+        "asset": "chair-east",
+        "x": 358,
+        "y": 233,
+        "layer": 3,
+        "parent": "design-group-1794083191610",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-west-3",
+        "asset": "chair-west",
+        "x": 409,
+        "y": 233,
+        "layer": 3,
+        "parent": "design-group-1794083191610",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-menu-stand-4",
+        "asset": "menu-stand",
+        "x": 386,
+        "y": 237,
+        "layer": 4,
+        "parent": "design-group-1794083191610",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "design-table-rectangular-4",
+        "asset": "table-rectangular",
+        "x": 376,
+        "y": 284,
+        "layer": 3,
+        "parent": "design-group-1794083191610",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-east-4",
+        "asset": "chair-east",
+        "x": 358,
+        "y": 292,
+        "layer": 3,
+        "parent": "design-group-1794083191610",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-west-4",
+        "asset": "chair-west",
+        "x": 409,
+        "y": 292,
+        "layer": 3,
+        "parent": "design-group-1794083191610",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-menu-stand-5",
+        "asset": "menu-stand",
+        "x": 386,
+        "y": 296,
+        "layer": 4,
+        "parent": "design-group-1794083191610",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "design-table-rectangular-5",
+        "asset": "table-rectangular",
+        "x": 218,
+        "y": 225,
+        "layer": 3,
+        "parent": "design-group-1794083235327",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-east-5",
+        "asset": "chair-east",
+        "x": 200,
+        "y": 233,
+        "layer": 3,
+        "parent": "design-group-1794083235327",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-west-5",
+        "asset": "chair-west",
+        "x": 251,
+        "y": 233,
+        "layer": 3,
+        "parent": "design-group-1794083235327",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-menu-stand-6",
+        "asset": "menu-stand",
+        "x": 228,
+        "y": 237,
+        "layer": 4,
+        "parent": "design-group-1794083235327",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "design-table-rectangular-6",
+        "asset": "table-rectangular",
+        "x": 217,
+        "y": 284,
+        "layer": 3,
+        "parent": "design-group-1794083235327",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-east-6",
+        "asset": "chair-east",
+        "x": 199,
+        "y": 292,
+        "layer": 3,
+        "parent": "design-group-1794083235327",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-west-6",
+        "asset": "chair-west",
+        "x": 250,
+        "y": 292,
+        "layer": 3,
+        "parent": "design-group-1794083235327",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-menu-stand-7",
+        "asset": "menu-stand",
+        "x": 227,
+        "y": 296,
+        "layer": 4,
+        "parent": "design-group-1794083235327",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "design-table-rectangular-7",
+        "asset": "table-rectangular",
+        "x": 296,
+        "y": 225,
+        "layer": 3,
+        "parent": "design-group-1794083284112",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-east-7",
+        "asset": "chair-east",
+        "x": 278,
+        "y": 233,
+        "layer": 3,
+        "parent": "design-group-1794083284112",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-west-7",
+        "asset": "chair-west",
+        "x": 329,
+        "y": 233,
+        "layer": 3,
+        "parent": "design-group-1794083284112",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-menu-stand-8",
+        "asset": "menu-stand",
+        "x": 306,
+        "y": 237,
+        "layer": 4,
+        "parent": "design-group-1794083284112",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "design-table-rectangular-8",
+        "asset": "table-rectangular",
+        "x": 296,
+        "y": 284,
+        "layer": 3,
+        "parent": "design-group-1794083387595",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-east-8",
+        "asset": "chair-east",
+        "x": 278,
+        "y": 292,
+        "layer": 3,
+        "parent": "design-group-1794083387595",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-chair-west-8",
+        "asset": "chair-west",
+        "x": 329,
+        "y": 292,
+        "layer": 3,
+        "parent": "design-group-1794083387595",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "design-menu-stand-9",
+        "asset": "menu-stand",
+        "x": 306,
+        "y": 296,
+        "layer": 4,
+        "parent": "design-group-1794083387595",
+        "role": "surface-attachment",
+        "clip": null
+      }
+    ],
+    "updated": [
+      {
+        "id": "kitchen-east--threshold",
+        "asset": "threshold",
+        "x": 448,
+        "y": 48,
+        "layer": 0,
+        "parent": "kitchen-east",
+        "role": "threshold",
+        "clip": null
+      },
+      {
+        "id": "entrance--entrance-mat",
+        "asset": "entrance-mat",
+        "x": 512,
+        "y": 397,
+        "layer": 0,
+        "parent": "entrance",
+        "role": "ground",
+        "clip": null
+      },
+      {
+        "id": "kitchen-west-doorway",
+        "asset": "kitchen-doorway",
+        "x": 72,
+        "y": 16,
+        "layer": 1,
+        "parent": "kitchen-west",
+        "role": "doorway",
+        "clip": null
+      },
+      {
+        "id": "kitchen-east-doorway",
+        "asset": "kitchen-doorway",
+        "x": 432,
+        "y": 16,
+        "layer": 1,
+        "parent": "kitchen-east",
+        "role": "doorway",
+        "clip": null
+      },
+      {
+        "id": "room--wall-record--112-24",
+        "asset": "wall-record",
+        "x": 50,
+        "y": 19,
+        "layer": 1,
+        "parent": null,
+        "role": "wall-decor",
+        "clip": null
+      },
+      {
+        "id": "room--wall-lamp--456-24",
+        "asset": "wall-lamp",
+        "x": 409,
+        "y": 16,
+        "layer": 1,
+        "parent": null,
+        "role": "wall-decor",
+        "clip": null
+      },
+      {
+        "id": "room--neon-diner--168-20",
+        "asset": "neon-diner",
+        "x": 267,
+        "y": 19,
+        "layer": 1,
+        "parent": null,
+        "role": "wall-decor",
+        "clip": null
+      },
+      {
+        "id": "room--wall-menu--320-16",
+        "asset": "wall-menu",
+        "x": 355,
+        "y": 17,
+        "layer": 1,
+        "parent": null,
+        "role": "wall-decor",
+        "clip": null
+      },
+      {
+        "id": "room--wall-clock--360-24",
+        "asset": "wall-clock",
+        "x": 486,
+        "y": 19,
+        "layer": 1,
+        "parent": null,
+        "role": "wall-decor",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-end-left--120-56",
+        "asset": "counter-end-left",
+        "x": 122,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--136-56",
+        "asset": "counter-top",
+        "x": 138,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--136-80",
+        "asset": "counter-front",
+        "x": 138,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--152-56",
+        "asset": "counter-top",
+        "x": 154,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--152-80",
+        "asset": "counter-front",
+        "x": 154,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--168-56",
+        "asset": "counter-top",
+        "x": 170,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--168-80",
+        "asset": "counter-front",
+        "x": 170,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--184-56",
+        "asset": "counter-top",
+        "x": 186,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--184-80",
+        "asset": "counter-front",
+        "x": 186,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--200-56",
+        "asset": "counter-top",
+        "x": 202,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--200-80",
+        "asset": "counter-front",
+        "x": 202,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--216-56",
+        "asset": "counter-top",
+        "x": 218,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--216-80",
+        "asset": "counter-front",
+        "x": 218,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--232-56",
+        "asset": "counter-top",
+        "x": 234,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--232-80",
+        "asset": "counter-front",
+        "x": 234,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--248-56",
+        "asset": "counter-top",
+        "x": 250,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--248-80",
+        "asset": "counter-front",
+        "x": 250,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--264-56",
+        "asset": "counter-top",
+        "x": 266,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--264-80",
+        "asset": "counter-front",
+        "x": 266,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-top--280-56",
+        "asset": "counter-top",
+        "x": 282,
+        "y": 36,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "drink-station--counter-front--280-80",
+        "asset": "counter-front",
+        "x": 282,
+        "y": 60,
+        "layer": 2,
+        "parent": "drink-station",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-end-left--104-136",
+        "asset": "counter-end-left",
+        "x": 122,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--120-136",
+        "asset": "counter-top",
+        "x": 170,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--120-160",
+        "asset": "counter-front",
+        "x": 170,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--136-136",
+        "asset": "counter-top",
+        "x": 186,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--136-160",
+        "asset": "counter-front",
+        "x": 186,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--152-136",
+        "asset": "counter-top",
+        "x": 202,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--152-160",
+        "asset": "counter-front",
+        "x": 202,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--168-136",
+        "asset": "counter-top",
+        "x": 218,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--168-160",
+        "asset": "counter-front",
+        "x": 218,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--184-136",
+        "asset": "counter-top",
+        "x": 234,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--184-160",
+        "asset": "counter-front",
+        "x": 234,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--200-136",
+        "asset": "counter-top",
+        "x": 250,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--200-160",
+        "asset": "counter-front",
+        "x": 250,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--216-136",
+        "asset": "counter-top",
+        "x": 266,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--216-160",
+        "asset": "counter-front",
+        "x": 266,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--232-136",
+        "asset": "counter-top",
+        "x": 282,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--232-160",
+        "asset": "counter-front",
+        "x": 282,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--248-136",
+        "asset": "counter-top",
+        "x": 298,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--248-160",
+        "asset": "counter-front",
+        "x": 298,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--264-136",
+        "asset": "counter-top",
+        "x": 314,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--264-160",
+        "asset": "counter-front",
+        "x": 314,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--280-136",
+        "asset": "counter-top",
+        "x": 330,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--280-160",
+        "asset": "counter-front",
+        "x": 330,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--296-136",
+        "asset": "counter-top",
+        "x": 346,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--296-160",
+        "asset": "counter-front",
+        "x": 346,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-top--312-136",
+        "asset": "counter-top",
+        "x": 362,
+        "y": 128,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-front--312-160",
+        "asset": "counter-front",
+        "x": 362,
+        "y": 152,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-vertical--344-104",
+        "asset": "counter-vertical",
+        "x": 402,
+        "y": 96,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "main-bar--curve-base--328-120",
+        "asset": "curve-base",
+        "x": 386,
+        "y": 112,
+        "layer": 2,
+        "parent": "main-bar",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "bar-stool-front-0",
+        "asset": "stool-pink",
+        "x": 138,
+        "y": 168,
+        "layer": 3,
+        "parent": "bar-stools",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "bar-stool-front-1",
+        "asset": "stool-mint",
+        "x": 170,
+        "y": 168,
+        "layer": 3,
+        "parent": "bar-stools",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "bar-stool-front-2",
+        "asset": "stool-pink",
+        "x": 202,
+        "y": 168,
+        "layer": 3,
+        "parent": "bar-stools",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "bar-stool-front-3",
+        "asset": "stool-mint",
+        "x": 234,
+        "y": 168,
+        "layer": 3,
+        "parent": "bar-stools",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "bar-stool-front-4",
+        "asset": "stool-pink",
+        "x": 266,
+        "y": 168,
+        "layer": 3,
+        "parent": "bar-stools",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "bar-stool-front-5",
+        "asset": "stool-mint",
+        "x": 298,
+        "y": 168,
+        "layer": 3,
+        "parent": "bar-stools",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-left-0--booth-ns-base",
+        "asset": "booth-ns-base",
+        "x": 4,
+        "y": 156,
+        "layer": 3,
+        "parent": "booth-left-0",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-left-0--booth-ns-table",
+        "asset": "booth-ns-table",
+        "x": 4,
+        "y": 156,
+        "layer": 3,
+        "parent": "booth-left-0",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-left-1--booth-ns-base",
+        "asset": "booth-ns-base",
+        "x": 4,
+        "y": 236,
+        "layer": 3,
+        "parent": "booth-left-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-left-1--booth-ns-table",
+        "asset": "booth-ns-table",
+        "x": 4,
+        "y": 236,
+        "layer": 3,
+        "parent": "booth-left-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-right-0--booth-ns-base",
+        "asset": "booth-ns-base",
+        "x": 540,
+        "y": 103,
+        "layer": 3,
+        "parent": "booth-right-0",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-right-0--booth-ns-table",
+        "asset": "booth-ns-table",
+        "x": 540,
+        "y": 103,
+        "layer": 3,
+        "parent": "booth-right-0",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-right-1--booth-ns-base",
+        "asset": "booth-ns-base",
+        "x": 540,
+        "y": 183,
+        "layer": 3,
+        "parent": "booth-right-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-right-1--booth-ns-table",
+        "asset": "booth-ns-table",
+        "x": 540,
+        "y": 183,
+        "layer": 3,
+        "parent": "booth-right-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-right-2--booth-ns-base",
+        "asset": "booth-ns-base",
+        "x": 540,
+        "y": 263,
+        "layer": 3,
+        "parent": "booth-right-2",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-right-2--booth-ns-table",
+        "asset": "booth-ns-table",
+        "x": 540,
+        "y": 263,
+        "layer": 3,
+        "parent": "booth-right-2",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-0--booth-bench-left",
+        "asset": "booth-bench-left",
+        "x": 112,
+        "y": 359,
+        "layer": 3,
+        "parent": "booth-bottom-0",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-0--booth-bench-right",
+        "asset": "booth-bench-right",
+        "x": 160,
+        "y": 359,
+        "layer": 3,
+        "parent": "booth-bottom-0",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-0--booth-table",
+        "asset": "booth-table",
+        "x": 136,
+        "y": 367,
+        "layer": 3,
+        "parent": "booth-bottom-0",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-1--booth-bench-left",
+        "asset": "booth-bench-left",
+        "x": 180,
+        "y": 359,
+        "layer": 3,
+        "parent": "booth-bottom-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-1--booth-bench-right",
+        "asset": "booth-bench-right",
+        "x": 228,
+        "y": 359,
+        "layer": 3,
+        "parent": "booth-bottom-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-1--booth-table",
+        "asset": "booth-table",
+        "x": 204,
+        "y": 367,
+        "layer": 3,
+        "parent": "booth-bottom-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-2--booth-bench-left",
+        "asset": "booth-bench-left",
+        "x": 248,
+        "y": 359,
+        "layer": 3,
+        "parent": "booth-bottom-2",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-2--booth-bench-right",
+        "asset": "booth-bench-right",
+        "x": 296,
+        "y": 359,
+        "layer": 3,
+        "parent": "booth-bottom-2",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-2--booth-table",
+        "asset": "booth-table",
+        "x": 272,
+        "y": 367,
+        "layer": 3,
+        "parent": "booth-bottom-2",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "middle-table-1-surface",
+        "asset": "table-horizontal",
+        "x": 476,
+        "y": 194,
+        "layer": 3,
+        "parent": "middle-table-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "middle-table-1--chair-south",
+        "asset": "chair-south",
+        "x": 492,
+        "y": 172,
+        "layer": 3,
+        "parent": "middle-table-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "middle-table-1--chair-north",
+        "asset": "chair-north",
+        "x": 492,
+        "y": 232,
+        "layer": 3,
+        "parent": "middle-table-1",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "middle-table-2-surface",
+        "asset": "table-horizontal",
+        "x": 476,
+        "y": 104,
+        "layer": 3,
+        "parent": "middle-table-2",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "middle-table-2--chair-south",
+        "asset": "chair-south",
+        "x": 492,
+        "y": 82,
+        "layer": 3,
+        "parent": "middle-table-2",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "middle-table-2--chair-north",
+        "asset": "chair-north",
+        "x": 492,
+        "y": 142,
+        "layer": 3,
+        "parent": "middle-table-2",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "entrance-decor--jukebox",
+        "asset": "jukebox",
+        "x": 16,
+        "y": 26,
+        "layer": 3,
+        "parent": "entrance-decor",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "entrance-decor--potted-plant",
+        "asset": "potted-plant",
+        "x": 564,
+        "y": 385,
+        "layer": 3,
+        "parent": "entrance-decor",
+        "role": "world",
+        "clip": null
+      },
+      {
+        "id": "middle-table-1--menu-stand",
+        "asset": "menu-stand",
+        "x": 494,
+        "y": 204,
+        "layer": 4,
+        "parent": "middle-table-1",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "middle-table-2--menu-stand",
+        "asset": "menu-stand",
+        "x": 494,
+        "y": 114,
+        "layer": 4,
+        "parent": "middle-table-2",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "drink-station--coffee-maker--144-40",
+        "asset": "coffee-maker",
+        "x": 180,
+        "y": 20,
+        "layer": 4,
+        "parent": "drink-station",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "drink-station--tea-unit--192-40",
+        "asset": "tea-unit",
+        "x": 208,
+        "y": 20,
+        "layer": 4,
+        "parent": "drink-station",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "drink-station--soda-unit--240-32",
+        "asset": "soda-unit",
+        "x": 144,
+        "y": 12,
+        "layer": 4,
+        "parent": "drink-station",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "drink-station--cup-stack--288-56",
+        "asset": "cup-stack",
+        "x": 124,
+        "y": 35,
+        "layer": 4,
+        "parent": "drink-station",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "main-bar--cash-register--136-121",
+        "asset": "cash-register",
+        "x": 375,
+        "y": 29,
+        "layer": 4,
+        "parent": "main-bar",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "main-bar--condiment-caddy--296-136",
+        "asset": "condiment-caddy",
+        "x": 232,
+        "y": 32,
+        "layer": 4,
+        "parent": "main-bar",
+        "role": "surface-attachment",
+        "clip": null
+      },
+      {
+        "id": "booth-left-0--booth-ns-foreground",
+        "asset": "booth-ns-foreground",
+        "x": 4,
+        "y": 156,
+        "layer": 5,
+        "parent": "booth-left-0",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-left-1--booth-ns-foreground",
+        "asset": "booth-ns-foreground",
+        "x": 4,
+        "y": 236,
+        "layer": 5,
+        "parent": "booth-left-1",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-right-0--booth-ns-foreground",
+        "asset": "booth-ns-foreground",
+        "x": 540,
+        "y": 103,
+        "layer": 5,
+        "parent": "booth-right-0",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-right-1--booth-ns-foreground",
+        "asset": "booth-ns-foreground",
+        "x": 540,
+        "y": 183,
+        "layer": 5,
+        "parent": "booth-right-1",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-right-2--booth-ns-foreground",
+        "asset": "booth-ns-foreground",
+        "x": 540,
+        "y": 263,
+        "layer": 5,
+        "parent": "booth-right-2",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-0--booth-left-back",
+        "asset": "booth-left-back",
+        "x": 114,
+        "y": 361,
+        "layer": 5,
+        "parent": "booth-bottom-0",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-0--booth-right-back",
+        "asset": "booth-right-back",
+        "x": 174,
+        "y": 361,
+        "layer": 5,
+        "parent": "booth-bottom-0",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-1--booth-left-back",
+        "asset": "booth-left-back",
+        "x": 182,
+        "y": 361,
+        "layer": 5,
+        "parent": "booth-bottom-1",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-1--booth-right-back",
+        "asset": "booth-right-back",
+        "x": 242,
+        "y": 361,
+        "layer": 5,
+        "parent": "booth-bottom-1",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-2--booth-left-back",
+        "asset": "booth-left-back",
+        "x": 250,
+        "y": 361,
+        "layer": 5,
+        "parent": "booth-bottom-2",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "booth-bottom-2--booth-right-back",
+        "asset": "booth-right-back",
+        "x": 310,
+        "y": 361,
+        "layer": 5,
+        "parent": "booth-bottom-2",
+        "role": "foreground-occluder",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--120-160",
+        "asset": "counter-lip",
+        "x": 170,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--136-160",
+        "asset": "counter-lip",
+        "x": 186,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--152-160",
+        "asset": "counter-lip",
+        "x": 202,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--168-160",
+        "asset": "counter-lip",
+        "x": 218,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--184-160",
+        "asset": "counter-lip",
+        "x": 234,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--200-160",
+        "asset": "counter-lip",
+        "x": 250,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--216-160",
+        "asset": "counter-lip",
+        "x": 266,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--232-160",
+        "asset": "counter-lip",
+        "x": 282,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--248-160",
+        "asset": "counter-lip",
+        "x": 298,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--264-160",
+        "asset": "counter-lip",
+        "x": 314,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--280-160",
+        "asset": "counter-lip",
+        "x": 330,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--296-160",
+        "asset": "counter-lip",
+        "x": 346,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--counter-lip--312-160",
+        "asset": "counter-lip",
+        "x": 362,
+        "y": 152,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "main-bar--curve-foreground--328-120",
+        "asset": "curve-foreground",
+        "x": 386,
+        "y": 112,
+        "layer": 6,
+        "parent": "main-bar",
+        "role": "counter-foreground",
+        "clip": null
+      },
+      {
+        "id": "kitchen-west--doorway-lintel",
+        "asset": "doorway-lintel",
+        "x": 72,
+        "y": 16,
+        "layer": 7,
+        "parent": "kitchen-west",
+        "role": "doorway-foreground",
+        "clip": null
+      },
+      {
+        "id": "kitchen-east--doorway-lintel",
+        "asset": "doorway-lintel",
+        "x": 432,
+        "y": 16,
+        "layer": 7,
+        "parent": "kitchen-east",
+        "role": "doorway-foreground",
+        "clip": null
+      }
+    ],
+    "removed": [
+      "room--window--8-16",
+      "room--window--552-16",
+      "room--wall-lamp--128-24",
+      "drink-station--counter-end-right--296-56",
+      "main-bar--counter-vertical--344-88",
+      "bar-stool-side-0",
+      "bar-stool-side-1",
+      "middle-table-0-surface",
+      "middle-table-0--chair-south",
+      "middle-table-0--chair-north",
+      "right-table-0-surface",
+      "right-table-0--chair-east",
+      "right-table-0--chair-west",
+      "right-table-1-surface",
+      "right-table-1--chair-east",
+      "right-table-1--chair-west",
+      "middle-table-0--menu-stand",
+      "right-table-0--menu-stand",
+      "right-table-1--menu-stand",
+      "main-bar--napkin-dispenser--216-136",
+      "main-bar--counter-lip--344-88",
+      "main-bar--counter-lip--360-88"
+    ],
+    "floorChanged": false
+  },
+  "integration": {
+    "applied": false,
+    "requires": [
+      "Review placement",
+      "Rebuild collision, navigation, connections and gameplay anchors before runtime integration"
+    ]
+  }
+}

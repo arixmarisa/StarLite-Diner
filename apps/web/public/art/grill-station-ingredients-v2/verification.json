@@ -1,0 +1,109 @@
+{
+  "activeProjectUnchanged": true,
+  "atlas": {
+    "contentBounds": {
+      "height": 10,
+      "width": 34,
+      "x": 2,
+      "y": 0
+    },
+    "opaquePixels": 112,
+    "orphanPixels": 0,
+    "outOfPalettePixels": 0,
+    "semitransparentPixels": 0,
+    "visibleColors": 11
+  },
+  "cels": [
+    {
+      "bytes": 1440,
+      "layer": "01 - compact contact shadows",
+      "savedCelMatches": true
+    },
+    {
+      "bytes": 1440,
+      "layer": "02 - raw meat plum contours",
+      "savedCelMatches": true
+    },
+    {
+      "bytes": 1440,
+      "layer": "03 - raw meat pink and light clusters",
+      "savedCelMatches": true
+    },
+    {
+      "bytes": 1440,
+      "layer": "04 - oblique stainless bowl",
+      "savedCelMatches": true
+    },
+    {
+      "bytes": 1440,
+      "layer": "05 - cream pancake batter",
+      "savedCelMatches": true
+    },
+    {
+      "bytes": 1440,
+      "layer": "06 - connected steel ladle",
+      "savedCelMatches": true
+    }
+  ],
+  "durationMultiplier": 1.0,
+  "exportCodes": {
+    "atlas": 0,
+    "pancake-batter": 0,
+    "preview": 0,
+    "raw-patty": 0,
+    "raw-sausage": 0
+  },
+  "foreignActiveCelUnchanged": true,
+  "fps": 1.0,
+  "frames": 1,
+  "layers": 6,
+  "paletteSwatches": 14,
+  "saved": true,
+  "savedSourceMatchesAtlas": true,
+  "sourceSize": [36.0, 10.0],
+  "sprites": {
+    "pancake-batter": {
+      "contentBounds": {
+        "height": 10,
+        "width": 10,
+        "x": 2,
+        "y": 0
+      },
+      "nativeCropPngEqual": true,
+      "opaquePixels": 50,
+      "orphanPixels": 0,
+      "outOfPalettePixels": 0,
+      "semitransparentPixels": 0,
+      "visibleColors": 7
+    },
+    "raw-patty": {
+      "contentBounds": {
+        "height": 5,
+        "width": 7,
+        "x": 2,
+        "y": 3
+      },
+      "nativeCropPngEqual": true,
+      "opaquePixels": 29,
+      "orphanPixels": 0,
+      "outOfPalettePixels": 0,
+      "semitransparentPixels": 0,
+      "visibleColors": 6
+    },
+    "raw-sausage": {
+      "contentBounds": {
+        "height": 4,
+        "width": 10,
+        "x": 1,
+        "y": 4
+      },
+      "nativeCropPngEqual": true,
+      "opaquePixels": 33,
+      "orphanPixels": 0,
+      "outOfPalettePixels": 0,
+      "semitransparentPixels": 0,
+      "visibleColors": 5
+    }
+  },
+  "tag": "room-ingredients-static"
+}

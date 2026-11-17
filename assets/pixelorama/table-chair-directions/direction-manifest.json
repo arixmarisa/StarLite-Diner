@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "status": "existing-assets-direction-review",
+  "newGameAssets": 0,
+  "authoringTool": "Pixelorama MCP",
+  "palette": "assets/pixelorama/table-chair-directions/palette.json",
+  "editableSources": {
+    "comparison": "assets/pixelorama/table-chair-directions/comparison.pxo",
+    "tableContext": "assets/pixelorama/table-chair-directions/table-context.pxo"
+  },
+  "previews": {
+    "comparison": "comparison-preview.png",
+    "tableContext": "table-context-preview.png"
+  },
+  "coordinateSystem": "Native pixels; top-left origin; negative Y is up/north, positive Y is down/south.",
+  "assets": {
+    "chair-up": {
+      "originalId": "chair-north",
+      "label": "Table chair facing up (north)",
+      "facing": "north",
+      "facingVector": { "x": 0, "y": -1 },
+      "image": "/art/front-of-house-v1/chair-north.png",
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/chair-north.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": { "x": 256, "y": 192, "width": 16, "height": 24 },
+      "frameSize": { "width": 16, "height": 24 },
+      "visual": "Backrest faces the camera; seat faces toward the top of the map."
+    },
+    "chair-down": {
+      "originalId": "chair-south",
+      "label": "Table chair facing down (south)",
+      "facing": "south",
+      "facingVector": { "x": 0, "y": 1 },
+      "image": "/art/front-of-house-v1/chair-south.png",
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/chair-south.png",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "sourceRect": { "x": 320, "y": 192, "width": 16, "height": 24 },
+      "frameSize": { "width": 16, "height": 24 },
+      "visual": "Front seat is visible; seat faces toward the bottom of the map."
+    },
+    "table": {
+      "originalId": "table-rectangular-horizontal",
+      "image": "/art/rectangular-table-rotation-review/table-horizontal.png",
+      "repositoryImage": "apps/web/public/art/rectangular-table-rotation-review/table-horizontal.png",
+      "source": "assets/pixelorama/rectangular-table-rotation-review/table-horizontal.pxo",
+      "frameSize": { "width": 48, "height": 48 }
+    }
+  },
+  "compositions": {
+    "comparison": {
+      "width": 40,
+      "height": 32,
+      "previewScale": 12,
+      "order": ["up/north", "down/south"],
+      "placements": [
+        { "asset": "chair-up", "x": 2, "y": 4 },
+        { "asset": "chair-down", "x": 22, "y": 4 }
+      ]
+    },
+    "table-context": {
+      "width": 64,
+      "height": 96,
+      "previewScale": 6,
+      "drawOrder": "Far down-facing chair, table, near up-facing chair; all native pixels retained in independent layers.",
+      "placements": [
+        { "asset": "chair-down", "x": 24, "y": 6 },
+        { "asset": "table", "x": 8, "y": 24 },
+        { "asset": "chair-up", "x": 24, "y": 56 }
+      ]
+    }
+  },
+  "integration": "Original individual sprites remain game assets; compositions are review previews only. No map or gameplay changes."
+}

@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "newGameAssets": 2,
+  "bubble": {
+    "size": [32, 28],
+    "opaquePixels": 702,
+    "visibleColors": 4,
+    "connectedComponents": 1,
+    "semitransparentPixels": 0,
+    "emptyUniformCreamPixels": 384,
+    "contentErrors": 0,
+    "tailAnchor": [16, 27],
+    "previewScale": 12,
+    "previewPixelDifferences": 0
+  },
+  "burger": {
+    "size": [16, 16],
+    "opaquePixels": 146,
+    "visibleColors": 8,
+    "connectedComponents": 1,
+    "semitransparentPixels": 0,
+    "previewScale": 12,
+    "previewPixelDifferences": 0
+  },
+  "review": {
+    "size": [104, 64],
+    "previewScale": 6,
+    "nativeByteDifferences": 0,
+    "previewByteDifferences": 0,
+    "existingCustomerReferenceUsedAtNativeScale": true
+  },
+  "publicPalettesResolve": true,
+  "status": "awaiting-visual-approval",
+  "runtimeIntegrated": false
+}

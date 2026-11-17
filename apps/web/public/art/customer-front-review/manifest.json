@@ -1,0 +1,174 @@
+{
+  "anchor": {
+    "x": 8.0,
+    "y": 23.0
+  },
+  "animated": false,
+  "combined": "customers.png",
+  "combinedPreview": "customers-preview.png",
+  "directions": ["south"],
+  "families": {
+    "female": {
+      "roles": {
+        "bottom": {
+          "layerImage": "female-bottom-layer.png",
+          "mask": "female-bottom-mask.png",
+          "sourceLayers": [4.0]
+        },
+        "hair": {
+          "layerImage": "female-hair-layer.png",
+          "mask": "female-hair-mask.png",
+          "sourceLayers": [1.0, 8.0]
+        },
+        "secondary": {
+          "layerImage": "female-secondary-layer.png",
+          "mask": "female-secondary-mask.png",
+          "sourceLayers": [5.0]
+        },
+        "shoes": {
+          "layerImage": "female-shoes-layer.png",
+          "mask": "female-shoes-mask.png",
+          "sourceLayers": [2.0]
+        },
+        "skin": {
+          "layerImage": "female-skin-layer.png",
+          "mask": "female-skin-mask.png",
+          "sourceLayers": [3.0, 7.0]
+        },
+        "top": {
+          "layerImage": "female-top-layer.png",
+          "mask": "female-top-mask.png",
+          "sourceLayers": [6.0]
+        }
+      },
+      "sheet": "female.png",
+      "sheetSize": {
+        "height": 24,
+        "width": 48
+      },
+      "source": "../../../../../assets/pixelorama/customer-front-review/female.pxo",
+      "variants": [
+        {
+          "bottomStyle": "jeans",
+          "frame": 0,
+          "hairStyle": "bob",
+          "id": "female-tee-jeans",
+          "native": "female-tee-jeans.png",
+          "preview": "female-tee-jeans-preview.png",
+          "tag": "female-tee-jeans",
+          "topStyle": "tee"
+        },
+        {
+          "bottomStyle": "khakis",
+          "frame": 1,
+          "hairStyle": "ponytail",
+          "id": "female-polo-khakis",
+          "native": "female-polo-khakis.png",
+          "preview": "female-polo-khakis-preview.png",
+          "tag": "female-polo-khakis",
+          "topStyle": "polo"
+        },
+        {
+          "bottomStyle": "shorts",
+          "frame": 2,
+          "hairStyle": "bun",
+          "id": "female-cardigan-shorts",
+          "native": "female-cardigan-shorts.png",
+          "preview": "female-cardigan-shorts-preview.png",
+          "tag": "female-cardigan-shorts",
+          "topStyle": "cardigan"
+        }
+      ]
+    },
+    "male": {
+      "roles": {
+        "bottom": {
+          "layerImage": "male-bottom-layer.png",
+          "mask": "male-bottom-mask.png",
+          "sourceLayers": [4.0]
+        },
+        "hair": {
+          "layerImage": "male-hair-layer.png",
+          "mask": "male-hair-mask.png",
+          "sourceLayers": [1.0, 8.0]
+        },
+        "secondary": {
+          "layerImage": "male-secondary-layer.png",
+          "mask": "male-secondary-mask.png",
+          "sourceLayers": [5.0]
+        },
+        "shoes": {
+          "layerImage": "male-shoes-layer.png",
+          "mask": "male-shoes-mask.png",
+          "sourceLayers": [2.0]
+        },
+        "skin": {
+          "layerImage": "male-skin-layer.png",
+          "mask": "male-skin-mask.png",
+          "sourceLayers": [3.0, 7.0]
+        },
+        "top": {
+          "layerImage": "male-top-layer.png",
+          "mask": "male-top-mask.png",
+          "sourceLayers": [6.0]
+        }
+      },
+      "sheet": "male.png",
+      "sheetSize": {
+        "height": 24,
+        "width": 48
+      },
+      "source": "../../../../../assets/pixelorama/customer-front-review/male.pxo",
+      "variants": [
+        {
+          "bottomStyle": "jeans",
+          "frame": 0,
+          "hairStyle": "crop",
+          "id": "male-tee-jeans",
+          "native": "male-tee-jeans.png",
+          "preview": "male-tee-jeans-preview.png",
+          "tag": "male-tee-jeans",
+          "topStyle": "tee"
+        },
+        {
+          "bottomStyle": "khakis",
+          "frame": 1,
+          "hairStyle": "side-part",
+          "id": "male-polo-khakis",
+          "native": "male-polo-khakis.png",
+          "preview": "male-polo-khakis-preview.png",
+          "tag": "male-polo-khakis",
+          "topStyle": "polo"
+        },
+        {
+          "bottomStyle": "shorts",
+          "frame": 2,
+          "hairStyle": "short-waves",
+          "id": "male-cardigan-shorts",
+          "native": "male-cardigan-shorts.png",
+          "preview": "male-cardigan-shorts-preview.png",
+          "tag": "male-cardigan-shorts",
+          "topStyle": "cardigan"
+        }
+      ]
+    }
+  },
+  "frameSize": {
+    "height": 24,
+    "width": 16
+  },
+  "layers": [
+    "01 - contact shadow",
+    "02 - rear hair",
+    "03 - shoes",
+    "04 - exposed leg skin",
+    "05 - bottoms",
+    "06 - top secondary",
+    "07 - top primary",
+    "08 - skin face neck hands",
+    "09 - front hair",
+    "10 - neutral details"
+  ],
+  "recolorDemo": "recolor-demo.png",
+  "status": "front-review-only"
+}

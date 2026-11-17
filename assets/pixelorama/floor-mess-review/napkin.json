@@ -1,0 +1,43 @@
+{
+  "id": "trash-napkin",
+  "label": "Crumpled napkin",
+  "frameSize": { "width": 16, "height": 16 },
+  "anchor": { "x": 8, "y": 10 },
+  "layers": [
+    [
+      { "x": 7, "y": 10, "w": 3, "h": 1, "c": "floorShadow" },
+      { "x": 10, "y": 9, "w": 1, "h": 1, "c": "floorShadow" }
+    ],
+    [
+      { "x": 5, "y": 5, "w": 3, "h": 1, "c": "paperShade" },
+      { "x": 4, "y": 6, "w": 6, "h": 1, "c": "paperShade" },
+      { "x": 4, "y": 7, "w": 7, "h": 1, "c": "paperShade" },
+      { "x": 5, "y": 8, "w": 6, "h": 1, "c": "paperShade" },
+      { "x": 6, "y": 9, "w": 4, "h": 1, "c": "paperShade" }
+    ],
+    [
+      { "x": 6, "y": 5, "w": 2, "h": 1, "c": "paperBase" },
+      { "x": 5, "y": 6, "w": 5, "h": 1, "c": "paperBase" },
+      { "x": 5, "y": 7, "w": 5, "h": 1, "c": "paperBase" },
+      { "x": 6, "y": 8, "w": 4, "h": 1, "c": "paperBase" },
+      { "x": 7, "y": 9, "w": 2, "h": 1, "c": "paperBase" }
+    ],
+    [
+      { "x": 6, "y": 5, "w": 2, "h": 1, "c": "paperLight" },
+      { "x": 5, "y": 6, "w": 1, "h": 1, "c": "paperLight" },
+      { "x": 7, "y": 6, "w": 1, "h": 1, "c": "paperShade" },
+      { "x": 6, "y": 7, "w": 1, "h": 1, "c": "paperShade" },
+      { "x": 7, "y": 7, "w": 1, "h": 1, "c": "shadow" },
+      { "x": 8, "y": 7, "w": 2, "h": 1, "c": "paperLight" },
+      { "x": 7, "y": 8, "w": 1, "h": 1, "c": "paperShade" },
+      { "x": 9, "y": 8, "w": 1, "h": 1, "c": "paperLight" }
+    ]
+  ],
+  "notes": [
+    "Small irregular warm-paper shape at x4..10, y5..9: 7x5 native pixels before its contact shadow.",
+    "Angular protruding corners and tiny interrupted crease clusters indicate crumpled paper rather than a bag, rock or framed icon.",
+    "Upper-left paper highlights, one deep crease pixel, and a one-pixel down/right floor-contact shadow preserve the diner material style.",
+    "The complete composite is one connected opaque cluster. All exterior pixels remain transparent; no antialiasing or semitransparency is used.",
+    "Anchor (8,10) is an art placement reference only. No cleanup, collision, spawning or gameplay behavior is implied."
+  ]
+}

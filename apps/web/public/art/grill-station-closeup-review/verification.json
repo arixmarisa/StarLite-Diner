@@ -1,0 +1,106 @@
+{
+  "activeProjectUnchanged": true,
+  "boundForeignImageUnchanged": true,
+  "componentExportCodes": {
+    "grill-station-parts-atlas.png": 0,
+    "grill-station-preview.png": 0,
+    "grill-station-transparent.png": 0,
+    "grill-topdown-hardware.png": 0,
+    "grill-topdown-plate.png": 0,
+    "grill-topdown-steel.png": 0,
+    "station-background.png": 0
+  },
+  "grill": {
+    "celByteSizes": [221184, 221184, 221184, 221184, 221184, 221184],
+    "fps": 1.0,
+    "frameDuration": 1.0,
+    "frames": 1,
+    "layerNames": [
+      "01 - shallow contact shadow",
+      "02 - horizontal stainless surround and deck",
+      "03 - broad bare cooking plate",
+      "04 - shallow grease channel",
+      "05 - four overhead control knobs",
+      "06 - hard reflections and rose badge"
+    ],
+    "opaquePixels": 55270,
+    "orphans": 0,
+    "paletteSwatches": 14,
+    "pngExportCode": 0,
+    "populatedLayers": [true, true, true, true, true, true],
+    "semitransparentPixels": 0,
+    "sourcePixelsMatchNativePng": true,
+    "sourceSize": [288.0, 192.0],
+    "tag": "grill-topdown-static",
+    "visibleColors": [
+      "322c38ff",
+      "9ba8a5ff",
+      "d5dfd3ff",
+      "fff0d5ff",
+      "46404bff",
+      "676c70ff",
+      "ffacc9ff",
+      "ee75a3ff"
+    ]
+  },
+  "grillComponentsReconstructExactly": true,
+  "station": {
+    "celByteSizes": [331776, 331776, 331776, 331776, 331776, 331776],
+    "fps": 1.0,
+    "frameDuration": 1.0,
+    "frames": 1,
+    "layerNames": [
+      "01 - optional warm neutral work surface",
+      "02 - bare top-down grill assembly",
+      "03 - three reusable empty steel trays",
+      "04 - independent raw patty preview",
+      "05 - independent plain sausage preview",
+      "06 - independent batter bowl and ladle preview"
+    ],
+    "opaquePixels": 82944,
+    "orphans": 0,
+    "paletteSwatches": 14,
+    "pngExportCode": 0,
+    "populatedLayers": [true, true, true, true, true, true],
+    "semitransparentPixels": 0,
+    "sourcePixelsMatchNativePng": true,
+    "sourceSize": [384.0, 216.0],
+    "tag": "grill-station-static",
+    "visibleColors": [
+      "f1e5d1ff",
+      "322c38ff",
+      "d5dfd3ff",
+      "9ba8a5ff",
+      "fff0d5ff",
+      "46404bff",
+      "676c70ff",
+      "ee75a3ff",
+      "c94d7bff",
+      "ffacc9ff",
+      "ffd2deff",
+      "fff5dfff"
+    ]
+  },
+  "stationComponentsReconstructExactly": true,
+  "tray": {
+    "celByteSizes": [14336, 14336, 14336],
+    "fps": 1.0,
+    "frameDuration": 1.0,
+    "frames": 1,
+    "layerNames": [
+      "01 - shallow tray contact shadow",
+      "02 - steel surround and recessed floor",
+      "03 - edge reflections"
+    ],
+    "opaquePixels": 3558,
+    "orphans": 0,
+    "paletteSwatches": 14,
+    "pngExportCode": 0,
+    "populatedLayers": [true, true, true],
+    "semitransparentPixels": 0,
+    "sourcePixelsMatchNativePng": true,
+    "sourceSize": [64.0, 56.0],
+    "tag": "ingredient-tray-static",
+    "visibleColors": ["322c38ff", "d5dfd3ff", "9ba8a5ff", "46404bff", "676c70ff", "fff0d5ff"]
+  }
+}

@@ -1,0 +1,144 @@
+:root {
+  color-scheme: dark;
+  background: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.game-menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100svh;
+  min-height: 160px;
+  overflow: hidden;
+  background: #000;
+}
+
+.menu-stage {
+  --menu-scale: 1;
+
+  position: relative;
+  width: 384px;
+  height: 216px;
+  flex-shrink: 0;
+  transform: scale(var(--menu-scale));
+}
+
+.menu-background,
+.menu-exterior {
+  position: absolute;
+  inset: 0;
+  width: 384px;
+  height: 216px;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+/* Pixelorama owns every visible pixel, including the label and state feedback. */
+.menu-start {
+  position: absolute;
+  top: 148px;
+  left: 144px;
+  width: 96px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.menu-start::after {
+  content: '';
+  position: absolute;
+  inset: -8px 0;
+}
+
+.menu-start:disabled {
+  cursor: default;
+}
+
+.menu-start img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 28px;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+.start-highlight,
+.start-pressed {
+  visibility: hidden;
+}
+
+/* The highlighted export provides the keyboard focus indicator. */
+.menu-start:focus-visible {
+  outline: none;
+}
+
+.menu-start:focus-visible .start-highlight {
+  visibility: visible;
+}
+
+@media (hover: hover) {
+  .menu-start:hover .start-highlight {
+    visibility: visible;
+  }
+}
+
+.menu-start:active .start-pressed {
+  visibility: visible;
+}
+
+@media (forced-colors: active) {
+  .menu-start {
+    border: 2px solid ButtonText;
+    color: ButtonText;
+    font: bold 20px sans-serif;
+  }
+
+  .menu-start img {
+    display: none;
+  }
+
+  .menu-start .sr-only {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    clip-path: none;
+  }
+
+  .menu-start:focus-visible {
+    outline: 2px solid Highlight;
+    outline-offset: 4px;
+  }
+}

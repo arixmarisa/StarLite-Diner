@@ -1,0 +1,77 @@
+{
+  "size": {
+    "width": 768,
+    "height": 544
+  },
+  "counts": {
+    "leftBooths": 2,
+    "rightBooths": 3,
+    "bottomBooths": 3,
+    "circleBooths": 1,
+    "middleTables": 3,
+    "rightTables": 2,
+    "barStools": 8
+  },
+  "corridors": [
+    {
+      "id": "left-service-aisle",
+      "x": 96,
+      "y": 176,
+      "width": 48,
+      "height": 216
+    },
+    {
+      "id": "right-service-aisle",
+      "x": 624,
+      "y": 96,
+      "width": 32,
+      "height": 336
+    },
+    {
+      "id": "middle-cross-aisle",
+      "x": 160,
+      "y": 240,
+      "width": 368,
+      "height": 40
+    },
+    {
+      "id": "bottom-cross-aisle",
+      "x": 160,
+      "y": 400,
+      "width": 480,
+      "height": 48
+    },
+    {
+      "id": "rear-staff-strip",
+      "x": 176,
+      "y": 108,
+      "width": 224,
+      "height": 44,
+      "access": "staff"
+    },
+    {
+      "id": "east-staff-passage",
+      "x": 400,
+      "y": 64,
+      "width": 32,
+      "height": 80,
+      "access": "staff"
+    },
+    {
+      "id": "left-staff-entry",
+      "x": 96,
+      "y": 104,
+      "width": 48,
+      "height": 56,
+      "access": "staff"
+    },
+    {
+      "id": "entrance-approach",
+      "x": 632,
+      "y": 448,
+      "width": 48,
+      "height": 80
+    }
+  ],
+  "nativeScale": 1
+}

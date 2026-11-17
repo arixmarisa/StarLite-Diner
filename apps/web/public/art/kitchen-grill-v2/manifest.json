@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "back-wall-flat-top-grill-v2",
+  "status": "requested-revision-awaiting-review",
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/kitchen-grill-v2/kitchen-grill.pxo",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/kitchen-grill-v2/palette.json",
+  "image": "kitchen-grill-body.png",
+  "reviewComposite": "kitchen-grill.png",
+  "frameSize": {
+    "width": 96,
+    "height": 58
+  },
+  "occupiedBounds": {
+    "x": 0,
+    "y": 11,
+    "width": 96,
+    "height": 47
+  },
+  "orientation": "back-wall-facing-south",
+  "rotationVariants": 0,
+  "layers": [
+    "01 - contact shadow",
+    "02 - counter-height steel planes",
+    "03 - low backsplash",
+    "04 - bare flat cooking plate",
+    "05 - grease channel",
+    "06 - controls and cabinet details",
+    "07 - hard reflections and rose accent"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "kitchen-grill-v2-static"
+  },
+  "components": [
+    {
+      "image": "kitchen-grill-shadow.png",
+      "renderRole": "ground-shadow",
+      "order": 0
+    },
+    {
+      "image": "kitchen-grill-body.png",
+      "renderRole": "grill-body",
+      "order": 1
+    }
+  ],
+  "componentFrameSize": {
+    "width": 96,
+    "height": 58
+  },
+  "componentOrigin": {
+    "x": 0,
+    "y": 0
+  },
+  "artAttachments": {
+    "worktop": {
+      "x": 0,
+      "y": 16,
+      "width": 96,
+      "height": 24
+    },
+    "cabinetFace": {
+      "x": 0,
+      "y": 40,
+      "width": 96,
+      "height": 16
+    },
+    "cookingSurface": {
+      "x": 5,
+      "y": 19,
+      "width": 85,
+      "height": 17,
+      "purpose": "empty-art-surface-for-later-food-overlays",
+      "gameplayContract": false
+    }
+  },
+  "counterJoin": {
+    "side": "right",
+    "atX": 96,
+    "topY": 16,
+    "topDepth": 24,
+    "faceY": 40,
+    "faceHeight": 16,
+    "seamPixelProfileVerified": true,
+    "peerTop": "../kitchen-counter-review/steel-counter-top.png",
+    "peerFace": "../kitchen-counter-review/steel-counter-front.png",
+    "exampleRoomOrigin": {
+      "x": 88,
+      "y": 24
+    },
+    "exampleNeighborOrigin": {
+      "x": 184,
+      "y": 40
+    }
+  },
+  "highlight": {
+    "bakedIntoArt": false,
+    "owner": "game-engine",
+    "target": "grill-body"
+  },
+  "anchor": null,
+  "collision": null,
+  "interaction": null,
+  "notes": [
+    "The original back-grill-review remains unchanged.",
+    "No food, highlight, station logic, capacity or collision is implemented.",
+    "Native dimensions are redrawn to the counter geometry; this is not a scaled source bitmap."
+  ]
+}

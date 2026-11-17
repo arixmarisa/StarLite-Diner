@@ -1,0 +1,31 @@
+{
+  "activeProjectUnchanged": true,
+  "bounds": {
+    "height": 31,
+    "width": 48,
+    "x": 4,
+    "y": 5
+  },
+  "celByteSizes": [8960, 8960, 8960, 8960, 8960],
+  "componentsReconstructExactly": true,
+  "counterTopBoundaryProfileMatches": true,
+  "exportCodes": {
+    "atlas": 0,
+    "faucet": 0,
+    "native": 0,
+    "preview": 0,
+    "surface": 0
+  },
+  "frames": 1,
+  "holes": [16],
+  "opaquePixels": 1205,
+  "orphans": 0,
+  "paletteSwatches": 14,
+  "saved": true,
+  "semitransparentPixels": 0,
+  "sourceLayers": 5,
+  "sourcePixelsMatchNativePng": true,
+  "sourceSize": [56.0, 40.0],
+  "tag": "kitchen-sink-static",
+  "visibleColors": 7
+}

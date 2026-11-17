@@ -1,0 +1,1742 @@
+{
+  "fps": 8,
+  "frameIndexBase": 0,
+  "frames": [
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 0
+      },
+      "id": "female-tee-jeans-south-idle",
+      "index": 0,
+      "outfit": "female-tee-jeans",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 0
+      },
+      "id": "female-tee-jeans-south-walk-1",
+      "index": 1,
+      "outfit": "female-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 0
+      },
+      "id": "female-tee-jeans-south-walk-2",
+      "index": 2,
+      "outfit": "female-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 0
+      },
+      "id": "female-tee-jeans-south-walk-3",
+      "index": 3,
+      "outfit": "female-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 0
+      },
+      "id": "female-tee-jeans-south-walk-4",
+      "index": 4,
+      "outfit": "female-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 0
+      },
+      "id": "female-tee-jeans-south-seated",
+      "index": 5,
+      "outfit": "female-tee-jeans",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 24
+      },
+      "id": "female-tee-jeans-west-idle",
+      "index": 6,
+      "outfit": "female-tee-jeans",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 24
+      },
+      "id": "female-tee-jeans-west-walk-1",
+      "index": 7,
+      "outfit": "female-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 24
+      },
+      "id": "female-tee-jeans-west-walk-2",
+      "index": 8,
+      "outfit": "female-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 24
+      },
+      "id": "female-tee-jeans-west-walk-3",
+      "index": 9,
+      "outfit": "female-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 24
+      },
+      "id": "female-tee-jeans-west-walk-4",
+      "index": 10,
+      "outfit": "female-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 24
+      },
+      "id": "female-tee-jeans-west-seated",
+      "index": 11,
+      "outfit": "female-tee-jeans",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 48
+      },
+      "id": "female-tee-jeans-east-idle",
+      "index": 12,
+      "outfit": "female-tee-jeans",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 48
+      },
+      "id": "female-tee-jeans-east-walk-1",
+      "index": 13,
+      "outfit": "female-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 48
+      },
+      "id": "female-tee-jeans-east-walk-2",
+      "index": 14,
+      "outfit": "female-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 48
+      },
+      "id": "female-tee-jeans-east-walk-3",
+      "index": 15,
+      "outfit": "female-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 48
+      },
+      "id": "female-tee-jeans-east-walk-4",
+      "index": 16,
+      "outfit": "female-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 48
+      },
+      "id": "female-tee-jeans-east-seated",
+      "index": 17,
+      "outfit": "female-tee-jeans",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 72
+      },
+      "id": "female-tee-jeans-north-idle",
+      "index": 18,
+      "outfit": "female-tee-jeans",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 72
+      },
+      "id": "female-tee-jeans-north-walk-1",
+      "index": 19,
+      "outfit": "female-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 72
+      },
+      "id": "female-tee-jeans-north-walk-2",
+      "index": 20,
+      "outfit": "female-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 72
+      },
+      "id": "female-tee-jeans-north-walk-3",
+      "index": 21,
+      "outfit": "female-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 72
+      },
+      "id": "female-tee-jeans-north-walk-4",
+      "index": 22,
+      "outfit": "female-tee-jeans",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 72
+      },
+      "id": "female-tee-jeans-north-seated",
+      "index": 23,
+      "outfit": "female-tee-jeans",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 96
+      },
+      "id": "female-polo-khakis-south-idle",
+      "index": 24,
+      "outfit": "female-polo-khakis",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 96
+      },
+      "id": "female-polo-khakis-south-walk-1",
+      "index": 25,
+      "outfit": "female-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 96
+      },
+      "id": "female-polo-khakis-south-walk-2",
+      "index": 26,
+      "outfit": "female-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 96
+      },
+      "id": "female-polo-khakis-south-walk-3",
+      "index": 27,
+      "outfit": "female-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 96
+      },
+      "id": "female-polo-khakis-south-walk-4",
+      "index": 28,
+      "outfit": "female-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 96
+      },
+      "id": "female-polo-khakis-south-seated",
+      "index": 29,
+      "outfit": "female-polo-khakis",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 120
+      },
+      "id": "female-polo-khakis-west-idle",
+      "index": 30,
+      "outfit": "female-polo-khakis",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 120
+      },
+      "id": "female-polo-khakis-west-walk-1",
+      "index": 31,
+      "outfit": "female-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 120
+      },
+      "id": "female-polo-khakis-west-walk-2",
+      "index": 32,
+      "outfit": "female-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 120
+      },
+      "id": "female-polo-khakis-west-walk-3",
+      "index": 33,
+      "outfit": "female-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 120
+      },
+      "id": "female-polo-khakis-west-walk-4",
+      "index": 34,
+      "outfit": "female-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 120
+      },
+      "id": "female-polo-khakis-west-seated",
+      "index": 35,
+      "outfit": "female-polo-khakis",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 144
+      },
+      "id": "female-polo-khakis-east-idle",
+      "index": 36,
+      "outfit": "female-polo-khakis",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 144
+      },
+      "id": "female-polo-khakis-east-walk-1",
+      "index": 37,
+      "outfit": "female-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 144
+      },
+      "id": "female-polo-khakis-east-walk-2",
+      "index": 38,
+      "outfit": "female-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 144
+      },
+      "id": "female-polo-khakis-east-walk-3",
+      "index": 39,
+      "outfit": "female-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 144
+      },
+      "id": "female-polo-khakis-east-walk-4",
+      "index": 40,
+      "outfit": "female-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 144
+      },
+      "id": "female-polo-khakis-east-seated",
+      "index": 41,
+      "outfit": "female-polo-khakis",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 168
+      },
+      "id": "female-polo-khakis-north-idle",
+      "index": 42,
+      "outfit": "female-polo-khakis",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 168
+      },
+      "id": "female-polo-khakis-north-walk-1",
+      "index": 43,
+      "outfit": "female-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 168
+      },
+      "id": "female-polo-khakis-north-walk-2",
+      "index": 44,
+      "outfit": "female-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 168
+      },
+      "id": "female-polo-khakis-north-walk-3",
+      "index": 45,
+      "outfit": "female-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 168
+      },
+      "id": "female-polo-khakis-north-walk-4",
+      "index": 46,
+      "outfit": "female-polo-khakis",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 168
+      },
+      "id": "female-polo-khakis-north-seated",
+      "index": 47,
+      "outfit": "female-polo-khakis",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 192
+      },
+      "id": "female-cardigan-shorts-south-idle",
+      "index": 48,
+      "outfit": "female-cardigan-shorts",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 192
+      },
+      "id": "female-cardigan-shorts-south-walk-1",
+      "index": 49,
+      "outfit": "female-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 192
+      },
+      "id": "female-cardigan-shorts-south-walk-2",
+      "index": 50,
+      "outfit": "female-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 192
+      },
+      "id": "female-cardigan-shorts-south-walk-3",
+      "index": 51,
+      "outfit": "female-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 192
+      },
+      "id": "female-cardigan-shorts-south-walk-4",
+      "index": 52,
+      "outfit": "female-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 192
+      },
+      "id": "female-cardigan-shorts-south-seated",
+      "index": 53,
+      "outfit": "female-cardigan-shorts",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 216
+      },
+      "id": "female-cardigan-shorts-west-idle",
+      "index": 54,
+      "outfit": "female-cardigan-shorts",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 216
+      },
+      "id": "female-cardigan-shorts-west-walk-1",
+      "index": 55,
+      "outfit": "female-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 216
+      },
+      "id": "female-cardigan-shorts-west-walk-2",
+      "index": 56,
+      "outfit": "female-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 216
+      },
+      "id": "female-cardigan-shorts-west-walk-3",
+      "index": 57,
+      "outfit": "female-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 216
+      },
+      "id": "female-cardigan-shorts-west-walk-4",
+      "index": 58,
+      "outfit": "female-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "west",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 216
+      },
+      "id": "female-cardigan-shorts-west-seated",
+      "index": 59,
+      "outfit": "female-cardigan-shorts",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 240
+      },
+      "id": "female-cardigan-shorts-east-idle",
+      "index": 60,
+      "outfit": "female-cardigan-shorts",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 240
+      },
+      "id": "female-cardigan-shorts-east-walk-1",
+      "index": 61,
+      "outfit": "female-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 240
+      },
+      "id": "female-cardigan-shorts-east-walk-2",
+      "index": 62,
+      "outfit": "female-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 240
+      },
+      "id": "female-cardigan-shorts-east-walk-3",
+      "index": 63,
+      "outfit": "female-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 240
+      },
+      "id": "female-cardigan-shorts-east-walk-4",
+      "index": 64,
+      "outfit": "female-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "east",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 240
+      },
+      "id": "female-cardigan-shorts-east-seated",
+      "index": 65,
+      "outfit": "female-cardigan-shorts",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 264
+      },
+      "id": "female-cardigan-shorts-north-idle",
+      "index": 66,
+      "outfit": "female-cardigan-shorts",
+      "state": "idle",
+      "static": true,
+      "step": 0.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 16,
+        "y": 264
+      },
+      "id": "female-cardigan-shorts-north-walk-1",
+      "index": 67,
+      "outfit": "female-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 1.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 32,
+        "y": 264
+      },
+      "id": "female-cardigan-shorts-north-walk-2",
+      "index": 68,
+      "outfit": "female-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 2.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 48,
+        "y": 264
+      },
+      "id": "female-cardigan-shorts-north-walk-3",
+      "index": 69,
+      "outfit": "female-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 3.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 64,
+        "y": 264
+      },
+      "id": "female-cardigan-shorts-north-walk-4",
+      "index": 70,
+      "outfit": "female-cardigan-shorts",
+      "state": "walk",
+      "static": false,
+      "step": 4.0
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 19
+      },
+      "direction": "north",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "frame": {
+        "height": 24,
+        "width": 16,
+        "x": 80,
+        "y": 264
+      },
+      "id": "female-cardigan-shorts-north-seated",
+      "index": 71,
+      "outfit": "female-cardigan-shorts",
+      "state": "seated",
+      "static": true,
+      "step": 0.0
+    }
+  ],
+  "image": "female.png",
+  "size": {
+    "height": 288,
+    "width": 96
+  },
+  "tagIndexBase": 0,
+  "tags": [
+    {
+      "color": "ee75a3ff",
+      "from": 0,
+      "name": "female-tee-jeans-south-idle",
+      "to": 0
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 1,
+      "name": "female-tee-jeans-south-walk",
+      "to": 4
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 5,
+      "name": "female-tee-jeans-south-seated",
+      "to": 5
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 6,
+      "name": "female-tee-jeans-west-idle",
+      "to": 6
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 7,
+      "name": "female-tee-jeans-west-walk",
+      "to": 10
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 11,
+      "name": "female-tee-jeans-west-seated",
+      "to": 11
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 12,
+      "name": "female-tee-jeans-east-idle",
+      "to": 12
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 13,
+      "name": "female-tee-jeans-east-walk",
+      "to": 16
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 17,
+      "name": "female-tee-jeans-east-seated",
+      "to": 17
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 18,
+      "name": "female-tee-jeans-north-idle",
+      "to": 18
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 19,
+      "name": "female-tee-jeans-north-walk",
+      "to": 22
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 23,
+      "name": "female-tee-jeans-north-seated",
+      "to": 23
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 24,
+      "name": "female-polo-khakis-south-idle",
+      "to": 24
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 25,
+      "name": "female-polo-khakis-south-walk",
+      "to": 28
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 29,
+      "name": "female-polo-khakis-south-seated",
+      "to": 29
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 30,
+      "name": "female-polo-khakis-west-idle",
+      "to": 30
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 31,
+      "name": "female-polo-khakis-west-walk",
+      "to": 34
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 35,
+      "name": "female-polo-khakis-west-seated",
+      "to": 35
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 36,
+      "name": "female-polo-khakis-east-idle",
+      "to": 36
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 37,
+      "name": "female-polo-khakis-east-walk",
+      "to": 40
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 41,
+      "name": "female-polo-khakis-east-seated",
+      "to": 41
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 42,
+      "name": "female-polo-khakis-north-idle",
+      "to": 42
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 43,
+      "name": "female-polo-khakis-north-walk",
+      "to": 46
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 47,
+      "name": "female-polo-khakis-north-seated",
+      "to": 47
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 48,
+      "name": "female-cardigan-shorts-south-idle",
+      "to": 48
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 49,
+      "name": "female-cardigan-shorts-south-walk",
+      "to": 52
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 53,
+      "name": "female-cardigan-shorts-south-seated",
+      "to": 53
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 54,
+      "name": "female-cardigan-shorts-west-idle",
+      "to": 54
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 55,
+      "name": "female-cardigan-shorts-west-walk",
+      "to": 58
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 59,
+      "name": "female-cardigan-shorts-west-seated",
+      "to": 59
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 60,
+      "name": "female-cardigan-shorts-east-idle",
+      "to": 60
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 61,
+      "name": "female-cardigan-shorts-east-walk",
+      "to": 64
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 65,
+      "name": "female-cardigan-shorts-east-seated",
+      "to": 65
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 66,
+      "name": "female-cardigan-shorts-north-idle",
+      "to": 66
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 67,
+      "name": "female-cardigan-shorts-north-walk",
+      "to": 70
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 71,
+      "name": "female-cardigan-shorts-north-seated",
+      "to": 71
+    }
+  ]
+}

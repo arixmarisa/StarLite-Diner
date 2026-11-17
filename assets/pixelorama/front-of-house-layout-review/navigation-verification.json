@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "nativeScale": 1,
+  "assetReferences": 52,
+  "instances": 323,
+  "assemblies": 21,
+  "uniqueSceneIds": true,
+  "resolvedParents": true,
+  "cycleChecksPassed": true,
+  "parentLocalOffsetsExact": true,
+  "publicStandingPoints": 22,
+  "staffStandingPoints": 5,
+  "allStandingPointsReachable": true,
+  "publicStaffZoneIsolation": true,
+  "clearCorridors": [
+    {
+      "id": "left-service-aisle",
+      "width": 48
+    },
+    {
+      "id": "right-service-aisle",
+      "width": 32
+    },
+    {
+      "id": "middle-cross-aisle",
+      "width": 40
+    },
+    {
+      "id": "bottom-cross-aisle",
+      "width": 48
+    },
+    {
+      "id": "rear-staff-strip",
+      "width": 44
+    },
+    {
+      "id": "east-staff-passage",
+      "width": 32
+    },
+    {
+      "id": "left-staff-entry",
+      "width": 48
+    },
+    {
+      "id": "entrance-approach",
+      "width": 48
+    }
+  ],
+  "floorEnvelopeOverlaps": 0,
+  "negativeSealedBarrierRejected": true,
+  "limits": "Conservative cluster envelopes prove exterior circulation only; booth seating/interior access and final collision require engine integration and review."
+}

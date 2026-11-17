@@ -1,0 +1,159 @@
+{
+  "colors": [
+    "#322c38",
+    "#46404b",
+    "#676c70",
+    "#67505b",
+    "#c58d71",
+    "#f4c7a0",
+    "#ffe0bb",
+    "#5a3c3e",
+    "#805a4c",
+    "#4f6c83",
+    "#7ea5bd",
+    "#b5cbd7",
+    "#a6bcb2",
+    "#f1e5d1",
+    "#fff5df",
+    "#354757",
+    "#566e83",
+    "#8da3ae",
+    "#24242c",
+    "#39333e",
+    "#675a62",
+    "#9a5d43",
+    "#cb8d67",
+    "#e9b28b",
+    "#806044",
+    "#b78851",
+    "#dfbd76",
+    "#b7803f",
+    "#d3a657",
+    "#f1cf83",
+    "#81715a",
+    "#b09b79",
+    "#d5c7a3",
+    "#3c2d30",
+    "#5b4140",
+    "#8a6350",
+    "#603b33",
+    "#87523e",
+    "#a87354",
+    "#603b3f",
+    "#935644",
+    "#bd7960",
+    "#513b50",
+    "#79556c",
+    "#aa7c91",
+    "#536450",
+    "#829171",
+    "#a9b394"
+  ],
+  "variants": [
+    {
+      "id": "male-tee-jeans",
+      "ramps": {
+        "bottom": {
+          "base": "#566e83",
+          "highlight": "#8da3ae",
+          "shade": "#354757"
+        },
+        "hair": {
+          "base": "#5a3c3e",
+          "highlight": "#805a4c",
+          "shade": "#322c38"
+        },
+        "secondary": {
+          "base": "#f1e5d1",
+          "highlight": "#fff5df",
+          "shade": "#a6bcb2"
+        },
+        "shoes": {
+          "base": "#39333e",
+          "highlight": "#675a62",
+          "shade": "#24242c"
+        },
+        "skin": {
+          "base": "#f4c7a0",
+          "highlight": "#ffe0bb",
+          "shade": "#c58d71"
+        },
+        "top": {
+          "base": "#7ea5bd",
+          "highlight": "#b5cbd7",
+          "shade": "#4f6c83"
+        }
+      }
+    },
+    {
+      "id": "male-polo-khakis",
+      "ramps": {
+        "bottom": {
+          "base": "#b09b79",
+          "highlight": "#d5c7a3",
+          "shade": "#81715a"
+        },
+        "hair": {
+          "base": "#b78851",
+          "highlight": "#dfbd76",
+          "shade": "#806044"
+        },
+        "secondary": {
+          "base": "#f1e5d1",
+          "highlight": "#fff5df",
+          "shade": "#a6bcb2"
+        },
+        "shoes": {
+          "base": "#5b4140",
+          "highlight": "#8a6350",
+          "shade": "#3c2d30"
+        },
+        "skin": {
+          "base": "#cb8d67",
+          "highlight": "#e9b28b",
+          "shade": "#9a5d43"
+        },
+        "top": {
+          "base": "#d3a657",
+          "highlight": "#f1cf83",
+          "shade": "#b7803f"
+        }
+      }
+    },
+    {
+      "id": "male-cardigan-shorts",
+      "ramps": {
+        "bottom": {
+          "base": "#829171",
+          "highlight": "#a9b394",
+          "shade": "#536450"
+        },
+        "hair": {
+          "base": "#935644",
+          "highlight": "#bd7960",
+          "shade": "#603b3f"
+        },
+        "secondary": {
+          "base": "#f1e5d1",
+          "highlight": "#fff5df",
+          "shade": "#a6bcb2"
+        },
+        "shoes": {
+          "base": "#39333e",
+          "highlight": "#675a62",
+          "shade": "#24242c"
+        },
+        "skin": {
+          "base": "#87523e",
+          "highlight": "#a87354",
+          "shade": "#603b33"
+        },
+        "top": {
+          "base": "#79556c",
+          "highlight": "#aa7c91",
+          "shade": "#513b50"
+        }
+      }
+    }
+  ]
+}

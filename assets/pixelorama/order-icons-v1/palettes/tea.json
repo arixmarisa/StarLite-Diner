@@ -1,0 +1,14 @@
+{
+  "colors": {
+    "accent": "#6d9b8c",
+    "cream": "#f1e5d1",
+    "glint": "#fff0d5",
+    "light": "#fff5df",
+    "outline": "#322c38",
+    "rim": "#a6bcb2",
+    "tag": "#d65362",
+    "tea": "#e2ad68",
+    "teaShade": "#b87948"
+  },
+  "id": "tea"
+}

@@ -1,0 +1,114 @@
+{
+  "width": 176,
+  "height": 128,
+  "placements": [
+    {
+      "image": "steel-counter-end-left.png",
+      "x": 8,
+      "y": 8,
+      "role": 0
+    },
+    {
+      "image": "steel-counter-top.png",
+      "x": 24,
+      "y": 8,
+      "role": 0
+    },
+    {
+      "image": "steel-counter-front.png",
+      "x": 24,
+      "y": 32,
+      "role": 0
+    },
+    {
+      "image": "steel-counter-end-right.png",
+      "x": 40,
+      "y": 8,
+      "role": 0
+    },
+    {
+      "image": "steel-counter-side.png",
+      "x": 80,
+      "y": 8,
+      "role": 1
+    },
+    {
+      "image": "steel-counter-end-left.png",
+      "x": 48,
+      "y": 80,
+      "role": 0
+    },
+    {
+      "image": "steel-counter-top.png",
+      "x": 64,
+      "y": 80,
+      "role": 0
+    },
+    {
+      "image": "steel-counter-front.png",
+      "x": 64,
+      "y": 104,
+      "role": 0
+    },
+    {
+      "image": "steel-counter-top.png",
+      "x": 80,
+      "y": 80,
+      "role": 0
+    },
+    {
+      "image": "steel-counter-front.png",
+      "x": 80,
+      "y": 104,
+      "role": 0
+    },
+    {
+      "image": "steel-counter-top.png",
+      "x": 96,
+      "y": 80,
+      "role": 0
+    },
+    {
+      "image": "steel-counter-front.png",
+      "x": 96,
+      "y": 104,
+      "role": 0
+    },
+    {
+      "image": "steel-counter-end-right.png",
+      "x": 112,
+      "y": 80,
+      "role": 0
+    },
+    {
+      "image": "steel-counter-top.png",
+      "x": 120,
+      "y": 8,
+      "role": 1
+    },
+    {
+      "image": "steel-counter-front.png",
+      "x": 120,
+      "y": 32,
+      "role": 1
+    },
+    {
+      "image": "steel-counter-corner-right.png",
+      "x": 136,
+      "y": 8,
+      "role": 1
+    },
+    {
+      "image": "steel-counter-vertical-top.png",
+      "x": 136,
+      "y": 32,
+      "role": 1
+    },
+    {
+      "image": "steel-counter-near-fascia.png",
+      "x": 136,
+      "y": 48,
+      "role": 1
+    }
+  ]
+}

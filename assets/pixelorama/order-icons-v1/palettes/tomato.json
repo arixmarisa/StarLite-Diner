@@ -1,0 +1,13 @@
+{
+  "colors": {
+    "core": "#f2a082",
+    "outline": "#322c38",
+    "pocket": "#b8474f",
+    "red": "#d65362",
+    "redLight": "#ee8790",
+    "redShade": "#aa3f52",
+    "seed": "#fff0d5",
+    "seedGold": "#e2ad68"
+  },
+  "id": "tomato"
+}

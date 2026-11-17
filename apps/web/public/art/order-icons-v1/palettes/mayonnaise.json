@@ -1,0 +1,13 @@
+{
+  "colors": {
+    "ceramic": "#c94d7b",
+    "ceramicLight": "#ee75a3",
+    "ceramicShade": "#9f385e",
+    "glint": "#fff0d5",
+    "mayo": "#fff5df",
+    "mayoShade": "#d8c79c",
+    "outline": "#322c38",
+    "rim": "#a6bcb2"
+  },
+  "id": "mayonnaise"
+}

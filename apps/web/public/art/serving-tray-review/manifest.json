@@ -1,0 +1,30 @@
+{
+  "id": "serving-tray",
+  "status": "requested-revision-ready-for-review",
+  "creationApproved": true,
+  "source": "../../../../../assets/pixelorama/serving-tray-review/serving-tray.pxo",
+  "image": "serving-tray.png",
+  "frameSize": { "width": 24, "height": 16 },
+  "nativeScale": 1,
+  "orientation": "top-down-countertop-prop",
+  "bodyBounds": { "x": 2, "y": 2, "width": 20, "height": 11 },
+  "occupiedBounds": { "x": 2, "y": 2, "width": 21, "height": 12 },
+  "counterAttachment": {
+    "surface": "horizontal-countertop",
+    "independentProp": true,
+    "frameMustFitInsideWorktop": true,
+    "minimumSurfaceDepth": 16
+  },
+  "components": [
+    { "image": "tray-shadow.png", "role": "countertop-contact-shadow", "drawOrder": 0 },
+    { "image": "tray-body.png", "role": "empty-tray-body", "drawOrder": 1 }
+  ],
+  "frame": { "index": 0, "durationMs": 1000, "tag": "serving-tray-static" },
+  "layers": [
+    "01 - worktop contact shadow",
+    "02 - shallow chrome rim and thickness",
+    "03 - empty dark carrying surface",
+    "04 - upper-left hard chrome reflections"
+  ],
+  "gameplay": { "capacity": null, "collision": null, "interaction": null }
+}

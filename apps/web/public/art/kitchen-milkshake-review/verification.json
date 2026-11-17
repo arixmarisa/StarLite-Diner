@@ -1,0 +1,31 @@
+{
+  "activeProjectUnchanged": true,
+  "componentsReconstructExactly": true,
+  "duration": 1.0,
+  "exportCodes": {
+    "kitchen-milkshake-atlas.png": 0,
+    "kitchen-milkshake-body.png": 0,
+    "kitchen-milkshake-shadow.png": 0,
+    "kitchen-milkshake.png": 0,
+    "preview": 0
+  },
+  "fps": 1.0,
+  "frames": 1,
+  "nativeSize": [24.0, 48.0],
+  "occupiedBounds": {
+    "height": 41,
+    "width": 21,
+    "x": 2,
+    "y": 3
+  },
+  "opaquePixels": 603,
+  "orphanPixels": 0,
+  "paletteSwatches": 14,
+  "populatedLayers": [true, true, true, true, true, true],
+  "saved": true,
+  "savedSourceMatchesNativePng": true,
+  "semitransparentPixels": 0,
+  "sourceLayers": 6,
+  "tag": "kitchen-milkshake-static",
+  "visibleColors": 8
+}

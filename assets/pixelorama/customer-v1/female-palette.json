@@ -1,0 +1,157 @@
+{
+  "colors": [
+    "#322c38",
+    "#46404b",
+    "#676c70",
+    "#67505b",
+    "#b87960",
+    "#daa17a",
+    "#f1bd8e",
+    "#493442",
+    "#71515a",
+    "#987078",
+    "#b64a72",
+    "#d86d95",
+    "#efa2bb",
+    "#c6b69e",
+    "#f1e5d1",
+    "#fff5df",
+    "#42546b",
+    "#637c92",
+    "#94afbd",
+    "#4d3540",
+    "#77554f",
+    "#a3806e",
+    "#754d4c",
+    "#a16c57",
+    "#c88b69",
+    "#34313e",
+    "#4a4452",
+    "#6a6070",
+    "#827a56",
+    "#b3a776",
+    "#d4c699",
+    "#3d3546",
+    "#584d62",
+    "#81748c",
+    "#e5a381",
+    "#ffd0a3",
+    "#ffe3be",
+    "#804a43",
+    "#bf8060",
+    "#e6b181",
+    "#3e7977",
+    "#62a19a",
+    "#9bc9b5",
+    "#a77f5a",
+    "#c6a078",
+    "#e4c49a"
+  ],
+  "variants": [
+    {
+      "id": "female-tee-jeans",
+      "ramps": {
+        "bottom": {
+          "base": "#637c92",
+          "highlight": "#94afbd",
+          "shade": "#42546b"
+        },
+        "hair": {
+          "base": "#71515a",
+          "highlight": "#987078",
+          "shade": "#493442"
+        },
+        "secondary": {
+          "base": "#f1e5d1",
+          "highlight": "#fff5df",
+          "shade": "#c6b69e"
+        },
+        "shoes": {
+          "base": "#77554f",
+          "highlight": "#a3806e",
+          "shade": "#4d3540"
+        },
+        "skin": {
+          "base": "#daa17a",
+          "highlight": "#f1bd8e",
+          "shade": "#b87960"
+        },
+        "top": {
+          "base": "#d86d95",
+          "highlight": "#efa2bb",
+          "shade": "#b64a72"
+        }
+      }
+    },
+    {
+      "id": "female-polo-khakis",
+      "ramps": {
+        "bottom": {
+          "base": "#b3a776",
+          "highlight": "#d4c699",
+          "shade": "#827a56"
+        },
+        "hair": {
+          "base": "#4a4452",
+          "highlight": "#6a6070",
+          "shade": "#34313e"
+        },
+        "secondary": {
+          "base": "#f1e5d1",
+          "highlight": "#fff5df",
+          "shade": "#c6b69e"
+        },
+        "shoes": {
+          "base": "#584d62",
+          "highlight": "#81748c",
+          "shade": "#3d3546"
+        },
+        "skin": {
+          "base": "#a16c57",
+          "highlight": "#c88b69",
+          "shade": "#754d4c"
+        },
+        "top": {
+          "base": "#f1e5d1",
+          "highlight": "#fff5df",
+          "shade": "#c6b69e"
+        }
+      }
+    },
+    {
+      "id": "female-cardigan-shorts",
+      "ramps": {
+        "bottom": {
+          "base": "#c6a078",
+          "highlight": "#e4c49a",
+          "shade": "#a77f5a"
+        },
+        "hair": {
+          "base": "#bf8060",
+          "highlight": "#e6b181",
+          "shade": "#804a43"
+        },
+        "secondary": {
+          "base": "#f1e5d1",
+          "highlight": "#fff5df",
+          "shade": "#c6b69e"
+        },
+        "shoes": {
+          "base": "#77554f",
+          "highlight": "#a3806e",
+          "shade": "#4d3540"
+        },
+        "skin": {
+          "base": "#ffd0a3",
+          "highlight": "#ffe3be",
+          "shade": "#e5a381"
+        },
+        "top": {
+          "base": "#62a19a",
+          "highlight": "#9bc9b5",
+          "shade": "#3e7977"
+        }
+      }
+    }
+  ]
+}

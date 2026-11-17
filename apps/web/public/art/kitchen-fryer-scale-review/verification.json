@@ -1,0 +1,34 @@
+{
+  "activeProjectUnchanged": true,
+  "bounds": {
+    "height": 34,
+    "width": 29,
+    "x": 2,
+    "y": 3
+  },
+  "celByteSizes": [5120, 5120, 5120, 5120, 5120, 5120, 5120],
+  "componentsReconstructExactly": true,
+  "exportCodes": {
+    "kitchen-fryer-atlas.png": 0,
+    "kitchen-fryer-body.png": 0,
+    "kitchen-fryer-shadow.png": 0,
+    "kitchen-fryer.png": 0,
+    "preview": 0
+  },
+  "fps": 1.0,
+  "frameDuration": 1.0,
+  "frames": 1,
+  "handlePointsWest": true,
+  "holes": [],
+  "opaquePixels": 704,
+  "orphans": 0,
+  "paletteSwatches": 14,
+  "populatedLayers": [true, true, true, true, true, true, true],
+  "saved": true,
+  "semitransparentPixels": 0,
+  "sourceLayers": 7,
+  "sourcePixelsMatchNativePng": true,
+  "sourceSize": [32.0, 40.0],
+  "tag": "kitchen-fryer-scale-static",
+  "visibleColors": 6
+}

@@ -1,0 +1,149 @@
+{
+  "actor": "actor.png",
+  "animations": {
+    "carry_idle_south": {
+      "fps": 2,
+      "frames": [0]
+    },
+    "carry_walk_south": {
+      "fps": 8,
+      "frames": [1, 2, 3, 4]
+    }
+  },
+  "attachments": "attachments.json",
+  "bodyOffset": {
+    "x": 4.0,
+    "y": 8.0
+  },
+  "bodySize": {
+    "height": 24.0,
+    "width": 16.0
+  },
+  "carryingHand": "left",
+  "combined": "player-with-tray.png",
+  "comparisonPreview": "comparison-preview.png",
+  "direction": "south",
+  "engineLogicImplemented": false,
+  "footAnchor": {
+    "x": 12.0,
+    "y": 31.0
+  },
+  "fps": 8,
+  "frameRecords": [
+    {
+      "direction": "south",
+      "durationMs": 500,
+      "durationMultiplier": 4.0,
+      "height": 32,
+      "index": 0,
+      "state": "carry-idle",
+      "width": 40,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "height": 32,
+      "index": 1,
+      "state": "carry-walk",
+      "width": 40,
+      "x": 40,
+      "y": 0
+    },
+    {
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "height": 32,
+      "index": 2,
+      "state": "carry-walk",
+      "width": 40,
+      "x": 80,
+      "y": 0
+    },
+    {
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "height": 32,
+      "index": 3,
+      "state": "carry-walk",
+      "width": 40,
+      "x": 120,
+      "y": 0
+    },
+    {
+      "direction": "south",
+      "durationMs": 125,
+      "durationMultiplier": 1.0,
+      "height": 32,
+      "index": 4,
+      "state": "carry-walk",
+      "width": 40,
+      "x": 160,
+      "y": 0
+    }
+  ],
+  "frameSize": {
+    "height": 32.0,
+    "width": 40.0
+  },
+  "hand": {
+    "elbow": {
+      "x": 20.0,
+      "y": 23.0
+    },
+    "forearmAxis": "vertical",
+    "physical": "left",
+    "screenSide": "right",
+    "supportLocation": "near-left sloping tray underside",
+    "supportPalm": {
+      "x": 20.0,
+      "y": 18.0
+    }
+  },
+  "holdHeight": "shoulder",
+  "idlePreview": "carry-idle-preview.png",
+  "itemsIncluded": false,
+  "layers": [
+    "01 - contact shadow",
+    "02 - shoes",
+    "03 - trousers",
+    "04 - outfit primary and cap band",
+    "05 - skin face ears and hands",
+    "06 - hair",
+    "07 - cream apron and collar",
+    "08 - cream service cap",
+    "09 - neutral face and details",
+    "10 - independent empty circular tray"
+  ],
+  "otherDirectionsApproved": false,
+  "preview": "carry-motion-upright-preview.png",
+  "sheetSize": {
+    "height": 32,
+    "width": 200
+  },
+  "source": "assets/pixelorama/player-tray-front-review/player-tray-front.pxo",
+  "status": "front-review-only",
+  "tray": {
+    "contentsIncluded": false,
+    "origin": {
+      "x": 14.0,
+      "y": 6.0
+    },
+    "sourceFrame": {
+      "height": 16.0,
+      "width": 24.0
+    },
+    "sourceImage": "/art/serving-tray-review/tray-body.png",
+    "sourceProject": "assets/pixelorama/serving-tray-review/serving-tray.pxo",
+    "supportPointLocal": {
+      "x": 6.0,
+      "y": 12.0
+    },
+    "worktopShadowIncluded": false
+  },
+  "trayOverlay": "tray-overlay.png"
+}

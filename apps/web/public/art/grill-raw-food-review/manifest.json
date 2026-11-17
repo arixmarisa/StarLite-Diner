@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "id": "grill-raw-food-review",
+  "source": "assets/pixelorama/grill-raw-food-review/raw-ingredients.pxo",
+  "palette": "assets/pixelorama/grill-raw-food-review/palette.json",
+  "camera": "straight-top-down",
+  "lighting": "upper-left",
+  "nativeAtlasSize": { "width": 120, "height": 40 },
+  "nativeFrameSize": { "width": 40, "height": 40 },
+  "anchor": { "x": 20, "y": 20, "meaning": "shared frame center" },
+  "frameCount": 1,
+  "fps": 1,
+  "durationMultiplier": 1,
+  "tag": "raw-ingredients-static",
+  "scope": "art and preview only",
+  "quantity": "Illustrations represent ingredient choices, not inventory counts.",
+  "stationMount": {
+    "sceneSize": { "width": 384, "height": 216 },
+    "trayFrame": { "width": 64, "height": 56 },
+    "ingredientOffset": { "x": 12, "y": 8 },
+    "scale": 1,
+    "artOnly": true
+  },
+  "sprites": [
+    {
+      "id": "raw-patty",
+      "image": "raw-patty.png",
+      "atlasRectangle": { "x": 0, "y": 0, "width": 40, "height": 40 },
+      "contentBounds": { "x": 7, "y": 7, "width": 27, "height": 27 },
+      "stationOrigin": { "x": 20, "y": 20 }
+    },
+    {
+      "id": "raw-sausage",
+      "image": "raw-sausage.png",
+      "atlasRectangle": { "x": 40, "y": 0, "width": 40, "height": 40 },
+      "contentBounds": { "x": 5, "y": 14, "width": 31, "height": 13 },
+      "stationOrigin": { "x": 20, "y": 88 }
+    },
+    {
+      "id": "pancake-batter",
+      "image": "pancake-batter.png",
+      "atlasRectangle": { "x": 80, "y": 0, "width": 40, "height": 40 },
+      "contentBounds": { "x": 6, "y": 4, "width": 31, "height": 32 },
+      "stationOrigin": { "x": 20, "y": 156 }
+    }
+  ]
+}

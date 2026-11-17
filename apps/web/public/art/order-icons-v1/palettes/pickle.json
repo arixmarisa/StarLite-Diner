@@ -1,0 +1,12 @@
+{
+  "colors": {
+    "base": "#88a86b",
+    "glint": "#fff0d5",
+    "light": "#bacc88",
+    "outline": "#322c38",
+    "rind": "#405b4b",
+    "seed": "#e6dba6",
+    "shade": "#5a7953"
+  },
+  "id": "pickle"
+}

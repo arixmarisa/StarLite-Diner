@@ -1,0 +1,493 @@
+{
+  "frames": {
+    "player-atlas_0": {
+      "duration": 500,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_1": {
+      "duration": 125,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 16,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_10": {
+      "duration": 500,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 160,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_11": {
+      "duration": 125,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 176,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_12": {
+      "duration": 125,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 192,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_13": {
+      "duration": 125,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 208,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_14": {
+      "duration": 125,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 224,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_15": {
+      "duration": 500,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 240,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_16": {
+      "duration": 125,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 256,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_17": {
+      "duration": 125,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 272,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_18": {
+      "duration": 125,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 288,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_19": {
+      "duration": 125,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 304,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_2": {
+      "duration": 125,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 32,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_3": {
+      "duration": 125,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 48,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_4": {
+      "duration": 125,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 64,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_5": {
+      "duration": 500,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 80,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_6": {
+      "duration": 125,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 96,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_7": {
+      "duration": 125,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 112,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_8": {
+      "duration": 125,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 128,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "player-atlas_9": {
+      "duration": 125,
+      "frame": {
+        "h": 24,
+        "w": 16,
+        "x": 144,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 24,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  },
+  "meta": {
+    "app": "Pixelorama-MCP",
+    "format": "RGBA8888",
+    "frameTags": [
+      {
+        "color": "f1e5d1ff",
+        "direction": "forward",
+        "from": 0,
+        "name": "idle_south",
+        "to": 0
+      },
+      {
+        "color": "ee75a3ff",
+        "direction": "forward",
+        "from": 1,
+        "name": "walk_south",
+        "to": 4
+      },
+      {
+        "color": "f1e5d1ff",
+        "direction": "forward",
+        "from": 5,
+        "name": "idle_west",
+        "to": 5
+      },
+      {
+        "color": "ee75a3ff",
+        "direction": "forward",
+        "from": 6,
+        "name": "walk_west",
+        "to": 9
+      },
+      {
+        "color": "f1e5d1ff",
+        "direction": "forward",
+        "from": 10,
+        "name": "idle_east",
+        "to": 10
+      },
+      {
+        "color": "ee75a3ff",
+        "direction": "forward",
+        "from": 11,
+        "name": "walk_east",
+        "to": 14
+      },
+      {
+        "color": "f1e5d1ff",
+        "direction": "forward",
+        "from": 15,
+        "name": "idle_north",
+        "to": 15
+      },
+      {
+        "color": "ee75a3ff",
+        "direction": "forward",
+        "from": 16,
+        "name": "walk_north",
+        "to": 19
+      }
+    ],
+    "image": "player-atlas.png",
+    "scale": "1",
+    "size": {
+      "h": 24,
+      "w": 320
+    },
+    "version": "0.3.0"
+  }
+}

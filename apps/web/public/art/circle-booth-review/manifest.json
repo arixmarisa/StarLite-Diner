@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "status": "accepted-art-design",
+  "authoring": "Pixelorama MCP",
+  "id": "circle-booth",
+  "source": "assets/pixelorama/circle-booth-review/circle-booth.pxo",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/circle-booth-review/palette.json",
+  "image": "circle-booth.png",
+  "frameSize": {
+    "width": 128,
+    "height": 112
+  },
+  "occupiedBounds": {
+    "x": 16,
+    "y": 4,
+    "width": 98,
+    "height": 98
+  },
+  "layers": [
+    "01 - contact shadow",
+    "02 - chrome curved plinth",
+    "03 - rear curved backrest",
+    "04 - curved seat cushions",
+    "05 - table pedestal and feet",
+    "06 - round cream laminate table",
+    "07 - foreground curved backrest",
+    "08 - piping seams and highlights"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "circle-booth-static"
+  },
+  "components": [
+    {
+      "id": "circle-booth-base",
+      "image": "circle-booth-base.png",
+      "renderRole": "bench-base",
+      "order": 0
+    },
+    {
+      "id": "round-table",
+      "image": "round-table.png",
+      "renderRole": "table",
+      "order": 1
+    },
+    {
+      "id": "circle-booth-foreground",
+      "image": "circle-booth-foreground.png",
+      "renderRole": "foreground-occluder",
+      "order": 2
+    }
+  ],
+  "componentFrameSize": {
+    "width": 128,
+    "height": 112
+  },
+  "componentOrigin": {
+    "x": 0,
+    "y": 0
+  },
+  "artGeometry": {
+    "outerRadius": 48,
+    "backInnerRadius": 40,
+    "seatInnerRadius": 28,
+    "backCapDepth": 8,
+    "seatDepth": 12,
+    "verticalPlanProjection": 0.8,
+    "backCapHeight": 18,
+    "seatHeight": 6,
+    "backFaceHeight": 12,
+    "openSectorDegrees": {
+      "from": 278,
+      "to": 350
+    },
+    "openingDirection": "upper-right",
+    "visualCushionSections": 8,
+    "tabletopSize": {
+      "width": 50,
+      "height": 40
+    },
+    "tableFrontLipRows": 2,
+    "pedestalLowerEndHidden": true
+  },
+  "qa": {
+    "opaquePixels": 6625,
+    "semitransparentPixels": 0,
+    "visibleColors": 13,
+    "paletteSwatches": 14,
+    "orphans": 0,
+    "intentionalClearance": {
+      "pixels": 77,
+      "bounds": {
+        "width": 20,
+        "height": 15
+      }
+    },
+    "reopenedSourceMatchesNativePng": true,
+    "componentsReconstructExactly": true,
+    "testedHiddenLowerPedestalPixels": 140
+  },
+  "anchor": null,
+  "collision": null,
+  "interaction": null,
+  "seatingCapacity": null,
+  "integrated": false,
+  "acceptedOn": "2026-11-07"
+}

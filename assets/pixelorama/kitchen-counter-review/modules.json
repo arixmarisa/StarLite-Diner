@@ -1,0 +1,83 @@
+{
+  "width": 160,
+  "height": 160,
+  "modules": [
+    {
+      "id": "steel-counter-top",
+      "source": "front/counter-top.png",
+      "rect": [8, 8, 16, 24],
+      "surfaceHeight": 24,
+      "face": false
+    },
+    {
+      "id": "steel-counter-front",
+      "source": "front/counter-front.png",
+      "rect": [32, 8, 16, 16],
+      "surfaceHeight": 0,
+      "face": true
+    },
+    {
+      "id": "steel-counter-vertical-top",
+      "source": "front/counter-vertical.png",
+      "rect": [56, 8, 24, 16],
+      "surfaceHeight": 16,
+      "face": false
+    },
+    {
+      "id": "steel-counter-near-fascia",
+      "source": "side/counter-side-fascia.png",
+      "rect": [88, 8, 24, 16],
+      "surfaceHeight": 0,
+      "face": true
+    },
+    {
+      "id": "steel-counter-end-left",
+      "source": "front/counter-end-left.png",
+      "rect": [8, 48, 16, 40],
+      "surfaceHeight": 24,
+      "face": true
+    },
+    {
+      "id": "steel-counter-end-right",
+      "source": "front/counter-end-right.png",
+      "rect": [32, 48, 16, 40],
+      "surfaceHeight": 24,
+      "face": true
+    },
+    {
+      "id": "steel-counter-corner-left",
+      "source": "generated-east-south",
+      "rect": [64, 48, 24, 24],
+      "surfaceHeight": 24,
+      "face": false
+    },
+    {
+      "id": "steel-counter-corner-right",
+      "source": "generated-west-south",
+      "rect": [104, 48, 24, 24],
+      "surfaceHeight": 24,
+      "face": false
+    },
+    {
+      "id": "steel-counter-side",
+      "source": "side/counter-side.png",
+      "rect": [8, 104, 24, 48],
+      "surfaceHeight": 32,
+      "face": true
+    },
+    {
+      "id": "steel-counter-lip-front",
+      "source": "derived-front",
+      "rect": [88, 104, 16, 4],
+      "surfaceHeight": 0,
+      "face": false
+    },
+    {
+      "id": "steel-counter-lip-side",
+      "source": "derived-side",
+      "rect": [112, 104, 4, 16],
+      "surfaceHeight": 16,
+      "face": false
+    }
+  ]
+}

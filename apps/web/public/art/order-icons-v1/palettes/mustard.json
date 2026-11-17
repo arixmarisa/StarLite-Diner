@@ -1,0 +1,12 @@
+{
+  "colors": {
+    "glint": "#fff0d5",
+    "label": "#f1e5d1",
+    "mustard": "#e1ba53",
+    "mustardLight": "#f3d579",
+    "mustardShade": "#ad813e",
+    "nozzleShade": "#b87948",
+    "outline": "#322c38"
+  },
+  "id": "mustard"
+}

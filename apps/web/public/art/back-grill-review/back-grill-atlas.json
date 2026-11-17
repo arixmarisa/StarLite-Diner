@@ -1,0 +1,45 @@
+{
+  "frames": {
+    "back-grill-atlas_0": {
+      "duration": 1000,
+      "frame": {
+        "h": 64,
+        "w": 96,
+        "x": 0,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 64,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 64,
+        "w": 96,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  },
+  "meta": {
+    "app": "Pixelorama-MCP",
+    "format": "RGBA8888",
+    "frameTags": [
+      {
+        "color": "9ba8a5ff",
+        "direction": "forward",
+        "from": 0,
+        "name": "back-wall-grill-static",
+        "to": 0
+      }
+    ],
+    "image": "back-grill-atlas.png",
+    "scale": "1",
+    "size": {
+      "h": 64,
+      "w": 96
+    },
+    "version": "0.3.0"
+  }
+}

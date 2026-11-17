@@ -1,0 +1,42 @@
+# Web client context
+
+`src/design/` owns the [isolated `/design` layout editor](src/design/README.md): front-of-house and back-of-house modes with independent drafts/history, a searchable finished-asset library, multi-selection and undoable placement/group operations. Width/height controls resize the floor and retile perimeter walls at native scale, rejecting shrinking across remaining objects. Validated version-2 JSON records room identity and dimensions; legacy version-1 dining drafts still import. It composites existing PNGs without Phaser or simulation and never changes the playable map. Export each room before reloading.
+
+Read `../../context.md` first. This workspace owns the web shell and local engine. The underlying engine and `/demo` are implemented with a player and one table. Full restaurant rules remain in `../../docs/gameplay/README.md` pending their own decisions.
+
+`src/persistence/` implements [browser save logic](src/persistence/README.md): three named day-ready slots, native IndexedDB transactions, bounded validation, prior-checkpoint recovery and checked revisions/deletion tombstones. The caller must supply the actual gameplay progress validator and content version. Mid-day recovery, UI and automatic gameplay integration are deferred; no existing route or prototype invokes it. See the [save scope](../../docs/gameplay/browser-save-plan.md).
+
+| File                                  | Responsibility                                                                                          |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| `index.html`                          | Approved diner exterior fallback and accessible Pixelorama Start control                                |
+| `src/entry.ts`                        | Lazy routes, home Start activation and route teardown                                                   |
+| `src/grill/`                          | Standalone `/grill` timed cooking/flip concept; [source map and controls](src/grill/README.md)          |
+| `src/demo/`                           | DOM page, tuning, dialogs, focus and lifecycle; [source map](src/demo/README.md)                        |
+| `src/game/engine/`                    | Pure session/commands/events/collision/modes/portals/snapshots; [actual API](src/game/engine/README.md) |
+| `src/game/demo/`                      | Minimal fixture and Phaser rendering adapter; [source map](src/game/demo/README.md)                     |
+| `src/game/input/`, `src/game/render/` | Focus-scoped keyboard and validated asset metadata; see each README                                     |
+| `src/styles.css`                      | Centered native exterior stage, integer scaling, image states and accessible focus fallback             |
+| `src/menu/`                           | Independent sign flicker, one-shot door playback and disposal; [contract](src/menu/README.md)           |
+| `src/demo/shell.css`                  | Existing diagnostic demo typography and shared controls; loaded only for `/demo`                        |
+| `src/game/create-game.ts`             | Preserved original decorative scene wrapper; currently unmounted                                        |
+| `src/game/scenes/diner-scene.ts`      | Preserved original environment/emission scene; currently unmounted                                      |
+| `src/game/core/fixed-step.ts`         | Standalone bounded simulation clock, reserved for future gameplay                                       |
+| `src/game/core/fixed-step.test.ts`    | Timing invariance, catch-up bound, reset and invalid input tests                                        |
+| `public/art/manifest.json`            | Asset dimensions, source, layer/export roles, art provenance                                            |
+| `public/art/menu-v1/`                 | Native rest/highlight/pressed Start PNGs, UI art manifest and source reference                          |
+| `vite.config.ts`                      | Local host/port, API proxy, browser target                                                              |
+| `tsconfig.json`, `package.json`       | Strict browser compilation and workspace commands                                                       |
+
+`npm run dev` from the repository root starts both applications. Work directly in this workspace only after building shared contracts. Production assets are served by Fastify; `vite preview` is a static preview without the API proxy.
+
+The home screen uses the approved pink/chrome diner exterior, with independently flickering STARLITE and DINER signs and the unchanged Start artwork. Click, Enter or Space disables Start and opens the double doors over 750 ms before lazily loading the existing dining room at `/`. Repeated activation cannot restart the sequence or mount another room. Reduced motion keeps neon lit and opens immediately. The background displays without JavaScript, with an enable-JavaScript note. See the [menu playback contract](src/menu/README.md); no art is redrawn during integration.
+
+`src/front-of-house/` owns the [main-game DOM view](src/front-of-house/README.md); `src/game/front-of-house/` owns its [content/Phaser adapter](src/game/front-of-house/README.md). The female player-v3 walks with WASD/arrows among the compact room assets. Furniture uses baked opaque contours rather than seating-group rectangles. A closer 384×216 camera follows the player within the room bounds. The worker’s tight 10×2 shoe-sole collider allows close counter/grill approaches; customer footprints and art anchors remain separate. The same engine session now connects both dining-room kitchen doors to the latest kitchen-layout-v6. Walking through switches the active room; only its objects render and the camera resets to its room bounds. A [customer visit preview](src/game/customers/README.md) fills all 84 chair/stool/booth places in front-of-house-layout-v2 with a dense crowd: enter back-to-back with spacing, remain seated for the order test. All ready tables show outlines and a small `!` bubble regardless of worker distance. Nearby E locks worker movement while guests show food then toppings; a complete table ticket records automatically in the read-only notepad before movement resumes. See the [order API](src/game/customers/ORDERS.md). The pure model follows engine ticks even while the player is in the kitchen; sprites use the existing customer-v1 sheets and chair occlusion crops. The kitchen grill retains E entry and ingredient hover feedback. Cooking, fulfillment, eating, payment and saving remain inactive. Reload returns to the menu.
+
+The `/demo` engine receives intentions through the DOM keyboard adapter; Phaser does not independently capture input or own physics. Preserve focus and dialog semantics and surface loading failures clearly. The movement test does not imply the restaurant loop is implemented. Its existing diagnostic presentation is separate from the new menu.
+
+All pixel art must come through Pixelorama MCP. See `../../docs/art-direction.md` before edits. See `../../docs/architecture.md` before adding simulation or networking.
+
+`src/milkshake/` owns the separately authorized `/milkshake` station concept: smooth geometric placeholders, no new art assets, and no connection to the movement world. Its DOM owns held dispensing/cream controls, mixer toggle, cup drag/arrows, Pause and results; the pure station model owns local elapsed time, stage guards, coverage and scoring. It lazy-loads without Phaser. Targets and scores are provisional feel tuning; see its [guide](src/milkshake/README.md) for exact APIs and limits.
+
+`src/grill/` owns the separately authorized `/grill` feel test in the same functional station style. Each ingredient click immediately adds one geometric placeholder to the first free spot through the pure model's `addFood` action; there is no selected-ingredient state or second placement click. Clicking food flips once and then removes it. The pure model owns side timers, irreversible early/late mistakes, burning, discard and local results. The DOM adapter owns Pause, reset, keyboard/button focus and idempotent teardown. This temporary UI will be replaced by game assets; final ingredient trays invoke the same immediate-add action. Production art and assembly remain future work. It imports neither Phaser nor the milkshake controller.

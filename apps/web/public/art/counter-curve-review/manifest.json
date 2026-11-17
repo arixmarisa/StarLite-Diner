@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "status": "accepted-art-design",
+  "authoring": "Pixelorama MCP",
+  "id": "counter-return-right",
+  "source": "assets/pixelorama/counter-curve-review/curved-counter.pxo",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/counter-curve-review/palette.json",
+  "image": "curved-counter.png",
+  "frameSize": {
+    "width": 40,
+    "height": 56
+  },
+  "sourceCanvas": {
+    "width": 64,
+    "height": 72
+  },
+  "sourceRect": {
+    "x": 8,
+    "y": 8,
+    "width": 40,
+    "height": 56
+  },
+  "layers": [
+    "01 - lower chrome and facade contours",
+    "02 - curved rose fascia",
+    "03 - cream laminate top",
+    "04 - chrome outer rim and foreground lip"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "curved-counter-static"
+  },
+  "components": [
+    {
+      "id": "curved-counter-base",
+      "image": "curved-counter-base.png",
+      "order": 0
+    },
+    {
+      "id": "curved-counter-foreground",
+      "image": "curved-counter-foreground.png",
+      "order": 1
+    }
+  ],
+  "componentFrameSize": {
+    "width": 40,
+    "height": 56
+  },
+  "componentOrigin": {
+    "x": 0,
+    "y": 0
+  },
+  "artGeometry": {
+    "innerRadius": 16,
+    "outerRadius": 40,
+    "counterPlanWidth": 24,
+    "verticalFaceHeight": 16,
+    "faceProjection": "down-screen-y",
+    "panelCadence": 16,
+    "connections": [
+      {
+        "direction": "west",
+        "start": {
+          "x": 0,
+          "y": 16
+        },
+        "span": 40,
+        "topSpan": 24,
+        "frontSpan": 16,
+        "referenceTop": "counter-top",
+        "referenceFront": "counter-front",
+        "matchingTopColumn": 0,
+        "matchingFrontColumn": 0
+      },
+      {
+        "direction": "north",
+        "start": {
+          "x": 16,
+          "y": 0
+        },
+        "span": 24,
+        "reference": "counter-vertical",
+        "matchingReferenceRow": 0
+      }
+    ],
+    "foregroundLipWidth": 4
+  },
+  "preview": {
+    "source": "assets/pixelorama/counter-curve-review/counter-curve-preview.pxo",
+    "image": "counter-curve-preview.png",
+    "width": 104,
+    "height": 112,
+    "newModulePlacement": {
+      "x": 48,
+      "y": 40
+    },
+    "referencePlacements": [
+      {
+        "asset": "counter-top",
+        "x": 16,
+        "y": 56
+      },
+      {
+        "asset": "counter-top",
+        "x": 32,
+        "y": 56
+      },
+      {
+        "asset": "counter-front",
+        "x": 16,
+        "y": 80
+      },
+      {
+        "asset": "counter-front",
+        "x": 32,
+        "y": 80
+      },
+      {
+        "asset": "counter-vertical",
+        "x": 64,
+        "y": 8
+      },
+      {
+        "asset": "counter-vertical",
+        "x": 64,
+        "y": 24
+      }
+    ],
+    "scale": 1
+  },
+  "qa": {
+    "opaquePixels": 1693,
+    "semitransparentPixels": 0,
+    "visibleColors": 9,
+    "paletteSwatches": 21,
+    "holes": 0,
+    "orphans": 0,
+    "reopenedSourceMatchesNativePng": true,
+    "componentsReconstructByteForByte": true,
+    "transparentComponentRgb": "zero under alpha0, matching source composite",
+    "west40RowEndpointMatchesV1": true,
+    "north24PixelEndpointMatchesV1": true,
+    "targetedNativeSave": true,
+    "foreignActiveProjectUnchanged": true
+  },
+  "anchor": null,
+  "collision": null,
+  "interaction": null,
+  "integrated": false,
+  "occupiedBounds": {
+    "x": 0,
+    "y": 0,
+    "width": 40,
+    "height": 56
+  },
+  "sourceOccupiedBounds": {
+    "x": 8,
+    "y": 8,
+    "width": 40,
+    "height": 56
+  },
+  "atlas": {
+    "image": "curved-counter-atlas.png",
+    "metadata": "curved-counter-atlas.json",
+    "frameSize": {
+      "width": 64,
+      "height": 72
+    },
+    "partRect": {
+      "x": 8,
+      "y": 8,
+      "width": 40,
+      "height": 56
+    }
+  },
+  "acceptedOn": "2026-11-07"
+}

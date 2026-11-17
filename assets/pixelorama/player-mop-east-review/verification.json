@@ -1,0 +1,110 @@
+{
+  "activeProjectUnchanged": true,
+  "actorComponents": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "actorPartsReconstructExact": 9,
+  "combinedComponents": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "distinctMotionPoses": 5,
+  "failures": [],
+  "frames": 9,
+  "headContactY": [
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31
+  ],
+  "layers": 12,
+  "lowerMaterialLayersExact": 27,
+  "maskOverlapPixels": 0,
+  "mopComponents": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "motion": {
+    "fps": 8,
+    "frames": 8,
+    "height": 320,
+    "loops": 0,
+    "width": 384
+  },
+  "movingGripsWithHandleFrames": 9,
+  "neutralChanges": 0,
+  "originalHeadPixelsCompared": 891,
+  "originalHeadPixelsExact": 891,
+  "paletteMismatches": 0,
+  "paletteSwatches": 19,
+  "palmsAboveShaft": 18,
+  "palmsOnShaft": 18,
+  "partsReconstructExact": 9,
+  "plantedFootFrames": 9,
+  "recolorIsolationChecks": 18,
+  "rigidMopTranslationFrames": 9,
+  "savedCompositesExact": 9,
+  "savedDimensions": [
+    48.0,
+    40.0
+  ],
+  "savedLayerNames": [
+    "01 - mop wooden handle",
+    "02 - mop chrome collar",
+    "03 - mop cream gray strings",
+    "04 - actor contact shadow",
+    "05 - actor shoes",
+    "06 - actor trousers",
+    "07 - actor outfit primary and cap band",
+    "08 - actor skin face ears and hands",
+    "09 - actor hair",
+    "10 - actor cream apron and collar",
+    "11 - actor cream service cap",
+    "12 - actor neutral face and details"
+  ],
+  "savedTags": [
+    {
+      "color": "ee75a3ff",
+      "from": 1.0,
+      "name": "hold_east",
+      "to": 1.0
+    },
+    {
+      "color": "a6bcb2ff",
+      "from": 2.0,
+      "name": "mop_east",
+      "to": 9.0
+    }
+  ],
+  "semiTransparentPixels": 0,
+  "sourceCelsExact": 108,
+  "sourceFps": 8.0,
+  "sourceOriginalIdleExact": true
+}

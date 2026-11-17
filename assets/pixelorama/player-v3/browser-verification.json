@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "frames": 40,
+  "materialMaskChecks": 80,
+  "sheetSize": [80, 192],
+  "originalCardinalFramesExact": 20,
+  "animationDefinitions": 16,
+  "eligibleMaterialPixels": { "skin": 1201, "outfit": 1967 },
+  "liveDiagonalWalkingAndIdle": ["northwest", "northeast", "southwest", "southeast"],
+  "liveDiagonalSpeed": 88,
+  "blurStopsMovement": true,
+  "liveNorthwestCycleFrames": [21, 22, 23, 24],
+  "temporaryMovementTuningRestored": true,
+  "temporaryBrowserInstrumentationRemoved": true,
+  "preservedReferenceHashes": 10,
+  "customerArtUnchanged": true,
+  "simulationFacingUnchanged": true
+}

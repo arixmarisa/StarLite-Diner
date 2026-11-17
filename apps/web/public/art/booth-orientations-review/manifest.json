@@ -1,0 +1,89 @@
+{
+  "status": "accepted-art-design",
+  "authoring": "Pixelorama MCP",
+  "palette": "../../../../../assets/pixelorama/booth-orientations-review/palette.json",
+  "newDesigns": 1,
+  "assets": [
+    {
+      "id": "approved-booth-left-right",
+      "source": "assets/pixelorama/booth-review/booth.pxo",
+      "png": "assets/pixelorama/booth-review/booth.png",
+      "width": 80,
+      "height": 72,
+      "role": "unchanged-approved-reference"
+    },
+    {
+      "id": "booth-above-below",
+      "source": "assets/pixelorama/booth-orientations-review/booth-above-below.pxo",
+      "png": "booth-above-below.png",
+      "width": 80,
+      "height": 104,
+      "layers": 8,
+      "frames": 1,
+      "fps": 1,
+      "durationMultiplier": 1,
+      "tag": "booth-above-below-static",
+      "occupiedBounds": {
+        "x": 13,
+        "y": 6,
+        "width": 55,
+        "height": 91
+      },
+      "role": "accepted-booth-orientation",
+      "anchor": null,
+      "collision": null,
+      "interaction": null,
+      "artGeometry": {
+        "benchWidth": 53,
+        "benchDepthTemplate": 20,
+        "seatSize": [53, 12],
+        "backrestSize": [53, 20],
+        "capDepth": 8,
+        "seatPixelsIdentical": true,
+        "backrestAlphaIdentical": true,
+        "backrestCapPixelsIdentical": true,
+        "frontSeatOccluded": true,
+        "tableSize": [43, 22],
+        "tableLegCount": 2,
+        "lowerLegEndsOccluded": true,
+        "hiddenFootPixels": 72,
+        "verticalFaceRows": 12,
+        "frontVisibleUpholsteryRows": 20,
+        "frontBodyPlinthAndFeetRows": 28
+      },
+      "shading": {
+        "region": {
+          "x": 13,
+          "y": 6,
+          "width": 53,
+          "height": 20
+        },
+        "changedPixelsFromRestoredBaseline": 174,
+        "changedPixelsElsewhere": 0,
+        "alphaChanges": 0
+      }
+    }
+  ],
+  "comparison": {
+    "source": "assets/pixelorama/booth-orientations-review/orientations-review.pxo",
+    "png": "orientations.png",
+    "width": 176,
+    "height": 112,
+    "placements": [
+      {
+        "asset": "approved-booth-left-right",
+        "x": 4,
+        "y": 20
+      },
+      {
+        "asset": "booth-above-below",
+        "x": 92,
+        "y": 4
+      }
+    ],
+    "tag": "orientation-comparison-static"
+  },
+  "integrated": false,
+  "revision": "restored-prior-proportions-refined-top-backrest-shading",
+  "acceptedOn": "2026-11-07"
+}

@@ -1,0 +1,1794 @@
+{
+  "family": "drinks",
+  "width": 16,
+  "height": 16,
+  "layers": [
+    "01 - plum contour",
+    "02 - secondary structure",
+    "03 - primary material",
+    "04 - light and shade",
+    "05 - identifying details"
+  ],
+  "icons": [
+    {
+      "id": "coffee",
+      "label": "Coffee",
+      "kind": "drink",
+      "usage": "Baseline coffee cup; no added milk, sugar or toppings implied.",
+      "palette": {
+        "outline": "#322c38",
+        "cream": "#f1e5d1",
+        "light": "#fff5df",
+        "glint": "#fff0d5",
+        "rim": "#a6bcb2",
+        "dark": "#573943",
+        "coffee": "#81524b",
+        "steam": "#9ba8a5",
+        "ceramicShade": "#c6b69e"
+      },
+      "rectangles": [
+        [
+          {
+            "x": 2,
+            "y": 4,
+            "w": 9,
+            "h": 8,
+            "c": "outline"
+          },
+          {
+            "x": 3,
+            "y": 12,
+            "w": 7,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 1,
+            "y": 13,
+            "w": 13,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 10,
+            "y": 5,
+            "w": 4,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 13,
+            "y": 6,
+            "w": 1,
+            "h": 3,
+            "c": "outline"
+          },
+          {
+            "x": 10,
+            "y": 9,
+            "w": 4,
+            "h": 1,
+            "c": "outline"
+          }
+        ],
+        [
+          {
+            "x": 11,
+            "y": 6,
+            "w": 2,
+            "h": 1,
+            "c": "cream"
+          },
+          {
+            "x": 12,
+            "y": 7,
+            "w": 1,
+            "h": 1,
+            "c": "rim"
+          },
+          {
+            "x": 11,
+            "y": 8,
+            "w": 2,
+            "h": 1,
+            "c": "cream"
+          }
+        ],
+        [
+          {
+            "x": 3,
+            "y": 7,
+            "w": 7,
+            "h": 5,
+            "c": "cream"
+          },
+          {
+            "x": 3,
+            "y": 5,
+            "w": 7,
+            "h": 2,
+            "c": "dark"
+          },
+          {
+            "x": 4,
+            "y": 6,
+            "w": 5,
+            "h": 1,
+            "c": "coffee"
+          }
+        ],
+        [
+          {
+            "x": 3,
+            "y": 7,
+            "w": 1,
+            "h": 4,
+            "c": "light"
+          },
+          {
+            "x": 9,
+            "y": 7,
+            "w": 1,
+            "h": 4,
+            "c": "ceramicShade"
+          },
+          {
+            "x": 4,
+            "y": 11,
+            "w": 5,
+            "h": 1,
+            "c": "rim"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 5,
+            "w": 3,
+            "h": 1,
+            "c": "glint"
+          },
+          {
+            "x": 5,
+            "y": 1,
+            "w": 1,
+            "h": 2,
+            "c": "steam"
+          },
+          {
+            "x": 6,
+            "y": 2,
+            "w": 1,
+            "h": 2,
+            "c": "steam"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "tea",
+      "label": "Tea",
+      "kind": "drink",
+      "usage": "Front drink direction and upgrade-listed tea; art only, not menu enablement.",
+      "palette": {
+        "outline": "#322c38",
+        "cream": "#f1e5d1",
+        "light": "#fff5df",
+        "glint": "#fff0d5",
+        "rim": "#a6bcb2",
+        "teaShade": "#b87948",
+        "tea": "#e2ad68",
+        "accent": "#6d9b8c",
+        "tag": "#d65362"
+      },
+      "rectangles": [
+        [
+          {
+            "x": 3,
+            "y": 6,
+            "w": 7,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 2,
+            "y": 7,
+            "w": 9,
+            "h": 5,
+            "c": "outline"
+          },
+          {
+            "x": 3,
+            "y": 12,
+            "w": 7,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 1,
+            "y": 13,
+            "w": 13,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 10,
+            "y": 7,
+            "w": 5,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 14,
+            "y": 8,
+            "w": 1,
+            "h": 3,
+            "c": "outline"
+          },
+          {
+            "x": 10,
+            "y": 11,
+            "w": 5,
+            "h": 1,
+            "c": "outline"
+          }
+        ],
+        [
+          {
+            "x": 11,
+            "y": 8,
+            "w": 3,
+            "h": 1,
+            "c": "cream"
+          },
+          {
+            "x": 13,
+            "y": 9,
+            "w": 1,
+            "h": 1,
+            "c": "rim"
+          },
+          {
+            "x": 11,
+            "y": 10,
+            "w": 3,
+            "h": 1,
+            "c": "cream"
+          }
+        ],
+        [
+          {
+            "x": 3,
+            "y": 8,
+            "w": 7,
+            "h": 4,
+            "c": "cream"
+          },
+          {
+            "x": 3,
+            "y": 7,
+            "w": 7,
+            "h": 1,
+            "c": "teaShade"
+          },
+          {
+            "x": 4,
+            "y": 7,
+            "w": 5,
+            "h": 1,
+            "c": "tea"
+          }
+        ],
+        [
+          {
+            "x": 3,
+            "y": 8,
+            "w": 1,
+            "h": 3,
+            "c": "light"
+          },
+          {
+            "x": 9,
+            "y": 8,
+            "w": 1,
+            "h": 3,
+            "c": "rim"
+          },
+          {
+            "x": 4,
+            "y": 10,
+            "w": 5,
+            "h": 1,
+            "c": "accent"
+          },
+          {
+            "x": 4,
+            "y": 12,
+            "w": 5,
+            "h": 1,
+            "c": "glint"
+          }
+        ],
+        [
+          {
+            "x": 9,
+            "y": 5,
+            "w": 3,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 11,
+            "y": 3,
+            "w": 3,
+            "h": 4,
+            "c": "outline"
+          },
+          {
+            "x": 12,
+            "y": 4,
+            "w": 1,
+            "h": 2,
+            "c": "tag"
+          },
+          {
+            "x": 12,
+            "y": 4,
+            "w": 1,
+            "h": 1,
+            "c": "glint"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "soda",
+      "label": "Soda",
+      "kind": "drink",
+      "usage": "Explicit front-of-house soda direction; art only, not a new enabled recipe.",
+      "palette": {
+        "outline": "#322c38",
+        "glass": "#65878b",
+        "glassLight": "#b8dad3",
+        "colaShade": "#573943",
+        "cola": "#81524b",
+        "colaLight": "#b87948",
+        "straw": "#d65362",
+        "glint": "#fff0d5"
+      },
+      "rectangles": [
+        [
+          {
+            "x": 3,
+            "y": 3,
+            "w": 10,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "w": 8,
+            "h": 9,
+            "c": "outline"
+          },
+          {
+            "x": 5,
+            "y": 13,
+            "w": 6,
+            "h": 1,
+            "c": "outline"
+          }
+        ],
+        [
+          {
+            "x": 5,
+            "y": 4,
+            "w": 6,
+            "h": 8,
+            "c": "glass"
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "w": 1,
+            "h": 8,
+            "c": "glassLight"
+          }
+        ],
+        [
+          {
+            "x": 6,
+            "y": 5,
+            "w": 4,
+            "h": 7,
+            "c": "cola"
+          }
+        ],
+        [
+          {
+            "x": 6,
+            "y": 5,
+            "w": 4,
+            "h": 1,
+            "c": "colaLight"
+          },
+          {
+            "x": 6,
+            "y": 11,
+            "w": 4,
+            "h": 1,
+            "c": "colaShade"
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "w": 1,
+            "h": 3,
+            "c": "glint"
+          }
+        ],
+        [
+          {
+            "x": 9,
+            "y": 1,
+            "w": 3,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 9,
+            "y": 2,
+            "w": 1,
+            "h": 4,
+            "c": "straw"
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "w": 1,
+            "h": 1,
+            "c": "glint"
+          },
+          {
+            "x": 8,
+            "y": 9,
+            "w": 1,
+            "h": 1,
+            "c": "colaLight"
+          },
+          {
+            "x": 7,
+            "y": 10,
+            "w": 1,
+            "h": 1,
+            "c": "colaLight"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "hot-chocolate",
+      "label": "Hot chocolate",
+      "kind": "drink",
+      "usage": "Upgrade-listed hot chocolate; art only. No marshmallow, cream or other topping.",
+      "palette": {
+        "outline": "#322c38",
+        "ceramic": "#ffd2de",
+        "ceramicShade": "#c94d7b",
+        "light": "#fff0d5",
+        "cocoaShade": "#573943",
+        "cocoa": "#81524b",
+        "cocoaLight": "#a76d56",
+        "steam": "#9ba8a5"
+      },
+      "rectangles": [
+        [
+          {
+            "x": 2,
+            "y": 5,
+            "w": 10,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 1,
+            "y": 6,
+            "w": 11,
+            "h": 6,
+            "c": "outline"
+          },
+          {
+            "x": 2,
+            "y": 12,
+            "w": 9,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 11,
+            "y": 6,
+            "w": 4,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 14,
+            "y": 7,
+            "w": 1,
+            "h": 3,
+            "c": "outline"
+          },
+          {
+            "x": 11,
+            "y": 10,
+            "w": 4,
+            "h": 1,
+            "c": "outline"
+          }
+        ],
+        [
+          {
+            "x": 12,
+            "y": 7,
+            "w": 2,
+            "h": 1,
+            "c": "ceramic"
+          },
+          {
+            "x": 13,
+            "y": 8,
+            "w": 1,
+            "h": 1,
+            "c": "ceramicShade"
+          },
+          {
+            "x": 12,
+            "y": 9,
+            "w": 2,
+            "h": 1,
+            "c": "ceramic"
+          }
+        ],
+        [
+          {
+            "x": 2,
+            "y": 8,
+            "w": 9,
+            "h": 4,
+            "c": "ceramic"
+          },
+          {
+            "x": 2,
+            "y": 6,
+            "w": 9,
+            "h": 2,
+            "c": "cocoaShade"
+          },
+          {
+            "x": 3,
+            "y": 7,
+            "w": 7,
+            "h": 1,
+            "c": "cocoa"
+          }
+        ],
+        [
+          {
+            "x": 2,
+            "y": 8,
+            "w": 1,
+            "h": 3,
+            "c": "light"
+          },
+          {
+            "x": 10,
+            "y": 8,
+            "w": 1,
+            "h": 3,
+            "c": "ceramicShade"
+          },
+          {
+            "x": 3,
+            "y": 11,
+            "w": 7,
+            "h": 1,
+            "c": "ceramicShade"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 6,
+            "w": 3,
+            "h": 1,
+            "c": "cocoaLight"
+          },
+          {
+            "x": 6,
+            "y": 2,
+            "w": 1,
+            "h": 2,
+            "c": "steam"
+          },
+          {
+            "x": 5,
+            "y": 3,
+            "w": 1,
+            "h": 2,
+            "c": "steam"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "milkshake-vanilla",
+      "label": "Vanilla milkshake",
+      "kind": "drink",
+      "usage": "Plain milkshake flavor base. Whipped cream and drizzles remain separate icons.",
+      "palette": {
+        "outline": "#322c38",
+        "glass": "#65878b",
+        "glassLight": "#b8dad3",
+        "shade": "#c6b69e",
+        "base": "#f1e5d1",
+        "highlight": "#fff5df",
+        "straw": "#d65362",
+        "glint": "#fff0d5"
+      },
+      "rectangles": [
+        [
+          {
+            "x": 3,
+            "y": 3,
+            "w": 10,
+            "h": 7,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 10,
+            "w": 8,
+            "h": 2,
+            "c": "outline"
+          },
+          {
+            "x": 6,
+            "y": 12,
+            "w": 4,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 7,
+            "y": 13,
+            "w": 2,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 14,
+            "w": 8,
+            "h": 1,
+            "c": "outline"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 4,
+            "w": 8,
+            "h": 5,
+            "c": "glass"
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "w": 1,
+            "h": 5,
+            "c": "glassLight"
+          },
+          {
+            "x": 7,
+            "y": 12,
+            "w": 2,
+            "h": 1,
+            "c": "glassLight"
+          },
+          {
+            "x": 5,
+            "y": 14,
+            "w": 5,
+            "h": 1,
+            "c": "glassLight"
+          }
+        ],
+        [
+          {
+            "x": 5,
+            "y": 4,
+            "w": 6,
+            "h": 5,
+            "c": "base"
+          },
+          {
+            "x": 5,
+            "y": 9,
+            "w": 6,
+            "h": 1,
+            "c": "base"
+          },
+          {
+            "x": 6,
+            "y": 10,
+            "w": 4,
+            "h": 1,
+            "c": "shade"
+          }
+        ],
+        [
+          {
+            "x": 5,
+            "y": 4,
+            "w": 5,
+            "h": 1,
+            "c": "highlight"
+          },
+          {
+            "x": 10,
+            "y": 5,
+            "w": 1,
+            "h": 4,
+            "c": "shade"
+          },
+          {
+            "x": 5,
+            "y": 5,
+            "w": 1,
+            "h": 3,
+            "c": "highlight"
+          }
+        ],
+        [
+          {
+            "x": 10,
+            "y": 1,
+            "w": 2,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 10,
+            "y": 2,
+            "w": 1,
+            "h": 4,
+            "c": "straw"
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "w": 1,
+            "h": 2,
+            "c": "glint"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "milkshake-chocolate",
+      "label": "Chocolate milkshake",
+      "kind": "drink",
+      "usage": "Plain milkshake flavor base. Whipped cream and drizzles remain separate icons.",
+      "palette": {
+        "outline": "#322c38",
+        "glass": "#65878b",
+        "glassLight": "#b8dad3",
+        "shade": "#573943",
+        "base": "#81524b",
+        "highlight": "#a76d56",
+        "straw": "#d65362",
+        "glint": "#fff0d5"
+      },
+      "rectangles": [
+        [
+          {
+            "x": 3,
+            "y": 3,
+            "w": 10,
+            "h": 7,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 10,
+            "w": 8,
+            "h": 2,
+            "c": "outline"
+          },
+          {
+            "x": 6,
+            "y": 12,
+            "w": 4,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 7,
+            "y": 13,
+            "w": 2,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 14,
+            "w": 8,
+            "h": 1,
+            "c": "outline"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 4,
+            "w": 8,
+            "h": 5,
+            "c": "glass"
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "w": 1,
+            "h": 5,
+            "c": "glassLight"
+          },
+          {
+            "x": 7,
+            "y": 12,
+            "w": 2,
+            "h": 1,
+            "c": "glassLight"
+          },
+          {
+            "x": 5,
+            "y": 14,
+            "w": 5,
+            "h": 1,
+            "c": "glassLight"
+          }
+        ],
+        [
+          {
+            "x": 5,
+            "y": 4,
+            "w": 6,
+            "h": 5,
+            "c": "base"
+          },
+          {
+            "x": 5,
+            "y": 9,
+            "w": 6,
+            "h": 1,
+            "c": "base"
+          },
+          {
+            "x": 6,
+            "y": 10,
+            "w": 4,
+            "h": 1,
+            "c": "shade"
+          }
+        ],
+        [
+          {
+            "x": 5,
+            "y": 4,
+            "w": 5,
+            "h": 1,
+            "c": "highlight"
+          },
+          {
+            "x": 10,
+            "y": 5,
+            "w": 1,
+            "h": 4,
+            "c": "shade"
+          },
+          {
+            "x": 5,
+            "y": 5,
+            "w": 1,
+            "h": 3,
+            "c": "highlight"
+          }
+        ],
+        [
+          {
+            "x": 10,
+            "y": 1,
+            "w": 2,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 10,
+            "y": 2,
+            "w": 1,
+            "h": 4,
+            "c": "straw"
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "w": 1,
+            "h": 2,
+            "c": "glint"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "milkshake-strawberry",
+      "label": "Strawberry milkshake",
+      "kind": "drink",
+      "usage": "Plain milkshake flavor base. Whipped cream and drizzles remain separate icons.",
+      "palette": {
+        "outline": "#322c38",
+        "glass": "#65878b",
+        "glassLight": "#b8dad3",
+        "shade": "#b64a72",
+        "base": "#ee75a3",
+        "highlight": "#ffacc9",
+        "straw": "#d65362",
+        "glint": "#fff0d5"
+      },
+      "rectangles": [
+        [
+          {
+            "x": 3,
+            "y": 3,
+            "w": 10,
+            "h": 7,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 10,
+            "w": 8,
+            "h": 2,
+            "c": "outline"
+          },
+          {
+            "x": 6,
+            "y": 12,
+            "w": 4,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 7,
+            "y": 13,
+            "w": 2,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 14,
+            "w": 8,
+            "h": 1,
+            "c": "outline"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 4,
+            "w": 8,
+            "h": 5,
+            "c": "glass"
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "w": 1,
+            "h": 5,
+            "c": "glassLight"
+          },
+          {
+            "x": 7,
+            "y": 12,
+            "w": 2,
+            "h": 1,
+            "c": "glassLight"
+          },
+          {
+            "x": 5,
+            "y": 14,
+            "w": 5,
+            "h": 1,
+            "c": "glassLight"
+          }
+        ],
+        [
+          {
+            "x": 5,
+            "y": 4,
+            "w": 6,
+            "h": 5,
+            "c": "base"
+          },
+          {
+            "x": 5,
+            "y": 9,
+            "w": 6,
+            "h": 1,
+            "c": "base"
+          },
+          {
+            "x": 6,
+            "y": 10,
+            "w": 4,
+            "h": 1,
+            "c": "shade"
+          }
+        ],
+        [
+          {
+            "x": 5,
+            "y": 4,
+            "w": 5,
+            "h": 1,
+            "c": "highlight"
+          },
+          {
+            "x": 10,
+            "y": 5,
+            "w": 1,
+            "h": 4,
+            "c": "shade"
+          },
+          {
+            "x": 5,
+            "y": 5,
+            "w": 1,
+            "h": 3,
+            "c": "highlight"
+          }
+        ],
+        [
+          {
+            "x": 10,
+            "y": 1,
+            "w": 2,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 10,
+            "y": 2,
+            "w": 1,
+            "h": 4,
+            "c": "straw"
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "w": 1,
+            "h": 2,
+            "c": "glint"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "whipped-cream",
+      "label": "Whipped cream",
+      "kind": "topping",
+      "usage": "Optional milkshake topping, separate from every base drink.",
+      "palette": {
+        "outline": "#322c38",
+        "deep": "#9ba8a5",
+        "shade": "#c6b69e",
+        "cream": "#f1e5d1",
+        "light": "#fff5df",
+        "glint": "#fff0d5"
+      },
+      "rectangles": [
+        [
+          {
+            "x": 8,
+            "y": 2,
+            "w": 2,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 7,
+            "y": 3,
+            "w": 3,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "w": 4,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 5,
+            "w": 8,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 3,
+            "y": 6,
+            "w": 10,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 3,
+            "y": 7,
+            "w": 9,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 2,
+            "y": 8,
+            "w": 11,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 2,
+            "y": 9,
+            "w": 12,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 1,
+            "y": 10,
+            "w": 14,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 2,
+            "y": 11,
+            "w": 12,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 3,
+            "y": 12,
+            "w": 10,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 5,
+            "y": 13,
+            "w": 6,
+            "h": 1,
+            "c": "outline"
+          }
+        ],
+        [],
+        [
+          {
+            "x": 8,
+            "y": 3,
+            "w": 1,
+            "h": 1,
+            "c": "cream"
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "w": 2,
+            "h": 1,
+            "c": "cream"
+          },
+          {
+            "x": 5,
+            "y": 5,
+            "w": 6,
+            "h": 1,
+            "c": "cream"
+          },
+          {
+            "x": 4,
+            "y": 6,
+            "w": 8,
+            "h": 1,
+            "c": "cream"
+          },
+          {
+            "x": 4,
+            "y": 7,
+            "w": 7,
+            "h": 1,
+            "c": "cream"
+          },
+          {
+            "x": 3,
+            "y": 8,
+            "w": 9,
+            "h": 1,
+            "c": "cream"
+          },
+          {
+            "x": 3,
+            "y": 9,
+            "w": 10,
+            "h": 1,
+            "c": "cream"
+          },
+          {
+            "x": 2,
+            "y": 10,
+            "w": 12,
+            "h": 1,
+            "c": "cream"
+          },
+          {
+            "x": 3,
+            "y": 11,
+            "w": 10,
+            "h": 1,
+            "c": "cream"
+          },
+          {
+            "x": 4,
+            "y": 12,
+            "w": 8,
+            "h": 1,
+            "c": "cream"
+          }
+        ],
+        [
+          {
+            "x": 5,
+            "y": 12,
+            "w": 6,
+            "h": 1,
+            "c": "deep"
+          },
+          {
+            "x": 5,
+            "y": 6,
+            "w": 6,
+            "h": 1,
+            "c": "shade"
+          },
+          {
+            "x": 4,
+            "y": 9,
+            "w": 7,
+            "h": 1,
+            "c": "shade"
+          },
+          {
+            "x": 3,
+            "y": 11,
+            "w": 9,
+            "h": 1,
+            "c": "shade"
+          }
+        ],
+        [
+          {
+            "x": 8,
+            "y": 3,
+            "w": 1,
+            "h": 1,
+            "c": "light"
+          },
+          {
+            "x": 6,
+            "y": 5,
+            "w": 4,
+            "h": 1,
+            "c": "light"
+          },
+          {
+            "x": 4,
+            "y": 8,
+            "w": 5,
+            "h": 1,
+            "c": "light"
+          },
+          {
+            "x": 3,
+            "y": 10,
+            "w": 6,
+            "h": 1,
+            "c": "glint"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "chocolate-drizzle",
+      "label": "Chocolate drizzle",
+      "kind": "topping",
+      "usage": "Separate chocolate sauce ribbon; no dessert or drink included.",
+      "palette": {
+        "outline": "#322c38",
+        "deep": "#573943",
+        "shade": "#6a4342",
+        "sauce": "#81524b",
+        "light": "#a76d56",
+        "glint": "#c58d71"
+      },
+      "rectangles": [
+        [
+          {
+            "x": 4,
+            "y": 2,
+            "w": 3,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 3,
+            "y": 3,
+            "w": 5,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 3,
+            "y": 4,
+            "w": 4,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 5,
+            "w": 3,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 5,
+            "y": 6,
+            "w": 6,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 8,
+            "y": 7,
+            "w": 5,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 7,
+            "y": 8,
+            "w": 6,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 3,
+            "y": 9,
+            "w": 8,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 2,
+            "y": 10,
+            "w": 6,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 2,
+            "y": 11,
+            "w": 6,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 12,
+            "w": 7,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 9,
+            "y": 13,
+            "w": 5,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 11,
+            "y": 14,
+            "w": 3,
+            "h": 1,
+            "c": "outline"
+          }
+        ],
+        [],
+        [
+          {
+            "x": 4,
+            "y": 3,
+            "w": 3,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "w": 2,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 5,
+            "y": 5,
+            "w": 1,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 6,
+            "y": 6,
+            "w": 4,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 9,
+            "y": 7,
+            "w": 3,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 8,
+            "y": 8,
+            "w": 4,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 4,
+            "y": 9,
+            "w": 6,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 3,
+            "y": 10,
+            "w": 4,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 3,
+            "y": 11,
+            "w": 4,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 5,
+            "y": 12,
+            "w": 5,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 10,
+            "y": 13,
+            "w": 3,
+            "h": 1,
+            "c": "sauce"
+          }
+        ],
+        [
+          {
+            "x": 12,
+            "y": 13,
+            "w": 1,
+            "h": 1,
+            "c": "deep"
+          },
+          {
+            "x": 5,
+            "y": 3,
+            "w": 2,
+            "h": 1,
+            "c": "light"
+          },
+          {
+            "x": 9,
+            "y": 7,
+            "w": 2,
+            "h": 1,
+            "c": "light"
+          },
+          {
+            "x": 3,
+            "y": 10,
+            "w": 3,
+            "h": 1,
+            "c": "shade"
+          }
+        ],
+        [
+          {
+            "x": 4,
+            "y": 3,
+            "w": 1,
+            "h": 1,
+            "c": "glint"
+          },
+          {
+            "x": 5,
+            "y": 11,
+            "w": 1,
+            "h": 1,
+            "c": "glint"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "cherry-drizzle",
+      "label": "Cherry drizzle",
+      "kind": "topping",
+      "usage": "Separate cherry sauce ribbon, as named in the brief; not strawberry sauce or a whole cherry.",
+      "palette": {
+        "outline": "#322c38",
+        "deep": "#6c2d43",
+        "shade": "#9f385e",
+        "sauce": "#c94d7b",
+        "light": "#ee75a3",
+        "glint": "#ffacc9"
+      },
+      "rectangles": [
+        [
+          {
+            "x": 7,
+            "y": 3,
+            "w": 5,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "w": 6,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 6,
+            "y": 5,
+            "w": 4,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 7,
+            "y": 6,
+            "w": 3,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 8,
+            "y": 7,
+            "w": 5,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 9,
+            "y": 8,
+            "w": 5,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 5,
+            "y": 9,
+            "w": 8,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 10,
+            "w": 6,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 4,
+            "y": 11,
+            "w": 4,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 5,
+            "y": 12,
+            "w": 7,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 9,
+            "y": 13,
+            "w": 5,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 3,
+            "y": 2,
+            "w": 1,
+            "h": 1,
+            "c": "outline"
+          },
+          {
+            "x": 2,
+            "y": 3,
+            "w": 3,
+            "h": 2,
+            "c": "outline"
+          },
+          {
+            "x": 3,
+            "y": 5,
+            "w": 1,
+            "h": 1,
+            "c": "outline"
+          }
+        ],
+        [],
+        [
+          {
+            "x": 7,
+            "y": 4,
+            "w": 4,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 7,
+            "y": 5,
+            "w": 2,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 8,
+            "y": 6,
+            "w": 1,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 9,
+            "y": 7,
+            "w": 3,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 10,
+            "y": 8,
+            "w": 3,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 6,
+            "y": 9,
+            "w": 6,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 5,
+            "y": 10,
+            "w": 4,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 5,
+            "y": 11,
+            "w": 2,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 6,
+            "y": 12,
+            "w": 5,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 10,
+            "y": 13,
+            "w": 3,
+            "h": 1,
+            "c": "sauce"
+          },
+          {
+            "x": 3,
+            "y": 3,
+            "w": 1,
+            "h": 2,
+            "c": "sauce"
+          }
+        ],
+        [
+          {
+            "x": 10,
+            "y": 12,
+            "w": 1,
+            "h": 1,
+            "c": "deep"
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "w": 2,
+            "h": 1,
+            "c": "light"
+          },
+          {
+            "x": 5,
+            "y": 10,
+            "w": 3,
+            "h": 1,
+            "c": "shade"
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 4,
+            "w": 1,
+            "h": 1,
+            "c": "glint"
+          },
+          {
+            "x": 10,
+            "y": 8,
+            "w": 1,
+            "h": 1,
+            "c": "glint"
+          }
+        ]
+      ],
+      "intentionalDisconnectedBits": "One separate pouring droplet beside the cherry-sauce ribbon.",
+      "expectedComponents": 2
+    }
+  ]
+}

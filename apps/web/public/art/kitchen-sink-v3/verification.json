@@ -1,0 +1,18 @@
+{
+  "activeProjectUnchanged": true,
+  "celByteSizes": [6144, 6144, 6144, 6144, 6144],
+  "componentsReconstructExactly": true,
+  "fps": 1.0,
+  "frames": 1,
+  "mountProfileMismatches": 0,
+  "opaquePixels": 773,
+  "orphans": 0,
+  "paletteSwatches": 14,
+  "privateCompositeMatchesSavedSource": true,
+  "savedSourceMatchesNativePng": true,
+  "semitransparentPixels": 0,
+  "sourceLayers": 5,
+  "sourceSize": [48, 32],
+  "tag": "kitchen-sink-v3-static",
+  "visibleColors": 7
+}

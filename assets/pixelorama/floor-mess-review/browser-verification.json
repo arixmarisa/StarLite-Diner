@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "assets": {
+    "spill-water": {
+      "frameSize": [16, 16],
+      "occupiedSize": [14, 8],
+      "opaquePixels": 79,
+      "colors": 3
+    },
+    "spill-coffee": {
+      "frameSize": [16, 16],
+      "occupiedSize": [14, 8],
+      "opaquePixels": 79,
+      "colors": 3
+    },
+    "trash-napkin": {
+      "frameSize": [16, 16],
+      "occupiedSize": [7, 6],
+      "opaquePixels": 30,
+      "colors": 5
+    },
+    "trash-cup": { "frameSize": [16, 16], "occupiedSize": [8, 7], "opaquePixels": 41, "colors": 8 }
+  },
+  "allSpritesSingleConnectedComponent": true,
+  "semitransparentPixels": 0,
+  "sameSpillAlpha": true,
+  "contactSheetSize": [96, 32],
+  "floorContextSize": [96, 64],
+  "nativeCompositeByteDifferences": 0,
+  "previewScale": 8,
+  "previewByteDifferences": 0,
+  "unchangedPlayerSize": [16, 24],
+  "preservedReferenceHashes": 6,
+  "gameplayIntegrated": false
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "status": "Revised overhead table candidate; awaiting user art approval",
+  "authoringTool": "Pixelorama MCP",
+  "palette": "Starlite · overhead midnight table",
+  "coordinateSystem": "Top-left image origin; positive X right, positive Y down. Footprint offsets are relative to the anchor.",
+  "assets": [
+    {
+      "id": "table",
+      "image": "/art/interior-v1/table-v1.png",
+      "source": "assets/pixelorama/interior-v1/table-v1.pxo",
+      "frameSize": { "width": 40, "height": 40 },
+      "sheetSize": { "width": 40, "height": 40 },
+      "frameRects": [{ "index": 0, "x": 0, "y": 0, "width": 40, "height": 40, "state": "idle" }],
+      "anchor": { "x": 20, "y": 34 },
+      "footprint": { "x": -16, "y": -26, "width": 32, "height": 26 },
+      "renderLayer": "world-object",
+      "sortBaseline": "world anchor Y",
+      "interaction": { "standingPoints": [{ "x": 0, "y": 21 }], "reach": 22 },
+      "animations": {},
+      "nativeTimeline": { "tag": "idle", "from": 0, "to": 0, "fps": 1, "durationMs": 1000 },
+      "notes": "One revised static empty table: compact 32×28 overhead tabletop, two-pixel front edge, minimal visible supports. Image 1 governs proportions; image 2 governs midnight teal/indigo materials and restrained warm reflections. Geometry is revised with the art and consumed by createDemoWorld. No seating, food attachments, or other item sprites are implemented. The world builder owns interaction placement."
+    }
+  ]
+}

@@ -1,0 +1,677 @@
+{
+  "schemaVersion": 1,
+  "id": "upgrade-notebook-ui",
+  "status": "awaiting-user-review",
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/upgrade-notebook-review/upgrade-ui-atlas.pxo",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/upgrade-notebook-review/palette.json",
+  "atlas": "upgrade-ui-atlas.png",
+  "frameSize": {
+    "width": 160,
+    "height": 160
+  },
+  "coordinateSpace": "screen-space-native-pixels",
+  "paletteSwatches": 14,
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "upgrade-ui-atlas-static",
+    "automaticPlayback": false
+  },
+  "components": [
+    {
+      "id": "cover-frame",
+      "image": "cover-frame.png",
+      "sourceRect": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      },
+      "frameSize": {
+        "width": 64,
+        "height": 48
+      },
+      "kind": "outline",
+      "sourceLayer": "01 - rose cover border and shadow",
+      "resize": {
+        "method": "nine-slice",
+        "edgeMode": "tile",
+        "centerMode": "transparent",
+        "margins": {
+          "left": 8,
+          "top": 8,
+          "right": 8,
+          "bottom": 8
+        },
+        "minSize": {
+          "width": 32,
+          "height": 32
+        },
+        "nativePixelScale": 1
+      },
+      "contentRect": {
+        "x": 8,
+        "y": 8,
+        "width": 48,
+        "height": 32
+      },
+      "contentInsets": {
+        "left": 8,
+        "top": 8,
+        "right": 8,
+        "bottom": 8
+      },
+      "contentInteriorTransparent": true
+    },
+    {
+      "id": "page-frame",
+      "image": "page-frame.png",
+      "sourceRect": {
+        "x": 72,
+        "y": 0,
+        "width": 48,
+        "height": 48
+      },
+      "frameSize": {
+        "width": 48,
+        "height": 48
+      },
+      "kind": "outline",
+      "sourceLayer": "02 - warm paper page borders",
+      "resize": {
+        "method": "nine-slice",
+        "edgeMode": "tile",
+        "centerMode": "transparent",
+        "margins": {
+          "left": 6,
+          "top": 6,
+          "right": 6,
+          "bottom": 6
+        },
+        "minSize": {
+          "width": 24,
+          "height": 24
+        },
+        "nativePixelScale": 1
+      },
+      "contentRect": {
+        "x": 6,
+        "y": 6,
+        "width": 36,
+        "height": 36
+      },
+      "contentInsets": {
+        "left": 6,
+        "top": 6,
+        "right": 6,
+        "bottom": 6
+      },
+      "contentInteriorTransparent": true
+    },
+    {
+      "id": "paper-fill",
+      "image": "paper-fill.png",
+      "sourceRect": {
+        "x": 128,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      "frameSize": {
+        "width": 8,
+        "height": 8
+      },
+      "kind": "optional-fill",
+      "sourceLayer": "06 - optional separate paper fill",
+      "resize": {
+        "method": "tile",
+        "nativePixelScale": 1
+      },
+      "optional": true
+    },
+    {
+      "id": "binding-tile",
+      "image": "binding-tile.png",
+      "sourceRect": {
+        "x": 128,
+        "y": 16,
+        "width": 24,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 24,
+        "height": 16
+      },
+      "kind": "repeat-y",
+      "sourceLayer": "03 - repeating cloth and chrome binding",
+      "resize": {
+        "method": "repeat-y",
+        "step": 16,
+        "fixedWidth": 24,
+        "nativePixelScale": 1
+      }
+    },
+    {
+      "id": "entry-normal",
+      "image": "entry-normal.png",
+      "sourceRect": {
+        "x": 0,
+        "y": 56,
+        "width": 48,
+        "height": 20
+      },
+      "frameSize": {
+        "width": 48,
+        "height": 20
+      },
+      "kind": "outline",
+      "sourceLayer": "04 - reusable entry and category outlines",
+      "resize": {
+        "method": "nine-slice",
+        "edgeMode": "tile",
+        "centerMode": "transparent",
+        "margins": {
+          "left": 4,
+          "top": 4,
+          "right": 4,
+          "bottom": 4
+        },
+        "minSize": {
+          "width": 24,
+          "height": 16
+        },
+        "nativePixelScale": 1
+      },
+      "contentRect": {
+        "x": 4,
+        "y": 4,
+        "width": 40,
+        "height": 12
+      },
+      "contentInsets": {
+        "left": 4,
+        "top": 4,
+        "right": 4,
+        "bottom": 4
+      },
+      "contentInteriorTransparent": true
+    },
+    {
+      "id": "entry-selected",
+      "image": "entry-selected.png",
+      "sourceRect": {
+        "x": 56,
+        "y": 56,
+        "width": 48,
+        "height": 20
+      },
+      "frameSize": {
+        "width": 48,
+        "height": 20
+      },
+      "kind": "outline",
+      "sourceLayer": "04 - reusable entry and category outlines",
+      "resize": {
+        "method": "nine-slice",
+        "edgeMode": "tile",
+        "centerMode": "transparent",
+        "margins": {
+          "left": 4,
+          "top": 4,
+          "right": 4,
+          "bottom": 4
+        },
+        "minSize": {
+          "width": 24,
+          "height": 16
+        },
+        "nativePixelScale": 1
+      },
+      "contentRect": {
+        "x": 4,
+        "y": 4,
+        "width": 40,
+        "height": 12
+      },
+      "contentInsets": {
+        "left": 4,
+        "top": 4,
+        "right": 4,
+        "bottom": 4
+      },
+      "contentInteriorTransparent": true
+    },
+    {
+      "id": "button-rest",
+      "image": "button-rest.png",
+      "sourceRect": {
+        "x": 0,
+        "y": 84,
+        "width": 32,
+        "height": 20
+      },
+      "frameSize": {
+        "width": 32,
+        "height": 20
+      },
+      "kind": "outline",
+      "sourceLayer": "05 - blank action and scroll outlines",
+      "resize": {
+        "method": "nine-slice",
+        "edgeMode": "tile",
+        "centerMode": "transparent",
+        "margins": {
+          "left": 5,
+          "top": 5,
+          "right": 5,
+          "bottom": 5
+        },
+        "minSize": {
+          "width": 24,
+          "height": 16
+        },
+        "nativePixelScale": 1
+      },
+      "contentRect": {
+        "x": 5,
+        "y": 5,
+        "width": 22,
+        "height": 10
+      },
+      "contentInsets": {
+        "left": 5,
+        "top": 5,
+        "right": 5,
+        "bottom": 5
+      },
+      "contentInteriorTransparent": true
+    },
+    {
+      "id": "button-hover",
+      "image": "button-hover.png",
+      "sourceRect": {
+        "x": 40,
+        "y": 84,
+        "width": 32,
+        "height": 20
+      },
+      "frameSize": {
+        "width": 32,
+        "height": 20
+      },
+      "kind": "outline",
+      "sourceLayer": "05 - blank action and scroll outlines",
+      "resize": {
+        "method": "nine-slice",
+        "edgeMode": "tile",
+        "centerMode": "transparent",
+        "margins": {
+          "left": 5,
+          "top": 5,
+          "right": 5,
+          "bottom": 5
+        },
+        "minSize": {
+          "width": 24,
+          "height": 16
+        },
+        "nativePixelScale": 1
+      },
+      "contentRect": {
+        "x": 5,
+        "y": 5,
+        "width": 22,
+        "height": 10
+      },
+      "contentInsets": {
+        "left": 5,
+        "top": 5,
+        "right": 5,
+        "bottom": 5
+      },
+      "contentInteriorTransparent": true
+    },
+    {
+      "id": "button-pressed",
+      "image": "button-pressed.png",
+      "sourceRect": {
+        "x": 80,
+        "y": 84,
+        "width": 32,
+        "height": 20
+      },
+      "frameSize": {
+        "width": 32,
+        "height": 20
+      },
+      "kind": "outline",
+      "sourceLayer": "05 - blank action and scroll outlines",
+      "resize": {
+        "method": "nine-slice",
+        "edgeMode": "tile",
+        "centerMode": "transparent",
+        "margins": {
+          "left": 5,
+          "top": 5,
+          "right": 5,
+          "bottom": 5
+        },
+        "minSize": {
+          "width": 24,
+          "height": 16
+        },
+        "nativePixelScale": 1
+      },
+      "contentRect": {
+        "x": 5,
+        "y": 5,
+        "width": 22,
+        "height": 10
+      },
+      "contentInsets": {
+        "left": 5,
+        "top": 5,
+        "right": 5,
+        "bottom": 5
+      },
+      "contentInteriorTransparent": true
+    },
+    {
+      "id": "tab-normal",
+      "image": "tab-normal.png",
+      "sourceRect": {
+        "x": 0,
+        "y": 112,
+        "width": 24,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 24,
+        "height": 16
+      },
+      "kind": "outline",
+      "sourceLayer": "04 - reusable entry and category outlines",
+      "resize": {
+        "method": "nine-slice",
+        "edgeMode": "tile",
+        "centerMode": "transparent",
+        "margins": {
+          "left": 4,
+          "top": 4,
+          "right": 4,
+          "bottom": 4
+        },
+        "minSize": {
+          "width": 16,
+          "height": 12
+        },
+        "nativePixelScale": 1
+      },
+      "contentRect": {
+        "x": 4,
+        "y": 4,
+        "width": 16,
+        "height": 8
+      },
+      "contentInsets": {
+        "left": 4,
+        "top": 4,
+        "right": 4,
+        "bottom": 4
+      },
+      "contentInteriorTransparent": true
+    },
+    {
+      "id": "tab-selected",
+      "image": "tab-selected.png",
+      "sourceRect": {
+        "x": 32,
+        "y": 112,
+        "width": 24,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 24,
+        "height": 16
+      },
+      "kind": "outline",
+      "sourceLayer": "04 - reusable entry and category outlines",
+      "resize": {
+        "method": "nine-slice",
+        "edgeMode": "tile",
+        "centerMode": "transparent",
+        "margins": {
+          "left": 4,
+          "top": 4,
+          "right": 4,
+          "bottom": 4
+        },
+        "minSize": {
+          "width": 16,
+          "height": 12
+        },
+        "nativePixelScale": 1
+      },
+      "contentRect": {
+        "x": 4,
+        "y": 4,
+        "width": 16,
+        "height": 8
+      },
+      "contentInsets": {
+        "left": 4,
+        "top": 4,
+        "right": 4,
+        "bottom": 4
+      },
+      "contentInteriorTransparent": true
+    },
+    {
+      "id": "scroll-track",
+      "image": "scroll-track.png",
+      "sourceRect": {
+        "x": 72,
+        "y": 112,
+        "width": 8,
+        "height": 24
+      },
+      "frameSize": {
+        "width": 8,
+        "height": 24
+      },
+      "kind": "outline",
+      "sourceLayer": "05 - blank action and scroll outlines",
+      "resize": {
+        "method": "nine-slice",
+        "edgeMode": "tile",
+        "centerMode": "transparent",
+        "margins": {
+          "left": 2,
+          "top": 4,
+          "right": 2,
+          "bottom": 4
+        },
+        "minSize": {
+          "width": 8,
+          "height": 12
+        },
+        "nativePixelScale": 1
+      },
+      "contentRect": {
+        "x": 2,
+        "y": 4,
+        "width": 4,
+        "height": 16
+      },
+      "contentInsets": {
+        "left": 2,
+        "top": 4,
+        "right": 2,
+        "bottom": 4
+      },
+      "contentInteriorTransparent": true
+    },
+    {
+      "id": "scroll-thumb",
+      "image": "scroll-thumb.png",
+      "sourceRect": {
+        "x": 88,
+        "y": 112,
+        "width": 8,
+        "height": 16
+      },
+      "frameSize": {
+        "width": 8,
+        "height": 16
+      },
+      "kind": "outline",
+      "sourceLayer": "05 - blank action and scroll outlines",
+      "resize": {
+        "method": "nine-slice",
+        "edgeMode": "tile",
+        "centerMode": "transparent",
+        "margins": {
+          "left": 3,
+          "top": 4,
+          "right": 3,
+          "bottom": 4
+        },
+        "minSize": {
+          "width": 8,
+          "height": 12
+        },
+        "nativePixelScale": 1
+      },
+      "contentRect": {
+        "x": 3,
+        "y": 4,
+        "width": 2,
+        "height": 8
+      },
+      "contentInsets": {
+        "left": 3,
+        "top": 4,
+        "right": 3,
+        "bottom": 4
+      },
+      "contentInteriorTransparent": true
+    }
+  ],
+  "stateGroups": {
+    "entry": {
+      "normal": "entry-normal",
+      "selected": "entry-selected"
+    },
+    "actionButton": {
+      "rest": "button-rest",
+      "hover": "button-hover",
+      "pressed": "button-pressed"
+    },
+    "categoryTab": {
+      "normal": "tab-normal",
+      "selected": "tab-selected"
+    }
+  },
+  "notebook": {
+    "source": "assets/pixelorama/upgrade-notebook-review/notebook-preview.pxo",
+    "layers": 4,
+    "frameSize": {
+      "width": 320,
+      "height": 192
+    },
+    "tag": "upgrade-notebook-static",
+    "outlineImage": "notebook-outline.png",
+    "optionalFillImage": "notebook-paper-fill.png",
+    "filledReviewImage": "notebook-filled-preview.png",
+    "reviewScale": 3,
+    "layout": {
+      "cover": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 192
+      },
+      "pages": [
+        {
+          "x": 12,
+          "y": 8,
+          "width": 140,
+          "height": 176
+        },
+        {
+          "x": 168,
+          "y": 8,
+          "width": 140,
+          "height": 176
+        }
+      ],
+      "binding": {
+        "x": 148,
+        "y": 8,
+        "width": 24,
+        "height": 176,
+        "repeatY": 16
+      },
+      "safeContentRects": [
+        {
+          "x": 20,
+          "y": 20,
+          "width": 124,
+          "height": 152
+        },
+        {
+          "x": 176,
+          "y": 20,
+          "width": 124,
+          "height": 152
+        }
+      ]
+    },
+    "resizing": {
+      "minSize": {
+        "width": 200,
+        "height": 128
+      },
+      "preferredWidthStep": 16,
+      "preferredHeightStep": 16,
+      "outerHorizontalMargin": 12,
+      "outerVerticalMargin": 8,
+      "gutter": 16,
+      "pageWidthFormula": "(bookWidth - 40) / 2",
+      "bindingXFormula": "12 + pageWidth - 4",
+      "bindingWidth": 24,
+      "bindingRepeatY": 16
+    },
+    "reviewContainsNoItemRows": true
+  },
+  "engineOwned": {
+    "labels": true,
+    "text": true,
+    "icons": true,
+    "currency": true,
+    "prices": true,
+    "itemAmounts": true,
+    "upgradeEntries": true,
+    "categoryCount": true,
+    "rowCount": true,
+    "listLayout": true,
+    "scrolling": true,
+    "purchases": true
+  },
+  "fixedItemCount": null,
+  "fixedCategoryCount": null,
+  "useOutlinePartsAsPrimary": true,
+  "paperFillOptional": true,
+  "filtering": "nearest-neighbor",
+  "integerCoordinates": true,
+  "integration": {
+    "gameRoutesChanged": false,
+    "menuBehaviorImplemented": false,
+    "upgradeLogicImplemented": false,
+    "scope": "upgrade-menu-art-pieces-only"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "kitchen-sink-insert",
+  "status": "accepted-art-design",
+  "proposalApprovedOn": "2026-11-07",
+  "approvedDescription": "One back-wall stainless sink insert with one deep basin, curved faucet and draining area, sized to join the approved kitchen counter kit.",
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/kitchen-sink-review/kitchen-sink.pxo",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/kitchen-sink-review/palette.json",
+  "image": "kitchen-sink.png",
+  "frameSize": {
+    "width": 56,
+    "height": 40
+  },
+  "occupiedBounds": {
+    "x": 4,
+    "y": 5,
+    "width": 48,
+    "height": 31
+  },
+  "orientation": "back-wall-facing-south",
+  "layers": [
+    "01 - steel mounting surround",
+    "02 - recessed basin walls and floor",
+    "03 - draining board ribs",
+    "04 - curved faucet and controls",
+    "05 - hard reflections and drain"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "kitchen-sink-static"
+  },
+  "components": [
+    {
+      "id": "sink-surface",
+      "image": "sink-surface.png",
+      "order": 0
+    },
+    {
+      "id": "sink-faucet",
+      "image": "sink-faucet.png",
+      "order": 1
+    }
+  ],
+  "componentFrameSize": {
+    "width": 56,
+    "height": 40
+  },
+  "componentOrigin": {
+    "x": 0,
+    "y": 0
+  },
+  "artAttachments": {
+    "countertop": {
+      "x": 4,
+      "y": 12,
+      "width": 48,
+      "height": 24,
+      "purpose": "mount-over-three-16x24-kitchen-counter-top-modules",
+      "gameplayContract": false
+    }
+  },
+  "basin": {
+    "count": 1,
+    "interiorArtRect": {
+      "x": 9,
+      "y": 18,
+      "width": 23,
+      "height": 13
+    },
+    "waterAnimation": false
+  },
+  "reviewAssembly": {
+    "source": "assets/pixelorama/kitchen-sink-review/kitchen-sink-preview.pxo",
+    "image": "sink-counter-preview.png",
+    "frameSize": {
+      "width": 56,
+      "height": 56
+    },
+    "counterReference": "assets/pixelorama/kitchen-counter-review/kitchen-counter-kit.pxo",
+    "topModule": "../kitchen-counter-review/steel-counter-top.png",
+    "fasciaModule": "../kitchen-counter-review/steel-counter-front.png",
+    "counterPlacement": {
+      "x": 4,
+      "y": 12,
+      "width": 48,
+      "topDepth": 24,
+      "fasciaHeight": 16
+    },
+    "allPlacedAtNativeScale": true
+  },
+  "qa": {
+    "opaquePixels": 1205,
+    "semitransparentPixels": 0,
+    "visibleColors": 7,
+    "paletteSwatches": 14,
+    "orphans": 0,
+    "intentionalFaucetArchClearancePixels": 16,
+    "reopenedSourceMatchesNativePng": true,
+    "componentsReconstructExactly": true,
+    "leftMountProfileMatchesCounter": true,
+    "rightMountProfileMatchesCounter": true,
+    "activeProjectUnchanged": true
+  },
+  "anchor": null,
+  "collision": null,
+  "interaction": null,
+  "integrated": false,
+  "creationApproved": true,
+  "visualAccepted": true,
+  "acceptedOn": "2026-11-07"
+}

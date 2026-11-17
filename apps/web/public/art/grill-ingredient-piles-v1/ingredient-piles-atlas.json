@@ -1,0 +1,86 @@
+{
+  "frames": {
+    "patty-stack.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 12
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 12
+      },
+      "duration": 1000
+    },
+    "sausage-pile.png": {
+      "frame": {
+        "x": 8,
+        "y": 0,
+        "w": 8,
+        "h": 12
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 12
+      },
+      "duration": 1000
+    },
+    "pancake-batter.png": {
+      "frame": {
+        "x": 16,
+        "y": 0,
+        "w": 8,
+        "h": 12
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 12
+      },
+      "duration": 1000
+    }
+  },
+  "meta": {
+    "app": "Pixelorama MCP",
+    "image": "ingredient-piles-atlas.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 24,
+      "h": 12
+    },
+    "scale": "1",
+    "frameTags": [
+      {
+        "name": "grill-ingredient-piles-static",
+        "from": 0,
+        "to": 0,
+        "direction": "forward"
+      }
+    ],
+    "source": "assets/pixelorama/grill-ingredient-piles-v1/ingredient-piles.pxo"
+  }
+}

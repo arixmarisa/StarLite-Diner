@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "status": "accepted-art-design",
+  "authoring": "Pixelorama MCP",
+  "id": "counter-side",
+  "source": "assets/pixelorama/counter-side-review/counter-side.pxo",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/counter-side-review/palette.json",
+  "image": "counter-side.png",
+  "frameSize": {
+    "width": 24,
+    "height": 48
+  },
+  "occupiedBounds": {
+    "x": 0,
+    "y": 0,
+    "width": 24,
+    "height": 48
+  },
+  "layers": [
+    "01 - original laminate surface",
+    "02 - original chrome lip",
+    "03 - rose near end fascia",
+    "04 - plinth and contact edge"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "counter-side-static"
+  },
+  "artGeometry": {
+    "originalPlan": {
+      "width": 32,
+      "depth": 24
+    },
+    "rotatedPlan": {
+      "width": 24,
+      "depth": 32
+    },
+    "facadeHeightScreenY": 16,
+    "surfaceCrossSectionIncludesRim": 24,
+    "verticalLip": {
+      "x": 20,
+      "y": 0,
+      "width": 4,
+      "height": 16
+    },
+    "repeatLength": 16,
+    "nearFascia": {
+      "x": 0,
+      "y": 32,
+      "width": 24,
+      "height": 16
+    },
+    "heightProjection": "positive-screen-y",
+    "northSocket": "Exact original counter-vertical row;24px wide",
+    "curveContract": "24px plan width and16px screen-down exterior facade; no addedXwall"
+  },
+  "exports": [
+    {
+      "id": "counter-vertical-top",
+      "image": "counter-vertical-top.png",
+      "size": {
+        "width": 24,
+        "height": 16
+      },
+      "sourceRect": {
+        "x": 0,
+        "y": 0,
+        "width": 24,
+        "height": 16
+      },
+      "purpose": "Unchanged original top tile; repeat alongY"
+    },
+    {
+      "id": "counter-side-lip",
+      "image": "counter-side-lip.png",
+      "size": {
+        "width": 4,
+        "height": 16
+      },
+      "sourceRect": {
+        "x": 20,
+        "y": 0,
+        "width": 4,
+        "height": 16
+      },
+      "placement": {
+        "x": 20,
+        "y": 0
+      },
+      "purpose": "Internal vertical outer-edge lip; already included in24px width"
+    },
+    {
+      "id": "counter-side-fascia",
+      "image": "counter-side-fascia.png",
+      "size": {
+        "width": 24,
+        "height": 16
+      },
+      "sourceRect": {
+        "x": 0,
+        "y": 32,
+        "width": 24,
+        "height": 16
+      },
+      "placement": {
+        "x": 0,
+        "y": 32
+      },
+      "purpose": "Near/south visible face only"
+    }
+  ],
+  "components": [
+    {
+      "id": "counter-side-base",
+      "image": "counter-side-base.png",
+      "order": 0
+    },
+    {
+      "id": "counter-side-foreground",
+      "image": "counter-side-foreground.png",
+      "order": 1
+    }
+  ],
+  "componentFrameSize": {
+    "width": 24,
+    "height": 48
+  },
+  "componentOrigin": {
+    "x": 0,
+    "y": 0
+  },
+  "comparison": {
+    "source": "assets/pixelorama/counter-side-review/counter-side-comparison.pxo",
+    "image": "comparison.png",
+    "frameSize": {
+      "width": 96,
+      "height": 64
+    },
+    "placements": [
+      {
+        "id": "original-horizontal-two-segments",
+        "x": 8,
+        "y": 12,
+        "width": 32,
+        "height": 40
+      },
+      {
+        "id": "counter-side",
+        "x": 64,
+        "y": 8,
+        "width": 24,
+        "height": 48
+      }
+    ],
+    "previewScale": 6,
+    "tag": "counter-side-comparison-static"
+  },
+  "qa": {
+    "opaquePixels": 1152,
+    "semitransparentPixels": 0,
+    "visibleColors": 9,
+    "paletteSwatches": 21,
+    "holes": 0,
+    "orphans": 0,
+    "reopenedSourceMatchesNativePng": true,
+    "reopenedComparisonMatchesPng": true,
+    "originalComparisonPixelsUnchanged": true,
+    "componentsReconstructExactly": true,
+    "bothTopTilesMatchOriginalExactly": true,
+    "verticalLipMatchesOriginalExactly": true,
+    "nearFasciaProfileMatchesOriginalRows": true,
+    "verticalTileBoundaryRowsIdentical": true
+  },
+  "anchor": null,
+  "collision": null,
+  "interaction": null,
+  "integrated": false,
+  "acceptedOn": "2026-11-07"
+}

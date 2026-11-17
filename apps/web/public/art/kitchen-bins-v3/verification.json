@@ -1,0 +1,39 @@
+{
+  "activeProjectUnchanged": true,
+  "prep-bins-insert": {
+    "celByteSizes": [7168, 7168, 7168, 7168],
+    "componentsReconstructExactly": true,
+    "fps": 1.0,
+    "frames": 1,
+    "identicalBinMismatches": 0,
+    "mountProfileMismatches": 0,
+    "opaquePixels": 864,
+    "orphans": 0,
+    "paletteSwatches": 14,
+    "populatedLayers": 4,
+    "semitransparentPixels": 0,
+    "sourceLayers": 4,
+    "sourcePixelsMatchNativePng": true,
+    "sourceSize": [56.0, 32.0],
+    "tag": "prep-bins-insert-v3-static",
+    "visibleColors": 5
+  },
+  "rear-toppings-rail": {
+    "celByteSizes": [6144, 6144, 6144, 6144],
+    "componentsReconstructExactly": true,
+    "fps": 1.0,
+    "frames": 1,
+    "identicalBinMismatches": 0,
+    "mountProfileMismatches": 0,
+    "opaquePixels": 834,
+    "orphans": 0,
+    "paletteSwatches": 14,
+    "populatedLayers": 4,
+    "semitransparentPixels": 0,
+    "sourceLayers": 4,
+    "sourcePixelsMatchNativePng": true,
+    "sourceSize": [48.0, 32.0],
+    "tag": "rear-toppings-rail-v3-static",
+    "visibleColors": 5
+  }
+}

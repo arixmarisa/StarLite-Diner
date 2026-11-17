@@ -1,0 +1,24 @@
+{
+  "frameSize": {
+    "width": 28,
+    "height": 18
+  },
+  "top": {
+    "x": 4,
+    "y": 3,
+    "width": 20,
+    "height": 10
+  },
+  "thickness": 2,
+  "leftNotch": {
+    "side": "left",
+    "depth": 2,
+    "height": 3
+  },
+  "placement": {
+    "authority": "game-engine",
+    "surface": "any-countertop",
+    "fixedRoomPlacement": false,
+    "currentlyPlaced": false
+  }
+}

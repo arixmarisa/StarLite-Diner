@@ -1,0 +1,21 @@
+{
+  "name": "Diner floor mess - muted water coffee cream rose",
+  "colors": {
+    "outline": "#322c38",
+    "shadow": "#676c70",
+    "floorShadow": "#a6bcb2",
+    "paperShade": "#c6b69e",
+    "paperBase": "#f1e5d1",
+    "paperLight": "#fff5df",
+    "roseShade": "#c94d7b",
+    "roseBase": "#ee75a3",
+    "roseLight": "#ffacc9",
+    "rim": "#9ba8a5",
+    "waterEdge": "#6b8f97",
+    "waterBase": "#9fc3c6",
+    "waterLight": "#d7e8df",
+    "coffeeEdge": "#76544a",
+    "coffeeBase": "#a47756",
+    "coffeeLight": "#c8a071"
+  }
+}

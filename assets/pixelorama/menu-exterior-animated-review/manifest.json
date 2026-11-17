@@ -1,0 +1,234 @@
+{
+  "background": "menu-exterior.png",
+  "door": {
+    "durationMs": 750,
+    "fps": 8,
+    "frames": [
+      {
+        "durationMs": 125,
+        "height": 47,
+        "width": 36,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "durationMs": 125,
+        "height": 47,
+        "width": 36,
+        "x": 36,
+        "y": 0
+      },
+      {
+        "durationMs": 125,
+        "height": 47,
+        "width": 36,
+        "x": 72,
+        "y": 0
+      },
+      {
+        "durationMs": 125,
+        "height": 47,
+        "width": 36,
+        "x": 108,
+        "y": 0
+      },
+      {
+        "durationMs": 125,
+        "height": 47,
+        "width": 36,
+        "x": 144,
+        "y": 0
+      },
+      {
+        "durationMs": 125,
+        "height": 47,
+        "width": 36,
+        "x": 180,
+        "y": 0
+      }
+    ],
+    "holdLast": true,
+    "image": "door-opening.png",
+    "loop": false,
+    "patchOpaque": true,
+    "rect": {
+      "height": 47,
+      "width": 36,
+      "x": 174,
+      "y": 91
+    },
+    "source": "assets/pixelorama/menu-exterior-animated-review/door-opening.pxo",
+    "trigger": "start"
+  },
+  "gameplayConnection": true,
+  "integrated": true,
+  "integration": "Approved home-menu playback; both signs flicker and Start opens the doors before mounting the existing diner. Standalone preview remains isolated.",
+  "nativeSize": {
+    "height": 216,
+    "width": 384
+  },
+  "palette": "assets/pixelorama/menu-exterior-animated-review/palette.json",
+  "previews": {
+    "closed": "start-comparison-preview.png",
+    "door": "door-opening-preview.png",
+    "doorContactSheet": "door-frames-preview.png",
+    "idle": "idle-flicker-preview.png"
+  },
+  "schemaVersion": 1,
+  "signs": [
+    {
+      "frames": [
+        {
+          "durationMs": 1000,
+          "height": 16,
+          "width": 96,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "durationMs": 1000,
+          "height": 16,
+          "width": 96,
+          "x": 96,
+          "y": 0
+        },
+        {
+          "durationMs": 1000,
+          "height": 16,
+          "width": 96,
+          "x": 192,
+          "y": 0
+        }
+      ],
+      "id": "starlite",
+      "image": "starlite-sign.png",
+      "patchOpaque": true,
+      "periodMs": 12000,
+      "rect": {
+        "height": 16,
+        "width": 96,
+        "x": 144,
+        "y": 42
+      },
+      "sequence": [
+        {
+          "durationMs": 2400,
+          "frame": 0
+        },
+        {
+          "durationMs": 180,
+          "frame": 1
+        },
+        {
+          "durationMs": 2820,
+          "frame": 0
+        },
+        {
+          "durationMs": 140,
+          "frame": 2
+        },
+        {
+          "durationMs": 160,
+          "frame": 1
+        },
+        {
+          "durationMs": 6300,
+          "frame": 0
+        }
+      ],
+      "source": "assets/pixelorama/menu-exterior-animated-review/starlite-sign.pxo",
+      "states": ["lit", "dim", "off"]
+    },
+    {
+      "frames": [
+        {
+          "durationMs": 1000,
+          "height": 9,
+          "width": 31,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "durationMs": 1000,
+          "height": 9,
+          "width": 31,
+          "x": 31,
+          "y": 0
+        },
+        {
+          "durationMs": 1000,
+          "height": 9,
+          "width": 31,
+          "x": 62,
+          "y": 0
+        }
+      ],
+      "id": "diner",
+      "image": "diner-sign.png",
+      "patchOpaque": true,
+      "periodMs": 12000,
+      "rect": {
+        "height": 9,
+        "width": 31,
+        "x": 176,
+        "y": 60
+      },
+      "sequence": [
+        {
+          "durationMs": 3600,
+          "frame": 0
+        },
+        {
+          "durationMs": 220,
+          "frame": 1
+        },
+        {
+          "durationMs": 4280,
+          "frame": 0
+        },
+        {
+          "durationMs": 180,
+          "frame": 2
+        },
+        {
+          "durationMs": 3720,
+          "frame": 0
+        }
+      ],
+      "source": "assets/pixelorama/menu-exterior-animated-review/diner-sign.pxo",
+      "states": ["lit", "dim", "off"]
+    }
+  ],
+  "startOverlay": {
+    "bakedIntoBackground": false,
+    "image": "/art/menu-v1/start-rest.png",
+    "rect": {
+      "height": 28,
+      "width": 96,
+      "x": 144,
+      "y": 148
+    }
+  },
+  "status": "approved-integrated",
+  "treeCorrection": {
+    "allowedRegions": [
+      {
+        "height": 70,
+        "width": 48,
+        "x": 0,
+        "y": 70
+      },
+      {
+        "height": 74,
+        "width": 40,
+        "x": 344,
+        "y": 66
+      }
+    ],
+    "changedPixels": 75,
+    "outsideRegionsExact": true
+  },
+  "frameIndexBase": 0,
+  "nativeTagIndexBase": 1,
+  "previewPage": "preview.html"
+}

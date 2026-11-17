@@ -1,0 +1,51 @@
+{
+  "activeProjectUnchanged": true,
+  "actorComponents": [1, 1, 1, 1, 1],
+  "combinedComponents": [1, 1, 1, 1, 1],
+  "comparisonSavedCelsExact": 2,
+  "distinctWalkPoses": 4,
+  "failures": [],
+  "frames": 5,
+  "groundedFrames": 5,
+  "headAndCapFramesExact": 5,
+  "headComparisonBounds": {
+    "height": 11,
+    "width": 10,
+    "x": 7,
+    "y": 8
+  },
+  "layers": 10,
+  "lowerMaterialLayersExact": 15,
+  "maskOverlapPixels": 0,
+  "motion": {
+    "fps": 8,
+    "frames": 4,
+    "height": 384,
+    "loops": 0,
+    "width": 480
+  },
+  "neutralChanges": 0,
+  "paletteSwatches": 17,
+  "palmMeetsTrayUnderside": true,
+  "recolorIsolationChecks": 10,
+  "semiTransparentPixels": 0,
+  "sourceCelsExact": 50,
+  "sourceFps": 8.0,
+  "supportElbow": {
+    "x": 20.0,
+    "y": 23.0
+  },
+  "supportPalm": {
+    "x": 20.0,
+    "y": 18.0
+  },
+  "trayLevelAndStationary": true,
+  "trayPixelsExact": true,
+  "traySurfaceBounds": {
+    "height": 6,
+    "width": 16,
+    "x": 4,
+    "y": 4
+  },
+  "unchangedApronFrames": 5
+}

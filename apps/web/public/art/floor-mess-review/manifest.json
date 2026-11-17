@@ -1,0 +1,236 @@
+{
+  "assets": [
+    {
+      "anchorStatus": "Proposed ground-placement anchor only; no interaction or collision behavior implemented.",
+      "collision": null,
+      "frameMetadata": {
+        "durationMs": 1000,
+        "durationMultiplier": 1,
+        "fps": 1,
+        "frames": 1,
+        "state": "static"
+      },
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "spill-water",
+      "image": "spill-water.png",
+      "interaction": null,
+      "label": "Water spill",
+      "occupiedBounds": {
+        "height": 8,
+        "width": 14,
+        "x": 1,
+        "y": 4
+      },
+      "palette": "assets/pixelorama/floor-mess-review/palette.json",
+      "placementAnchor": {
+        "x": 8.0,
+        "y": 10.0
+      },
+      "renderRole": "ground-decal",
+      "source": "assets/pixelorama/floor-mess-review/spills.pxo",
+      "sourceFrameIndex": 0,
+      "sourceLayers": [
+        "01 - contact shadow",
+        "02 - silhouette edge",
+        "03 - material body",
+        "04 - folds rim and wet glints"
+      ],
+      "sourceTag": "spill-water",
+      "static": true
+    },
+    {
+      "anchorStatus": "Proposed ground-placement anchor only; no interaction or collision behavior implemented.",
+      "collision": null,
+      "frameMetadata": {
+        "durationMs": 1000,
+        "durationMultiplier": 1,
+        "fps": 1,
+        "frames": 1,
+        "state": "static"
+      },
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "spill-coffee",
+      "image": "spill-coffee.png",
+      "interaction": null,
+      "label": "Coffee spill",
+      "occupiedBounds": {
+        "height": 8,
+        "width": 14,
+        "x": 1,
+        "y": 4
+      },
+      "palette": "assets/pixelorama/floor-mess-review/palette.json",
+      "placementAnchor": {
+        "x": 8.0,
+        "y": 10.0
+      },
+      "renderRole": "ground-decal",
+      "source": "assets/pixelorama/floor-mess-review/spills.pxo",
+      "sourceFrameIndex": 1,
+      "sourceLayers": [
+        "01 - contact shadow",
+        "02 - silhouette edge",
+        "03 - material body",
+        "04 - folds rim and wet glints"
+      ],
+      "sourceTag": "spill-coffee",
+      "static": true
+    },
+    {
+      "anchorStatus": "Proposed ground-placement anchor only; no interaction or collision behavior implemented.",
+      "collision": null,
+      "frameMetadata": {
+        "durationMs": 1000,
+        "durationMultiplier": 1,
+        "fps": 1,
+        "frames": 1,
+        "state": "static"
+      },
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "trash-napkin",
+      "image": "trash-napkin.png",
+      "interaction": null,
+      "label": "Crumpled napkin",
+      "occupiedBounds": {
+        "height": 6,
+        "width": 7,
+        "x": 4,
+        "y": 5
+      },
+      "palette": "assets/pixelorama/floor-mess-review/palette.json",
+      "placementAnchor": {
+        "x": 8.0,
+        "y": 10.0
+      },
+      "renderRole": "ground-prop",
+      "source": "assets/pixelorama/floor-mess-review/napkin.pxo",
+      "sourceFrameIndex": 0,
+      "sourceLayers": [
+        "01 - contact shadow",
+        "02 - silhouette edge",
+        "03 - material body",
+        "04 - folds rim and wet glints"
+      ],
+      "sourceTag": "trash-napkin",
+      "static": true
+    },
+    {
+      "anchorStatus": "Proposed ground-placement anchor only; no interaction or collision behavior implemented.",
+      "collision": null,
+      "frameMetadata": {
+        "durationMs": 1000,
+        "durationMultiplier": 1,
+        "fps": 1,
+        "frames": 1,
+        "state": "static"
+      },
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "trash-cup",
+      "image": "trash-cup.png",
+      "interaction": null,
+      "label": "Tipped paper cup",
+      "occupiedBounds": {
+        "height": 7,
+        "width": 8,
+        "x": 4,
+        "y": 4
+      },
+      "palette": "assets/pixelorama/floor-mess-review/palette.json",
+      "placementAnchor": {
+        "x": 8.0,
+        "y": 10.0
+      },
+      "renderRole": "ground-prop",
+      "source": "assets/pixelorama/floor-mess-review/cup.pxo",
+      "sourceFrameIndex": 0,
+      "sourceLayers": [
+        "01 - contact shadow",
+        "02 - silhouette edge",
+        "03 - material body",
+        "04 - folds rim and wet glints"
+      ],
+      "sourceTag": "trash-cup",
+      "static": true
+    }
+  ],
+  "authoringTool": "Pixelorama MCP",
+  "contactSheet": {
+    "height": 32.0,
+    "placements": [
+      {
+        "asset": "spill-water",
+        "x": 8.0,
+        "y": 8.0
+      },
+      {
+        "asset": "spill-coffee",
+        "x": 32.0,
+        "y": 8.0
+      },
+      {
+        "asset": "trash-napkin",
+        "x": 56.0,
+        "y": 8.0
+      },
+      {
+        "asset": "trash-cup",
+        "x": 80.0,
+        "y": 8.0
+      }
+    ],
+    "previewScale": 8.0,
+    "width": 96.0
+  },
+  "floorContext": {
+    "floorImage": "/art/front-of-house-v1/floor-checker.png",
+    "height": 64.0,
+    "placements": [
+      {
+        "asset": "spill-water",
+        "x": 8.0,
+        "y": 28.0
+      },
+      {
+        "asset": "spill-coffee",
+        "x": 28.0,
+        "y": 28.0
+      },
+      {
+        "asset": "trash-napkin",
+        "x": 48.0,
+        "y": 28.0
+      },
+      {
+        "asset": "trash-cup",
+        "x": 68.0,
+        "y": 28.0
+      }
+    ],
+    "playerImage": "/art/player-v3/idle-south.png",
+    "playerPosition": {
+      "x": 40.0,
+      "y": 2.0
+    },
+    "previewScale": 8.0,
+    "width": 96.0
+  },
+  "integration": "Assets and derived previews only; no game/editor placement, spawning, cleanup, collision or other mechanics implemented.",
+  "nativePixelScale": 1,
+  "nativeSourceTagIndexBase": 1,
+  "schemaVersion": 1,
+  "sourceFrameIndexBase": 0,
+  "staticVariantsNotAnimation": true,
+  "status": "art-review-only"
+}

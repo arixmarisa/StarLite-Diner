@@ -1,0 +1,48 @@
+{
+  "activeProjectUnchanged": true,
+  "background": {
+    "fps": 1,
+    "frames": 1,
+    "height": 216,
+    "layers": 9,
+    "saved": true,
+    "savedMetadataExact": true,
+    "savedPaletteSwatches": 36,
+    "sourceCelsExact": 9,
+    "sourceCompositeExact": true,
+    "tags": 1,
+    "width": 384
+  },
+  "exportCodes": {
+    "menu-exterior": 0,
+    "start-comparison": 0
+  },
+  "gameIntegration": false,
+  "nativeSize": [384, 216],
+  "paletteSwatches": 36,
+  "pngRoundtripsExact": true,
+  "previewScale": 3,
+  "semiTransparentPixels": 0,
+  "startPixelsExact": true,
+  "startPosition": {
+    "height": 28,
+    "width": 96,
+    "x": 144,
+    "y": 148
+  },
+  "startReview": {
+    "fps": 1,
+    "frames": 1,
+    "height": 216,
+    "layers": 2,
+    "saved": true,
+    "savedMetadataExact": true,
+    "savedPaletteSwatches": 36,
+    "sourceCelsExact": 2,
+    "sourceCompositeExact": true,
+    "tags": 1,
+    "width": 384
+  },
+  "transparentBackgroundPixels": 0,
+  "visibleBackgroundColors": 35
+}

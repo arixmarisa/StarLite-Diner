@@ -1,0 +1,51 @@
+{
+  "activeProjectUnchanged": true,
+  "actorComponents": [
+    1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+    1, 1, 1, 1, 1, 1, 1, 1
+  ],
+  "approvedSouthActorsExact": 5,
+  "approvedSouthCompositesExact": 5,
+  "combinedComponents": [
+    1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+    1, 1, 1, 1, 1, 1, 1, 1
+  ],
+  "distinctWalkPoses": {
+    "east": 4,
+    "north": 4,
+    "northeast": 4,
+    "northwest": 4,
+    "south": 4,
+    "southeast": 4,
+    "southwest": 4,
+    "west": 4
+  },
+  "failures": [],
+  "farPalmsOccluded": 0,
+  "frames": 40,
+  "groundedFrames": 40,
+  "layers": 11,
+  "lowerMaterialLayersExact": 120,
+  "maskOverlapPixels": 0,
+  "motion": {
+    "fps": 8,
+    "frames": 4,
+    "height": 640,
+    "loops": 0,
+    "width": 640
+  },
+  "neutralChanges": 0,
+  "originalOpaqueHeadPixelsCompared": 3900,
+  "originalOpaqueHeadPixelsExact": 3900,
+  "paletteSwatches": 17,
+  "palmEdgeContacts": 40,
+  "recolorIsolationChecks": 80,
+  "reconstructedPartsExact": 40,
+  "savedCompositesExact": 40,
+  "semiTransparentPixels": 0,
+  "sourceCelsExact": 440,
+  "sourceFps": 8.0,
+  "trayLevelAndStationaryGroups": 8,
+  "trayPixelsExactFrames": 40,
+  "unchangedApronFrames": 40
+}

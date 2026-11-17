@@ -1,0 +1,249 @@
+{
+  "id": "speech-bubble-empty",
+  "width": 32,
+  "height": 28,
+  "palette": {
+    "outline": "#322c38",
+    "cream": "#fff5df",
+    "rim": "#f1e5d1",
+    "roseAccent": "#ffd2de"
+  },
+  "contentRect": {
+    "x": 4,
+    "y": 3,
+    "width": 24,
+    "height": 16
+  },
+  "tailAnchor": {
+    "x": 16,
+    "y": 27
+  },
+  "iconPlacement": {
+    "x": 8,
+    "y": 3,
+    "width": 16,
+    "height": 16
+  },
+  "layers": [
+    {
+      "name": "01 - plum stepped body contour",
+      "rectangles": [
+        {
+          "x": 4,
+          "y": 0,
+          "w": 24,
+          "h": 1,
+          "c": "outline"
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "w": 28,
+          "h": 1,
+          "c": "outline"
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "w": 30,
+          "h": 1,
+          "c": "outline"
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "w": 32,
+          "h": 16,
+          "c": "outline"
+        },
+        {
+          "x": 1,
+          "y": 19,
+          "w": 30,
+          "h": 1,
+          "c": "outline"
+        },
+        {
+          "x": 2,
+          "y": 20,
+          "w": 28,
+          "h": 1,
+          "c": "outline"
+        },
+        {
+          "x": 4,
+          "y": 21,
+          "w": 24,
+          "h": 1,
+          "c": "outline"
+        }
+      ]
+    },
+    {
+      "name": "02 - empty warm cream interior",
+      "rectangles": [
+        {
+          "x": 4,
+          "y": 1,
+          "w": 24,
+          "h": 1,
+          "c": "cream"
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "w": 28,
+          "h": 1,
+          "c": "cream"
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "w": 30,
+          "h": 16,
+          "c": "cream"
+        },
+        {
+          "x": 2,
+          "y": 19,
+          "w": 28,
+          "h": 1,
+          "c": "cream"
+        },
+        {
+          "x": 4,
+          "y": 20,
+          "w": 24,
+          "h": 1,
+          "c": "cream"
+        }
+      ]
+    },
+    {
+      "name": "03 - restrained warm lower rim",
+      "rectangles": [
+        {
+          "x": 2,
+          "y": 19,
+          "w": 28,
+          "h": 1,
+          "c": "rim"
+        },
+        {
+          "x": 4,
+          "y": 20,
+          "w": 24,
+          "h": 1,
+          "c": "rim"
+        }
+      ]
+    },
+    {
+      "name": "04 - small pale rose rim accent",
+      "rectangles": [
+        {
+          "x": 4,
+          "y": 20,
+          "w": 7,
+          "h": 1,
+          "c": "roseAccent"
+        }
+      ]
+    },
+    {
+      "name": "05 - editable downward tail",
+      "rectangles": [
+        {
+          "x": 12,
+          "y": 21,
+          "w": 7,
+          "h": 1,
+          "c": "outline"
+        },
+        {
+          "x": 12,
+          "y": 22,
+          "w": 7,
+          "h": 1,
+          "c": "outline"
+        },
+        {
+          "x": 12,
+          "y": 23,
+          "w": 6,
+          "h": 1,
+          "c": "outline"
+        },
+        {
+          "x": 13,
+          "y": 24,
+          "w": 5,
+          "h": 1,
+          "c": "outline"
+        },
+        {
+          "x": 14,
+          "y": 25,
+          "w": 4,
+          "h": 1,
+          "c": "outline"
+        },
+        {
+          "x": 15,
+          "y": 26,
+          "w": 3,
+          "h": 1,
+          "c": "outline"
+        },
+        {
+          "x": 16,
+          "y": 27,
+          "w": 1,
+          "h": 1,
+          "c": "outline"
+        },
+        {
+          "x": 13,
+          "y": 21,
+          "w": 5,
+          "h": 2,
+          "c": "cream"
+        },
+        {
+          "x": 13,
+          "y": 23,
+          "w": 4,
+          "h": 1,
+          "c": "cream"
+        },
+        {
+          "x": 14,
+          "y": 24,
+          "w": 3,
+          "h": 1,
+          "c": "cream"
+        },
+        {
+          "x": 15,
+          "y": 25,
+          "w": 2,
+          "h": 1,
+          "c": "cream"
+        },
+        {
+          "x": 16,
+          "y": 26,
+          "w": 1,
+          "h": 1,
+          "c": "cream"
+        }
+      ]
+    }
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "tag": "speech-bubble-empty-static"
+  }
+}

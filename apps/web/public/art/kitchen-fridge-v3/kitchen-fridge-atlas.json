@@ -1,0 +1,43 @@
+{
+  "frames": {
+    "kitchen-fridge-static": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 40,
+        "h": 60
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 40,
+        "h": 60
+      },
+      "sourceSize": {
+        "w": 40,
+        "h": 60
+      },
+      "duration": 1000
+    }
+  },
+  "meta": {
+    "app": "Pixelorama",
+    "image": "kitchen-fridge-atlas.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 40,
+      "h": 60
+    },
+    "scale": "1",
+    "frameTags": [
+      {
+        "name": "kitchen-fridge-v3-static",
+        "from": 0,
+        "to": 0,
+        "direction": "forward"
+      }
+    ]
+  }
+}

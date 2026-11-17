@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Starlite Diner, a cozy pixel-art diner game." />
+    <title>Starlite Diner</title>
+    <link rel="icon" href="data:," />
+  </head>
+  <body>
+    <main class="game-menu" aria-label="Starlite Diner main menu">
+      <div class="menu-stage">
+        <img
+          class="menu-background"
+          src="/art/menu-exterior-animated-review/menu-exterior.png"
+          width="384"
+          height="216"
+          alt="Pink and chrome Starlite Diner at blue hour, with warm windows and neon signs."
+          draggable="false"
+        />
+        <canvas class="menu-exterior" width="384" height="216" aria-hidden="true" hidden></canvas>
+        <button class="menu-start" type="button" disabled>
+          <span class="sr-only">Start</span>
+          <img
+            class="start-rest"
+            src="/art/menu-v1/start-rest.png"
+            width="96"
+            height="28"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="start-highlight"
+            src="/art/menu-v1/start-highlight.png"
+            width="96"
+            height="28"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="start-pressed"
+            src="/art/menu-v1/start-pressed.png"
+            width="96"
+            height="28"
+            alt=""
+            draggable="false"
+          />
+        </button>
+      </div>
+      <p class="menu-status sr-only" role="status">Loading menu…</p>
+      <noscript>Enable JavaScript to start.</noscript>
+    </main>
+    <script type="module" src="/src/entry.ts"></script>
+  </body>
+</html>

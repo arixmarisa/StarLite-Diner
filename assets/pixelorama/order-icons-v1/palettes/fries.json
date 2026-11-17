@@ -1,0 +1,13 @@
+{
+  "colors": {
+    "carton": "#d65362",
+    "cartonLight": "#ee8790",
+    "cartonShade": "#9f385e",
+    "fry": "#e2ad68",
+    "fryLight": "#f1ce8d",
+    "fryShade": "#b87948",
+    "glint": "#fff0d5",
+    "outline": "#322c38"
+  },
+  "id": "fries"
+}

@@ -1,0 +1,138 @@
+{
+  "countertopDepth": 18,
+  "identicalBinSize": {
+    "width": 8,
+    "height": 10
+  },
+  "arrangements": [
+    {
+      "id": "rear-toppings-rail",
+      "frameSize": {
+        "width": 48,
+        "height": 32
+      },
+      "countertop": {
+        "x": 4,
+        "y": 10,
+        "width": 40,
+        "height": 18,
+        "gameplayContract": false
+      },
+      "binRectangles": [
+        {
+          "x": 8,
+          "y": 14,
+          "width": 8,
+          "height": 10
+        },
+        {
+          "x": 20,
+          "y": 14,
+          "width": 8,
+          "height": 10
+        },
+        {
+          "x": 32,
+          "y": 14,
+          "width": 8,
+          "height": 10
+        }
+      ],
+      "binInteriors": [
+        {
+          "x": 11,
+          "y": 17,
+          "width": 3,
+          "height": 5,
+          "gameplayContract": false
+        },
+        {
+          "x": 23,
+          "y": 17,
+          "width": 3,
+          "height": 5,
+          "gameplayContract": false
+        },
+        {
+          "x": 35,
+          "y": 17,
+          "width": 3,
+          "height": 5,
+          "gameplayContract": false
+        }
+      ]
+    },
+    {
+      "id": "prep-bins-insert",
+      "frameSize": {
+        "width": 56,
+        "height": 32
+      },
+      "countertop": {
+        "x": 4,
+        "y": 10,
+        "width": 48,
+        "height": 18,
+        "gameplayContract": false
+      },
+      "binRectangles": [
+        {
+          "x": 7,
+          "y": 14,
+          "width": 8,
+          "height": 10
+        },
+        {
+          "x": 18,
+          "y": 14,
+          "width": 8,
+          "height": 10
+        },
+        {
+          "x": 29,
+          "y": 14,
+          "width": 8,
+          "height": 10
+        },
+        {
+          "x": 40,
+          "y": 14,
+          "width": 8,
+          "height": 10
+        }
+      ],
+      "binInteriors": [
+        {
+          "x": 10,
+          "y": 17,
+          "width": 3,
+          "height": 5,
+          "gameplayContract": false
+        },
+        {
+          "x": 21,
+          "y": 17,
+          "width": 3,
+          "height": 5,
+          "gameplayContract": false
+        },
+        {
+          "x": 32,
+          "y": 17,
+          "width": 3,
+          "height": 5,
+          "gameplayContract": false
+        },
+        {
+          "x": 43,
+          "y": 17,
+          "width": 3,
+          "height": 5,
+          "gameplayContract": false
+        }
+      ]
+    }
+  ],
+  "bitmapResized": false,
+  "playerScaleChanged": false
+}

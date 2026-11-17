@@ -1,0 +1,94 @@
+{
+  "status": "native-render-verified-awaiting-user-review",
+  "bin": {
+    "width": 12,
+    "height": 14,
+    "interior": {
+      "x": 2,
+      "y": 2,
+      "width": 8,
+      "height": 10
+    },
+    "gameplayContract": false
+  },
+  "variants": [
+    {
+      "id": "rear-toppings-rail",
+      "projectName": "rear-toppings-rail",
+      "frame": {
+        "width": 56,
+        "height": 40
+      },
+      "mount": {
+        "x": 4,
+        "y": 8,
+        "width": 48,
+        "height": 24
+      },
+      "rearLip": true,
+      "bins": [
+        {
+          "x": 8,
+          "y": 13
+        },
+        {
+          "x": 22,
+          "y": 13
+        },
+        {
+          "x": 36,
+          "y": 13
+        }
+      ]
+    },
+    {
+      "id": "prep-bins-insert",
+      "projectName": "prep-bins-insert",
+      "frame": {
+        "width": 72,
+        "height": 40
+      },
+      "mount": {
+        "x": 4,
+        "y": 8,
+        "width": 64,
+        "height": 24
+      },
+      "rearLip": false,
+      "bins": [
+        {
+          "x": 9,
+          "y": 13
+        },
+        {
+          "x": 23,
+          "y": 13
+        },
+        {
+          "x": 37,
+          "y": 13
+        },
+        {
+          "x": 51,
+          "y": 13
+        }
+      ]
+    }
+  ],
+  "preview": {
+    "width": 144,
+    "height": 56,
+    "placements": [
+      {
+        "id": "rear-toppings-rail",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "id": "prep-bins-insert",
+        "x": 72,
+        "y": 0
+      }
+    ]
+  }
+}

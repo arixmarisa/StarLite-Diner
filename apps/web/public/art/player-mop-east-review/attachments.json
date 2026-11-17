@@ -1,0 +1,450 @@
+{
+  "bodyOffset": {
+    "x": 8.0,
+    "y": 8.0
+  },
+  "bodySize": {
+    "height": 24.0,
+    "width": 16.0
+  },
+  "drawOrder": [
+    "actor-behind-mop.png",
+    "mop-overlay.png",
+    "actor-in-front-of-mop.png"
+  ],
+  "floorContactY": 31,
+  "footAnchor": {
+    "x": 16.0,
+    "y": 31.0
+  },
+  "frameSize": {
+    "height": 40.0,
+    "width": 48.0
+  },
+  "frames": [
+    {
+      "collar": {
+        "x": 28.0,
+        "y": 28.0
+      },
+      "direction": "east",
+      "footAnchor": {
+        "x": 16.0,
+        "y": 31.0
+      },
+      "handleTop": {
+        "x": 21.0,
+        "y": 15.0
+      },
+      "index": 0,
+      "lowerElbow": {
+        "x": 20.0,
+        "y": 24.0
+      },
+      "lowerGrip": {
+        "x": 26.0,
+        "y": 24.0
+      },
+      "mopHeadBounds": {
+        "height": 4.0,
+        "width": 9.0,
+        "x": 24.0,
+        "y": 28.0
+      },
+      "mopHeadContact": {
+        "x": 28.0,
+        "y": 31.0
+      },
+      "mopMotionOffset": {
+        "x": 0.0,
+        "y": 0
+      },
+      "state": "hold",
+      "upperElbow": {
+        "x": 20.0,
+        "y": 22.0
+      },
+      "upperGrip": {
+        "x": 24.0,
+        "y": 20.0
+      }
+    },
+    {
+      "collar": {
+        "x": 26.0,
+        "y": 28.0
+      },
+      "direction": "east",
+      "footAnchor": {
+        "x": 16.0,
+        "y": 31.0
+      },
+      "handleTop": {
+        "x": 19.0,
+        "y": 15.0
+      },
+      "index": 1,
+      "lowerElbow": {
+        "x": 19.0,
+        "y": 24.0
+      },
+      "lowerGrip": {
+        "x": 24.0,
+        "y": 24.0
+      },
+      "mopHeadBounds": {
+        "height": 4.0,
+        "width": 9.0,
+        "x": 22.0,
+        "y": 28.0
+      },
+      "mopHeadContact": {
+        "x": 26.0,
+        "y": 31.0
+      },
+      "mopMotionOffset": {
+        "x": -2.0,
+        "y": 0
+      },
+      "state": "mop",
+      "upperElbow": {
+        "x": 19.0,
+        "y": 22.0
+      },
+      "upperGrip": {
+        "x": 22.0,
+        "y": 20.0
+      }
+    },
+    {
+      "collar": {
+        "x": 27.0,
+        "y": 28.0
+      },
+      "direction": "east",
+      "footAnchor": {
+        "x": 16.0,
+        "y": 31.0
+      },
+      "handleTop": {
+        "x": 20.0,
+        "y": 15.0
+      },
+      "index": 2,
+      "lowerElbow": {
+        "x": 20.0,
+        "y": 24.0
+      },
+      "lowerGrip": {
+        "x": 25.0,
+        "y": 24.0
+      },
+      "mopHeadBounds": {
+        "height": 4.0,
+        "width": 9.0,
+        "x": 23.0,
+        "y": 28.0
+      },
+      "mopHeadContact": {
+        "x": 27.0,
+        "y": 31.0
+      },
+      "mopMotionOffset": {
+        "x": -1.0,
+        "y": 0
+      },
+      "state": "mop",
+      "upperElbow": {
+        "x": 20.0,
+        "y": 22.0
+      },
+      "upperGrip": {
+        "x": 23.0,
+        "y": 20.0
+      }
+    },
+    {
+      "collar": {
+        "x": 28.0,
+        "y": 28.0
+      },
+      "direction": "east",
+      "footAnchor": {
+        "x": 16.0,
+        "y": 31.0
+      },
+      "handleTop": {
+        "x": 21.0,
+        "y": 15.0
+      },
+      "index": 3,
+      "lowerElbow": {
+        "x": 20.0,
+        "y": 24.0
+      },
+      "lowerGrip": {
+        "x": 26.0,
+        "y": 24.0
+      },
+      "mopHeadBounds": {
+        "height": 4.0,
+        "width": 9.0,
+        "x": 24.0,
+        "y": 28.0
+      },
+      "mopHeadContact": {
+        "x": 28.0,
+        "y": 31.0
+      },
+      "mopMotionOffset": {
+        "x": 0.0,
+        "y": 0
+      },
+      "state": "mop",
+      "upperElbow": {
+        "x": 20.0,
+        "y": 22.0
+      },
+      "upperGrip": {
+        "x": 24.0,
+        "y": 20.0
+      }
+    },
+    {
+      "collar": {
+        "x": 29.0,
+        "y": 28.0
+      },
+      "direction": "east",
+      "footAnchor": {
+        "x": 16.0,
+        "y": 31.0
+      },
+      "handleTop": {
+        "x": 22.0,
+        "y": 15.0
+      },
+      "index": 4,
+      "lowerElbow": {
+        "x": 20.0,
+        "y": 24.0
+      },
+      "lowerGrip": {
+        "x": 27.0,
+        "y": 24.0
+      },
+      "mopHeadBounds": {
+        "height": 4.0,
+        "width": 9.0,
+        "x": 25.0,
+        "y": 28.0
+      },
+      "mopHeadContact": {
+        "x": 29.0,
+        "y": 31.0
+      },
+      "mopMotionOffset": {
+        "x": 1.0,
+        "y": 0
+      },
+      "state": "mop",
+      "upperElbow": {
+        "x": 20.0,
+        "y": 22.0
+      },
+      "upperGrip": {
+        "x": 25.0,
+        "y": 20.0
+      }
+    },
+    {
+      "collar": {
+        "x": 30.0,
+        "y": 28.0
+      },
+      "direction": "east",
+      "footAnchor": {
+        "x": 16.0,
+        "y": 31.0
+      },
+      "handleTop": {
+        "x": 23.0,
+        "y": 15.0
+      },
+      "index": 5,
+      "lowerElbow": {
+        "x": 21.0,
+        "y": 24.0
+      },
+      "lowerGrip": {
+        "x": 28.0,
+        "y": 24.0
+      },
+      "mopHeadBounds": {
+        "height": 4.0,
+        "width": 9.0,
+        "x": 26.0,
+        "y": 28.0
+      },
+      "mopHeadContact": {
+        "x": 30.0,
+        "y": 31.0
+      },
+      "mopMotionOffset": {
+        "x": 2.0,
+        "y": 0
+      },
+      "state": "mop",
+      "upperElbow": {
+        "x": 21.0,
+        "y": 22.0
+      },
+      "upperGrip": {
+        "x": 26.0,
+        "y": 20.0
+      }
+    },
+    {
+      "collar": {
+        "x": 29.0,
+        "y": 28.0
+      },
+      "direction": "east",
+      "footAnchor": {
+        "x": 16.0,
+        "y": 31.0
+      },
+      "handleTop": {
+        "x": 22.0,
+        "y": 15.0
+      },
+      "index": 6,
+      "lowerElbow": {
+        "x": 20.0,
+        "y": 24.0
+      },
+      "lowerGrip": {
+        "x": 27.0,
+        "y": 24.0
+      },
+      "mopHeadBounds": {
+        "height": 4.0,
+        "width": 9.0,
+        "x": 25.0,
+        "y": 28.0
+      },
+      "mopHeadContact": {
+        "x": 29.0,
+        "y": 31.0
+      },
+      "mopMotionOffset": {
+        "x": 1.0,
+        "y": 0
+      },
+      "state": "mop",
+      "upperElbow": {
+        "x": 20.0,
+        "y": 22.0
+      },
+      "upperGrip": {
+        "x": 25.0,
+        "y": 20.0
+      }
+    },
+    {
+      "collar": {
+        "x": 28.0,
+        "y": 28.0
+      },
+      "direction": "east",
+      "footAnchor": {
+        "x": 16.0,
+        "y": 31.0
+      },
+      "handleTop": {
+        "x": 21.0,
+        "y": 15.0
+      },
+      "index": 7,
+      "lowerElbow": {
+        "x": 20.0,
+        "y": 24.0
+      },
+      "lowerGrip": {
+        "x": 26.0,
+        "y": 24.0
+      },
+      "mopHeadBounds": {
+        "height": 4.0,
+        "width": 9.0,
+        "x": 24.0,
+        "y": 28.0
+      },
+      "mopHeadContact": {
+        "x": 28.0,
+        "y": 31.0
+      },
+      "mopMotionOffset": {
+        "x": 0.0,
+        "y": 0
+      },
+      "state": "mop",
+      "upperElbow": {
+        "x": 20.0,
+        "y": 22.0
+      },
+      "upperGrip": {
+        "x": 24.0,
+        "y": 20.0
+      }
+    },
+    {
+      "collar": {
+        "x": 27.0,
+        "y": 28.0
+      },
+      "direction": "east",
+      "footAnchor": {
+        "x": 16.0,
+        "y": 31.0
+      },
+      "handleTop": {
+        "x": 20.0,
+        "y": 15.0
+      },
+      "index": 8,
+      "lowerElbow": {
+        "x": 20.0,
+        "y": 24.0
+      },
+      "lowerGrip": {
+        "x": 25.0,
+        "y": 24.0
+      },
+      "mopHeadBounds": {
+        "height": 4.0,
+        "width": 9.0,
+        "x": 23.0,
+        "y": 28.0
+      },
+      "mopHeadContact": {
+        "x": 27.0,
+        "y": 31.0
+      },
+      "mopMotionOffset": {
+        "x": -1.0,
+        "y": 0
+      },
+      "state": "mop",
+      "upperElbow": {
+        "x": 20.0,
+        "y": 22.0
+      },
+      "upperGrip": {
+        "x": 23.0,
+        "y": 20.0
+      }
+    }
+  ],
+  "gripOrder": "upper grip y20, lower grip y24; both move with rigid handle"
+}

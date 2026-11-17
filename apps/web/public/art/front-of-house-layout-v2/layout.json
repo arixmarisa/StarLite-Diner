@@ -1,0 +1,5199 @@
+{
+  "id": "front-of-house-layout-v2",
+  "schemaVersion": 1,
+  "size": {
+    "height": 432,
+    "width": 624
+  },
+  "layers": [
+    "01 - checker floor",
+    "02 - walls openings and decor",
+    "03 - modular worktops and bar",
+    "04 - tightly grouped furniture bases",
+    "05 - independent surface attachments",
+    "06 - independent booth backrests",
+    "07 - counter foreground trim",
+    "08 - doorway lintels"
+  ],
+  "paletteSource": "assets/pixelorama/front-of-house-v1/palette.json",
+  "sourceDraft": "assets/pixelorama/front-of-house-layout-v2/design-draft.json",
+  "assets": [
+    {
+      "id": "floor-checker",
+      "image": "/art/front-of-house-v1/floor-checker.png",
+      "occupiedBounds": {
+        "height": 16,
+        "width": 16,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/floor-checker.png",
+      "size": [16, 16],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "wall-panel",
+      "image": "/art/front-of-house-v1/wall-panel.png",
+      "occupiedBounds": {
+        "height": 32,
+        "width": 16,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/wall-panel.png",
+      "size": [16, 32],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "baseboard",
+      "image": "/art/front-of-house-v1/baseboard.png",
+      "occupiedBounds": {
+        "height": 8,
+        "width": 16,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/baseboard.png",
+      "size": [16, 8],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "wall-side-left",
+      "image": "/art/front-of-house-v1/wall-side-left.png",
+      "occupiedBounds": {
+        "height": 16,
+        "width": 8,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/wall-side-left.png",
+      "size": [8, 16],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "wall-side-right",
+      "image": "/art/front-of-house-v1/wall-side-right.png",
+      "occupiedBounds": {
+        "height": 16,
+        "width": 8,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/wall-side-right.png",
+      "size": [8, 16],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "kitchen-doorway",
+      "image": "/art/front-of-house-v1/kitchen-doorway.png",
+      "occupiedBounds": {
+        "height": 40,
+        "width": 48,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/kitchen-doorway.png",
+      "size": [48, 40],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "doorway-lintel",
+      "image": "/art/front-of-house-v1/doorway-lintel.png",
+      "occupiedBounds": {
+        "height": 8,
+        "width": 48,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/doorway-lintel.png",
+      "size": [48, 8],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "threshold",
+      "image": "/art/front-of-house-v1/threshold.png",
+      "occupiedBounds": {
+        "height": 8,
+        "width": 32,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/threshold.png",
+      "size": [32, 8],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "entrance-mat",
+      "image": "/art/front-of-house-v1/entrance-mat.png",
+      "occupiedBounds": {
+        "height": 16,
+        "width": 32,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/entrance-mat.png",
+      "size": [32, 16],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "wall-record",
+      "image": "/art/front-of-house-v1/wall-record.png",
+      "occupiedBounds": {
+        "height": 15,
+        "width": 15,
+        "x": 1,
+        "y": 1
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/wall-record.png",
+      "size": [16, 16],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "wall-lamp",
+      "image": "/art/front-of-house-v1/wall-lamp.png",
+      "occupiedBounds": {
+        "height": 15,
+        "width": 12,
+        "x": 2,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/wall-lamp.png",
+      "size": [16, 16],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "neon-diner",
+      "image": "/art/front-of-house-v1/neon-diner.png",
+      "occupiedBounds": {
+        "height": 16,
+        "width": 48,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/neon-diner.png",
+      "size": [48, 16],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "wall-menu",
+      "image": "/art/front-of-house-v1/wall-menu.png",
+      "occupiedBounds": {
+        "height": 32,
+        "width": 32,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/wall-menu.png",
+      "size": [32, 32],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "wall-clock",
+      "image": "/art/front-of-house-v1/wall-clock.png",
+      "occupiedBounds": {
+        "height": 15,
+        "width": 15,
+        "x": 1,
+        "y": 1
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/wall-clock.png",
+      "size": [16, 16],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "counter-end-left",
+      "image": "/art/front-of-house-v1/counter-end-left.png",
+      "occupiedBounds": {
+        "height": 40,
+        "width": 16,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/counter-end-left.png",
+      "size": [16, 40],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "counter-top",
+      "image": "/art/front-of-house-v1/counter-top.png",
+      "occupiedBounds": {
+        "height": 24,
+        "width": 16,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/counter-top.png",
+      "size": [16, 24],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "counter-front",
+      "image": "/art/front-of-house-v1/counter-front.png",
+      "occupiedBounds": {
+        "height": 16,
+        "width": 16,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/counter-front.png",
+      "size": [16, 16],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "counter-end-right",
+      "image": "/art/front-of-house-v1/counter-end-right.png",
+      "occupiedBounds": {
+        "height": 40,
+        "width": 16,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/counter-end-right.png",
+      "size": [16, 40],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "tea-unit",
+      "image": "/art/tea-unit-review/tea-unit.png",
+      "occupiedBounds": {
+        "height": 29,
+        "width": 18,
+        "x": 3,
+        "y": 2
+      },
+      "repositoryImage": "apps/web/public/art/tea-unit-review/tea-unit.png",
+      "size": [24, 32],
+      "source": "assets/pixelorama/tea-unit-review/tea-unit.pxo"
+    },
+    {
+      "id": "soda-unit",
+      "image": "/art/soda-unit-review/soda-unit.png",
+      "occupiedBounds": {
+        "height": 37,
+        "width": 28,
+        "x": 2,
+        "y": 2
+      },
+      "repositoryImage": "apps/web/public/art/soda-unit-review/soda-unit.png",
+      "size": [32, 40],
+      "source": "assets/pixelorama/soda-unit-review/soda-unit.pxo"
+    },
+    {
+      "id": "coffee-maker",
+      "image": "/art/front-of-house-v1/coffee-maker.png",
+      "occupiedBounds": {
+        "height": 30,
+        "width": 22,
+        "x": 1,
+        "y": 1
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/coffee-maker.png",
+      "size": [24, 32],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "cup-stack",
+      "image": "/art/front-of-house-v1/cup-stack.png",
+      "occupiedBounds": {
+        "height": 13,
+        "width": 11,
+        "x": 1,
+        "y": 2
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/cup-stack.png",
+      "size": [12, 16],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "counter-lip",
+      "image": "/art/front-of-house-v1/counter-lip.png",
+      "occupiedBounds": {
+        "height": 4,
+        "width": 16,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/counter-lip.png",
+      "size": [16, 4],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "counter-vertical",
+      "image": "/art/front-of-house-v1/counter-vertical.png",
+      "occupiedBounds": {
+        "height": 16,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/counter-vertical.png",
+      "size": [24, 16],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "curve-base",
+      "image": "/art/counter-curve-review/curved-counter-base.png",
+      "occupiedBounds": {
+        "height": 56,
+        "width": 40,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/counter-curve-review/curved-counter-base.png",
+      "size": [40, 56],
+      "source": "assets/pixelorama/counter-curve-review/curved-counter.pxo"
+    },
+    {
+      "id": "curve-foreground",
+      "image": "/art/counter-curve-review/curved-counter-foreground.png",
+      "occupiedBounds": {
+        "height": 44,
+        "width": 40,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/counter-curve-review/curved-counter-foreground.png",
+      "size": [40, 56],
+      "source": "assets/pixelorama/counter-curve-review/curved-counter.pxo"
+    },
+    {
+      "id": "cash-register",
+      "image": "/art/front-of-house-v1/cash-register.png",
+      "occupiedBounds": {
+        "height": 23,
+        "width": 22,
+        "x": 1,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/cash-register.png",
+      "size": [24, 24],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "condiment-caddy",
+      "image": "/art/front-of-house-v1/condiment-caddy.png",
+      "occupiedBounds": {
+        "height": 15,
+        "width": 16,
+        "x": 0,
+        "y": 1
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/condiment-caddy.png",
+      "size": [16, 16],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "stool-pink",
+      "image": "/art/front-of-house-v1/stool-pink.png",
+      "occupiedBounds": {
+        "height": 23,
+        "width": 15,
+        "x": 1,
+        "y": 1
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/stool-pink.png",
+      "size": [16, 24],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "stool-mint",
+      "image": "/art/front-of-house-v1/stool-mint.png",
+      "occupiedBounds": {
+        "height": 23,
+        "width": 15,
+        "x": 1,
+        "y": 1
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/stool-mint.png",
+      "size": [16, 24],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "derived": true,
+      "id": "booth-ns-base",
+      "image": "/art/front-of-house-layout-review/booth-above-below-base.png",
+      "occupiedBounds": {
+        "height": 91,
+        "width": 55,
+        "x": 13,
+        "y": 6
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-layout-review/booth-above-below-base.png",
+      "size": [80, 104],
+      "source": "assets/pixelorama/booth-orientations-review/booth-above-below.pxo"
+    },
+    {
+      "derived": true,
+      "id": "booth-ns-table",
+      "image": "/art/front-of-house-layout-review/booth-above-below-table.png",
+      "occupiedBounds": {
+        "height": 49,
+        "width": 43,
+        "x": 18,
+        "y": 35
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-layout-review/booth-above-below-table.png",
+      "size": [80, 104],
+      "source": "assets/pixelorama/booth-orientations-review/booth-above-below.pxo"
+    },
+    {
+      "derived": true,
+      "id": "booth-ns-foreground",
+      "image": "/art/front-of-house-layout-review/booth-above-below-foreground.png",
+      "occupiedBounds": {
+        "height": 20,
+        "width": 53,
+        "x": 13,
+        "y": 66
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-layout-review/booth-above-below-foreground.png",
+      "size": [80, 104],
+      "source": "assets/pixelorama/booth-orientations-review/booth-above-below.pxo"
+    },
+    {
+      "id": "booth-bench-left",
+      "image": "/art/front-of-house-v1/booth-bench-left.png",
+      "occupiedBounds": {
+        "height": 60,
+        "width": 21,
+        "x": 2,
+        "y": 2
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/booth-bench-left.png",
+      "size": [24, 64],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "booth-bench-right",
+      "image": "/art/front-of-house-v1/booth-bench-right.png",
+      "occupiedBounds": {
+        "height": 60,
+        "width": 21,
+        "x": 1,
+        "y": 2
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/booth-bench-right.png",
+      "size": [24, 64],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "booth-table",
+      "image": "/art/front-of-house-v1/booth-table.png",
+      "occupiedBounds": {
+        "height": 51,
+        "width": 22,
+        "x": 1,
+        "y": 3
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/booth-table.png",
+      "size": [24, 56],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "booth-left-back",
+      "image": "/art/front-of-house-v1/booth-left-back.png",
+      "occupiedBounds": {
+        "height": 52,
+        "width": 8,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/booth-left-back.png",
+      "size": [8, 52],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "booth-right-back",
+      "image": "/art/front-of-house-v1/booth-right-back.png",
+      "occupiedBounds": {
+        "height": 52,
+        "width": 8,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/booth-right-back.png",
+      "size": [8, 52],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "circle-base",
+      "image": "/art/circle-booth-review/circle-booth-base.png",
+      "occupiedBounds": {
+        "height": 98,
+        "width": 98,
+        "x": 16,
+        "y": 4
+      },
+      "repositoryImage": "apps/web/public/art/circle-booth-review/circle-booth-base.png",
+      "size": [128, 112],
+      "source": "assets/pixelorama/circle-booth-review/circle-booth.pxo"
+    },
+    {
+      "id": "circle-table",
+      "image": "/art/circle-booth-review/round-table.png",
+      "occupiedBounds": {
+        "height": 55,
+        "width": 50,
+        "x": 39,
+        "y": 30
+      },
+      "repositoryImage": "apps/web/public/art/circle-booth-review/round-table.png",
+      "size": [128, 112],
+      "source": "assets/pixelorama/circle-booth-review/circle-booth.pxo"
+    },
+    {
+      "id": "circle-foreground",
+      "image": "/art/circle-booth-review/circle-booth-foreground.png",
+      "occupiedBounds": {
+        "height": 50,
+        "width": 96,
+        "x": 16,
+        "y": 42
+      },
+      "repositoryImage": "apps/web/public/art/circle-booth-review/circle-booth-foreground.png",
+      "size": [128, 112],
+      "source": "assets/pixelorama/circle-booth-review/circle-booth.pxo"
+    },
+    {
+      "id": "table-horizontal",
+      "image": "/art/rectangular-table-rotation-review/table-horizontal.png",
+      "occupiedBounds": {
+        "height": 38,
+        "width": 35,
+        "x": 6,
+        "y": 4
+      },
+      "repositoryImage": "apps/web/public/art/rectangular-table-rotation-review/table-horizontal.png",
+      "size": [48, 48],
+      "source": "assets/pixelorama/rectangular-table-rotation-review/table-horizontal.pxo"
+    },
+    {
+      "id": "chair-south",
+      "image": "/art/front-of-house-v1/chair-south.png",
+      "occupiedBounds": {
+        "height": 22,
+        "width": 12,
+        "x": 2,
+        "y": 2
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/chair-south.png",
+      "size": [16, 24],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "chair-north",
+      "image": "/art/front-of-house-v1/chair-north.png",
+      "occupiedBounds": {
+        "height": 16,
+        "width": 12,
+        "x": 2,
+        "y": 8
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/chair-north.png",
+      "size": [16, 24],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "menu-stand",
+      "image": "/art/front-of-house-v1/menu-stand.png",
+      "occupiedBounds": {
+        "height": 16,
+        "width": 12,
+        "x": 0,
+        "y": 0
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/menu-stand.png",
+      "size": [12, 16],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "table-rectangular",
+      "image": "/art/front-of-house-v1/table-rectangular.png",
+      "occupiedBounds": {
+        "height": 45,
+        "width": 28,
+        "x": 2,
+        "y": 1
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/table-rectangular.png",
+      "size": [32, 48],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "chair-east",
+      "image": "/art/front-of-house-v1/chair-east.png",
+      "occupiedBounds": {
+        "height": 21,
+        "width": 13,
+        "x": 1,
+        "y": 3
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/chair-east.png",
+      "size": [16, 24],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "chair-west",
+      "image": "/art/front-of-house-v1/chair-west.png",
+      "occupiedBounds": {
+        "height": 21,
+        "width": 13,
+        "x": 2,
+        "y": 3
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/chair-west.png",
+      "size": [16, 24],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "jukebox",
+      "image": "/art/front-of-house-v1/jukebox.png",
+      "occupiedBounds": {
+        "height": 46,
+        "width": 29,
+        "x": 2,
+        "y": 2
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/jukebox.png",
+      "size": [32, 48],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "id": "potted-plant",
+      "image": "/art/front-of-house-v1/potted-plant.png",
+      "occupiedBounds": {
+        "height": 30,
+        "width": 20,
+        "x": 2,
+        "y": 1
+      },
+      "repositoryImage": "apps/web/public/art/front-of-house-v1/potted-plant.png",
+      "size": [24, 32],
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    }
+  ],
+  "floor": {
+    "asset": "floor-checker",
+    "x": 16,
+    "y": 48,
+    "width": 592,
+    "height": 376,
+    "visible": true,
+    "tileSize": 16
+  },
+  "instances": [
+    {
+      "id": "kitchen-west--threshold",
+      "asset": "threshold",
+      "x": 72,
+      "y": 48,
+      "layer": 0,
+      "parent": "kitchen-west",
+      "role": "threshold",
+      "clip": null,
+      "sortBaseline": 56
+    },
+    {
+      "id": "kitchen-east--threshold",
+      "asset": "threshold",
+      "x": 448,
+      "y": 48,
+      "layer": 0,
+      "parent": "kitchen-east",
+      "role": "threshold",
+      "clip": null,
+      "sortBaseline": 56
+    },
+    {
+      "id": "entrance--threshold",
+      "asset": "threshold",
+      "x": 512,
+      "y": 416,
+      "layer": 0,
+      "parent": "entrance",
+      "role": "threshold",
+      "clip": null,
+      "sortBaseline": 424
+    },
+    {
+      "id": "entrance--entrance-mat",
+      "asset": "entrance-mat",
+      "x": 512,
+      "y": 397,
+      "layer": 0,
+      "parent": "entrance",
+      "role": "ground",
+      "clip": null,
+      "sortBaseline": 413
+    },
+    {
+      "id": "room--wall-panel--8-16",
+      "asset": "wall-panel",
+      "x": 8,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--8-424",
+      "asset": "baseboard",
+      "x": 8,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--24-16",
+      "asset": "wall-panel",
+      "x": 24,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--24-424",
+      "asset": "baseboard",
+      "x": 24,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--40-16",
+      "asset": "wall-panel",
+      "x": 40,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--40-424",
+      "asset": "baseboard",
+      "x": 40,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--56-16",
+      "asset": "wall-panel",
+      "x": 56,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--56-424",
+      "asset": "baseboard",
+      "x": 56,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--72-16",
+      "asset": "wall-panel",
+      "x": 72,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--72-424",
+      "asset": "baseboard",
+      "x": 72,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--88-16",
+      "asset": "wall-panel",
+      "x": 88,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--88-424",
+      "asset": "baseboard",
+      "x": 88,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--104-16",
+      "asset": "wall-panel",
+      "x": 104,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--104-424",
+      "asset": "baseboard",
+      "x": 104,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--120-16",
+      "asset": "wall-panel",
+      "x": 120,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--120-424",
+      "asset": "baseboard",
+      "x": 120,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--136-16",
+      "asset": "wall-panel",
+      "x": 136,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--136-424",
+      "asset": "baseboard",
+      "x": 136,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--152-16",
+      "asset": "wall-panel",
+      "x": 152,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--152-424",
+      "asset": "baseboard",
+      "x": 152,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--168-16",
+      "asset": "wall-panel",
+      "x": 168,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--168-424",
+      "asset": "baseboard",
+      "x": 168,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--184-16",
+      "asset": "wall-panel",
+      "x": 184,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--184-424",
+      "asset": "baseboard",
+      "x": 184,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--200-16",
+      "asset": "wall-panel",
+      "x": 200,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--200-424",
+      "asset": "baseboard",
+      "x": 200,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--216-16",
+      "asset": "wall-panel",
+      "x": 216,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--216-424",
+      "asset": "baseboard",
+      "x": 216,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--232-16",
+      "asset": "wall-panel",
+      "x": 232,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--232-424",
+      "asset": "baseboard",
+      "x": 232,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--248-16",
+      "asset": "wall-panel",
+      "x": 248,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--248-424",
+      "asset": "baseboard",
+      "x": 248,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--264-16",
+      "asset": "wall-panel",
+      "x": 264,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--264-424",
+      "asset": "baseboard",
+      "x": 264,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--280-16",
+      "asset": "wall-panel",
+      "x": 280,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--280-424",
+      "asset": "baseboard",
+      "x": 280,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--296-16",
+      "asset": "wall-panel",
+      "x": 296,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--296-424",
+      "asset": "baseboard",
+      "x": 296,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--312-16",
+      "asset": "wall-panel",
+      "x": 312,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--312-424",
+      "asset": "baseboard",
+      "x": 312,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--328-16",
+      "asset": "wall-panel",
+      "x": 328,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--328-424",
+      "asset": "baseboard",
+      "x": 328,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--344-16",
+      "asset": "wall-panel",
+      "x": 344,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--344-424",
+      "asset": "baseboard",
+      "x": 344,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--360-16",
+      "asset": "wall-panel",
+      "x": 360,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--360-424",
+      "asset": "baseboard",
+      "x": 360,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--376-16",
+      "asset": "wall-panel",
+      "x": 376,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--376-424",
+      "asset": "baseboard",
+      "x": 376,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--392-16",
+      "asset": "wall-panel",
+      "x": 392,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--392-424",
+      "asset": "baseboard",
+      "x": 392,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--408-16",
+      "asset": "wall-panel",
+      "x": 408,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--408-424",
+      "asset": "baseboard",
+      "x": 408,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--424-16",
+      "asset": "wall-panel",
+      "x": 424,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--424-424",
+      "asset": "baseboard",
+      "x": 424,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--440-16",
+      "asset": "wall-panel",
+      "x": 440,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--440-424",
+      "asset": "baseboard",
+      "x": 440,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--456-16",
+      "asset": "wall-panel",
+      "x": 456,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--456-424",
+      "asset": "baseboard",
+      "x": 456,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--472-16",
+      "asset": "wall-panel",
+      "x": 472,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--472-424",
+      "asset": "baseboard",
+      "x": 472,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--488-16",
+      "asset": "wall-panel",
+      "x": 488,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--488-424",
+      "asset": "baseboard",
+      "x": 488,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--504-16",
+      "asset": "wall-panel",
+      "x": 504,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--504-424",
+      "asset": "baseboard",
+      "x": 504,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--520-16",
+      "asset": "wall-panel",
+      "x": 520,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--wall-panel--536-16",
+      "asset": "wall-panel",
+      "x": 536,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--544-424",
+      "asset": "baseboard",
+      "x": 544,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--552-16",
+      "asset": "wall-panel",
+      "x": 552,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--552-424",
+      "asset": "baseboard",
+      "x": 552,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--568-16",
+      "asset": "wall-panel",
+      "x": 568,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--568-424",
+      "asset": "baseboard",
+      "x": 568,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--584-16",
+      "asset": "wall-panel",
+      "x": 584,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--584-424",
+      "asset": "baseboard",
+      "x": 584,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-panel--600-16",
+      "asset": "wall-panel",
+      "x": 600,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "room--baseboard--600-424",
+      "asset": "baseboard",
+      "x": 600,
+      "y": 424,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-side-left--8-48",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 48,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 64
+    },
+    {
+      "id": "room--wall-side-right--608-48",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 48,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 64
+    },
+    {
+      "id": "room--wall-side-left--8-64",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 64,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 80
+    },
+    {
+      "id": "room--wall-side-right--608-64",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 64,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 80
+    },
+    {
+      "id": "room--wall-side-left--8-80",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 80,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 96
+    },
+    {
+      "id": "room--wall-side-right--608-80",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 80,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 96
+    },
+    {
+      "id": "room--wall-side-left--8-96",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 96,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 112
+    },
+    {
+      "id": "room--wall-side-right--608-96",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 96,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 112
+    },
+    {
+      "id": "room--wall-side-left--8-112",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 112,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 128
+    },
+    {
+      "id": "room--wall-side-right--608-112",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 112,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 128
+    },
+    {
+      "id": "room--wall-side-left--8-128",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 128,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 144
+    },
+    {
+      "id": "room--wall-side-right--608-128",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 128,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 144
+    },
+    {
+      "id": "room--wall-side-left--8-144",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 144,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 160
+    },
+    {
+      "id": "room--wall-side-right--608-144",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 144,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 160
+    },
+    {
+      "id": "room--wall-side-left--8-160",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 160,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 176
+    },
+    {
+      "id": "room--wall-side-right--608-160",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 160,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 176
+    },
+    {
+      "id": "room--wall-side-left--8-176",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 176,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 192
+    },
+    {
+      "id": "room--wall-side-right--608-176",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 176,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 192
+    },
+    {
+      "id": "room--wall-side-left--8-192",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 192,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 208
+    },
+    {
+      "id": "room--wall-side-right--608-192",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 192,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 208
+    },
+    {
+      "id": "room--wall-side-left--8-208",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 208,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 224
+    },
+    {
+      "id": "room--wall-side-right--608-208",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 208,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 224
+    },
+    {
+      "id": "room--wall-side-left--8-224",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 224,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 240
+    },
+    {
+      "id": "room--wall-side-right--608-224",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 224,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 240
+    },
+    {
+      "id": "room--wall-side-left--8-240",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 240,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 256
+    },
+    {
+      "id": "room--wall-side-right--608-240",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 240,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 256
+    },
+    {
+      "id": "room--wall-side-left--8-256",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 256,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 272
+    },
+    {
+      "id": "room--wall-side-right--608-256",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 256,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 272
+    },
+    {
+      "id": "room--wall-side-left--8-272",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 272,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 288
+    },
+    {
+      "id": "room--wall-side-right--608-272",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 272,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 288
+    },
+    {
+      "id": "room--wall-side-left--8-288",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 288,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 304
+    },
+    {
+      "id": "room--wall-side-right--608-288",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 288,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 304
+    },
+    {
+      "id": "room--wall-side-left--8-304",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 304,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 320
+    },
+    {
+      "id": "room--wall-side-right--608-304",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 304,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 320
+    },
+    {
+      "id": "room--wall-side-left--8-320",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 320,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 336
+    },
+    {
+      "id": "room--wall-side-right--608-320",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 320,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 336
+    },
+    {
+      "id": "room--wall-side-left--8-336",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 336,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 352
+    },
+    {
+      "id": "room--wall-side-right--608-336",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 336,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 352
+    },
+    {
+      "id": "room--wall-side-left--8-352",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 352,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 368
+    },
+    {
+      "id": "room--wall-side-right--608-352",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 352,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 368
+    },
+    {
+      "id": "room--wall-side-left--8-368",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 368,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 384
+    },
+    {
+      "id": "room--wall-side-right--608-368",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 368,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 384
+    },
+    {
+      "id": "room--wall-side-left--8-384",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 384,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 400
+    },
+    {
+      "id": "room--wall-side-right--608-384",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 384,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 400
+    },
+    {
+      "id": "room--wall-side-left--8-400",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 400,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 416
+    },
+    {
+      "id": "room--wall-side-right--608-400",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 400,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 416
+    },
+    {
+      "id": "room--wall-side-left--8-416",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 416,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "room--wall-side-right--608-416",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 416,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      "sortBaseline": 432
+    },
+    {
+      "id": "kitchen-west-doorway",
+      "asset": "kitchen-doorway",
+      "x": 72,
+      "y": 16,
+      "layer": 1,
+      "parent": "kitchen-west",
+      "role": "doorway",
+      "clip": null,
+      "sortBaseline": 56
+    },
+    {
+      "id": "kitchen-east-doorway",
+      "asset": "kitchen-doorway",
+      "x": 432,
+      "y": 16,
+      "layer": 1,
+      "parent": "kitchen-east",
+      "role": "doorway",
+      "clip": null,
+      "sortBaseline": 56
+    },
+    {
+      "id": "room--wall-record--112-24",
+      "asset": "wall-record",
+      "x": 50,
+      "y": 19,
+      "layer": 1,
+      "parent": null,
+      "role": "wall-decor",
+      "clip": null,
+      "sortBaseline": 35
+    },
+    {
+      "id": "room--wall-lamp--456-24",
+      "asset": "wall-lamp",
+      "x": 409,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall-decor",
+      "clip": null,
+      "sortBaseline": 31
+    },
+    {
+      "id": "room--neon-diner--168-20",
+      "asset": "neon-diner",
+      "x": 267,
+      "y": 19,
+      "layer": 1,
+      "parent": null,
+      "role": "wall-decor",
+      "clip": null,
+      "sortBaseline": 35
+    },
+    {
+      "id": "room--wall-menu--320-16",
+      "asset": "wall-menu",
+      "x": 355,
+      "y": 17,
+      "layer": 1,
+      "parent": null,
+      "role": "wall-decor",
+      "clip": null,
+      "sortBaseline": 49
+    },
+    {
+      "id": "room--wall-clock--360-24",
+      "asset": "wall-clock",
+      "x": 486,
+      "y": 19,
+      "layer": 1,
+      "parent": null,
+      "role": "wall-decor",
+      "clip": null,
+      "sortBaseline": 35
+    },
+    {
+      "id": "drink-station--counter-end-left--120-56",
+      "asset": "counter-end-left",
+      "x": 122,
+      "y": 36,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-top--136-56",
+      "asset": "counter-top",
+      "x": 138,
+      "y": 36,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-front--136-80",
+      "asset": "counter-front",
+      "x": 138,
+      "y": 60,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-top--152-56",
+      "asset": "counter-top",
+      "x": 154,
+      "y": 36,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-front--152-80",
+      "asset": "counter-front",
+      "x": 154,
+      "y": 60,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-top--168-56",
+      "asset": "counter-top",
+      "x": 170,
+      "y": 36,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-front--168-80",
+      "asset": "counter-front",
+      "x": 170,
+      "y": 60,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-top--184-56",
+      "asset": "counter-top",
+      "x": 186,
+      "y": 36,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-front--184-80",
+      "asset": "counter-front",
+      "x": 186,
+      "y": 60,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-top--200-56",
+      "asset": "counter-top",
+      "x": 202,
+      "y": 36,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-front--200-80",
+      "asset": "counter-front",
+      "x": 202,
+      "y": 60,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-top--216-56",
+      "asset": "counter-top",
+      "x": 218,
+      "y": 36,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-front--216-80",
+      "asset": "counter-front",
+      "x": 218,
+      "y": 60,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-top--232-56",
+      "asset": "counter-top",
+      "x": 234,
+      "y": 36,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-front--232-80",
+      "asset": "counter-front",
+      "x": 234,
+      "y": 60,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-top--248-56",
+      "asset": "counter-top",
+      "x": 250,
+      "y": 36,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-front--248-80",
+      "asset": "counter-front",
+      "x": 250,
+      "y": 60,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-top--264-56",
+      "asset": "counter-top",
+      "x": 266,
+      "y": 36,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-front--264-80",
+      "asset": "counter-front",
+      "x": 266,
+      "y": 60,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-top--280-56",
+      "asset": "counter-top",
+      "x": 282,
+      "y": 36,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--counter-front--280-80",
+      "asset": "counter-front",
+      "x": 282,
+      "y": 60,
+      "layer": 2,
+      "parent": "drink-station",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "main-bar--counter-end-left--104-136",
+      "asset": "counter-end-left",
+      "x": 122,
+      "y": 128,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-top--120-136",
+      "asset": "counter-top",
+      "x": 170,
+      "y": 128,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-front--120-160",
+      "asset": "counter-front",
+      "x": 170,
+      "y": 152,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-top--136-136",
+      "asset": "counter-top",
+      "x": 186,
+      "y": 128,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-front--136-160",
+      "asset": "counter-front",
+      "x": 186,
+      "y": 152,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-top--152-136",
+      "asset": "counter-top",
+      "x": 202,
+      "y": 128,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-front--152-160",
+      "asset": "counter-front",
+      "x": 202,
+      "y": 152,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-top--168-136",
+      "asset": "counter-top",
+      "x": 218,
+      "y": 128,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-front--168-160",
+      "asset": "counter-front",
+      "x": 218,
+      "y": 152,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-top--184-136",
+      "asset": "counter-top",
+      "x": 234,
+      "y": 128,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-front--184-160",
+      "asset": "counter-front",
+      "x": 234,
+      "y": 152,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-top--200-136",
+      "asset": "counter-top",
+      "x": 250,
+      "y": 128,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-front--200-160",
+      "asset": "counter-front",
+      "x": 250,
+      "y": 152,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-top--216-136",
+      "asset": "counter-top",
+      "x": 266,
+      "y": 128,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-front--216-160",
+      "asset": "counter-front",
+      "x": 266,
+      "y": 152,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-top--232-136",
+      "asset": "counter-top",
+      "x": 282,
+      "y": 128,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-front--232-160",
+      "asset": "counter-front",
+      "x": 282,
+      "y": 152,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-top--248-136",
+      "asset": "counter-top",
+      "x": 298,
+      "y": 128,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-front--248-160",
+      "asset": "counter-front",
+      "x": 298,
+      "y": 152,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-top--264-136",
+      "asset": "counter-top",
+      "x": 314,
+      "y": 128,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-front--264-160",
+      "asset": "counter-front",
+      "x": 314,
+      "y": 152,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-top--280-136",
+      "asset": "counter-top",
+      "x": 330,
+      "y": 128,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-front--280-160",
+      "asset": "counter-front",
+      "x": 330,
+      "y": 152,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-top--296-136",
+      "asset": "counter-top",
+      "x": 346,
+      "y": 128,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-front--296-160",
+      "asset": "counter-front",
+      "x": 346,
+      "y": 152,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-top--312-136",
+      "asset": "counter-top",
+      "x": 362,
+      "y": 128,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-front--312-160",
+      "asset": "counter-front",
+      "x": 362,
+      "y": 152,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-vertical--344-104",
+      "asset": "counter-vertical",
+      "x": 402,
+      "y": 96,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 112
+    },
+    {
+      "id": "main-bar--curve-base--328-120",
+      "asset": "curve-base",
+      "x": 386,
+      "y": 112,
+      "layer": 2,
+      "parent": "main-bar",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "bar-stool-front-0",
+      "asset": "stool-pink",
+      "x": 138,
+      "y": 168,
+      "layer": 3,
+      "parent": "bar-stools",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 192
+    },
+    {
+      "id": "bar-stool-front-1",
+      "asset": "stool-mint",
+      "x": 170,
+      "y": 168,
+      "layer": 3,
+      "parent": "bar-stools",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 192
+    },
+    {
+      "id": "bar-stool-front-2",
+      "asset": "stool-pink",
+      "x": 202,
+      "y": 168,
+      "layer": 3,
+      "parent": "bar-stools",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 192
+    },
+    {
+      "id": "bar-stool-front-3",
+      "asset": "stool-mint",
+      "x": 234,
+      "y": 168,
+      "layer": 3,
+      "parent": "bar-stools",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 192
+    },
+    {
+      "id": "bar-stool-front-4",
+      "asset": "stool-pink",
+      "x": 266,
+      "y": 168,
+      "layer": 3,
+      "parent": "bar-stools",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 192
+    },
+    {
+      "id": "bar-stool-front-5",
+      "asset": "stool-mint",
+      "x": 298,
+      "y": 168,
+      "layer": 3,
+      "parent": "bar-stools",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 192
+    },
+    {
+      "id": "booth-left-0--booth-ns-base",
+      "asset": "booth-ns-base",
+      "x": 4,
+      "y": 156,
+      "layer": 3,
+      "parent": "booth-left-0",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 248
+    },
+    {
+      "id": "booth-left-0--booth-ns-table",
+      "asset": "booth-ns-table",
+      "x": 4,
+      "y": 156,
+      "layer": 3,
+      "parent": "booth-left-0",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 248
+    },
+    {
+      "id": "booth-left-1--booth-ns-base",
+      "asset": "booth-ns-base",
+      "x": 4,
+      "y": 236,
+      "layer": 3,
+      "parent": "booth-left-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 328
+    },
+    {
+      "id": "booth-left-1--booth-ns-table",
+      "asset": "booth-ns-table",
+      "x": 4,
+      "y": 236,
+      "layer": 3,
+      "parent": "booth-left-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 328
+    },
+    {
+      "id": "booth-right-0--booth-ns-base",
+      "asset": "booth-ns-base",
+      "x": 540,
+      "y": 103,
+      "layer": 3,
+      "parent": "booth-right-0",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 195
+    },
+    {
+      "id": "booth-right-0--booth-ns-table",
+      "asset": "booth-ns-table",
+      "x": 540,
+      "y": 103,
+      "layer": 3,
+      "parent": "booth-right-0",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 195
+    },
+    {
+      "id": "booth-right-1--booth-ns-base",
+      "asset": "booth-ns-base",
+      "x": 540,
+      "y": 183,
+      "layer": 3,
+      "parent": "booth-right-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 275
+    },
+    {
+      "id": "booth-right-1--booth-ns-table",
+      "asset": "booth-ns-table",
+      "x": 540,
+      "y": 183,
+      "layer": 3,
+      "parent": "booth-right-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 275
+    },
+    {
+      "id": "booth-right-2--booth-ns-base",
+      "asset": "booth-ns-base",
+      "x": 540,
+      "y": 263,
+      "layer": 3,
+      "parent": "booth-right-2",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 355
+    },
+    {
+      "id": "booth-right-2--booth-ns-table",
+      "asset": "booth-ns-table",
+      "x": 540,
+      "y": 263,
+      "layer": 3,
+      "parent": "booth-right-2",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 355
+    },
+    {
+      "id": "booth-bottom-0--booth-bench-left",
+      "asset": "booth-bench-left",
+      "x": 112,
+      "y": 359,
+      "layer": 3,
+      "parent": "booth-bottom-0",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "booth-bottom-0--booth-bench-right",
+      "asset": "booth-bench-right",
+      "x": 160,
+      "y": 359,
+      "layer": 3,
+      "parent": "booth-bottom-0",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "booth-bottom-0--booth-table",
+      "asset": "booth-table",
+      "x": 136,
+      "y": 367,
+      "layer": 3,
+      "parent": "booth-bottom-0",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "booth-bottom-1--booth-bench-left",
+      "asset": "booth-bench-left",
+      "x": 180,
+      "y": 359,
+      "layer": 3,
+      "parent": "booth-bottom-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "booth-bottom-1--booth-bench-right",
+      "asset": "booth-bench-right",
+      "x": 228,
+      "y": 359,
+      "layer": 3,
+      "parent": "booth-bottom-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "booth-bottom-1--booth-table",
+      "asset": "booth-table",
+      "x": 204,
+      "y": 367,
+      "layer": 3,
+      "parent": "booth-bottom-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "booth-bottom-2--booth-bench-left",
+      "asset": "booth-bench-left",
+      "x": 248,
+      "y": 359,
+      "layer": 3,
+      "parent": "booth-bottom-2",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "booth-bottom-2--booth-bench-right",
+      "asset": "booth-bench-right",
+      "x": 296,
+      "y": 359,
+      "layer": 3,
+      "parent": "booth-bottom-2",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "booth-bottom-2--booth-table",
+      "asset": "booth-table",
+      "x": 272,
+      "y": 367,
+      "layer": 3,
+      "parent": "booth-bottom-2",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "circle-booth--circle-base",
+      "asset": "circle-base",
+      "x": 0,
+      "y": 320,
+      "layer": 3,
+      "parent": "circle-booth",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 422
+    },
+    {
+      "id": "circle-booth--circle-table",
+      "asset": "circle-table",
+      "x": 0,
+      "y": 320,
+      "layer": 3,
+      "parent": "circle-booth",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 422
+    },
+    {
+      "id": "middle-table-1-surface",
+      "asset": "table-horizontal",
+      "x": 476,
+      "y": 194,
+      "layer": 3,
+      "parent": "middle-table-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 236
+    },
+    {
+      "id": "middle-table-1--chair-south",
+      "asset": "chair-south",
+      "x": 492,
+      "y": 172,
+      "layer": 3,
+      "parent": "middle-table-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 196
+    },
+    {
+      "id": "middle-table-1--chair-north",
+      "asset": "chair-north",
+      "x": 492,
+      "y": 232,
+      "layer": 3,
+      "parent": "middle-table-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 256
+    },
+    {
+      "id": "middle-table-2-surface",
+      "asset": "table-horizontal",
+      "x": 476,
+      "y": 104,
+      "layer": 3,
+      "parent": "middle-table-2",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 146
+    },
+    {
+      "id": "middle-table-2--chair-south",
+      "asset": "chair-south",
+      "x": 492,
+      "y": 82,
+      "layer": 3,
+      "parent": "middle-table-2",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 106
+    },
+    {
+      "id": "middle-table-2--chair-north",
+      "asset": "chair-north",
+      "x": 492,
+      "y": 142,
+      "layer": 3,
+      "parent": "middle-table-2",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 166
+    },
+    {
+      "id": "entrance-decor--jukebox",
+      "asset": "jukebox",
+      "x": 16,
+      "y": 26,
+      "layer": 3,
+      "parent": "entrance-decor",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 74
+    },
+    {
+      "id": "entrance-decor--potted-plant",
+      "asset": "potted-plant",
+      "x": 564,
+      "y": 385,
+      "layer": 3,
+      "parent": "entrance-decor",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 416
+    },
+    {
+      "id": "middle-table-1--menu-stand",
+      "asset": "menu-stand",
+      "x": 494,
+      "y": 204,
+      "layer": 4,
+      "parent": "middle-table-1",
+      "role": "surface-attachment",
+      "clip": null,
+      "sortBaseline": 236
+    },
+    {
+      "id": "middle-table-2--menu-stand",
+      "asset": "menu-stand",
+      "x": 494,
+      "y": 114,
+      "layer": 4,
+      "parent": "middle-table-2",
+      "role": "surface-attachment",
+      "clip": null,
+      "sortBaseline": 146
+    },
+    {
+      "id": "drink-station--coffee-maker--144-40",
+      "asset": "coffee-maker",
+      "x": 180,
+      "y": 20,
+      "layer": 4,
+      "parent": "drink-station",
+      "role": "surface-attachment",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--tea-unit--192-40",
+      "asset": "tea-unit",
+      "x": 208,
+      "y": 20,
+      "layer": 4,
+      "parent": "drink-station",
+      "role": "surface-attachment",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--soda-unit--240-32",
+      "asset": "soda-unit",
+      "x": 144,
+      "y": 12,
+      "layer": 4,
+      "parent": "drink-station",
+      "role": "surface-attachment",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "drink-station--cup-stack--288-56",
+      "asset": "cup-stack",
+      "x": 124,
+      "y": 35,
+      "layer": 4,
+      "parent": "drink-station",
+      "role": "surface-attachment",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "main-bar--cash-register--136-121",
+      "asset": "cash-register",
+      "x": 375,
+      "y": 29,
+      "layer": 4,
+      "parent": "main-bar",
+      "role": "surface-attachment",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "main-bar--condiment-caddy--296-136",
+      "asset": "condiment-caddy",
+      "x": 232,
+      "y": 32,
+      "layer": 4,
+      "parent": "main-bar",
+      "role": "surface-attachment",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "booth-left-0--booth-ns-foreground",
+      "asset": "booth-ns-foreground",
+      "x": 4,
+      "y": 156,
+      "layer": 5,
+      "parent": "booth-left-0",
+      "role": "foreground-occluder",
+      "clip": null,
+      "sortBaseline": 248
+    },
+    {
+      "id": "booth-left-1--booth-ns-foreground",
+      "asset": "booth-ns-foreground",
+      "x": 4,
+      "y": 236,
+      "layer": 5,
+      "parent": "booth-left-1",
+      "role": "foreground-occluder",
+      "clip": null,
+      "sortBaseline": 328
+    },
+    {
+      "id": "booth-right-0--booth-ns-foreground",
+      "asset": "booth-ns-foreground",
+      "x": 540,
+      "y": 103,
+      "layer": 5,
+      "parent": "booth-right-0",
+      "role": "foreground-occluder",
+      "clip": null,
+      "sortBaseline": 195
+    },
+    {
+      "id": "booth-right-1--booth-ns-foreground",
+      "asset": "booth-ns-foreground",
+      "x": 540,
+      "y": 183,
+      "layer": 5,
+      "parent": "booth-right-1",
+      "role": "foreground-occluder",
+      "clip": null,
+      "sortBaseline": 275
+    },
+    {
+      "id": "booth-right-2--booth-ns-foreground",
+      "asset": "booth-ns-foreground",
+      "x": 540,
+      "y": 263,
+      "layer": 5,
+      "parent": "booth-right-2",
+      "role": "foreground-occluder",
+      "clip": null,
+      "sortBaseline": 355
+    },
+    {
+      "id": "booth-bottom-0--booth-left-back",
+      "asset": "booth-left-back",
+      "x": 114,
+      "y": 361,
+      "layer": 5,
+      "parent": "booth-bottom-0",
+      "role": "foreground-occluder",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "booth-bottom-0--booth-right-back",
+      "asset": "booth-right-back",
+      "x": 174,
+      "y": 361,
+      "layer": 5,
+      "parent": "booth-bottom-0",
+      "role": "foreground-occluder",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "booth-bottom-1--booth-left-back",
+      "asset": "booth-left-back",
+      "x": 182,
+      "y": 361,
+      "layer": 5,
+      "parent": "booth-bottom-1",
+      "role": "foreground-occluder",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "booth-bottom-1--booth-right-back",
+      "asset": "booth-right-back",
+      "x": 242,
+      "y": 361,
+      "layer": 5,
+      "parent": "booth-bottom-1",
+      "role": "foreground-occluder",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "booth-bottom-2--booth-left-back",
+      "asset": "booth-left-back",
+      "x": 250,
+      "y": 361,
+      "layer": 5,
+      "parent": "booth-bottom-2",
+      "role": "foreground-occluder",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "booth-bottom-2--booth-right-back",
+      "asset": "booth-right-back",
+      "x": 310,
+      "y": 361,
+      "layer": 5,
+      "parent": "booth-bottom-2",
+      "role": "foreground-occluder",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "circle-booth--circle-foreground",
+      "asset": "circle-foreground",
+      "x": 0,
+      "y": 320,
+      "layer": 5,
+      "parent": "circle-booth",
+      "role": "foreground-occluder",
+      "clip": null,
+      "sortBaseline": 422
+    },
+    {
+      "id": "main-bar--counter-lip--120-160",
+      "asset": "counter-lip",
+      "x": 170,
+      "y": 152,
+      "layer": 6,
+      "parent": "main-bar",
+      "role": "counter-foreground",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-lip--136-160",
+      "asset": "counter-lip",
+      "x": 186,
+      "y": 152,
+      "layer": 6,
+      "parent": "main-bar",
+      "role": "counter-foreground",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-lip--152-160",
+      "asset": "counter-lip",
+      "x": 202,
+      "y": 152,
+      "layer": 6,
+      "parent": "main-bar",
+      "role": "counter-foreground",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-lip--168-160",
+      "asset": "counter-lip",
+      "x": 218,
+      "y": 152,
+      "layer": 6,
+      "parent": "main-bar",
+      "role": "counter-foreground",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-lip--184-160",
+      "asset": "counter-lip",
+      "x": 234,
+      "y": 152,
+      "layer": 6,
+      "parent": "main-bar",
+      "role": "counter-foreground",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-lip--200-160",
+      "asset": "counter-lip",
+      "x": 250,
+      "y": 152,
+      "layer": 6,
+      "parent": "main-bar",
+      "role": "counter-foreground",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-lip--216-160",
+      "asset": "counter-lip",
+      "x": 266,
+      "y": 152,
+      "layer": 6,
+      "parent": "main-bar",
+      "role": "counter-foreground",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-lip--232-160",
+      "asset": "counter-lip",
+      "x": 282,
+      "y": 152,
+      "layer": 6,
+      "parent": "main-bar",
+      "role": "counter-foreground",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-lip--248-160",
+      "asset": "counter-lip",
+      "x": 298,
+      "y": 152,
+      "layer": 6,
+      "parent": "main-bar",
+      "role": "counter-foreground",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-lip--264-160",
+      "asset": "counter-lip",
+      "x": 314,
+      "y": 152,
+      "layer": 6,
+      "parent": "main-bar",
+      "role": "counter-foreground",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-lip--280-160",
+      "asset": "counter-lip",
+      "x": 330,
+      "y": 152,
+      "layer": 6,
+      "parent": "main-bar",
+      "role": "counter-foreground",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-lip--296-160",
+      "asset": "counter-lip",
+      "x": 346,
+      "y": 152,
+      "layer": 6,
+      "parent": "main-bar",
+      "role": "counter-foreground",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--counter-lip--312-160",
+      "asset": "counter-lip",
+      "x": 362,
+      "y": 152,
+      "layer": 6,
+      "parent": "main-bar",
+      "role": "counter-foreground",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "main-bar--curve-foreground--328-120",
+      "asset": "curve-foreground",
+      "x": 386,
+      "y": 112,
+      "layer": 6,
+      "parent": "main-bar",
+      "role": "counter-foreground",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "kitchen-west--doorway-lintel",
+      "asset": "doorway-lintel",
+      "x": 72,
+      "y": 16,
+      "layer": 7,
+      "parent": "kitchen-west",
+      "role": "doorway-foreground",
+      "clip": null,
+      "sortBaseline": 24
+    },
+    {
+      "id": "kitchen-east--doorway-lintel",
+      "asset": "doorway-lintel",
+      "x": 432,
+      "y": 16,
+      "layer": 7,
+      "parent": "kitchen-east",
+      "role": "doorway-foreground",
+      "clip": null,
+      "sortBaseline": 24
+    },
+    {
+      "id": "design-booth-bench-left-1",
+      "asset": "booth-bench-left",
+      "x": 316,
+      "y": 359,
+      "layer": 3,
+      "parent": "booth-design-booth-bench-left-1",
+      "role": "design-placement",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "design-booth-table-1",
+      "asset": "booth-table",
+      "x": 340,
+      "y": 367,
+      "layer": 3,
+      "parent": "booth-design-booth-bench-left-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "design-booth-bench-right-1",
+      "asset": "booth-bench-right",
+      "x": 364,
+      "y": 359,
+      "layer": 3,
+      "parent": "booth-design-booth-bench-left-1",
+      "role": "design-placement",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "booth-design-booth-above-below-1--booth-ns-base",
+      "asset": "booth-ns-base",
+      "x": 4,
+      "y": 76,
+      "layer": 2,
+      "parent": "booth-design-booth-above-below-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "booth-design-booth-above-below-1--booth-ns-table",
+      "asset": "booth-ns-table",
+      "x": 4,
+      "y": 76,
+      "layer": 2,
+      "parent": "booth-design-booth-above-below-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "booth-design-booth-above-below-1--booth-ns-foreground",
+      "asset": "booth-ns-foreground",
+      "x": 4,
+      "y": 76,
+      "layer": 5,
+      "parent": "booth-design-booth-above-below-1",
+      "role": "foreground-occluder",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "booth-design-booth-above-below-2--booth-ns-base",
+      "asset": "booth-ns-base",
+      "x": 540,
+      "y": 23,
+      "layer": 2,
+      "parent": "booth-design-booth-above-below-2",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 115
+    },
+    {
+      "id": "booth-design-booth-above-below-2--booth-ns-table",
+      "asset": "booth-ns-table",
+      "x": 540,
+      "y": 23,
+      "layer": 2,
+      "parent": "booth-design-booth-above-below-2",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 115
+    },
+    {
+      "id": "booth-design-booth-above-below-2--booth-ns-foreground",
+      "asset": "booth-ns-foreground",
+      "x": 540,
+      "y": 23,
+      "layer": 5,
+      "parent": "booth-design-booth-above-below-2",
+      "role": "foreground-occluder",
+      "clip": null,
+      "sortBaseline": 115
+    },
+    {
+      "id": "design-wall-lamp-1",
+      "asset": "wall-lamp",
+      "x": 571,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall-decor",
+      "clip": null,
+      "sortBaseline": 31
+    },
+    {
+      "id": "design-booth-bench-left-2",
+      "asset": "booth-bench-left",
+      "x": 384,
+      "y": 359,
+      "layer": 3,
+      "parent": "booth-design-booth-bench-left-2",
+      "role": "design-placement",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "design-booth-table-2",
+      "asset": "booth-table",
+      "x": 408,
+      "y": 367,
+      "layer": 3,
+      "parent": "booth-design-booth-bench-left-2",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "design-booth-bench-right-2",
+      "asset": "booth-bench-right",
+      "x": 432,
+      "y": 359,
+      "layer": 3,
+      "parent": "booth-design-booth-bench-left-2",
+      "role": "design-placement",
+      "clip": null,
+      "sortBaseline": 417
+    },
+    {
+      "id": "design-wall-side-right-1",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 32,
+      "layer": 1,
+      "parent": null,
+      "role": "design-placement",
+      "clip": null,
+      "sortBaseline": 48
+    },
+    {
+      "id": "design-wall-side-right-2",
+      "asset": "wall-side-right",
+      "x": 608,
+      "y": 19,
+      "layer": 1,
+      "parent": null,
+      "role": "design-placement",
+      "clip": null,
+      "sortBaseline": 35
+    },
+    {
+      "id": "design-wall-side-left-1",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 32,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 48
+    },
+    {
+      "id": "design-wall-side-left-2",
+      "asset": "wall-side-left",
+      "x": 8,
+      "y": 19,
+      "layer": 1,
+      "parent": null,
+      "role": "wall",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      },
+      "sortBaseline": 35
+    },
+    {
+      "id": "design-table-horizontal-1",
+      "asset": "table-horizontal",
+      "x": 476,
+      "y": 283,
+      "layer": 3,
+      "parent": "table-design-table-horizontal-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 325
+    },
+    {
+      "id": "design-chair-south-1",
+      "asset": "chair-south",
+      "x": 492,
+      "y": 261,
+      "layer": 3,
+      "parent": "table-design-table-horizontal-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 285
+    },
+    {
+      "id": "design-chair-north-1",
+      "asset": "chair-north",
+      "x": 492,
+      "y": 321,
+      "layer": 3,
+      "parent": "table-design-table-horizontal-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 345
+    },
+    {
+      "id": "design-menu-stand-1",
+      "asset": "menu-stand",
+      "x": 494,
+      "y": 293,
+      "layer": 4,
+      "parent": "table-design-table-horizontal-1",
+      "role": "surface-attachment",
+      "clip": null,
+      "sortBaseline": 325
+    },
+    {
+      "id": "design-potted-plant-1",
+      "asset": "potted-plant",
+      "x": 467,
+      "y": 385,
+      "layer": 3,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 416
+    },
+    {
+      "id": "design-counter-top-1",
+      "asset": "counter-top",
+      "x": 298,
+      "y": 36,
+      "layer": 2,
+      "parent": "design-group-1794081204152",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "design-counter-front-1",
+      "asset": "counter-front",
+      "x": 298,
+      "y": 60,
+      "layer": 2,
+      "parent": "design-group-1794081204152",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "design-counter-end-right-1",
+      "asset": "counter-end-right",
+      "x": 410,
+      "y": 36,
+      "layer": 2,
+      "parent": null,
+      "role": "design-placement",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "design-counter-top-2",
+      "asset": "counter-top",
+      "x": 314,
+      "y": 36,
+      "layer": 2,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "design-counter-front-2",
+      "asset": "counter-front",
+      "x": 314,
+      "y": 60,
+      "layer": 2,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "design-counter-front-3",
+      "asset": "counter-front",
+      "x": 330,
+      "y": 60,
+      "layer": 2,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "design-counter-front-4",
+      "asset": "counter-front",
+      "x": 346,
+      "y": 60,
+      "layer": 2,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "design-counter-front-5",
+      "asset": "counter-front",
+      "x": 362,
+      "y": 60,
+      "layer": 2,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "design-counter-front-6",
+      "asset": "counter-front",
+      "x": 378,
+      "y": 60,
+      "layer": 2,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "design-counter-top-3",
+      "asset": "counter-top",
+      "x": 330,
+      "y": 36,
+      "layer": 2,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "design-counter-top-4",
+      "asset": "counter-top",
+      "x": 346,
+      "y": 36,
+      "layer": 2,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "design-counter-top-5",
+      "asset": "counter-top",
+      "x": 362,
+      "y": 36,
+      "layer": 2,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "design-counter-top-6",
+      "asset": "counter-top",
+      "x": 378,
+      "y": 36,
+      "layer": 2,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "design-counter-front-7",
+      "asset": "counter-front",
+      "x": 394,
+      "y": 60,
+      "layer": 2,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "design-counter-top-7",
+      "asset": "counter-top",
+      "x": 394,
+      "y": 36,
+      "layer": 2,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 76
+    },
+    {
+      "id": "design-potted-plant-2",
+      "asset": "potted-plant",
+      "x": 47,
+      "y": 36,
+      "layer": 3,
+      "parent": null,
+      "role": "design-placement",
+      "clip": null,
+      "sortBaseline": 67
+    },
+    {
+      "id": "design-counter-top-8",
+      "asset": "counter-top",
+      "x": 154,
+      "y": 128,
+      "layer": 2,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "design-counter-top-9",
+      "asset": "counter-top",
+      "x": 138,
+      "y": 128,
+      "layer": 2,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "design-counter-front-8",
+      "asset": "counter-front",
+      "x": 154,
+      "y": 152,
+      "layer": 2,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "design-counter-front-9",
+      "asset": "counter-front",
+      "x": 138,
+      "y": 152,
+      "layer": 2,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "design-counter-front-10",
+      "asset": "counter-front",
+      "x": 370,
+      "y": 152,
+      "layer": 2,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "design-counter-top-10",
+      "asset": "counter-top",
+      "x": 370,
+      "y": 128,
+      "layer": 2,
+      "parent": null,
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 168
+    },
+    {
+      "id": "design-wall-lamp-2",
+      "asset": "wall-lamp",
+      "x": 122,
+      "y": 16,
+      "layer": 1,
+      "parent": null,
+      "role": "wall-decor",
+      "clip": null,
+      "sortBaseline": 31
+    },
+    {
+      "id": "design-wall-menu-1",
+      "asset": "wall-menu",
+      "x": 325,
+      "y": 17,
+      "layer": 1,
+      "parent": null,
+      "role": "wall-decor",
+      "clip": null,
+      "sortBaseline": 49
+    },
+    {
+      "id": "design-stool-pink-1",
+      "asset": "stool-pink",
+      "x": 328,
+      "y": 168,
+      "layer": 3,
+      "parent": "design-group-1794082564856",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 192
+    },
+    {
+      "id": "design-stool-mint-1",
+      "asset": "stool-mint",
+      "x": 360,
+      "y": 168,
+      "layer": 3,
+      "parent": "design-group-1794082564856",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 192
+    },
+    {
+      "id": "design-table-rectangular-1",
+      "asset": "table-rectangular",
+      "x": 138,
+      "y": 225,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 271
+    },
+    {
+      "id": "design-chair-east-1",
+      "asset": "chair-east",
+      "x": 120,
+      "y": 233,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 257
+    },
+    {
+      "id": "design-chair-west-1",
+      "asset": "chair-west",
+      "x": 171,
+      "y": 233,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-1",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 257
+    },
+    {
+      "id": "design-menu-stand-2",
+      "asset": "menu-stand",
+      "x": 148,
+      "y": 237,
+      "layer": 4,
+      "parent": "table-design-table-rectangular-1",
+      "role": "surface-attachment",
+      "clip": null,
+      "sortBaseline": 271
+    },
+    {
+      "id": "design-table-rectangular-2",
+      "asset": "table-rectangular",
+      "x": 138,
+      "y": 284,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-2",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 330
+    },
+    {
+      "id": "design-chair-east-2",
+      "asset": "chair-east",
+      "x": 120,
+      "y": 292,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-2",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 316
+    },
+    {
+      "id": "design-chair-west-2",
+      "asset": "chair-west",
+      "x": 171,
+      "y": 292,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-2",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 316
+    },
+    {
+      "id": "design-menu-stand-3",
+      "asset": "menu-stand",
+      "x": 148,
+      "y": 296,
+      "layer": 4,
+      "parent": "table-design-table-rectangular-2",
+      "role": "surface-attachment",
+      "clip": null,
+      "sortBaseline": 330
+    },
+    {
+      "id": "design-table-rectangular-3",
+      "asset": "table-rectangular",
+      "x": 376,
+      "y": 225,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-3",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 271
+    },
+    {
+      "id": "design-chair-east-3",
+      "asset": "chair-east",
+      "x": 358,
+      "y": 233,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-3",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 257
+    },
+    {
+      "id": "design-chair-west-3",
+      "asset": "chair-west",
+      "x": 409,
+      "y": 233,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-3",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 257
+    },
+    {
+      "id": "design-menu-stand-4",
+      "asset": "menu-stand",
+      "x": 386,
+      "y": 237,
+      "layer": 4,
+      "parent": "table-design-table-rectangular-3",
+      "role": "surface-attachment",
+      "clip": null,
+      "sortBaseline": 271
+    },
+    {
+      "id": "design-table-rectangular-4",
+      "asset": "table-rectangular",
+      "x": 376,
+      "y": 284,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-4",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 330
+    },
+    {
+      "id": "design-chair-east-4",
+      "asset": "chair-east",
+      "x": 358,
+      "y": 292,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-4",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 316
+    },
+    {
+      "id": "design-chair-west-4",
+      "asset": "chair-west",
+      "x": 409,
+      "y": 292,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-4",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 316
+    },
+    {
+      "id": "design-menu-stand-5",
+      "asset": "menu-stand",
+      "x": 386,
+      "y": 296,
+      "layer": 4,
+      "parent": "table-design-table-rectangular-4",
+      "role": "surface-attachment",
+      "clip": null,
+      "sortBaseline": 330
+    },
+    {
+      "id": "design-table-rectangular-5",
+      "asset": "table-rectangular",
+      "x": 218,
+      "y": 225,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-5",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 271
+    },
+    {
+      "id": "design-chair-east-5",
+      "asset": "chair-east",
+      "x": 200,
+      "y": 233,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-5",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 257
+    },
+    {
+      "id": "design-chair-west-5",
+      "asset": "chair-west",
+      "x": 251,
+      "y": 233,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-5",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 257
+    },
+    {
+      "id": "design-menu-stand-6",
+      "asset": "menu-stand",
+      "x": 228,
+      "y": 237,
+      "layer": 4,
+      "parent": "table-design-table-rectangular-5",
+      "role": "surface-attachment",
+      "clip": null,
+      "sortBaseline": 271
+    },
+    {
+      "id": "design-table-rectangular-6",
+      "asset": "table-rectangular",
+      "x": 217,
+      "y": 284,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-6",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 330
+    },
+    {
+      "id": "design-chair-east-6",
+      "asset": "chair-east",
+      "x": 199,
+      "y": 292,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-6",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 316
+    },
+    {
+      "id": "design-chair-west-6",
+      "asset": "chair-west",
+      "x": 250,
+      "y": 292,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-6",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 316
+    },
+    {
+      "id": "design-menu-stand-7",
+      "asset": "menu-stand",
+      "x": 227,
+      "y": 296,
+      "layer": 4,
+      "parent": "table-design-table-rectangular-6",
+      "role": "surface-attachment",
+      "clip": null,
+      "sortBaseline": 330
+    },
+    {
+      "id": "design-table-rectangular-7",
+      "asset": "table-rectangular",
+      "x": 296,
+      "y": 225,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-7",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 271
+    },
+    {
+      "id": "design-chair-east-7",
+      "asset": "chair-east",
+      "x": 278,
+      "y": 233,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-7",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 257
+    },
+    {
+      "id": "design-chair-west-7",
+      "asset": "chair-west",
+      "x": 329,
+      "y": 233,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-7",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 257
+    },
+    {
+      "id": "design-menu-stand-8",
+      "asset": "menu-stand",
+      "x": 306,
+      "y": 237,
+      "layer": 4,
+      "parent": "table-design-table-rectangular-7",
+      "role": "surface-attachment",
+      "clip": null,
+      "sortBaseline": 271
+    },
+    {
+      "id": "design-table-rectangular-8",
+      "asset": "table-rectangular",
+      "x": 296,
+      "y": 284,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-8",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 330
+    },
+    {
+      "id": "design-chair-east-8",
+      "asset": "chair-east",
+      "x": 278,
+      "y": 292,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-8",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 316
+    },
+    {
+      "id": "design-chair-west-8",
+      "asset": "chair-west",
+      "x": 329,
+      "y": 292,
+      "layer": 3,
+      "parent": "table-design-table-rectangular-8",
+      "role": "world",
+      "clip": null,
+      "sortBaseline": 316
+    },
+    {
+      "id": "design-menu-stand-9",
+      "asset": "menu-stand",
+      "x": 306,
+      "y": 296,
+      "layer": 4,
+      "parent": "table-design-table-rectangular-8",
+      "role": "surface-attachment",
+      "clip": null,
+      "sortBaseline": 330
+    }
+  ],
+  "assemblies": [
+    {
+      "id": "booth-left-0",
+      "kind": "booth-north-south",
+      "x": 4,
+      "y": 156
+    },
+    {
+      "id": "booth-left-1",
+      "kind": "booth-north-south",
+      "x": 4,
+      "y": 236
+    },
+    {
+      "id": "booth-right-0",
+      "kind": "booth-north-south",
+      "x": 540,
+      "y": 103
+    },
+    {
+      "id": "booth-right-1",
+      "kind": "booth-north-south",
+      "x": 540,
+      "y": 183
+    },
+    {
+      "id": "booth-right-2",
+      "kind": "booth-north-south",
+      "x": 540,
+      "y": 263
+    },
+    {
+      "id": "booth-design-booth-above-below-1",
+      "kind": "booth-north-south",
+      "x": 4,
+      "y": 76
+    },
+    {
+      "id": "booth-design-booth-above-below-2",
+      "kind": "booth-north-south",
+      "x": 540,
+      "y": 23
+    },
+    {
+      "id": "booth-bottom-0",
+      "kind": "approved-booth-left-right",
+      "x": 108,
+      "y": 355
+    },
+    {
+      "id": "booth-bottom-1",
+      "kind": "approved-booth-left-right",
+      "x": 176,
+      "y": 355
+    },
+    {
+      "id": "booth-bottom-2",
+      "kind": "approved-booth-left-right",
+      "x": 244,
+      "y": 355
+    },
+    {
+      "id": "booth-design-booth-bench-left-1",
+      "kind": "approved-booth-left-right",
+      "x": 312,
+      "y": 355
+    },
+    {
+      "id": "booth-design-booth-bench-left-2",
+      "kind": "approved-booth-left-right",
+      "x": 380,
+      "y": 355
+    },
+    {
+      "id": "circle-booth",
+      "kind": "C-shaped-large-party-booth",
+      "x": 0,
+      "y": 320
+    },
+    {
+      "id": "middle-table-1",
+      "kind": "modular-object-group",
+      "x": 476,
+      "y": 194
+    },
+    {
+      "id": "middle-table-2",
+      "kind": "modular-object-group",
+      "x": 476,
+      "y": 104
+    },
+    {
+      "id": "table-design-table-horizontal-1",
+      "kind": "modular-object-group",
+      "x": 476,
+      "y": 283
+    },
+    {
+      "id": "table-design-table-rectangular-1",
+      "kind": "modular-object-group",
+      "x": 138,
+      "y": 225
+    },
+    {
+      "id": "table-design-table-rectangular-2",
+      "kind": "modular-object-group",
+      "x": 138,
+      "y": 284
+    },
+    {
+      "id": "table-design-table-rectangular-3",
+      "kind": "modular-object-group",
+      "x": 376,
+      "y": 225
+    },
+    {
+      "id": "table-design-table-rectangular-4",
+      "kind": "modular-object-group",
+      "x": 376,
+      "y": 284
+    },
+    {
+      "id": "table-design-table-rectangular-5",
+      "kind": "modular-object-group",
+      "x": 218,
+      "y": 225
+    },
+    {
+      "id": "table-design-table-rectangular-6",
+      "kind": "modular-object-group",
+      "x": 217,
+      "y": 284
+    },
+    {
+      "id": "table-design-table-rectangular-7",
+      "kind": "modular-object-group",
+      "x": 296,
+      "y": 225
+    },
+    {
+      "id": "table-design-table-rectangular-8",
+      "kind": "modular-object-group",
+      "x": 296,
+      "y": 284
+    }
+  ],
+  "connections": [
+    {
+      "access": "staff",
+      "arrival": {
+        "x": 96,
+        "y": 60
+      },
+      "assembly": "kitchen-west",
+      "doorInstance": "kitchen-west-doorway",
+      "id": "kitchen-west",
+      "opening": {
+        "height": 8,
+        "width": 32,
+        "x": 80,
+        "y": 48
+      },
+      "targetRoom": "kitchen",
+      "visualInstances": [
+        "kitchen-west--threshold",
+        "kitchen-west-doorway",
+        "kitchen-west--doorway-lintel"
+      ]
+    },
+    {
+      "access": "staff",
+      "arrival": {
+        "x": 456,
+        "y": 60
+      },
+      "assembly": "kitchen-east",
+      "doorInstance": "kitchen-east-doorway",
+      "id": "kitchen-east",
+      "opening": {
+        "height": 8,
+        "width": 32,
+        "x": 440,
+        "y": 48
+      },
+      "targetRoom": "kitchen",
+      "visualInstances": [
+        "kitchen-east--threshold",
+        "kitchen-east-doorway",
+        "kitchen-east--doorway-lintel"
+      ]
+    },
+    {
+      "access": "public",
+      "appearance": "Existing open threshold and entrance mat; no new door-leaf art.",
+      "arrival": {
+        "x": 528,
+        "y": 408
+      },
+      "assembly": "entrance",
+      "id": "entrance",
+      "opening": {
+        "height": 16,
+        "width": 32,
+        "x": 512,
+        "y": 416
+      },
+      "targetRoom": "outside",
+      "visualInstances": ["entrance--threshold", "entrance--entrance-mat"]
+    }
+  ],
+  "navigationProposal": {
+    "floorBounds": {
+      "x": 16,
+      "y": 48,
+      "width": 592,
+      "height": 376
+    },
+    "entryPoint": {
+      "x": 528,
+      "y": 408
+    },
+    "staffOnlyZones": [
+      {
+        "id": "bar-interior",
+        "x": 112,
+        "y": 76,
+        "width": 310,
+        "height": 52
+      }
+    ],
+    "standingPoints": [
+      {
+        "id": "booth-left-0-approach",
+        "x": 92,
+        "y": 208
+      },
+      {
+        "id": "booth-left-1-approach",
+        "x": 92,
+        "y": 288
+      },
+      {
+        "id": "booth-right-0-approach",
+        "x": 528,
+        "y": 156
+      },
+      {
+        "id": "booth-right-1-approach",
+        "x": 528,
+        "y": 236
+      },
+      {
+        "id": "booth-right-2-approach",
+        "x": 528,
+        "y": 316
+      },
+      {
+        "id": "booth-design-booth-above-below-1-approach",
+        "x": 92,
+        "y": 128
+      },
+      {
+        "id": "booth-design-booth-above-below-2-approach",
+        "x": 528,
+        "y": 76
+      },
+      {
+        "id": "booth-bottom-0-approach",
+        "x": 148,
+        "y": 352
+      },
+      {
+        "id": "booth-bottom-1-approach",
+        "x": 216,
+        "y": 352
+      },
+      {
+        "id": "booth-bottom-2-approach",
+        "x": 284,
+        "y": 352
+      },
+      {
+        "id": "booth-design-booth-bench-left-1-approach",
+        "x": 352,
+        "y": 352
+      },
+      {
+        "id": "booth-design-booth-bench-left-2-approach",
+        "x": 420,
+        "y": 352
+      },
+      {
+        "id": "circle-booth-entry-approach",
+        "x": 128,
+        "y": 344
+      },
+      {
+        "id": "middle-table-1-approach",
+        "x": 464,
+        "y": 216
+      },
+      {
+        "id": "middle-table-2-approach",
+        "x": 464,
+        "y": 128
+      },
+      {
+        "id": "table-design-table-horizontal-1-approach",
+        "x": 464,
+        "y": 308
+      },
+      {
+        "id": "table-design-table-rectangular-1-approach",
+        "x": 132,
+        "y": 240
+      },
+      {
+        "id": "table-design-table-rectangular-2-approach",
+        "x": 132,
+        "y": 300
+      },
+      {
+        "id": "table-design-table-rectangular-3-approach",
+        "x": 352,
+        "y": 248
+      },
+      {
+        "id": "table-design-table-rectangular-4-approach",
+        "x": 352,
+        "y": 308
+      },
+      {
+        "id": "table-design-table-rectangular-5-approach",
+        "x": 212,
+        "y": 240
+      },
+      {
+        "id": "table-design-table-rectangular-6-approach",
+        "x": 212,
+        "y": 300
+      },
+      {
+        "id": "table-design-table-rectangular-7-approach",
+        "x": 284,
+        "y": 236
+      },
+      {
+        "id": "table-design-table-rectangular-8-approach",
+        "x": 272,
+        "y": 308
+      },
+      {
+        "id": "bar-stool-front-0-approach",
+        "x": 144,
+        "y": 204
+      },
+      {
+        "id": "bar-stool-front-1-approach",
+        "x": 176,
+        "y": 204
+      },
+      {
+        "id": "bar-stool-front-2-approach",
+        "x": 208,
+        "y": 204
+      },
+      {
+        "id": "bar-stool-front-3-approach",
+        "x": 240,
+        "y": 204
+      },
+      {
+        "id": "bar-stool-front-4-approach",
+        "x": 272,
+        "y": 204
+      },
+      {
+        "id": "bar-stool-front-5-approach",
+        "x": 304,
+        "y": 204
+      },
+      {
+        "id": "design-stool-pink-1-approach",
+        "x": 336,
+        "y": 204
+      },
+      {
+        "id": "design-stool-mint-1-approach",
+        "x": 368,
+        "y": 204
+      }
+    ]
+  }
+}

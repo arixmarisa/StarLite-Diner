@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "kitchen-layout-v3",
+  "status": "implemented-approved-scale",
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/kitchen-layout-v3/kitchen-layout.pxo",
+  "image": "kitchen-layout.png",
+  "preview": "kitchen-layout-preview.png",
+  "previewScale": 2,
+  "frameSize": {
+    "height": 304,
+    "width": 384
+  },
+  "palette": "assets/pixelorama/kitchen-layout-v3/palette.json",
+  "layers": [
+    "01 - checker floor",
+    "02 - appliance ground shadows",
+    "03 - cutaway walls and baseboard",
+    "04 - counter worktop modules",
+    "05 - counter cabinet faces",
+    "06 - appliance bodies",
+    "07 - mounted station inserts",
+    "08 - independent surface props",
+    "09 - flat wall openings"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMs": 1000,
+    "tag": "kitchen-layout-v3-static"
+  },
+  "instanceMap": "layout.json",
+  "textureCount": 28,
+  "individualInstances": 145,
+  "repeatedFloorTiles": 336,
+  "nativeScale": 1,
+  "sourceAssetsRetained": true,
+  "derivedPreviewOnly": true,
+  "fixedCuttingBoardInstances": 0,
+  "boardPlacementOwner": "game-engine",
+  "doorConnections": [
+    {
+      "archway": false,
+      "destinationDoorRef": null,
+      "destinationRoom": "front-of-house",
+      "frameSprites": false,
+      "id": "kitchen-to-dining-west",
+      "implemented": false,
+      "openingRegion": "flat-opening-west"
+    },
+    {
+      "archway": false,
+      "destinationDoorRef": null,
+      "destinationRoom": "front-of-house",
+      "frameSprites": false,
+      "id": "kitchen-to-dining-east",
+      "implemented": false,
+      "openingRegion": "flat-opening-east"
+    }
+  ],
+  "qaReport": "verification.json",
+  "integrated": true,
+  "worldVersion": 4,
+  "playerUnchanged": true
+}

@@ -1,0 +1,45 @@
+{
+  "frames": {
+    "booth-atlas_0": {
+      "duration": 166,
+      "frame": {
+        "h": 72,
+        "w": 80,
+        "x": 0,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 72,
+        "w": 80
+      },
+      "spriteSourceSize": {
+        "h": 72,
+        "w": 80,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  },
+  "meta": {
+    "app": "Pixelorama-MCP",
+    "format": "RGBA8888",
+    "frameTags": [
+      {
+        "color": "ee75a3ff",
+        "direction": "forward",
+        "from": 0,
+        "name": "booth-static",
+        "to": 0
+      }
+    ],
+    "image": "booth-atlas.png",
+    "scale": "1",
+    "size": {
+      "h": 72,
+      "w": 80
+    },
+    "version": "0.3.0"
+  }
+}

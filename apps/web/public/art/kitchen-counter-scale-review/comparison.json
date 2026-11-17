@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "counter-scale-comparison",
+  "source": "assets/pixelorama/kitchen-counter-scale-review/comparison.pxo",
+  "image": "comparison.png",
+  "preview": "comparison-preview.png",
+  "nativeSize": {
+    "width": 256,
+    "height": 96
+  },
+  "previewScale": 4,
+  "nativeSpriteScale": 1,
+  "playerSource": "player-v3/player.png",
+  "playerFrame": {
+    "x": 0,
+    "y": 48,
+    "width": 16,
+    "height": 24
+  },
+  "playerPositions": [
+    {
+      "x": 8,
+      "y": 57
+    },
+    {
+      "x": 120,
+      "y": 57
+    }
+  ],
+  "originalCounter": {
+    "image": "original-counter-reference.png",
+    "position": {
+      "x": 32,
+      "y": 41
+    },
+    "frameSize": {
+      "width": 64,
+      "height": 40
+    },
+    "sourceFamily": "kitchen-counter-review"
+  },
+  "candidateCounter": {
+    "image": "kitchen-counter.png",
+    "position": {
+      "x": 144,
+      "y": 50
+    },
+    "frameSize": {
+      "width": 64,
+      "height": 32
+    }
+  },
+  "approvedFryer": {
+    "image": "../kitchen-fryer-scale-review/kitchen-fryer.png",
+    "position": {
+      "x": 216,
+      "y": 45
+    },
+    "frameSize": {
+      "width": 32,
+      "height": 40
+    }
+  },
+  "floor": {
+    "image": "../front-of-house-v1/floor-checker.png",
+    "tileSize": 16
+  },
+  "commonFloorContactRow": 80,
+  "sharedCandidateCounterAndFryerFrontTopY": 68,
+  "playerUnchanged": true,
+  "qaReport": "comparison-verification.json",
+  "status": "accepted-scale-reference",
+  "visualAccepted": true,
+  "acceptedOn": "2026-11-07"
+}

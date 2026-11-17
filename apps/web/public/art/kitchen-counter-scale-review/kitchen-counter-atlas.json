@@ -1,0 +1,44 @@
+{
+  "frames": {
+    "kitchen-counter_0": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "duration": 1000
+    }
+  },
+  "meta": {
+    "app": "Pixelorama MCP native project export",
+    "format": "RGBA8888",
+    "image": "kitchen-counter.png",
+    "scale": "1",
+    "size": {
+      "w": 64,
+      "h": 32
+    },
+    "frameTags": [
+      {
+        "name": "kitchen-counter-scale-static",
+        "from": 0,
+        "to": 0,
+        "direction": "forward",
+        "color": "ee75a3ff"
+      }
+    ]
+  }
+}

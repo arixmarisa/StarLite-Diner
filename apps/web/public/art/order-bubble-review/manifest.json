@@ -1,0 +1,127 @@
+{
+  "assets": [
+    {
+      "animation": {
+        "durationMultiplier": 1,
+        "fps": 1,
+        "frames": 1,
+        "tag": "speech-bubble-empty-static"
+      },
+      "collision": null,
+      "contentRect": {
+        "height": 16,
+        "width": 24,
+        "x": 4,
+        "y": 3
+      },
+      "frameSize": {
+        "height": 28,
+        "width": 32
+      },
+      "iconPlacement": {
+        "height": 16,
+        "width": 16,
+        "x": 8,
+        "y": 3
+      },
+      "id": "speech-bubble-empty",
+      "image": "bubble.png",
+      "interaction": null,
+      "layers": [
+        "01 - plum stepped body contour",
+        "02 - empty warm cream interior",
+        "03 - restrained warm lower rim",
+        "04 - small pale rose rim accent",
+        "05 - editable downward tail"
+      ],
+      "palette": "bubble-palette.json",
+      "renderRole": "world-overlay",
+      "source": "assets/pixelorama/order-bubble-review/bubble.pxo",
+      "tailAnchor": {
+        "x": 16,
+        "y": 27
+      },
+      "transparentExterior": true,
+      "paletteSource": "assets/pixelorama/order-bubble-review/bubble-palette.json"
+    },
+    {
+      "animation": {
+        "durationMultiplier": 1,
+        "fps": 1,
+        "frames": 1,
+        "tag": "burger-icon-static"
+      },
+      "collision": null,
+      "frameSize": {
+        "height": 16,
+        "width": 16
+      },
+      "id": "burger",
+      "image": "burger.png",
+      "interaction": null,
+      "layers": [
+        "01 - plum silhouette and separators",
+        "02 - lower bun",
+        "03 - beef patty",
+        "04 - upper bun and warm lighting",
+        "05 - cream sesame details"
+      ],
+      "palette": "burger-palette.json",
+      "renderRole": "world-overlay",
+      "source": "assets/pixelorama/order-bubble-review/burger.pxo",
+      "transparentExterior": true,
+      "paletteSource": "assets/pixelorama/order-bubble-review/burger-palette.json"
+    }
+  ],
+  "authoringTool": "Pixelorama MCP",
+  "integration": "Not integrated; order display, sequencing and notepad mechanics remain unimplemented.",
+  "newGameAssets": 2,
+  "nextWork": "Food and topping icon library authorized separately in order-icons-v1; other bubble variants and order/notepad mechanics remain deferred.",
+  "review": {
+    "customerImage": "/art/customer-v1/female-tee-jeans-south-idle.png",
+    "image": "review.png",
+    "placements": [
+      {
+        "asset": "bubble",
+        "name": "01 - empty bubble reference",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "asset": "burger",
+        "name": "02 - independent burger reference",
+        "x": 44,
+        "y": 10
+      },
+      {
+        "asset": "bubble",
+        "name": "03 - filled example bubble",
+        "x": 68,
+        "y": 4
+      },
+      {
+        "asset": "burger",
+        "name": "04 - example burger overlay",
+        "x": 76,
+        "y": 7
+      },
+      {
+        "asset": "customer",
+        "name": "05 - unchanged customer scale reference",
+        "x": 76,
+        "y": 36
+      }
+    ],
+    "preview": "review-preview.png",
+    "previewScale": 6,
+    "size": {
+      "height": 64,
+      "width": 104
+    },
+    "source": "assets/pixelorama/order-bubble-review/review.pxo"
+  },
+  "schemaVersion": 1,
+  "status": "accepted-art-design",
+  "sourcePathBase": "repository-root",
+  "acceptedOn": "2026-11-07"
+}

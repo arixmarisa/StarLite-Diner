@@ -1,0 +1,65 @@
+{
+  "frames": [
+    {
+      "filename": "prep-bins-insert",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 56,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 56,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 56,
+        "h": 32
+      },
+      "duration": 1000
+    }
+  ],
+  "meta": {
+    "app": "Pixelorama MCP",
+    "image": "prep-bins-insert.png",
+    "size": {
+      "w": 56,
+      "h": 32
+    },
+    "scale": "1",
+    "frameTags": [
+      {
+        "name": "prep-bins-insert-v3-static",
+        "from": 0,
+        "to": 0,
+        "direction": "forward"
+      }
+    ],
+    "layers": [
+      {
+        "name": "01 - mounting surround and rear lip",
+        "opacity": 255,
+        "blendMode": "normal"
+      },
+      {
+        "name": "02 - rolled removable bin rims",
+        "opacity": 255,
+        "blendMode": "normal"
+      },
+      {
+        "name": "03 - empty recessed bin planes",
+        "opacity": 255,
+        "blendMode": "normal"
+      },
+      {
+        "name": "04 - hard chrome reflections",
+        "opacity": 255,
+        "blendMode": "normal"
+      }
+    ]
+  }
+}

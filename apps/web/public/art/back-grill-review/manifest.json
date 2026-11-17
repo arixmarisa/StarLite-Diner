@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "back-wall-flat-top-grill",
+  "status": "awaiting-user-review",
+  "authoring": "Pixelorama MCP",
+  "source": "assets/pixelorama/back-grill-review/back-grill.pxo",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/back-grill-review/palette.json",
+  "image": "back-grill-body.png",
+  "reviewComposite": "back-grill.png",
+  "frameSize": {
+    "width": 96,
+    "height": 64
+  },
+  "occupiedBounds": {
+    "x": 4,
+    "y": 4,
+    "width": 89,
+    "height": 59
+  },
+  "orientation": "back-wall-facing-south",
+  "rotationVariants": 0,
+  "layers": [
+    "01 - contact shadow",
+    "02 - steel body plinth and feet",
+    "03 - backsplash and chrome surround",
+    "04 - bare flat cooking plate",
+    "05 - grease channel and front lip",
+    "06 - controls and cabinet details",
+    "07 - hard reflections and accents"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMultiplier": 1,
+    "durationMs": 1000,
+    "tag": "back-wall-grill-static"
+  },
+  "components": [
+    {
+      "image": "back-grill-shadow.png",
+      "renderRole": "ground-shadow",
+      "order": 0
+    },
+    {
+      "image": "back-grill-body.png",
+      "renderRole": "grill-body",
+      "order": 1
+    }
+  ],
+  "componentFrameSize": {
+    "width": 96,
+    "height": 64
+  },
+  "componentOrigin": {
+    "x": 0,
+    "y": 0
+  },
+  "artAttachments": {
+    "cookingSurface": {
+      "x": 10,
+      "y": 12,
+      "width": 76,
+      "height": 24,
+      "purpose": "empty-art-surface-for-later-food-overlays",
+      "gameplayContract": false
+    }
+  },
+  "highlight": {
+    "bakedIntoArt": false,
+    "intendedOwner": "game-engine",
+    "bodyImage": "back-grill-body.png",
+    "implemented": false
+  },
+  "qa": {
+    "opaquePixels": 5078,
+    "semitransparentPixels": 0,
+    "visibleColors": 8,
+    "paletteSwatches": 14,
+    "orphans": 0,
+    "intentionalClearance": {
+      "pixels": 67,
+      "bounds": {
+        "width": 67,
+        "height": 1
+      }
+    },
+    "reopenedSourceMatchesNativePng": true,
+    "cookingSurfaceOpaque": true
+  },
+  "anchor": null,
+  "collision": null,
+  "interaction": null,
+  "integrated": false,
+  "provenance": {
+    "referenceArchive": "C:/Users/zachk/Downloads/professional_kitchen.zip",
+    "referenceUse": "steel construction and flat-top appliance proportions only; no third-party pixels copied",
+    "gridReference": 16
+  }
+}

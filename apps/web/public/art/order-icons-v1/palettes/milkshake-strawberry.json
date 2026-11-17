@@ -1,0 +1,13 @@
+{
+  "colors": {
+    "base": "#ee75a3",
+    "glass": "#65878b",
+    "glassLight": "#b8dad3",
+    "glint": "#fff0d5",
+    "highlight": "#ffacc9",
+    "outline": "#322c38",
+    "shade": "#b64a72",
+    "straw": "#d65362"
+  },
+  "id": "milkshake-strawberry"
+}

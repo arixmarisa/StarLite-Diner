@@ -1,0 +1,298 @@
+{
+  "frameIndexBase": 0,
+  "frames": {
+    "banana": {
+      "duration": 1000,
+      "frame": {
+        "h": 16,
+        "w": 16,
+        "x": 48,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 16,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 16,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "blueberry": {
+      "duration": 1000,
+      "frame": {
+        "h": 16,
+        "w": 16,
+        "x": 80,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 16,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 16,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "cherry": {
+      "duration": 1000,
+      "frame": {
+        "h": 16,
+        "w": 16,
+        "x": 144,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 16,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 16,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "chocolate": {
+      "duration": 1000,
+      "frame": {
+        "h": 16,
+        "w": 16,
+        "x": 64,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 16,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 16,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "pancakes-1": {
+      "duration": 1000,
+      "frame": {
+        "h": 16,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 16,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 16,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "pancakes-2": {
+      "duration": 1000,
+      "frame": {
+        "h": 16,
+        "w": 16,
+        "x": 16,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 16,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 16,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "pancakes-3": {
+      "duration": 1000,
+      "frame": {
+        "h": 16,
+        "w": 16,
+        "x": 32,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 16,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 16,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "pickle": {
+      "duration": 1000,
+      "frame": {
+        "h": 16,
+        "w": 16,
+        "x": 112,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 16,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 16,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "relish": {
+      "duration": 1000,
+      "frame": {
+        "h": 16,
+        "w": 16,
+        "x": 128,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 16,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 16,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "strawberry": {
+      "duration": 1000,
+      "frame": {
+        "h": 16,
+        "w": 16,
+        "x": 96,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 16,
+        "w": 16
+      },
+      "spriteSourceSize": {
+        "h": 16,
+        "w": 16,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  },
+  "meta": {
+    "app": "Pixelorama MCP",
+    "format": "RGBA8888",
+    "frameTags": [
+      {
+        "color": "ee75a3ff",
+        "direction": "forward",
+        "from": 0,
+        "name": "pancakes-1",
+        "to": 0
+      },
+      {
+        "color": "ee75a3ff",
+        "direction": "forward",
+        "from": 1,
+        "name": "pancakes-2",
+        "to": 1
+      },
+      {
+        "color": "ee75a3ff",
+        "direction": "forward",
+        "from": 2,
+        "name": "pancakes-3",
+        "to": 2
+      },
+      {
+        "color": "ee75a3ff",
+        "direction": "forward",
+        "from": 3,
+        "name": "banana",
+        "to": 3
+      },
+      {
+        "color": "ee75a3ff",
+        "direction": "forward",
+        "from": 4,
+        "name": "chocolate",
+        "to": 4
+      },
+      {
+        "color": "ee75a3ff",
+        "direction": "forward",
+        "from": 5,
+        "name": "blueberry",
+        "to": 5
+      },
+      {
+        "color": "ee75a3ff",
+        "direction": "forward",
+        "from": 6,
+        "name": "strawberry",
+        "to": 6
+      },
+      {
+        "color": "ee75a3ff",
+        "direction": "forward",
+        "from": 7,
+        "name": "pickle",
+        "to": 7
+      },
+      {
+        "color": "ee75a3ff",
+        "direction": "forward",
+        "from": 8,
+        "name": "relish",
+        "to": 8
+      },
+      {
+        "color": "ee75a3ff",
+        "direction": "forward",
+        "from": 9,
+        "name": "cherry",
+        "to": 9
+      }
+    ],
+    "image": "sweet-sheet.png",
+    "scale": "1",
+    "size": {
+      "h": 16,
+      "w": 160
+    }
+  },
+  "tagIndexBase": 0
+}

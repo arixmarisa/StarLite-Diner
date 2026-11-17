@@ -1,0 +1,116 @@
+{
+  "name": "Starlite · interior v1 review",
+  "authoringTool": "Pixelorama MCP",
+  "colors": [
+    {
+      "index": 0,
+      "hex": "#211e32",
+      "role": "Outline"
+    },
+    {
+      "index": 1,
+      "hex": "#353047",
+      "role": "Ambient shadow"
+    },
+    {
+      "index": 2,
+      "hex": "#4c4057",
+      "role": "Plum metal shadow"
+    },
+    {
+      "index": 3,
+      "hex": "#5c6070",
+      "role": "Metal shade"
+    },
+    {
+      "index": 4,
+      "hex": "#849a9d",
+      "role": "Chrome midtone"
+    },
+    {
+      "index": 5,
+      "hex": "#b7c6bb",
+      "role": "Chrome light"
+    },
+    {
+      "index": 6,
+      "hex": "#eadcba",
+      "role": "Warm rim"
+    },
+    {
+      "index": 7,
+      "hex": "#fff0ca",
+      "role": "Specular"
+    },
+    {
+      "index": 8,
+      "hex": "#254b51",
+      "role": "Laminate recess"
+    },
+    {
+      "index": 9,
+      "hex": "#356970",
+      "role": "Laminate shade"
+    },
+    {
+      "index": 10,
+      "hex": "#508a89",
+      "role": "Laminate base"
+    },
+    {
+      "index": 11,
+      "hex": "#76aaa0",
+      "role": "Laminate light"
+    },
+    {
+      "index": 12,
+      "hex": "#9ac3aa",
+      "role": "Laminate reflection"
+    },
+    {
+      "index": 13,
+      "hex": "#623e50",
+      "role": "Rose recess"
+    },
+    {
+      "index": 14,
+      "hex": "#93546a",
+      "role": "Rose shade"
+    },
+    {
+      "index": 15,
+      "hex": "#bd7884",
+      "role": "Rose trim"
+    },
+    {
+      "index": 16,
+      "hex": "#dfa08e",
+      "role": "Warm rose"
+    },
+    {
+      "index": 17,
+      "hex": "#302638",
+      "role": "Deep plum"
+    },
+    {
+      "index": 18,
+      "hex": "#59435a",
+      "role": "Muted violet"
+    },
+    {
+      "index": 19,
+      "hex": "#81616b",
+      "role": "Rose gray"
+    }
+  ],
+  "shadowAlpha": [
+    {
+      "hex": "#211e3245",
+      "role": "Cast shadow"
+    },
+    {
+      "hex": "#211e3266",
+      "role": "Contact shadow"
+    }
+  ]
+}

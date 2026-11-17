@@ -1,0 +1,1482 @@
+{
+  "allContactShadowsIdentical": true,
+  "allFramesHaveGroundedShoe": true,
+  "allGroundAnchorsOpaque": true,
+  "allOriginalCardinalFramesExact": true,
+  "allRecolorChangesRestrictedToMasks": true,
+  "allRoleMasksDisjoint": true,
+  "allRoleTonesRestrictedToTheirLayers": true,
+  "allSavedFramesMatchSheet": true,
+  "allSpritesOneConnectedOpaqueComponent": true,
+  "approvedSouthIdleExact": true,
+  "distinctWalkFramesPerDirection": {
+    "east": 4,
+    "north": 4,
+    "northeast": 4,
+    "northwest": 4,
+    "south": 4,
+    "southeast": 4,
+    "southwest": 4,
+    "west": 4
+  },
+  "frameChecks": [
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "south",
+      "durationMultiplier": 4.0,
+      "groundedShoePixels": 6,
+      "index": 0,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 12,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 48,
+          "eligiblePixels": 48,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 48,
+          "eligiblePixels": 48,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 0
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "south",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 1,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 12,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 49,
+          "eligiblePixels": 49,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 48,
+          "eligiblePixels": 48,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 1
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "south",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 2,
+      "intentionalTransparentClearancePixels": [],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 12,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 48,
+          "eligiblePixels": 48,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 48,
+          "eligiblePixels": 48,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 2
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "south",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 3,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 12,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 49,
+          "eligiblePixels": 49,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 48,
+          "eligiblePixels": 48,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 3
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "south",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 4,
+      "intentionalTransparentClearancePixels": [],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 12,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 48,
+          "eligiblePixels": 48,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 48,
+          "eligiblePixels": 48,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 4
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "west",
+      "durationMultiplier": 4.0,
+      "groundedShoePixels": 6,
+      "index": 5,
+      "intentionalTransparentClearancePixels": [],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 37,
+          "eligiblePixels": 37,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 32,
+          "eligiblePixels": 32,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 0
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "west",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 4,
+      "index": 6,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 42,
+          "eligiblePixels": 42,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 32,
+          "eligiblePixels": 32,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 1
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "west",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 7,
+      "intentionalTransparentClearancePixels": [],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 38,
+          "eligiblePixels": 38,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 32,
+          "eligiblePixels": 32,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 2
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "west",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 4,
+      "index": 8,
+      "intentionalTransparentClearancePixels": [[7, 21]],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 48,
+          "eligiblePixels": 48,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 32,
+          "eligiblePixels": 32,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 3
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "west",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 9,
+      "intentionalTransparentClearancePixels": [],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 37,
+          "eligiblePixels": 37,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 32,
+          "eligiblePixels": 32,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 4
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "east",
+      "durationMultiplier": 4.0,
+      "groundedShoePixels": 6,
+      "index": 10,
+      "intentionalTransparentClearancePixels": [],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 3,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 38,
+          "eligiblePixels": 38,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 32,
+          "eligiblePixels": 32,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 0
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "east",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 4,
+      "index": 11,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 3,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 43,
+          "eligiblePixels": 43,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 32,
+          "eligiblePixels": 32,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 1
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "east",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 12,
+      "intentionalTransparentClearancePixels": [],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 3,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 41,
+          "eligiblePixels": 41,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 32,
+          "eligiblePixels": 32,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 2
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "east",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 4,
+      "index": 13,
+      "intentionalTransparentClearancePixels": [[8, 21]],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 3,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 46,
+          "eligiblePixels": 46,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 32,
+          "eligiblePixels": 32,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 3
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "east",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 14,
+      "intentionalTransparentClearancePixels": [],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 3,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 39,
+          "eligiblePixels": 39,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 32,
+          "eligiblePixels": 32,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 4
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "north",
+      "durationMultiplier": 4.0,
+      "groundedShoePixels": 6,
+      "index": 15,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 12,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 68,
+          "eligiblePixels": 68,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 16,
+          "eligiblePixels": 16,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 0
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "north",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 16,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 12,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 69,
+          "eligiblePixels": 69,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 16,
+          "eligiblePixels": 16,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 1
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "north",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 17,
+      "intentionalTransparentClearancePixels": [],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 12,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 68,
+          "eligiblePixels": 68,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 16,
+          "eligiblePixels": 16,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 2
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "north",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 18,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 12,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 70,
+          "eligiblePixels": 70,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 16,
+          "eligiblePixels": 16,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 3
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "north",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 19,
+      "intentionalTransparentClearancePixels": [[8, 21]],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 12,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 68,
+          "eligiblePixels": 68,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 16,
+          "eligiblePixels": 16,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 4
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "northwest",
+      "durationMultiplier": 4.0,
+      "groundedShoePixels": 6,
+      "index": 20,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 49,
+          "eligiblePixels": 49,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 18,
+          "eligiblePixels": 18,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 0
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "northwest",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 21,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 50,
+          "eligiblePixels": 50,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 18,
+          "eligiblePixels": 18,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 1
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "northwest",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 22,
+      "intentionalTransparentClearancePixels": [],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 49,
+          "eligiblePixels": 49,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 18,
+          "eligiblePixels": 18,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 2
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "northwest",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 23,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 50,
+          "eligiblePixels": 50,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 19,
+          "eligiblePixels": 19,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 3
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "northwest",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 24,
+      "intentionalTransparentClearancePixels": [[8, 21]],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 49,
+          "eligiblePixels": 49,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 18,
+          "eligiblePixels": 18,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 4
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "northeast",
+      "durationMultiplier": 4.0,
+      "groundedShoePixels": 6,
+      "index": 25,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 3,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 50,
+          "eligiblePixels": 50,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 18,
+          "eligiblePixels": 18,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 0
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "northeast",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 26,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 3,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 50,
+          "eligiblePixels": 50,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 19,
+          "eligiblePixels": 19,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 1
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "northeast",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 27,
+      "intentionalTransparentClearancePixels": [],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 3,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 50,
+          "eligiblePixels": 50,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 18,
+          "eligiblePixels": 18,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 2
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "northeast",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 28,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 3,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 52,
+          "eligiblePixels": 52,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 17,
+          "eligiblePixels": 17,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 3
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "northeast",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 29,
+      "intentionalTransparentClearancePixels": [[8, 21]],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 3,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 50,
+          "eligiblePixels": 50,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 18,
+          "eligiblePixels": 18,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 4
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "southwest",
+      "durationMultiplier": 4.0,
+      "groundedShoePixels": 6,
+      "index": 30,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 47,
+          "eligiblePixels": 47,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 38,
+          "eligiblePixels": 38,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 0
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "southwest",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 31,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 48,
+          "eligiblePixels": 48,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 38,
+          "eligiblePixels": 38,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 1
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "southwest",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 32,
+      "intentionalTransparentClearancePixels": [],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 47,
+          "eligiblePixels": 47,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 38,
+          "eligiblePixels": 38,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 2
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "southwest",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 33,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 48,
+          "eligiblePixels": 48,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 38,
+          "eligiblePixels": 38,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 3
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "southwest",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 34,
+      "intentionalTransparentClearancePixels": [],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 2,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 47,
+          "eligiblePixels": 47,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 38,
+          "eligiblePixels": 38,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 4
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "southeast",
+      "durationMultiplier": 4.0,
+      "groundedShoePixels": 6,
+      "index": 35,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 3,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 47,
+          "eligiblePixels": 47,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 38,
+          "eligiblePixels": 38,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 0
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "southeast",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 36,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 3,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 48,
+          "eligiblePixels": 48,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 38,
+          "eligiblePixels": 38,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 1
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "southeast",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 37,
+      "intentionalTransparentClearancePixels": [],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 3,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 47,
+          "eligiblePixels": 47,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 38,
+          "eligiblePixels": 38,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 2
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "southeast",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 38,
+      "intentionalTransparentClearancePixels": [
+        [7, 21],
+        [8, 21]
+      ],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 3,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 48,
+          "eligiblePixels": 48,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 38,
+          "eligiblePixels": 38,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 3
+    },
+    {
+      "celByteSizes": [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536],
+      "direction": "southeast",
+      "durationMultiplier": 1.0,
+      "groundedShoePixels": 3,
+      "index": 39,
+      "intentionalTransparentClearancePixels": [],
+      "maskOverlap": 0,
+      "occupiedBounds": {
+        "height": 24,
+        "width": 11,
+        "x": 3,
+        "y": 0
+      },
+      "opaqueConnectedComponents": 1,
+      "roles": {
+        "outfit": {
+          "changedOutsideMask": 0,
+          "changedPixels": 47,
+          "eligiblePixels": 47,
+          "tonesRestrictedToRoleLayer": true
+        },
+        "skin": {
+          "changedOutsideMask": 0,
+          "changedPixels": 38,
+          "eligiblePixels": 38,
+          "tonesRestrictedToRoleLayer": true
+        }
+      },
+      "sourceMatchesSheet": true,
+      "step": 4
+    }
+  ],
+  "motion": {
+    "bytes": 14040,
+    "fps": 8,
+    "frames": 4,
+    "height": 144,
+    "loops": 0,
+    "runtimeCopyCode": 0,
+    "width": 768
+  },
+  "nativeTimelineTimingExact": true,
+  "opaquePixelsAcrossFrames": 8513,
+  "orphanPixelsAcrossFrames": 0,
+  "paletteSwatches": 17,
+  "semitransparentPixelsAcrossFrames": 0,
+  "sheetMatchesAtlas": true,
+  "sourceFps": 8.0,
+  "sourceFrames": 40,
+  "sourceLayers": 9,
+  "sourceSize": [16.0, 24.0],
+  "sourceTags": [
+    {
+      "color": "ee75a3ff",
+      "from": 1.0,
+      "name": "idle_south",
+      "to": 1.0
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 2.0,
+      "name": "walk_south",
+      "to": 5.0
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 6.0,
+      "name": "idle_west",
+      "to": 6.0
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 7.0,
+      "name": "walk_west",
+      "to": 10.0
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 11.0,
+      "name": "idle_east",
+      "to": 11.0
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 12.0,
+      "name": "walk_east",
+      "to": 15.0
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 16.0,
+      "name": "idle_north",
+      "to": 16.0
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 17.0,
+      "name": "walk_north",
+      "to": 20.0
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 21.0,
+      "name": "idle_northwest",
+      "to": 21.0
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 22.0,
+      "name": "walk_northwest",
+      "to": 25.0
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 26.0,
+      "name": "idle_northeast",
+      "to": 26.0
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 27.0,
+      "name": "walk_northeast",
+      "to": 30.0
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 31.0,
+      "name": "idle_southwest",
+      "to": 31.0
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 32.0,
+      "name": "walk_southwest",
+      "to": 35.0
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 36.0,
+      "name": "idle_southeast",
+      "to": 36.0
+    },
+    {
+      "color": "ee75a3ff",
+      "from": 37.0,
+      "name": "walk_southeast",
+      "to": 40.0
+    }
+  ],
+  "visibleColorsAcrossFrames": 13
+}

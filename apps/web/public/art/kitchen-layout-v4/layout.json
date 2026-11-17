@@ -1,0 +1,2841 @@
+{
+  "artAssemblies": [
+    {
+      "description": "Rear toppings and sink worktop, with short right return",
+      "id": "rear-worktop",
+      "parent": null,
+      "role": "counter-run",
+      "sortBaseline": 79.0,
+      "worldOrigin": {
+        "x": 228.0,
+        "y": 48.0
+      }
+    },
+    {
+      "description": "Left-wall-flush worktop with independent remade mixer and cups",
+      "id": "milkshake-run",
+      "parent": null,
+      "role": "counter-run",
+      "sortBaseline": 181.0,
+      "worldOrigin": {
+        "x": 16.0,
+        "y": 104.0
+      }
+    },
+    {
+      "description": "Central ingredient insert on left, clear prep worktop on right",
+      "id": "prep-island",
+      "parent": null,
+      "role": "counter-island",
+      "sortBaseline": 168.0,
+      "worldOrigin": {
+        "x": 112.0,
+        "y": 137.0
+      }
+    },
+    {
+      "description": "Top-only bottom-wall-flush worktop with hidden cabinet face and independent carrying trays",
+      "id": "plating-run",
+      "parent": null,
+      "role": "counter-run",
+      "sortBaseline": 288.0,
+      "worldOrigin": {
+        "x": 112.0,
+        "y": 270.0
+      }
+    },
+    {
+      "id": "fridge",
+      "parent": null,
+      "role": "decorative-appliance",
+      "sortBaseline": 79.0,
+      "worldOrigin": {
+        "x": 24.0,
+        "y": 26.0
+      }
+    },
+    {
+      "id": "grill",
+      "parent": null,
+      "role": "cooking-appliance",
+      "sortBaseline": 79.0,
+      "worldOrigin": {
+        "x": 132.0,
+        "y": 43.0
+      }
+    },
+    {
+      "id": "fryer",
+      "parent": null,
+      "role": "cooking-appliance",
+      "sortBaseline": 147.0,
+      "worldOrigin": {
+        "x": 338.0,
+        "y": 111.0
+      }
+    },
+    {
+      "id": "trash",
+      "parent": null,
+      "role": "floor-prop",
+      "sortBaseline": 169.0,
+      "worldOrigin": {
+        "x": 350.0,
+        "y": 146.0
+      }
+    },
+    {
+      "id": "room",
+      "parent": null,
+      "role": "architecture",
+      "sortBaseline": 0.0,
+      "worldOrigin": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "description": "Flat rectangular floor opening, without arch, lintel or jamb sprites",
+      "id": "door-west",
+      "parent": null,
+      "role": "connection",
+      "sortBaseline": 304.0,
+      "worldOrigin": {
+        "x": 32.0,
+        "y": 288.0
+      }
+    },
+    {
+      "description": "Flat rectangular floor opening, without arch, lintel or jamb sprites",
+      "id": "door-east",
+      "parent": null,
+      "role": "connection",
+      "sortBaseline": 304.0,
+      "worldOrigin": {
+        "x": 304.0,
+        "y": 288.0
+      }
+    },
+    {
+      "description": "Shared ingredient counter joined to grill left edge",
+      "id": "grill-left-counter",
+      "parent": null,
+      "role": "counter-run",
+      "sortBaseline": 79.0,
+      "worldOrigin": {
+        "x": 68.0,
+        "y": 48.0
+      }
+    }
+  ],
+  "assets": [
+    {
+      "frameSize": {
+        "height": 16.0,
+        "width": 16.0
+      },
+      "id": "floor",
+      "image": "../front-of-house-v1/floor-checker.png",
+      "renderRole": "floor",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 32.0,
+        "width": 16.0
+      },
+      "id": "wall",
+      "image": "../front-of-house-v1/wall-panel.png",
+      "renderRole": "wall",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 32.0,
+        "width": 16.0
+      },
+      "id": "wall-left",
+      "image": "../front-of-house-v1/wall-left.png",
+      "renderRole": "wall",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 32.0,
+        "width": 16.0
+      },
+      "id": "wall-right",
+      "image": "../front-of-house-v1/wall-right.png",
+      "renderRole": "wall",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 16.0,
+        "width": 8.0
+      },
+      "id": "wall-side-left",
+      "image": "../front-of-house-v1/wall-side-left.png",
+      "renderRole": "wall",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 16.0,
+        "width": 8.0
+      },
+      "id": "wall-side-right",
+      "image": "../front-of-house-v1/wall-side-right.png",
+      "renderRole": "wall",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 8.0,
+        "width": 16.0
+      },
+      "id": "wall-base",
+      "image": "../front-of-house-v1/baseboard.png",
+      "renderRole": "wall",
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 34.0,
+        "width": 20.0
+      },
+      "id": "mixer",
+      "image": "../kitchen-milkshake-v3/kitchen-milkshake.png",
+      "renderRole": "surface-prop",
+      "source": "assets/pixelorama/kitchen-milkshake-v3/kitchen-milkshake.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 10.0,
+        "width": 8.0
+      },
+      "id": "cups",
+      "image": "../kitchen-cups-v3/cup-stack.png",
+      "renderRole": "surface-prop",
+      "source": "assets/pixelorama/kitchen-cups-v3/cup-stack.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 18.0,
+        "width": 16.0
+      },
+      "id": "counter-top",
+      "image": "../kitchen-counter-v3/steel-counter-top.png",
+      "renderRole": "counter-surface",
+      "source": "assets/pixelorama/kitchen-counter-v3/kitchen-counter-kit.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 13.0,
+        "width": 16.0
+      },
+      "id": "counter-front",
+      "image": "../kitchen-counter-v3/steel-counter-front.png",
+      "renderRole": "counter-fascia",
+      "source": "assets/pixelorama/kitchen-counter-v3/kitchen-counter-kit.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 31.0,
+        "width": 16.0
+      },
+      "id": "counter-left",
+      "image": "../kitchen-counter-v3/steel-counter-end-left.png",
+      "renderRole": "counter-end",
+      "source": "assets/pixelorama/kitchen-counter-v3/kitchen-counter-kit.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 31.0,
+        "width": 16.0
+      },
+      "id": "counter-right",
+      "image": "../kitchen-counter-v3/steel-counter-end-right.png",
+      "renderRole": "counter-end",
+      "source": "assets/pixelorama/kitchen-counter-v3/kitchen-counter-kit.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 16.0,
+        "width": 20.0
+      },
+      "id": "counter-vertical",
+      "image": "../kitchen-counter-v3/steel-counter-vertical-top.png",
+      "renderRole": "counter-surface",
+      "source": "assets/pixelorama/kitchen-counter-v3/kitchen-counter-kit.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 13.0,
+        "width": 20.0
+      },
+      "id": "counter-near",
+      "image": "../kitchen-counter-v3/steel-counter-near-fascia.png",
+      "renderRole": "counter-fascia",
+      "source": "assets/pixelorama/kitchen-counter-v3/kitchen-counter-kit.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 18.0,
+        "width": 20.0
+      },
+      "id": "counter-turn",
+      "image": "../kitchen-counter-v3/steel-counter-corner-right.png",
+      "renderRole": "counter-surface",
+      "source": "assets/pixelorama/kitchen-counter-v3/kitchen-counter-kit.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 60.0,
+        "width": 40.0
+      },
+      "id": "fridge-shadow",
+      "image": "../kitchen-fridge-v3/kitchen-fridge-shadow.png",
+      "renderRole": "ground-shadow",
+      "source": "assets/pixelorama/kitchen-fridge-v3/kitchen-fridge.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 60.0,
+        "width": 40.0
+      },
+      "id": "fridge",
+      "image": "../kitchen-fridge-v3/kitchen-fridge-body.png",
+      "renderRole": "appliance-body",
+      "source": "assets/pixelorama/kitchen-fridge-v3/kitchen-fridge.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 40.0,
+        "width": 96.0
+      },
+      "id": "grill-shadow",
+      "image": "../kitchen-grill-scale-review/kitchen-grill-shadow.png",
+      "renderRole": "ground-shadow",
+      "source": "assets/pixelorama/kitchen-grill-scale-review/kitchen-grill.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 40.0,
+        "width": 96.0
+      },
+      "id": "grill",
+      "image": "../kitchen-grill-scale-review/kitchen-grill-body.png",
+      "renderRole": "appliance-body",
+      "source": "assets/pixelorama/kitchen-grill-scale-review/kitchen-grill.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 40.0,
+        "width": 32.0
+      },
+      "id": "fryer-shadow",
+      "image": "../kitchen-fryer-scale-review/kitchen-fryer-shadow.png",
+      "renderRole": "ground-shadow",
+      "source": "assets/pixelorama/kitchen-fryer-scale-review/kitchen-fryer.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 40.0,
+        "width": 32.0
+      },
+      "id": "fryer",
+      "image": "../kitchen-fryer-scale-review/kitchen-fryer-body.png",
+      "renderRole": "appliance-body",
+      "source": "assets/pixelorama/kitchen-fryer-scale-review/kitchen-fryer.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 24.0,
+        "width": 20.0
+      },
+      "id": "trash-shadow",
+      "image": "../kitchen-trash-v3/kitchen-trash-shadow.png",
+      "renderRole": "ground-shadow",
+      "source": "assets/pixelorama/kitchen-trash-v3/kitchen-trash.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 24.0,
+        "width": 20.0
+      },
+      "id": "trash",
+      "image": "../kitchen-trash-v3/kitchen-trash-body.png",
+      "renderRole": "appliance-body",
+      "source": "assets/pixelorama/kitchen-trash-v3/kitchen-trash.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 32.0,
+        "width": 48.0
+      },
+      "id": "sink",
+      "image": "../kitchen-sink-v3/kitchen-sink.png",
+      "renderRole": "mounted-insert",
+      "source": "assets/pixelorama/kitchen-sink-v3/kitchen-sink.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 32.0,
+        "width": 48.0
+      },
+      "id": "toppings",
+      "image": "../kitchen-bins-v3/rear-toppings-rail.png",
+      "renderRole": "mounted-insert",
+      "source": "assets/pixelorama/kitchen-bins-v3/rear-toppings-rail.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 32.0,
+        "width": 56.0
+      },
+      "id": "prep-bins",
+      "image": "../kitchen-bins-v3/prep-bins-insert.png",
+      "renderRole": "mounted-insert",
+      "source": "assets/pixelorama/kitchen-bins-v3/prep-bins-insert.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 14.0,
+        "width": 20.0
+      },
+      "id": "serving-tray",
+      "image": "../serving-tray-v3/serving-tray.png",
+      "renderRole": "independent-countertop-prop",
+      "source": "assets/pixelorama/serving-tray-v3/serving-tray.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 12.0,
+        "width": 16.0
+      },
+      "id": "grill-ingredient-tray",
+      "image": "../grill-station-scene-v2/ingredient-tray.png",
+      "renderRole": "surface-attachment",
+      "source": "assets/pixelorama/grill-station-scene-v2/ingredient-tray.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 10.0,
+        "width": 12.0
+      },
+      "id": "raw-patty",
+      "image": "../grill-station-ingredients-v2/raw-patty.png",
+      "renderRole": "surface-attachment",
+      "source": "assets/pixelorama/grill-station-ingredients-v2/raw-ingredients.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 10.0,
+        "width": 12.0
+      },
+      "id": "raw-sausage",
+      "image": "../grill-station-ingredients-v2/raw-sausage.png",
+      "renderRole": "surface-attachment",
+      "source": "assets/pixelorama/grill-station-ingredients-v2/raw-ingredients.pxo"
+    },
+    {
+      "frameSize": {
+        "height": 10.0,
+        "width": 12.0
+      },
+      "id": "pancake-batter",
+      "image": "../grill-station-ingredients-v2/pancake-batter.png",
+      "renderRole": "surface-attachment",
+      "source": "assets/pixelorama/grill-station-ingredients-v2/raw-ingredients.pxo"
+    }
+  ],
+  "authoring": "Pixelorama MCP",
+  "availableUnplacedRuntimeProps": [
+    {
+      "description": "Standalone prop; no room instance or fixed counter attachment is authored.",
+      "fixedPlacement": false,
+      "frameSize": {
+        "height": 18.0,
+        "width": 28.0
+      },
+      "id": "cutting-board",
+      "image": "../kitchen-board-v3/kitchen-board.png",
+      "placementOwner": "game-engine",
+      "placementPolicy": "engine-owned-any-counter",
+      "source": "assets/pixelorama/kitchen-board-v3/kitchen-board.pxo"
+    }
+  ],
+  "circulationNote": "Illustration spacing proposals only, not engine collision or pathfinding validation. Main aisles preserve at least32px and48px where specified.",
+  "circulationProposals": [
+    {
+      "clearance": 55.0,
+      "id": "rear-work-aisle",
+      "rect": {
+        "height": 55.0,
+        "width": 224.0,
+        "x": 96.0,
+        "y": 82.0
+      }
+    },
+    {
+      "clearance": 102.0,
+      "id": "middle-work-aisle",
+      "rect": {
+        "height": 102.0,
+        "width": 224.0,
+        "x": 96.0,
+        "y": 168.0
+      }
+    },
+    {
+      "clearance": 76.0,
+      "id": "left-main-aisle",
+      "rect": {
+        "height": 144.0,
+        "width": 76.0,
+        "x": 36.0,
+        "y": 104.0
+      }
+    },
+    {
+      "clearance": 56.0,
+      "id": "right-main-aisle",
+      "rect": {
+        "height": 176.0,
+        "width": 56.0,
+        "x": 272.0,
+        "y": 112.0
+      }
+    },
+    {
+      "clearance": 48.0,
+      "id": "west-opening-access",
+      "rect": {
+        "height": 32.0,
+        "width": 48.0,
+        "x": 32.0,
+        "y": 256.0
+      }
+    },
+    {
+      "clearance": 48.0,
+      "id": "east-opening-access",
+      "rect": {
+        "height": 32.0,
+        "width": 48.0,
+        "x": 304.0,
+        "y": 256.0
+      }
+    }
+  ],
+  "doorConnections": [
+    {
+      "archway": false,
+      "destinationDoorRef": null,
+      "destinationRoom": "front-of-house",
+      "frameSprites": false,
+      "id": "kitchen-to-dining-west",
+      "implemented": false,
+      "openingRegion": "flat-opening-west"
+    },
+    {
+      "archway": false,
+      "destinationDoorRef": null,
+      "destinationRoom": "front-of-house",
+      "frameSprites": false,
+      "id": "kitchen-to-dining-east",
+      "implemented": false,
+      "openingRegion": "flat-opening-east"
+    }
+  ],
+  "fixedBoardInstances": 0.0,
+  "frameSize": {
+    "height": 304.0,
+    "width": 384.0
+  },
+  "gameplayCollision": null,
+  "id": "kitchen-layout-v4",
+  "instances": [
+    {
+      "assembly": "room",
+      "id": "rear-wall-16",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 16.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 16.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-32",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 32.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 32.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-48",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 48.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 48.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-64",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 64.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 64.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-80",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 80.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 80.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-96",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 96.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 96.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-112",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 112.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 112.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-128",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 128.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 128.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-144",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 144.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 144.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-160",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 160.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 160.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-176",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 176.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 176.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-192",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 192.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 192.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-208",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 208.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 208.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-224",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 224.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 224.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-240",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 240.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 240.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-256",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 256.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 256.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-272",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 272.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 272.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-288",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 288.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 288.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-304",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 304.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 304.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-320",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 320.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 320.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-336",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 336.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 336.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-wall-352",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 352.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall",
+      "x": 352.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-left-corner",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-left",
+      "x": 0.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "rear-right-corner",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 368.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-right",
+      "x": 368.0,
+      "y": 16.0
+    },
+    {
+      "assembly": "room",
+      "id": "left-wall-48",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 8.0,
+        "y": 48.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-left",
+      "x": 8.0,
+      "y": 48.0
+    },
+    {
+      "assembly": "room",
+      "id": "right-wall-48",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 368.0,
+        "y": 48.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-right",
+      "x": 368.0,
+      "y": 48.0
+    },
+    {
+      "assembly": "room",
+      "id": "left-wall-64",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 8.0,
+        "y": 64.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-left",
+      "x": 8.0,
+      "y": 64.0
+    },
+    {
+      "assembly": "room",
+      "id": "right-wall-64",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 368.0,
+        "y": 64.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-right",
+      "x": 368.0,
+      "y": 64.0
+    },
+    {
+      "assembly": "room",
+      "id": "left-wall-80",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 8.0,
+        "y": 80.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-left",
+      "x": 8.0,
+      "y": 80.0
+    },
+    {
+      "assembly": "room",
+      "id": "right-wall-80",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 368.0,
+        "y": 80.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-right",
+      "x": 368.0,
+      "y": 80.0
+    },
+    {
+      "assembly": "room",
+      "id": "left-wall-96",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 8.0,
+        "y": 96.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-left",
+      "x": 8.0,
+      "y": 96.0
+    },
+    {
+      "assembly": "room",
+      "id": "right-wall-96",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 368.0,
+        "y": 96.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-right",
+      "x": 368.0,
+      "y": 96.0
+    },
+    {
+      "assembly": "room",
+      "id": "left-wall-112",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 8.0,
+        "y": 112.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-left",
+      "x": 8.0,
+      "y": 112.0
+    },
+    {
+      "assembly": "room",
+      "id": "right-wall-112",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 368.0,
+        "y": 112.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-right",
+      "x": 368.0,
+      "y": 112.0
+    },
+    {
+      "assembly": "room",
+      "id": "left-wall-128",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 8.0,
+        "y": 128.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-left",
+      "x": 8.0,
+      "y": 128.0
+    },
+    {
+      "assembly": "room",
+      "id": "right-wall-128",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 368.0,
+        "y": 128.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-right",
+      "x": 368.0,
+      "y": 128.0
+    },
+    {
+      "assembly": "room",
+      "id": "left-wall-144",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 8.0,
+        "y": 144.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-left",
+      "x": 8.0,
+      "y": 144.0
+    },
+    {
+      "assembly": "room",
+      "id": "right-wall-144",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 368.0,
+        "y": 144.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-right",
+      "x": 368.0,
+      "y": 144.0
+    },
+    {
+      "assembly": "room",
+      "id": "left-wall-160",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 8.0,
+        "y": 160.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-left",
+      "x": 8.0,
+      "y": 160.0
+    },
+    {
+      "assembly": "room",
+      "id": "right-wall-160",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 368.0,
+        "y": 160.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-right",
+      "x": 368.0,
+      "y": 160.0
+    },
+    {
+      "assembly": "room",
+      "id": "left-wall-176",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 8.0,
+        "y": 176.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-left",
+      "x": 8.0,
+      "y": 176.0
+    },
+    {
+      "assembly": "room",
+      "id": "right-wall-176",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 368.0,
+        "y": 176.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-right",
+      "x": 368.0,
+      "y": 176.0
+    },
+    {
+      "assembly": "room",
+      "id": "left-wall-192",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 8.0,
+        "y": 192.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-left",
+      "x": 8.0,
+      "y": 192.0
+    },
+    {
+      "assembly": "room",
+      "id": "right-wall-192",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 368.0,
+        "y": 192.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-right",
+      "x": 368.0,
+      "y": 192.0
+    },
+    {
+      "assembly": "room",
+      "id": "left-wall-208",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 8.0,
+        "y": 208.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-left",
+      "x": 8.0,
+      "y": 208.0
+    },
+    {
+      "assembly": "room",
+      "id": "right-wall-208",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 368.0,
+        "y": 208.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-right",
+      "x": 368.0,
+      "y": 208.0
+    },
+    {
+      "assembly": "room",
+      "id": "left-wall-224",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 8.0,
+        "y": 224.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-left",
+      "x": 8.0,
+      "y": 224.0
+    },
+    {
+      "assembly": "room",
+      "id": "right-wall-224",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 368.0,
+        "y": 224.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-right",
+      "x": 368.0,
+      "y": 224.0
+    },
+    {
+      "assembly": "room",
+      "id": "left-wall-240",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 8.0,
+        "y": 240.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-left",
+      "x": 8.0,
+      "y": 240.0
+    },
+    {
+      "assembly": "room",
+      "id": "right-wall-240",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 368.0,
+        "y": 240.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-right",
+      "x": 368.0,
+      "y": 240.0
+    },
+    {
+      "assembly": "room",
+      "id": "left-wall-256",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 8.0,
+        "y": 256.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-left",
+      "x": 8.0,
+      "y": 256.0
+    },
+    {
+      "assembly": "room",
+      "id": "right-wall-256",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 368.0,
+        "y": 256.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-right",
+      "x": 368.0,
+      "y": 256.0
+    },
+    {
+      "assembly": "room",
+      "id": "left-wall-272",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 8.0,
+        "y": 272.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-left",
+      "x": 8.0,
+      "y": 272.0
+    },
+    {
+      "assembly": "room",
+      "id": "right-wall-272",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 368.0,
+        "y": 272.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-right",
+      "x": 368.0,
+      "y": 272.0
+    },
+    {
+      "assembly": "room",
+      "id": "left-wall-288",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 8.0,
+        "y": 288.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-left",
+      "x": 8.0,
+      "y": 288.0
+    },
+    {
+      "assembly": "room",
+      "id": "right-wall-288",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 368.0,
+        "y": 288.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-side-right",
+      "x": 368.0,
+      "y": 288.0
+    },
+    {
+      "assembly": "room",
+      "id": "lower-wall-trim-16",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 16.0,
+        "y": 288.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-base",
+      "x": 16.0,
+      "y": 288.0
+    },
+    {
+      "assembly": "room",
+      "id": "lower-wall-trim-80",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 80.0,
+        "y": 288.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-base",
+      "x": 80.0,
+      "y": 288.0
+    },
+    {
+      "assembly": "room",
+      "id": "lower-wall-trim-96",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 96.0,
+        "y": 288.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-base",
+      "x": 96.0,
+      "y": 288.0
+    },
+    {
+      "assembly": "room",
+      "id": "lower-wall-trim-112",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 112.0,
+        "y": 288.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-base",
+      "x": 112.0,
+      "y": 288.0
+    },
+    {
+      "assembly": "room",
+      "id": "lower-wall-trim-128",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 128.0,
+        "y": 288.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-base",
+      "x": 128.0,
+      "y": 288.0
+    },
+    {
+      "assembly": "room",
+      "id": "lower-wall-trim-144",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 144.0,
+        "y": 288.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-base",
+      "x": 144.0,
+      "y": 288.0
+    },
+    {
+      "assembly": "room",
+      "id": "lower-wall-trim-160",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 160.0,
+        "y": 288.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-base",
+      "x": 160.0,
+      "y": 288.0
+    },
+    {
+      "assembly": "room",
+      "id": "lower-wall-trim-176",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 176.0,
+        "y": 288.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-base",
+      "x": 176.0,
+      "y": 288.0
+    },
+    {
+      "assembly": "room",
+      "id": "lower-wall-trim-192",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 192.0,
+        "y": 288.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-base",
+      "x": 192.0,
+      "y": 288.0
+    },
+    {
+      "assembly": "room",
+      "id": "lower-wall-trim-208",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 208.0,
+        "y": 288.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-base",
+      "x": 208.0,
+      "y": 288.0
+    },
+    {
+      "assembly": "room",
+      "id": "lower-wall-trim-224",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 224.0,
+        "y": 288.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-base",
+      "x": 224.0,
+      "y": 288.0
+    },
+    {
+      "assembly": "room",
+      "id": "lower-wall-trim-240",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 240.0,
+        "y": 288.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-base",
+      "x": 240.0,
+      "y": 288.0
+    },
+    {
+      "assembly": "room",
+      "id": "lower-wall-trim-256",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 256.0,
+        "y": 288.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-base",
+      "x": 256.0,
+      "y": 288.0
+    },
+    {
+      "assembly": "room",
+      "id": "lower-wall-trim-272",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 272.0,
+        "y": 288.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-base",
+      "x": 272.0,
+      "y": 288.0
+    },
+    {
+      "assembly": "room",
+      "id": "lower-wall-trim-288",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 288.0,
+        "y": 288.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-base",
+      "x": 288.0,
+      "y": 288.0
+    },
+    {
+      "assembly": "room",
+      "id": "lower-wall-trim-352",
+      "layer": 2.0,
+      "localPosition": {
+        "x": 352.0,
+        "y": 288.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 0.0,
+      "texture": "wall-base",
+      "x": 352.0,
+      "y": 288.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "prep-island-left",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "counter-left",
+      "x": 112.0,
+      "y": 137.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "prep-island-top-1",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 16.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "counter-top",
+      "x": 128.0,
+      "y": 137.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "prep-island-face-1",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 16.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "counter-front",
+      "x": 128.0,
+      "y": 155.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "prep-island-top-2",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 32.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "counter-top",
+      "x": 144.0,
+      "y": 137.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "prep-island-face-2",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 32.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "counter-front",
+      "x": 144.0,
+      "y": 155.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "prep-island-top-3",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 48.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "counter-top",
+      "x": 160.0,
+      "y": 137.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "prep-island-face-3",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 48.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "counter-front",
+      "x": 160.0,
+      "y": 155.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "prep-island-top-4",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 64.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "counter-top",
+      "x": 176.0,
+      "y": 137.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "prep-island-face-4",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 64.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "counter-front",
+      "x": 176.0,
+      "y": 155.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "prep-island-top-5",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 80.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "counter-top",
+      "x": 192.0,
+      "y": 137.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "prep-island-face-5",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 80.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "counter-front",
+      "x": 192.0,
+      "y": 155.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "prep-island-top-6",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 96.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "counter-top",
+      "x": 208.0,
+      "y": 137.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "prep-island-face-6",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 96.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "counter-front",
+      "x": 208.0,
+      "y": 155.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "prep-island-top-7",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 112.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "counter-top",
+      "x": 224.0,
+      "y": 137.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "prep-island-face-7",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 112.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "counter-front",
+      "x": 224.0,
+      "y": 155.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "prep-island-top-8",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 128.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "counter-top",
+      "x": 240.0,
+      "y": 137.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "prep-island-face-8",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 128.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "counter-front",
+      "x": 240.0,
+      "y": 155.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "prep-island-right",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 144.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "counter-right",
+      "x": 256.0,
+      "y": 137.0
+    },
+    {
+      "assembly": "plating-run",
+      "description": "Native top portion only; wall-facing vertical fascia is occluded",
+      "id": "plating-run-left",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 288.0,
+      "sourceRect": {
+        "height": 18.0,
+        "width": 16.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "texture": "counter-left",
+      "x": 112.0,
+      "y": 270.0
+    },
+    {
+      "assembly": "plating-run",
+      "id": "plating-run-top-1",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 16.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 288.0,
+      "texture": "counter-top",
+      "x": 128.0,
+      "y": 270.0
+    },
+    {
+      "assembly": "plating-run",
+      "id": "plating-run-top-2",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 32.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 288.0,
+      "texture": "counter-top",
+      "x": 144.0,
+      "y": 270.0
+    },
+    {
+      "assembly": "plating-run",
+      "id": "plating-run-top-3",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 48.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 288.0,
+      "texture": "counter-top",
+      "x": 160.0,
+      "y": 270.0
+    },
+    {
+      "assembly": "plating-run",
+      "id": "plating-run-top-4",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 64.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 288.0,
+      "texture": "counter-top",
+      "x": 176.0,
+      "y": 270.0
+    },
+    {
+      "assembly": "plating-run",
+      "id": "plating-run-top-5",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 80.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 288.0,
+      "texture": "counter-top",
+      "x": 192.0,
+      "y": 270.0
+    },
+    {
+      "assembly": "plating-run",
+      "id": "plating-run-top-6",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 96.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 288.0,
+      "texture": "counter-top",
+      "x": 208.0,
+      "y": 270.0
+    },
+    {
+      "assembly": "plating-run",
+      "id": "plating-run-top-7",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 112.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 288.0,
+      "texture": "counter-top",
+      "x": 224.0,
+      "y": 270.0
+    },
+    {
+      "assembly": "plating-run",
+      "id": "plating-run-top-8",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 128.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 288.0,
+      "texture": "counter-top",
+      "x": 240.0,
+      "y": 270.0
+    },
+    {
+      "assembly": "plating-run",
+      "description": "Native top portion only; wall-facing vertical fascia is occluded",
+      "id": "plating-run-right",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 144.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 288.0,
+      "sourceRect": {
+        "height": 18.0,
+        "width": 16.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "texture": "counter-right",
+      "x": 256.0,
+      "y": 270.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-right-turn",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 120.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-turn",
+      "x": 348.0,
+      "y": 48.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "right-return-top-0",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 120.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 111.0,
+      "texture": "counter-vertical",
+      "x": 348.0,
+      "y": 66.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "right-return-top-1",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 120.0,
+        "y": 34.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 111.0,
+      "texture": "counter-vertical",
+      "x": 348.0,
+      "y": 82.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "right-return-face",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 120.0,
+        "y": 50.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 111.0,
+      "texture": "counter-near",
+      "x": 348.0,
+      "y": 98.0
+    },
+    {
+      "assembly": "milkshake-run",
+      "id": "milkshake-top-0",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 181.0,
+      "texture": "counter-vertical",
+      "x": 16.0,
+      "y": 104.0
+    },
+    {
+      "assembly": "milkshake-run",
+      "id": "milkshake-top-1",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 16.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 181.0,
+      "texture": "counter-vertical",
+      "x": 16.0,
+      "y": 120.0
+    },
+    {
+      "assembly": "milkshake-run",
+      "id": "milkshake-top-2",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 32.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 181.0,
+      "texture": "counter-vertical",
+      "x": 16.0,
+      "y": 136.0
+    },
+    {
+      "assembly": "milkshake-run",
+      "id": "milkshake-top-3",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 48.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 181.0,
+      "texture": "counter-vertical",
+      "x": 16.0,
+      "y": 152.0
+    },
+    {
+      "assembly": "milkshake-run",
+      "id": "milkshake-near-face",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 64.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 181.0,
+      "texture": "counter-near",
+      "x": 16.0,
+      "y": 168.0
+    },
+    {
+      "assembly": "fridge",
+      "id": "fridge-ground-shadow",
+      "layer": 1.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "fridge-shadow",
+      "x": 24.0,
+      "y": 26.0
+    },
+    {
+      "assembly": "fridge",
+      "id": "fridge-body",
+      "layer": 5.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "fridge",
+      "x": 24.0,
+      "y": 26.0
+    },
+    {
+      "assembly": "grill",
+      "id": "grill-ground-shadow",
+      "layer": 1.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "grill-shadow",
+      "x": 132.0,
+      "y": 43.0
+    },
+    {
+      "assembly": "grill",
+      "id": "grill-body",
+      "layer": 5.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "grill",
+      "x": 132.0,
+      "y": 43.0
+    },
+    {
+      "assembly": "fryer",
+      "id": "fryer-ground-shadow",
+      "layer": 1.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 147.0,
+      "texture": "fryer-shadow",
+      "x": 338.0,
+      "y": 111.0
+    },
+    {
+      "assembly": "fryer",
+      "id": "fryer-body",
+      "layer": 5.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 147.0,
+      "texture": "fryer",
+      "x": 338.0,
+      "y": 111.0
+    },
+    {
+      "assembly": "trash",
+      "id": "trash-ground-shadow",
+      "layer": 1.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 169.0,
+      "texture": "trash-shadow",
+      "x": 350.0,
+      "y": 146.0
+    },
+    {
+      "assembly": "trash",
+      "id": "trash-body",
+      "layer": 5.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 169.0,
+      "texture": "trash",
+      "x": 350.0,
+      "y": 146.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-toppings",
+      "layer": 6.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": -10.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "toppings",
+      "x": 228.0,
+      "y": 38.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-sink",
+      "layer": 6.0,
+      "localPosition": {
+        "x": 56.0,
+        "y": -10.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "sink",
+      "x": 284.0,
+      "y": 38.0
+    },
+    {
+      "assembly": "prep-island",
+      "id": "central-ingredient-insert",
+      "layer": 6.0,
+      "localPosition": {
+        "x": 12.0,
+        "y": -10.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 168.0,
+      "texture": "prep-bins",
+      "x": 124.0,
+      "y": 127.0
+    },
+    {
+      "assembly": "milkshake-run",
+      "id": "milkshake-mixer",
+      "layer": 7.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": -6.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 181.0,
+      "texture": "mixer",
+      "x": 16.0,
+      "y": 98.0
+    },
+    {
+      "assembly": "milkshake-run",
+      "id": "milkshake-cups",
+      "layer": 7.0,
+      "localPosition": {
+        "x": 6.0,
+        "y": 46.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 181.0,
+      "texture": "cups",
+      "x": 22.0,
+      "y": 150.0
+    },
+    {
+      "assembly": "plating-run",
+      "id": "plating-serving-tray-0",
+      "layer": 7.0,
+      "localPosition": {
+        "x": 24.0,
+        "y": 2.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 288.0,
+      "texture": "serving-tray",
+      "x": 136.0,
+      "y": 272.0
+    },
+    {
+      "assembly": "plating-run",
+      "id": "plating-serving-tray-1",
+      "layer": 7.0,
+      "localPosition": {
+        "x": 68.0,
+        "y": 2.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 288.0,
+      "texture": "serving-tray",
+      "x": 180.0,
+      "y": 272.0
+    },
+    {
+      "assembly": "plating-run",
+      "id": "plating-serving-tray-2",
+      "layer": 7.0,
+      "localPosition": {
+        "x": 112.0,
+        "y": 2.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 288.0,
+      "texture": "serving-tray",
+      "x": 224.0,
+      "y": 272.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-run-top-0",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-top",
+      "x": 228.0,
+      "y": 48.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-run-face-0",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-front",
+      "x": 228.0,
+      "y": 66.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-run-top-1",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 16.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-top",
+      "x": 244.0,
+      "y": 48.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-run-face-1",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 16.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-front",
+      "x": 244.0,
+      "y": 66.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-run-top-2",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 32.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-top",
+      "x": 260.0,
+      "y": 48.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-run-face-2",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 32.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-front",
+      "x": 260.0,
+      "y": 66.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-run-top-3",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 48.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-top",
+      "x": 276.0,
+      "y": 48.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-run-face-3",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 48.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-front",
+      "x": 276.0,
+      "y": 66.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-run-top-4",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 64.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-top",
+      "x": 292.0,
+      "y": 48.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-run-face-4",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 64.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-front",
+      "x": 292.0,
+      "y": 66.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-run-top-5",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 80.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-top",
+      "x": 308.0,
+      "y": 48.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-run-face-5",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 80.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-front",
+      "x": 308.0,
+      "y": 66.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-run-top-6",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 96.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-top",
+      "x": 324.0,
+      "y": 48.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-run-face-6",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 96.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-front",
+      "x": 324.0,
+      "y": 66.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-run-top-tail",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 112.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "sourceRect": {
+        "height": 18.0,
+        "width": 8.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "texture": "counter-top",
+      "x": 340.0,
+      "y": 48.0
+    },
+    {
+      "assembly": "rear-worktop",
+      "id": "rear-run-face-tail",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 112.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "sourceRect": {
+        "height": 13.0,
+        "width": 8.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "texture": "counter-front",
+      "x": 340.0,
+      "y": 66.0
+    },
+    {
+      "assembly": "grill-left-counter",
+      "id": "grill-left-counter-end",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-left",
+      "x": 68.0,
+      "y": 48.0
+    },
+    {
+      "assembly": "grill-left-counter",
+      "id": "grill-left-counter-top-1",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 16.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-top",
+      "x": 84.0,
+      "y": 48.0
+    },
+    {
+      "assembly": "grill-left-counter",
+      "id": "grill-left-counter-front-1",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 16.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-front",
+      "x": 84.0,
+      "y": 66.0
+    },
+    {
+      "assembly": "grill-left-counter",
+      "id": "grill-left-counter-top-2",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 32.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-top",
+      "x": 100.0,
+      "y": 48.0
+    },
+    {
+      "assembly": "grill-left-counter",
+      "id": "grill-left-counter-front-2",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 32.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-front",
+      "x": 100.0,
+      "y": 66.0
+    },
+    {
+      "assembly": "grill-left-counter",
+      "id": "grill-left-counter-top-3",
+      "layer": 3.0,
+      "localPosition": {
+        "x": 48.0,
+        "y": 0.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-top",
+      "x": 116.0,
+      "y": 48.0
+    },
+    {
+      "assembly": "grill-left-counter",
+      "id": "grill-left-counter-front-3",
+      "layer": 4.0,
+      "localPosition": {
+        "x": 48.0,
+        "y": 18.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "counter-front",
+      "x": 116.0,
+      "y": 66.0
+    },
+    {
+      "assembly": "grill-left-counter",
+      "id": "grill-tray-raw-patty",
+      "layer": 7.0,
+      "localPosition": {
+        "x": 5.0,
+        "y": 3.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "grill-ingredient-tray",
+      "x": 73.0,
+      "y": 51.0
+    },
+    {
+      "assembly": "grill-left-counter",
+      "id": "grill-ingredient-raw-patty",
+      "layer": 7.0,
+      "localPosition": {
+        "x": 7.0,
+        "y": 4.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "raw-patty",
+      "x": 75.0,
+      "y": 52.0
+    },
+    {
+      "assembly": "grill-left-counter",
+      "id": "grill-tray-raw-sausage",
+      "layer": 7.0,
+      "localPosition": {
+        "x": 24.0,
+        "y": 3.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "grill-ingredient-tray",
+      "x": 92.0,
+      "y": 51.0
+    },
+    {
+      "assembly": "grill-left-counter",
+      "id": "grill-ingredient-raw-sausage",
+      "layer": 7.0,
+      "localPosition": {
+        "x": 26.0,
+        "y": 4.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "raw-sausage",
+      "x": 94.0,
+      "y": 52.0
+    },
+    {
+      "assembly": "grill-left-counter",
+      "id": "grill-tray-pancake-batter",
+      "layer": 7.0,
+      "localPosition": {
+        "x": 43.0,
+        "y": 3.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "grill-ingredient-tray",
+      "x": 111.0,
+      "y": 51.0
+    },
+    {
+      "assembly": "grill-left-counter",
+      "id": "grill-ingredient-pancake-batter",
+      "layer": 7.0,
+      "localPosition": {
+        "x": 45.0,
+        "y": 4.0
+      },
+      "nativeScale": 1.0,
+      "sortBaseline": 79.0,
+      "texture": "pancake-batter",
+      "x": 113.0,
+      "y": 52.0
+    }
+  ],
+  "integrated": true,
+  "interaction": null,
+  "layers": [
+    "01 - checker floor",
+    "02 - appliance ground shadows",
+    "03 - cutaway walls and baseboard",
+    "04 - counter worktop modules",
+    "05 - counter cabinet faces",
+    "06 - appliance bodies",
+    "07 - mounted station inserts",
+    "08 - independent surface props",
+    "09 - flat wall openings"
+  ],
+  "palette": "assets/pixelorama/kitchen-layout-v4/palette.json",
+  "pixelScale": 1.0,
+  "planningGrid": 16.0,
+  "revision": {
+    "authorization": "Shared kitchen and zoomed grill scene; left counter and one of each existing ingredient; shift grill right and keep fridge back-left",
+    "pixelScale": 1.0,
+    "playerFrame": {
+      "height": 24.0,
+      "width": 16.0
+    },
+    "predecessor": "kitchen-layout-v3",
+    "priorSourcesRetained": true
+  },
+  "rotationApplied": false,
+  "runtimeContracts": {
+    "artwork": "Independent native textures; flattened PNG is a review artifact",
+    "boardPlacement": "unplaced-engine-owned",
+    "collision": "Baked opaque contours in apps/web/src/game/front-of-house/kitchen-collision-shapes.json",
+    "lowerCounterView": "top-only",
+    "playerUnchanged": true,
+    "stationBehavior": "Grill close-up projects these same room instances; existing entry/exit and hover/focus only"
+  },
+  "schemaVersion": 1.0,
+  "source": "assets/pixelorama/kitchen-layout-v4/kitchen-layout.pxo",
+  "sourcePathBase": "repository-root",
+  "stationViews": {
+    "grill": {
+      "ingredients": [
+        {
+          "instanceId": "grill-ingredient-raw-patty",
+          "label": "Raw burger patty",
+          "trayInstanceId": "grill-tray-raw-patty"
+        },
+        {
+          "instanceId": "grill-ingredient-raw-sausage",
+          "label": "Plain hot-dog sausage",
+          "trayInstanceId": "grill-tray-raw-sausage"
+        },
+        {
+          "instanceId": "grill-ingredient-pancake-batter",
+          "label": "Pancake batter with ladle",
+          "trayInstanceId": "grill-tray-pancake-batter"
+        }
+      ],
+      "viewport": {
+        "height": 96.0,
+        "width": 192.0,
+        "x": 64.0,
+        "y": 24.0
+      }
+    }
+  },
+  "status": "implemented-approved-scale",
+  "tiledRegions": [
+    {
+      "height": 240.0,
+      "id": "kitchen-checker-floor",
+      "layer": 0.0,
+      "nativeScale": 1.0,
+      "texture": "floor",
+      "width": 352.0,
+      "x": 16.0,
+      "y": 48.0
+    },
+    {
+      "height": 16.0,
+      "id": "flat-opening-west",
+      "layer": 8.0,
+      "nativeScale": 1.0,
+      "texture": "floor",
+      "width": 48.0,
+      "x": 32.0,
+      "y": 288.0
+    },
+    {
+      "height": 16.0,
+      "id": "flat-opening-east",
+      "layer": 8.0,
+      "nativeScale": 1.0,
+      "texture": "floor",
+      "width": 48.0,
+      "x": 304.0,
+      "y": 288.0
+    }
+  ]
+}

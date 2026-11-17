@@ -1,0 +1,17 @@
+{
+  "activeProjectUnchanged": true,
+  "celByteSizes": [8192, 8192, 8192, 8192, 8192],
+  "componentsReconstructExactly": true,
+  "fps": 1.0,
+  "frames": 1,
+  "opaquePixels": 2036,
+  "paletteSwatches": 14,
+  "populatedLayers": 5,
+  "savedSourceMatchesComposite": true,
+  "semitransparentPixels": 0,
+  "sourceLayers": 5,
+  "sourcePixelsMatchNativePng": true,
+  "sourceSize": [64, 32],
+  "tag": "kitchen-counter-scale-static",
+  "visibleColors": 6
+}

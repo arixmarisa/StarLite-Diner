@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "id": "kitchen-empty-ingredient-bins",
+  "status": "awaiting-user-review",
+  "creationApproved": true,
+  "proposalApprovedOn": "2026-11-07",
+  "approvedDescription": "Reusable shallow stainless ingredient bins arranged as a rear toppings rail and central prep insert; both initially empty.",
+  "authoring": "Pixelorama MCP",
+  "sourcePathBase": "repository-root",
+  "palette": "assets/pixelorama/kitchen-bins-review/palette.json",
+  "assets": [
+    {
+      "id": "rear-toppings-rail",
+      "source": "assets/pixelorama/kitchen-bins-review/rear-toppings-rail.pxo",
+      "image": "rear-toppings-rail.png",
+      "frameSize": {
+        "width": 56,
+        "height": 40
+      },
+      "layers": [
+        "01 - mounting surround and rear lip",
+        "02 - rolled removable bin rims",
+        "03 - empty recessed bin planes",
+        "04 - hard metal reflections"
+      ],
+      "animation": {
+        "frames": 1,
+        "fps": 1,
+        "durationMultiplier": 1,
+        "durationMs": 1000,
+        "tag": "rear-toppings-rail-static"
+      },
+      "components": [
+        {
+          "image": "rear-toppings-rail-mount.png",
+          "order": 0
+        },
+        {
+          "image": "rear-toppings-rail-bins.png",
+          "order": 1
+        }
+      ],
+      "artAttachments": {
+        "countertop": {
+          "x": 4,
+          "y": 8,
+          "width": 48,
+          "height": 24,
+          "purpose": "mount-on-accepted-steel-counter-top",
+          "gameplayContract": false
+        },
+        "emptyBinInteriors": [
+          {
+            "x": 10,
+            "y": 15,
+            "width": 8,
+            "height": 10,
+            "gameplayContract": false
+          },
+          {
+            "x": 24,
+            "y": 15,
+            "width": 8,
+            "height": 10,
+            "gameplayContract": false
+          },
+          {
+            "x": 38,
+            "y": 15,
+            "width": 8,
+            "height": 10,
+            "gameplayContract": false
+          }
+        ]
+      },
+      "artGeometry": {
+        "binSize": {
+          "width": 12,
+          "height": 14
+        },
+        "visualBinCount": 3,
+        "binPlacements": [
+          {
+            "x": 8,
+            "y": 13
+          },
+          {
+            "x": 22,
+            "y": 13
+          },
+          {
+            "x": 36,
+            "y": 13
+          }
+        ],
+        "rearLip": true,
+        "empty": true
+      },
+      "qa": {
+        "opaquePixels": 1340,
+        "visibleColors": 5,
+        "semitransparentPixels": 0,
+        "orphans": 0,
+        "holes": 0,
+        "paletteSwatches": 14,
+        "populatedLayers": 4,
+        "reopenedSourceMatchesNativePng": true,
+        "componentsReconstructExactly": true,
+        "leftRightMountProfilesMatchCounter": true
+      },
+      "anchor": null,
+      "collision": null,
+      "interaction": null,
+      "gameplayCapacity": null,
+      "integrated": false
+    },
+    {
+      "id": "prep-bins-insert",
+      "source": "assets/pixelorama/kitchen-bins-review/prep-bins-insert.pxo",
+      "image": "prep-bins-insert.png",
+      "frameSize": {
+        "width": 72,
+        "height": 40
+      },
+      "layers": [
+        "01 - mounting surround and rear lip",
+        "02 - rolled removable bin rims",
+        "03 - empty recessed bin planes",
+        "04 - hard metal reflections"
+      ],
+      "animation": {
+        "frames": 1,
+        "fps": 1,
+        "durationMultiplier": 1,
+        "durationMs": 1000,
+        "tag": "prep-bins-insert-static"
+      },
+      "components": [
+        {
+          "image": "prep-bins-insert-mount.png",
+          "order": 0
+        },
+        {
+          "image": "prep-bins-insert-bins.png",
+          "order": 1
+        }
+      ],
+      "artAttachments": {
+        "countertop": {
+          "x": 4,
+          "y": 8,
+          "width": 64,
+          "height": 24,
+          "purpose": "mount-on-accepted-steel-counter-top",
+          "gameplayContract": false
+        },
+        "emptyBinInteriors": [
+          {
+            "x": 11,
+            "y": 15,
+            "width": 8,
+            "height": 10,
+            "gameplayContract": false
+          },
+          {
+            "x": 25,
+            "y": 15,
+            "width": 8,
+            "height": 10,
+            "gameplayContract": false
+          },
+          {
+            "x": 39,
+            "y": 15,
+            "width": 8,
+            "height": 10,
+            "gameplayContract": false
+          },
+          {
+            "x": 53,
+            "y": 15,
+            "width": 8,
+            "height": 10,
+            "gameplayContract": false
+          }
+        ]
+      },
+      "artGeometry": {
+        "binSize": {
+          "width": 12,
+          "height": 14
+        },
+        "visualBinCount": 4,
+        "binPlacements": [
+          {
+            "x": 9,
+            "y": 13
+          },
+          {
+            "x": 23,
+            "y": 13
+          },
+          {
+            "x": 37,
+            "y": 13
+          },
+          {
+            "x": 51,
+            "y": 13
+          }
+        ],
+        "rearLip": false,
+        "empty": true
+      },
+      "qa": {
+        "opaquePixels": 1536,
+        "visibleColors": 5,
+        "semitransparentPixels": 0,
+        "orphans": 0,
+        "holes": 0,
+        "paletteSwatches": 14,
+        "populatedLayers": 4,
+        "reopenedSourceMatchesNativePng": true,
+        "componentsReconstructExactly": true,
+        "leftRightMountProfilesMatchCounter": true
+      },
+      "anchor": null,
+      "collision": null,
+      "interaction": null,
+      "gameplayCapacity": null,
+      "integrated": false
+    }
+  ],
+  "reusableBin": {
+    "image": "steel-empty-bin.png",
+    "frameSize": {
+      "width": 12,
+      "height": 14
+    },
+    "sourceRect": {
+      "x": 8,
+      "y": 13,
+      "width": 12,
+      "height": 14
+    },
+    "interiorArtRect": {
+      "x": 2,
+      "y": 2,
+      "width": 8,
+      "height": 10
+    },
+    "gameplayContract": false,
+    "sourceImage": "rear-toppings-rail-bins.png"
+  },
+  "reviewAssembly": {
+    "source": "assets/pixelorama/kitchen-bins-review/kitchen-bins-preview.pxo",
+    "image": "bins-counter-preview.png",
+    "frameSize": {
+      "width": 144,
+      "height": 56
+    },
+    "layers": 3,
+    "tag": "kitchen-bins-preview-static",
+    "allPlacedAtNativeScale": true,
+    "counterTop": "../kitchen-counter-review/steel-counter-top.png",
+    "counterFront": "../kitchen-counter-review/steel-counter-front.png",
+    "placements": [
+      {
+        "id": "rear-toppings-rail",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "id": "prep-bins-insert",
+        "x": 72,
+        "y": 0
+      }
+    ]
+  },
+  "qa": {
+    "allSevenBinsPixelIdentical": true,
+    "binWidth": 12,
+    "binHeight": 14,
+    "previewSavedSourceMatchesNativePng": true,
+    "previewPopulatedLayers": 3,
+    "paletteSwatches": 14,
+    "activeProjectUnchanged": true
+  },
+  "integrated": false
+}

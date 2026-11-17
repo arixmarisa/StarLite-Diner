@@ -1,0 +1,13 @@
+{
+  "colors": {
+    "base": "#81524b",
+    "glass": "#65878b",
+    "glassLight": "#b8dad3",
+    "glint": "#fff0d5",
+    "highlight": "#a76d56",
+    "outline": "#322c38",
+    "shade": "#573943",
+    "straw": "#d65362"
+  },
+  "id": "milkshake-chocolate"
+}

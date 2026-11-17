@@ -1,0 +1,32 @@
+{
+  "activeProjectUnchanged": true,
+  "bounds": {
+    "height": 11,
+    "width": 17,
+    "x": 2,
+    "y": 2
+  },
+  "celByteSizes": [1120, 1120, 1120, 1120],
+  "componentsReconstructExactly": true,
+  "exportCodes": {
+    "atlas": 0,
+    "body": 0,
+    "contactShadow": 0,
+    "native": 0,
+    "preview": 0
+  },
+  "frames": 1,
+  "holes": [],
+  "onlyExistingPaletteColors": true,
+  "opaquePixels": 146,
+  "orphans": 0,
+  "paletteSwatches": 21,
+  "populatedLayers": 4,
+  "saved": true,
+  "semitransparentPixels": 0,
+  "sourceLayers": 4,
+  "sourcePixelsMatchNativePng": true,
+  "sourceSize": [20.0, 14.0],
+  "tag": "serving-tray-v3-static",
+  "visibleColors": 6
+}

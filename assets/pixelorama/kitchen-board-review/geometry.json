@@ -1,0 +1,52 @@
+{
+  "frameSize": {
+    "width": 40,
+    "height": 24
+  },
+  "topArtRect": {
+    "x": 4,
+    "y": 3,
+    "width": 32,
+    "height": 16
+  },
+  "projectedThickness": 2,
+  "handleNotch": {
+    "side": "left",
+    "depth": 3,
+    "fromY": 9,
+    "toYExclusive": 13
+  },
+  "contactShadowOffset": {
+    "x": 1,
+    "y": 3
+  },
+  "layers": [
+    "01 - worktop contact shadow",
+    "02 - darker board edge and thickness",
+    "03 - warm amber board face",
+    "04 - rim highlights and quiet grain"
+  ],
+  "counterMountPreview": {
+    "frameSize": {
+      "width": 56,
+      "height": 48
+    },
+    "counterTop": {
+      "x": 4,
+      "y": 4,
+      "width": 48,
+      "height": 24
+    },
+    "fascia": {
+      "x": 4,
+      "y": 28,
+      "width": 48,
+      "height": 16
+    },
+    "boardFrameOrigin": {
+      "x": 8,
+      "y": 3
+    }
+  },
+  "gameplayContract": false
+}

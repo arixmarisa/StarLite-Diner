@@ -1,0 +1,364 @@
+.milkshake-page {
+  color-scheme: dark;
+  background: #162120;
+  color: #f4ead6;
+  font:
+    15px/1.5 ui-monospace,
+    'Cascadia Code',
+    Consolas,
+    monospace;
+}
+.shake-game {
+  max-width: 1440px;
+  margin: auto;
+  padding: 22px 32px 30px;
+}
+.shake-game button,
+.shake-game a {
+  font: inherit;
+}
+.shake-game button {
+  cursor: pointer;
+  color: inherit;
+  border: 1px solid #6e8077;
+  background: #2a3934;
+  padding: 10px 14px;
+  border-radius: 3px;
+  touch-action: manipulation;
+}
+.shake-game button:hover:not(:disabled):not(.hold-button):not(.advance):not([aria-pressed='true']) {
+  background: #40534b;
+}
+.shake-game button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.shake-game button:focus-visible,
+.shake-game a:focus-visible,
+#station:focus-visible {
+  outline: 3px solid #f2cc88;
+  outline-offset: 4px;
+}
+.shake-game button[aria-pressed='true'] {
+  background: #e2ad9e;
+  border-color: #e2ad9e;
+  color: #241f20;
+}
+.shake-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #46574f;
+}
+.shake-header > span {
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  font-size: 18px;
+}
+.shake-header a {
+  color: #afc1b5;
+  text-decoration: none;
+  font-size: 12px;
+}
+.shake-header > div {
+  display: flex;
+  gap: 10px;
+}
+.shake-header button {
+  font-size: 12px;
+  padding: 8px 12px;
+}
+.shake-steps {
+  display: flex;
+  list-style: none;
+  padding: 22px 0;
+  margin: 0;
+  gap: 35px;
+  color: #80998b;
+  font-size: 12px;
+}
+.shake-steps li {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.shake-steps span {
+  font-size: 14px;
+}
+.shake-steps [data-current] {
+  color: #f2cc88;
+}
+.shake-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 326px;
+  gap: 24px;
+  align-items: start;
+}
+.shake-view {
+  border: 1px solid #506258;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #202d2c;
+}
+#station {
+  display: block;
+  width: 100%;
+  height: auto;
+  touch-action: none;
+  cursor: grab;
+}
+#station:active {
+  cursor: grabbing;
+}
+.station-readout {
+  min-height: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 12px 18px;
+  color: #b6c7bc;
+  background: #25332f;
+  font-size: 11px;
+  letter-spacing: 0.07em;
+}
+.shake-console {
+  min-width: 0;
+}
+.shake-ticket {
+  border: 1px solid #7c8771;
+  border-top: 4px solid #d1c29f;
+  padding: 16px 18px;
+  background: #e7dec6;
+  color: #30362d;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.small-label {
+  font-size: 10px;
+  letter-spacing: 0.16em;
+}
+.shake-ticket strong {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+#recipe-texture {
+  text-transform: capitalize;
+  font-size: 12px;
+}
+.stage-panel {
+  padding-top: 20px;
+}
+.stage-panel[hidden] {
+  display: none;
+}
+.shake-game h1 {
+  font-size: 22px;
+  margin: 0 0 8px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+.stage-panel p {
+  font-size: 12px;
+  color: #afc1b5;
+  margin: 0 0 18px;
+}
+.shake-game fieldset {
+  padding: 0;
+  border: 0;
+  margin: 16px 0 20px;
+}
+.shake-game legend {
+  padding: 0;
+  margin-bottom: 8px;
+  font-size: 11px;
+  color: #b4c5b9;
+}
+.choice-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.choice-row button {
+  flex: 1;
+  font-size: 11px;
+  padding: 10px 7px;
+  text-transform: capitalize;
+}
+.shake-game .hold-button {
+  width: 100%;
+  min-height: 60px;
+  background: #e3b09d;
+  color: #282922;
+  border: 0;
+  font-weight: 700;
+  user-select: none;
+  touch-action: none;
+}
+.shake-game .hold-button:hover,
+.shake-game .hold-button[data-held],
+.shake-game .hold-button[aria-pressed='true'] {
+  background: #f3cfaa;
+  color: #282922;
+}
+.shake-game .advance {
+  width: 100%;
+  margin-top: 20px;
+  background: #b3c8aa;
+  color: #233029;
+  border: 0;
+  font-weight: 600;
+  min-height: 46px;
+}
+.shake-game .advance:hover:not(:disabled) {
+  background: #cfdfba;
+}
+.meter {
+  position: relative;
+  height: 9px;
+  background: #35473d;
+  margin: 20px 0 10px;
+}
+.meter span {
+  display: block;
+  height: 100%;
+  background: #c9d9a5;
+}
+.meter i {
+  position: absolute;
+  left: 78%;
+  top: -5px;
+  width: 2px;
+  height: 19px;
+  background: #f5e1b3;
+}
+#top-panel .meter i {
+  left: 64%;
+}
+.stage-panel output {
+  display: block;
+  min-height: 18px;
+  font-size: 11px;
+  color: #dbcdab;
+}
+.mix-stats {
+  display: flex;
+  gap: 36px;
+  padding: 22px 0 0;
+}
+.mix-stats div {
+  display: flex;
+  flex-direction: column;
+}
+.mix-stats span {
+  font-size: 10px;
+  color: #afc1b5;
+}
+.mix-stats strong {
+  font-size: 32px;
+  font-weight: 500;
+}
+.stage-panel .key-hint {
+  margin-top: 20px;
+  font-size: 11px;
+}
+.shake-feedback {
+  color: #cfdbb8;
+  font-size: 11px;
+  margin: 14px 0 0;
+  min-height: 17px;
+}
+.shake-score {
+  color: #d3dfb6;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.shake-score strong {
+  font-size: 68px;
+  font-weight: 500;
+}
+.shake-score span {
+  font-size: 14px;
+}
+#results {
+  font-size: 12px;
+  margin: 10px 0;
+}
+#results div {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  border-bottom: 1px solid #425449;
+  padding: 12px 0;
+}
+#results dt {
+  color: #afc1b5;
+}
+#results dd {
+  margin: 0;
+}
+.shake-game dialog {
+  color: #f4ead6;
+  background: #253830;
+  border: 1px solid #82958c;
+  padding: 30px;
+  min-width: 280px;
+}
+.shake-game dialog::backdrop {
+  background: #101b19dd;
+}
+.shake-game dialog h2 {
+  margin: 0;
+  font-size: 22px;
+}
+@media (max-width: 900px) {
+  .shake-game {
+    padding: 16px;
+  }
+  .shake-workspace {
+    grid-template-columns: minmax(0, 1fr) 290px;
+    gap: 16px;
+  }
+}
+@media (max-width: 680px) {
+  .shake-game {
+    padding: 12px;
+  }
+  .shake-workspace {
+    grid-template-columns: 1fr;
+  }
+  .shake-view {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+  .shake-header > span {
+    font-size: 13px;
+    letter-spacing: 0.1em;
+  }
+  .shake-header > div {
+    gap: 5px;
+  }
+  .shake-header button {
+    padding: 8px;
+  }
+  .shake-steps {
+    justify-content: space-between;
+    gap: 12px;
+    padding: 16px 0;
+  }
+  .shake-console {
+    padding-bottom: 24px;
+  }
+  .shake-ticket {
+    padding: 12px 16px;
+  }
+  .stage-panel {
+    padding-top: 16px;
+  }
+}

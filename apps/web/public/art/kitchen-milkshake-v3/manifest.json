@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "kitchen-milkshake-v3",
+  "status": "approved-kitchen-scale-implementation",
+  "authoring": "Pixelorama MCP",
+  "description": "Compact chrome motor, rose band, spindle and open steel mixing cup, redrawn at the approved kitchen scale.",
+  "image": "kitchen-milkshake.png",
+  "source": "assets/pixelorama/kitchen-milkshake-v3/kitchen-milkshake.pxo",
+  "palette": "assets/pixelorama/kitchen-milkshake-v3/palette.json",
+  "frameSize": {
+    "width": 20,
+    "height": 34
+  },
+  "nativeScale": 1,
+  "layers": [
+    "counter contact shadow",
+    "steel column and oval base",
+    "chrome motor and rose band",
+    "mixing spindle",
+    "open steel mixing cup",
+    "control and hard reflections"
+  ],
+  "animation": {
+    "frames": 1,
+    "fps": 1,
+    "durationMs": 1000,
+    "tag": "kitchen-milkshake-v3-static"
+  },
+  "components": [
+    {
+      "id": "milkshake-shadow",
+      "image": "kitchen-milkshake-shadow.png",
+      "order": 0
+    },
+    {
+      "id": "milkshake-body",
+      "image": "kitchen-milkshake-body.png",
+      "order": 1
+    }
+  ],
+  "counterAttachment": {
+    "footprint": {
+      "x": 2,
+      "y": 24,
+      "width": 16,
+      "height": 8
+    },
+    "anchor": {
+      "x": 10,
+      "y": 28
+    },
+    "proposedLayoutSourceOrigin": {
+      "x": 16,
+      "y": 98
+    }
+  },
+  "qaReport": "verification.json",
+  "collision": null,
+  "interaction": null,
+  "capacity": null,
+  "highlight": "engine-owned",
+  "preservedOriginal": "../kitchen-milkshake-review/kitchen-milkshake.png",
+  "integrated": true,
+  "roomLayout": "kitchen-layout-v3",
+  "approvedForGameUse": true
+}

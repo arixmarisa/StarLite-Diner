@@ -1,0 +1,734 @@
+{
+  "schemaVersion": 1,
+  "status": "complete-art-family",
+  "authoringTool": "Pixelorama MCP",
+  "asset": {
+    "id": "player-v3",
+    "image": "player.png",
+    "atlasImage": "player-atlas.png",
+    "atlasMetadata": "player-atlas.json",
+    "source": "assets/pixelorama/player-v3/player.pxo",
+    "palette": "assets/pixelorama/player-v3/palette.json",
+    "frameSize": {
+      "width": 16,
+      "height": 24
+    },
+    "sheetSize": {
+      "width": 80,
+      "height": 192
+    },
+    "anchor": {
+      "x": 8,
+      "y": 23
+    },
+    "footprint": {
+      "x": -5,
+      "y": -7,
+      "width": 10,
+      "height": 7
+    },
+    "footprintStatus": "Unchanged approved engine footprint; diagonal artwork does not alter collision geometry",
+    "rowOrder": [
+      "south",
+      "west",
+      "east",
+      "north",
+      "northwest",
+      "northeast",
+      "southwest",
+      "southeast"
+    ],
+    "columnOrder": ["idle", "walk_1", "walk_2", "walk_3", "walk_4"],
+    "sourceLayers": [
+      "01 - contact shadow",
+      "02 - shoes",
+      "03 - trousers",
+      "04 - outfit primary and cap band",
+      "05 - skin face ears and hands",
+      "06 - hair",
+      "07 - cream apron and collar",
+      "08 - cream service cap",
+      "09 - neutral face and details"
+    ],
+    "sourceFrameCount": 40,
+    "sourceFps": 8,
+    "frameRects": [
+      {
+        "direction": "south",
+        "durationMs": 500,
+        "durationMultiplier": 4,
+        "height": 24,
+        "index": 0,
+        "state": "idle",
+        "step": 0,
+        "width": 16,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "direction": "south",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 1,
+        "state": "walk",
+        "step": 1,
+        "width": 16,
+        "x": 16,
+        "y": 0
+      },
+      {
+        "direction": "south",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 2,
+        "state": "walk",
+        "step": 2,
+        "width": 16,
+        "x": 32,
+        "y": 0
+      },
+      {
+        "direction": "south",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 3,
+        "state": "walk",
+        "step": 3,
+        "width": 16,
+        "x": 48,
+        "y": 0
+      },
+      {
+        "direction": "south",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 4,
+        "state": "walk",
+        "step": 4,
+        "width": 16,
+        "x": 64,
+        "y": 0
+      },
+      {
+        "direction": "west",
+        "durationMs": 500,
+        "durationMultiplier": 4,
+        "height": 24,
+        "index": 5,
+        "state": "idle",
+        "step": 0,
+        "width": 16,
+        "x": 0,
+        "y": 24
+      },
+      {
+        "direction": "west",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 6,
+        "state": "walk",
+        "step": 1,
+        "width": 16,
+        "x": 16,
+        "y": 24
+      },
+      {
+        "direction": "west",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 7,
+        "state": "walk",
+        "step": 2,
+        "width": 16,
+        "x": 32,
+        "y": 24
+      },
+      {
+        "direction": "west",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 8,
+        "state": "walk",
+        "step": 3,
+        "width": 16,
+        "x": 48,
+        "y": 24
+      },
+      {
+        "direction": "west",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 9,
+        "state": "walk",
+        "step": 4,
+        "width": 16,
+        "x": 64,
+        "y": 24
+      },
+      {
+        "direction": "east",
+        "durationMs": 500,
+        "durationMultiplier": 4,
+        "height": 24,
+        "index": 10,
+        "state": "idle",
+        "step": 0,
+        "width": 16,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "direction": "east",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 11,
+        "state": "walk",
+        "step": 1,
+        "width": 16,
+        "x": 16,
+        "y": 48
+      },
+      {
+        "direction": "east",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 12,
+        "state": "walk",
+        "step": 2,
+        "width": 16,
+        "x": 32,
+        "y": 48
+      },
+      {
+        "direction": "east",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 13,
+        "state": "walk",
+        "step": 3,
+        "width": 16,
+        "x": 48,
+        "y": 48
+      },
+      {
+        "direction": "east",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 14,
+        "state": "walk",
+        "step": 4,
+        "width": 16,
+        "x": 64,
+        "y": 48
+      },
+      {
+        "direction": "north",
+        "durationMs": 500,
+        "durationMultiplier": 4,
+        "height": 24,
+        "index": 15,
+        "state": "idle",
+        "step": 0,
+        "width": 16,
+        "x": 0,
+        "y": 72
+      },
+      {
+        "direction": "north",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 16,
+        "state": "walk",
+        "step": 1,
+        "width": 16,
+        "x": 16,
+        "y": 72
+      },
+      {
+        "direction": "north",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 17,
+        "state": "walk",
+        "step": 2,
+        "width": 16,
+        "x": 32,
+        "y": 72
+      },
+      {
+        "direction": "north",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 18,
+        "state": "walk",
+        "step": 3,
+        "width": 16,
+        "x": 48,
+        "y": 72
+      },
+      {
+        "direction": "north",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 19,
+        "state": "walk",
+        "step": 4,
+        "width": 16,
+        "x": 64,
+        "y": 72
+      },
+      {
+        "direction": "northwest",
+        "durationMs": 500,
+        "durationMultiplier": 4,
+        "height": 24,
+        "index": 20,
+        "state": "idle",
+        "step": 0,
+        "width": 16,
+        "x": 0,
+        "y": 96
+      },
+      {
+        "direction": "northwest",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 21,
+        "state": "walk",
+        "step": 1,
+        "width": 16,
+        "x": 16,
+        "y": 96
+      },
+      {
+        "direction": "northwest",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 22,
+        "state": "walk",
+        "step": 2,
+        "width": 16,
+        "x": 32,
+        "y": 96
+      },
+      {
+        "direction": "northwest",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 23,
+        "state": "walk",
+        "step": 3,
+        "width": 16,
+        "x": 48,
+        "y": 96
+      },
+      {
+        "direction": "northwest",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 24,
+        "state": "walk",
+        "step": 4,
+        "width": 16,
+        "x": 64,
+        "y": 96
+      },
+      {
+        "direction": "northeast",
+        "durationMs": 500,
+        "durationMultiplier": 4,
+        "height": 24,
+        "index": 25,
+        "state": "idle",
+        "step": 0,
+        "width": 16,
+        "x": 0,
+        "y": 120
+      },
+      {
+        "direction": "northeast",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 26,
+        "state": "walk",
+        "step": 1,
+        "width": 16,
+        "x": 16,
+        "y": 120
+      },
+      {
+        "direction": "northeast",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 27,
+        "state": "walk",
+        "step": 2,
+        "width": 16,
+        "x": 32,
+        "y": 120
+      },
+      {
+        "direction": "northeast",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 28,
+        "state": "walk",
+        "step": 3,
+        "width": 16,
+        "x": 48,
+        "y": 120
+      },
+      {
+        "direction": "northeast",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 29,
+        "state": "walk",
+        "step": 4,
+        "width": 16,
+        "x": 64,
+        "y": 120
+      },
+      {
+        "direction": "southwest",
+        "durationMs": 500,
+        "durationMultiplier": 4,
+        "height": 24,
+        "index": 30,
+        "state": "idle",
+        "step": 0,
+        "width": 16,
+        "x": 0,
+        "y": 144
+      },
+      {
+        "direction": "southwest",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 31,
+        "state": "walk",
+        "step": 1,
+        "width": 16,
+        "x": 16,
+        "y": 144
+      },
+      {
+        "direction": "southwest",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 32,
+        "state": "walk",
+        "step": 2,
+        "width": 16,
+        "x": 32,
+        "y": 144
+      },
+      {
+        "direction": "southwest",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 33,
+        "state": "walk",
+        "step": 3,
+        "width": 16,
+        "x": 48,
+        "y": 144
+      },
+      {
+        "direction": "southwest",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 34,
+        "state": "walk",
+        "step": 4,
+        "width": 16,
+        "x": 64,
+        "y": 144
+      },
+      {
+        "direction": "southeast",
+        "durationMs": 500,
+        "durationMultiplier": 4,
+        "height": 24,
+        "index": 35,
+        "state": "idle",
+        "step": 0,
+        "width": 16,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "direction": "southeast",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 36,
+        "state": "walk",
+        "step": 1,
+        "width": 16,
+        "x": 16,
+        "y": 168
+      },
+      {
+        "direction": "southeast",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 37,
+        "state": "walk",
+        "step": 2,
+        "width": 16,
+        "x": 32,
+        "y": 168
+      },
+      {
+        "direction": "southeast",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 38,
+        "state": "walk",
+        "step": 3,
+        "width": 16,
+        "x": 48,
+        "y": 168
+      },
+      {
+        "direction": "southeast",
+        "durationMs": 125,
+        "durationMultiplier": 1,
+        "height": 24,
+        "index": 39,
+        "state": "walk",
+        "step": 4,
+        "width": 16,
+        "x": 64,
+        "y": 168
+      }
+    ],
+    "animations": {
+      "idle_south": {
+        "frames": [0],
+        "fps": 8,
+        "durationMultiplier": 4
+      },
+      "walk_south": {
+        "frames": [1, 2, 3, 4],
+        "fps": 8,
+        "durationMultiplier": 1
+      },
+      "idle_west": {
+        "frames": [5],
+        "fps": 8,
+        "durationMultiplier": 4
+      },
+      "walk_west": {
+        "frames": [6, 7, 8, 9],
+        "fps": 8,
+        "durationMultiplier": 1
+      },
+      "idle_east": {
+        "frames": [10],
+        "fps": 8,
+        "durationMultiplier": 4
+      },
+      "walk_east": {
+        "frames": [11, 12, 13, 14],
+        "fps": 8,
+        "durationMultiplier": 1
+      },
+      "idle_north": {
+        "frames": [15],
+        "fps": 8,
+        "durationMultiplier": 4
+      },
+      "walk_north": {
+        "frames": [16, 17, 18, 19],
+        "fps": 8,
+        "durationMultiplier": 1
+      },
+      "idle_northwest": {
+        "frames": [20],
+        "fps": 8,
+        "durationMultiplier": 4
+      },
+      "walk_northwest": {
+        "frames": [21, 22, 23, 24],
+        "fps": 8,
+        "durationMultiplier": 1
+      },
+      "idle_northeast": {
+        "frames": [25],
+        "fps": 8,
+        "durationMultiplier": 4
+      },
+      "walk_northeast": {
+        "frames": [26, 27, 28, 29],
+        "fps": 8,
+        "durationMultiplier": 1
+      },
+      "idle_southwest": {
+        "frames": [30],
+        "fps": 8,
+        "durationMultiplier": 4
+      },
+      "walk_southwest": {
+        "frames": [31, 32, 33, 34],
+        "fps": 8,
+        "durationMultiplier": 1
+      },
+      "idle_southeast": {
+        "frames": [35],
+        "fps": 8,
+        "durationMultiplier": 4
+      },
+      "walk_southeast": {
+        "frames": [36, 37, 38, 39],
+        "fps": 8,
+        "durationMultiplier": 1
+      }
+    }
+  },
+  "recolor": {
+    "map": "recolor-map.json",
+    "frameSize": {
+      "width": 16,
+      "height": 24
+    },
+    "sheetSize": {
+      "width": 80,
+      "height": 192
+    },
+    "roles": {
+      "skin": {
+        "layerIndex": 4,
+        "layerName": "05 - skin face ears and hands",
+        "layerImage": "skin-layer.png",
+        "mask": "skin-mask.png",
+        "tones": {
+          "shade": "#e5a381",
+          "base": "#ffd0a3"
+        }
+      },
+      "outfit": {
+        "layerIndex": 3,
+        "layerName": "04 - outfit primary and cap band",
+        "layerImage": "outfit-layer.png",
+        "mask": "outfit-mask.png",
+        "tones": {
+          "deepShade": "#9f385e",
+          "shade": "#c94d7b",
+          "base": "#ee75a3",
+          "highlight": "#ffacc9"
+        }
+      }
+    },
+    "neutralPixelsExcluded": true,
+    "visibleMasksOnly": true,
+    "rolesDisjoint": true,
+    "runtimeCustomizationImplemented": false
+  },
+  "previews": {
+    "sheet": "assets/pixelorama/player-v3/player-preview.png",
+    "idleStrip": "player-idles.png",
+    "idleStripPreview": "assets/pixelorama/player-v3/player-idles-preview.png",
+    "directionIdleImages": [
+      "idle-south.png",
+      "idle-west.png",
+      "idle-east.png",
+      "idle-north.png",
+      "idle-northwest.png",
+      "idle-northeast.png",
+      "idle-southwest.png",
+      "idle-southeast.png"
+    ],
+    "motion": "player-motion-preview.png",
+    "motionFormat": "APNG with PNG extension",
+    "motionFrameCount": 4,
+    "motionFrameSize": {
+      "width": 768,
+      "height": 144
+    },
+    "motionOrder": [
+      "south",
+      "west",
+      "east",
+      "north",
+      "northwest",
+      "northeast",
+      "southwest",
+      "southeast"
+    ],
+    "motionFps": 8,
+    "motionLoops": 0,
+    "diagonalIdleStrip": "diagonal-idles.png",
+    "diagonalIdlePreview": "diagonal-idles-preview.png",
+    "diagonalMotion": "diagonal-motion-preview.png"
+  },
+  "qa": {
+    "savedSourceFrames": 40,
+    "savedSourceLayers": 9,
+    "savedSourceTags": 16,
+    "savedCels": 360,
+    "paletteSwatches": 17,
+    "visibleColors": 13,
+    "opaquePixelsAcrossFrames": 8513,
+    "semitransparentPixels": 0,
+    "orphanPixels": 0,
+    "allSpritesOneConnectedOpaqueComponent": true,
+    "approvedSouthIdleExact": true,
+    "allOriginalCardinalFramesExact": true,
+    "allSavedFramesMatchSheet": true,
+    "sheetMatchesAtlas": true,
+    "allGroundAnchorsOpaque": true,
+    "allContactShadowsIdentical": true,
+    "allFramesHaveGroundedShoe": true,
+    "nativeTimelineTimingExact": true,
+    "distinctWalkFramesPerDirection": {
+      "east": 4,
+      "north": 4,
+      "northeast": 4,
+      "northwest": 4,
+      "south": 4,
+      "southeast": 4,
+      "southwest": 4,
+      "west": 4
+    },
+    "allRoleMasksDisjoint": true,
+    "allRecolorChangesRestrictedToMasks": true,
+    "allRoleTonesRestrictedToTheirLayers": true,
+    "intentionalTransparentClearance": "Per-frame pixel gaps are recorded in source verification.json"
+  },
+  "approvedFrontReference": "apps/web/public/art/player-front-review/player-front.png",
+  "originalFamilyPreserved": "assets/pixelorama/player-v1/player.pxo",
+  "integrated": true,
+  "preservedCardinalFamily": "assets/pixelorama/player-v2/player.pxo"
+}

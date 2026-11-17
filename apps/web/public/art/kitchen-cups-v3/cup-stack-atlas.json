@@ -1,0 +1,20 @@
+{
+  "frames": {
+    "cup-stack_0": {
+      "frame": { "x": 0, "y": 0, "w": 8, "h": 10 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 10 },
+      "sourceSize": { "w": 8, "h": 10 },
+      "duration": 1000
+    }
+  },
+  "meta": {
+    "app": "Pixelorama MCP",
+    "image": "cup-stack-atlas.png",
+    "format": "RGBA8888",
+    "size": { "w": 8, "h": 10 },
+    "scale": "1",
+    "frameTags": [{ "name": "kitchen-cups-v3-static", "from": 0, "to": 0, "direction": "forward" }]
+  }
+}

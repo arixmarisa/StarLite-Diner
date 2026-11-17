@@ -1,0 +1,44 @@
+{
+  "frames": [
+    {
+      "filename": "kitchen-grill-static",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 40
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 40
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 40
+      },
+      "duration": 1000
+    }
+  ],
+  "meta": {
+    "app": "Pixelorama",
+    "image": "kitchen-grill-atlas.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 96,
+      "h": 40
+    },
+    "scale": "1",
+    "frameTags": [
+      {
+        "name": "kitchen-grill-scale-static",
+        "from": 0,
+        "to": 0,
+        "direction": "forward"
+      }
+    ]
+  }
+}

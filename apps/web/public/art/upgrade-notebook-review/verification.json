@@ -1,0 +1,312 @@
+{
+  "activeProjectUnchanged": true,
+  "atlas": {
+    "frames": 1.0,
+    "layers": 6.0,
+    "paletteSwatches": 14.0,
+    "pixelsMatch": true,
+    "populatedLayers": [true, true, true, true, true, true],
+    "sourceSize": [160.0, 160.0],
+    "tag": "upgrade-ui-atlas-static"
+  },
+  "atlasStats": {
+    "opaquePixels": 5664.0,
+    "orphans": 0.0,
+    "semitransparentPixels": 0.0,
+    "visibleColors": 14.0
+  },
+  "notebook": {
+    "frames": 1.0,
+    "layers": 4.0,
+    "paletteSwatches": 14.0,
+    "pixelsMatch": true,
+    "populatedLayers": [true, true, true, true],
+    "sourceSize": [320.0, 192.0],
+    "tag": "upgrade-notebook-static"
+  },
+  "notebookStats": {
+    "opaquePixels": 59668.0,
+    "orphans": 0.0,
+    "semitransparentPixels": 0.0,
+    "visibleColors": 12.0
+  },
+  "outlineContentLeftClear": true,
+  "outlineContentRightClear": true,
+  "paperAndOutlineReconstructExactly": true,
+  "resizeContractChecks": {
+    "binding-tile": {
+      "sourceCropMatches": true
+    },
+    "button-hover": {
+      "nativeIdentity": true,
+      "repeatBoundaryProfilesMatch": true,
+      "resizeCases": [
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [24, 16]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [69, 43]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [67, 37]
+        }
+      ],
+      "sourceCropMatches": true
+    },
+    "button-pressed": {
+      "nativeIdentity": true,
+      "repeatBoundaryProfilesMatch": true,
+      "resizeCases": [
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [24, 16]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [69, 43]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [67, 37]
+        }
+      ],
+      "sourceCropMatches": true
+    },
+    "button-rest": {
+      "nativeIdentity": true,
+      "repeatBoundaryProfilesMatch": true,
+      "resizeCases": [
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [24, 16]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [69, 43]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [67, 37]
+        }
+      ],
+      "sourceCropMatches": true
+    },
+    "cover-frame": {
+      "nativeIdentity": true,
+      "repeatBoundaryProfilesMatch": true,
+      "resizeCases": [
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [32, 32]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [101, 71]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [131, 65]
+        }
+      ],
+      "sourceCropMatches": true
+    },
+    "entry-normal": {
+      "nativeIdentity": true,
+      "repeatBoundaryProfilesMatch": true,
+      "resizeCases": [
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [24, 16]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [85, 43]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [99, 37]
+        }
+      ],
+      "sourceCropMatches": true
+    },
+    "entry-selected": {
+      "nativeIdentity": true,
+      "repeatBoundaryProfilesMatch": true,
+      "resizeCases": [
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [24, 16]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [85, 43]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [99, 37]
+        }
+      ],
+      "sourceCropMatches": true
+    },
+    "page-frame": {
+      "nativeIdentity": true,
+      "repeatBoundaryProfilesMatch": true,
+      "resizeCases": [
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [24, 24]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [85, 71]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [99, 65]
+        }
+      ],
+      "sourceCropMatches": true
+    },
+    "paper-fill": {
+      "sourceCropMatches": true
+    },
+    "scroll-thumb": {
+      "nativeIdentity": true,
+      "repeatBoundaryProfilesMatch": true,
+      "resizeCases": [
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [8, 12]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [45, 39]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [19, 33]
+        }
+      ],
+      "sourceCropMatches": true
+    },
+    "scroll-track": {
+      "nativeIdentity": true,
+      "repeatBoundaryProfilesMatch": true,
+      "resizeCases": [
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [8, 12]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [45, 47]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [19, 41]
+        }
+      ],
+      "sourceCropMatches": true
+    },
+    "tab-normal": {
+      "nativeIdentity": true,
+      "repeatBoundaryProfilesMatch": true,
+      "resizeCases": [
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [16, 12]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [61, 39]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [51, 33]
+        }
+      ],
+      "sourceCropMatches": true
+    },
+    "tab-selected": {
+      "nativeIdentity": true,
+      "repeatBoundaryProfilesMatch": true,
+      "resizeCases": [
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [16, 12]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [61, 39]
+        },
+        {
+          "contentTransparent": true,
+          "cornersUnchanged": true,
+          "size": [51, 33]
+        }
+      ],
+      "sourceCropMatches": true
+    }
+  },
+  "resizedTransparentInteriors": {
+    "button-hover": true,
+    "button-pressed": true,
+    "button-rest": true,
+    "cover-frame": true,
+    "entry-normal": true,
+    "entry-selected": true,
+    "page-frame": true,
+    "scroll-thumb": true,
+    "scroll-track": true,
+    "tab-normal": true,
+    "tab-selected": true
+  },
+  "transparentContentInteriors": {
+    "button-hover": true,
+    "button-pressed": true,
+    "button-rest": true,
+    "cover-frame": true,
+    "entry-normal": true,
+    "entry-selected": true,
+    "page-frame": true,
+    "scroll-thumb": true,
+    "scroll-track": true,
+    "tab-normal": true,
+    "tab-selected": true
+  }
+}

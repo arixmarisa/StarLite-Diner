@@ -1,0 +1,22 @@
+{
+  "activeProjectUnchanged": true,
+  "allSpritesAtNativeScale": true,
+  "celByteSizes": [67584, 67584, 67584, 67584, 67584, 67584, 67584],
+  "commonFootContactRow": 80,
+  "fps": 1.0,
+  "frames": 1,
+  "leftPlayerUnchanged": true,
+  "originalFryerFootContact": [52, 80],
+  "paletteSwatches": 24,
+  "playerFootContacts": [
+    [20, 80],
+    [108, 80]
+  ],
+  "playerFrame": [0, 48, 16, 24],
+  "revisedFryerFootContact": [136, 80],
+  "rightPlayerUnchanged": true,
+  "savedSourceMatchesPng": true,
+  "sourceLayers": 7,
+  "sourceSize": [176.0, 96.0],
+  "tag": "fryer-scale-comparison-static"
+}

@@ -1,0 +1,295 @@
+{
+  "cellSize": 24,
+  "columns": 8,
+  "image": "contact-sheet.png",
+  "items": [
+    {
+      "height": 16,
+      "id": "burger",
+      "image": "/art/order-bubble-review/burger.png",
+      "label": "Burger",
+      "width": 16,
+      "x": 4,
+      "y": 4
+    },
+    {
+      "height": 16,
+      "id": "hot-dog",
+      "image": "hot-dog.png",
+      "label": "Hot dog",
+      "width": 16,
+      "x": 28,
+      "y": 4
+    },
+    {
+      "height": 16,
+      "id": "fries",
+      "image": "fries.png",
+      "label": "French fries",
+      "width": 16,
+      "x": 52,
+      "y": 4
+    },
+    {
+      "height": 16,
+      "id": "onion-rings",
+      "image": "onion-rings.png",
+      "label": "Onion rings",
+      "width": 16,
+      "x": 76,
+      "y": 4
+    },
+    {
+      "height": 16,
+      "id": "ketchup",
+      "image": "ketchup.png",
+      "label": "Ketchup",
+      "width": 16,
+      "x": 100,
+      "y": 4
+    },
+    {
+      "height": 16,
+      "id": "mustard",
+      "image": "mustard.png",
+      "label": "Mustard",
+      "width": 16,
+      "x": 124,
+      "y": 4
+    },
+    {
+      "height": 16,
+      "id": "mayonnaise",
+      "image": "mayonnaise.png",
+      "label": "Mayonnaise",
+      "width": 16,
+      "x": 148,
+      "y": 4
+    },
+    {
+      "height": 16,
+      "id": "lettuce",
+      "image": "lettuce.png",
+      "label": "Lettuce",
+      "width": 16,
+      "x": 172,
+      "y": 4
+    },
+    {
+      "height": 16,
+      "id": "cheese",
+      "image": "cheese.png",
+      "label": "Cheese",
+      "width": 16,
+      "x": 4,
+      "y": 28
+    },
+    {
+      "height": 16,
+      "id": "onion",
+      "image": "onion.png",
+      "label": "Onion",
+      "width": 16,
+      "x": 28,
+      "y": 28
+    },
+    {
+      "height": 16,
+      "id": "tomato",
+      "image": "tomato.png",
+      "label": "Tomato",
+      "width": 16,
+      "x": 52,
+      "y": 28
+    },
+    {
+      "height": 16,
+      "id": "pancakes-1",
+      "image": "pancakes-1.png",
+      "label": "1 pancake",
+      "width": 16,
+      "x": 76,
+      "y": 28
+    },
+    {
+      "height": 16,
+      "id": "pancakes-2",
+      "image": "pancakes-2.png",
+      "label": "2 pancakes",
+      "width": 16,
+      "x": 100,
+      "y": 28
+    },
+    {
+      "height": 16,
+      "id": "pancakes-3",
+      "image": "pancakes-3.png",
+      "label": "3 pancakes",
+      "width": 16,
+      "x": 124,
+      "y": 28
+    },
+    {
+      "height": 16,
+      "id": "banana",
+      "image": "banana.png",
+      "label": "Banana",
+      "width": 16,
+      "x": 148,
+      "y": 28
+    },
+    {
+      "height": 16,
+      "id": "chocolate",
+      "image": "chocolate.png",
+      "label": "Chocolate",
+      "width": 16,
+      "x": 172,
+      "y": 28
+    },
+    {
+      "height": 16,
+      "id": "blueberry",
+      "image": "blueberry.png",
+      "label": "Blueberry",
+      "width": 16,
+      "x": 4,
+      "y": 52
+    },
+    {
+      "height": 16,
+      "id": "strawberry",
+      "image": "strawberry.png",
+      "label": "Strawberry",
+      "width": 16,
+      "x": 28,
+      "y": 52
+    },
+    {
+      "height": 16,
+      "id": "pickle",
+      "image": "pickle.png",
+      "label": "Pickles",
+      "width": 16,
+      "x": 52,
+      "y": 52
+    },
+    {
+      "height": 16,
+      "id": "relish",
+      "image": "relish.png",
+      "label": "Relish",
+      "width": 16,
+      "x": 76,
+      "y": 52
+    },
+    {
+      "height": 16,
+      "id": "cherry",
+      "image": "cherry.png",
+      "label": "Cherry",
+      "width": 16,
+      "x": 100,
+      "y": 52
+    },
+    {
+      "height": 16,
+      "id": "coffee",
+      "image": "coffee.png",
+      "label": "Coffee",
+      "width": 16,
+      "x": 124,
+      "y": 52
+    },
+    {
+      "height": 16,
+      "id": "tea",
+      "image": "tea.png",
+      "label": "Tea",
+      "width": 16,
+      "x": 148,
+      "y": 52
+    },
+    {
+      "height": 16,
+      "id": "soda",
+      "image": "soda.png",
+      "label": "Soda",
+      "width": 16,
+      "x": 172,
+      "y": 52
+    },
+    {
+      "height": 16,
+      "id": "hot-chocolate",
+      "image": "hot-chocolate.png",
+      "label": "Hot chocolate",
+      "width": 16,
+      "x": 4,
+      "y": 76
+    },
+    {
+      "height": 16,
+      "id": "milkshake-vanilla",
+      "image": "milkshake-vanilla.png",
+      "label": "Vanilla milkshake",
+      "width": 16,
+      "x": 28,
+      "y": 76
+    },
+    {
+      "height": 16,
+      "id": "milkshake-chocolate",
+      "image": "milkshake-chocolate.png",
+      "label": "Chocolate milkshake",
+      "width": 16,
+      "x": 52,
+      "y": 76
+    },
+    {
+      "height": 16,
+      "id": "milkshake-strawberry",
+      "image": "milkshake-strawberry.png",
+      "label": "Strawberry milkshake",
+      "width": 16,
+      "x": 76,
+      "y": 76
+    },
+    {
+      "height": 16,
+      "id": "whipped-cream",
+      "image": "whipped-cream.png",
+      "label": "Whipped cream",
+      "width": 16,
+      "x": 100,
+      "y": 76
+    },
+    {
+      "height": 16,
+      "id": "chocolate-drizzle",
+      "image": "chocolate-drizzle.png",
+      "label": "Chocolate drizzle",
+      "width": 16,
+      "x": 124,
+      "y": 76
+    },
+    {
+      "height": 16,
+      "id": "cherry-drizzle",
+      "image": "cherry-drizzle.png",
+      "label": "Cherry drizzle",
+      "width": 16,
+      "x": 148,
+      "y": 76
+    }
+  ],
+  "padding": 4,
+  "preview": "contact-sheet-preview.png",
+  "previewScale": 6,
+  "purpose": "Review only; not a third content family or a runtime order layout.",
+  "size": {
+    "height": 96,
+    "width": 192
+  },
+  "source": "assets/pixelorama/order-icons-v1/contact-sheet.pxo"
+}

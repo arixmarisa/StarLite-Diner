@@ -1,0 +1,129 @@
+{
+  "activeProjectUnchanged": true,
+  "allPatchPixelsInOriginalPalette": true,
+  "animationChangesRestrictedToROIs": true,
+  "apng": {
+    "door": {
+      "bytes": 37692,
+      "delaysMs": [125, 125, 125, 125, 125, 125],
+      "frames": 6,
+      "height": 216,
+      "loops": 1,
+      "width": 384
+    },
+    "doorPreview": {
+      "bytes": 71628,
+      "delaysMs": [125, 125, 125, 125, 125, 125],
+      "frames": 6,
+      "height": 648,
+      "loops": 1,
+      "width": 1152
+    },
+    "flicker": {
+      "bytes": 61790,
+      "delaysMs": [2400, 180, 1020, 220, 1580, 140, 160, 2400, 180, 3720],
+      "frames": 10,
+      "height": 216,
+      "loops": 0,
+      "width": 384
+    },
+    "flickerPreview": {
+      "bytes": 118281,
+      "delaysMs": [2400, 180, 1020, 220, 1580, 140, 160, 2400, 180, 3720],
+      "frames": 10,
+      "height": 648,
+      "loops": 0,
+      "width": 1152
+    }
+  },
+  "base": {
+    "activeProjectUnchanged": true,
+    "background": {
+      "fps": 1.0,
+      "frames": 1.0,
+      "height": 216.0,
+      "layers": 9.0,
+      "saved": true,
+      "savedMetadataExact": true,
+      "savedPaletteSwatches": 36.0,
+      "sourceCelsExact": 9.0,
+      "sourceCompositeExact": true,
+      "tags": 1.0,
+      "width": 384.0
+    },
+    "exportCodes": {
+      "menu-exterior": 0.0,
+      "start-comparison": 0.0
+    },
+    "gameIntegration": false,
+    "nativeSize": [384.0, 216.0],
+    "paletteSwatches": 36.0,
+    "pngRoundtripsExact": true,
+    "previewScale": 3.0,
+    "semiTransparentPixels": 0.0,
+    "startPixelsExact": true,
+    "startPosition": {
+      "height": 28.0,
+      "width": 96.0,
+      "x": 144.0,
+      "y": 148.0
+    },
+    "startReview": {
+      "fps": 1.0,
+      "frames": 1.0,
+      "height": 216.0,
+      "layers": 2.0,
+      "saved": true,
+      "savedMetadataExact": true,
+      "savedPaletteSwatches": 36.0,
+      "sourceCelsExact": 2.0,
+      "sourceCompositeExact": true,
+      "tags": 1.0,
+      "width": 384.0
+    },
+    "transparentBackgroundPixels": 0.0,
+    "visibleBackgroundColors": 35.0
+  },
+  "closedDoorFirstFrameExact": true,
+  "door": {
+    "fps": 8,
+    "frames": 6,
+    "layers": 3,
+    "nativeSize": [36, 47],
+    "paletteSwatches": 36,
+    "savedCelsExact": 18,
+    "savedCompositesExact": true,
+    "savedMetadataExact": true,
+    "tags": 1
+  },
+  "fixedDoorSurroundExact": true,
+  "integrated": false,
+  "opaquePatchStates": true,
+  "outsideTreeRegionsExact": true,
+  "paletteSwatches": 36,
+  "signs": {
+    "diner": {
+      "fps": 1,
+      "frames": 3,
+      "layers": 2,
+      "nativeSize": [31, 9],
+      "paletteSwatches": 36,
+      "savedCelsExact": 6,
+      "savedCompositesExact": true,
+      "savedMetadataExact": true,
+      "tags": 3
+    },
+    "starlite": {
+      "fps": 1,
+      "frames": 3,
+      "layers": 2,
+      "nativeSize": [96, 16],
+      "paletteSwatches": 36,
+      "savedCelsExact": 6,
+      "savedCompositesExact": true,
+      "savedMetadataExact": true,
+      "tags": 3
+    }
+  },
+  "treeChangedPixels": 75
+}

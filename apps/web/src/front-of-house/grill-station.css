@@ -1,0 +1,135 @@
+.grill-station {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100svh;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #000;
+  outline: none;
+}
+
+.grill-station[open] {
+  display: grid;
+  place-items: center;
+}
+
+.grill-station::backdrop {
+  background: #000;
+}
+
+.grill-station-stage {
+  position: relative;
+  flex: none;
+  --station-pixel: 1px;
+  overflow: hidden;
+  background: #000;
+}
+
+.grill-station-piece {
+  position: absolute;
+  overflow: hidden;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+.grill-station-piece img {
+  position: absolute;
+  max-width: none;
+}
+
+.grill-station-piece img,
+.grill-station-food,
+.grill-station-ingredient-highlight img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+  pointer-events: none;
+  user-select: none;
+}
+
+.grill-station-food-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.grill-station-food {
+  position: absolute;
+}
+
+.grill-station-ingredient:disabled {
+  cursor: not-allowed;
+}
+
+.grill-station-status {
+  position: absolute;
+  left: 16px;
+  bottom: 12px;
+  margin: 0;
+  color: #fff0d5;
+  font:
+    14px ui-monospace,
+    monospace;
+}
+
+.grill-station-ingredient {
+  position: absolute;
+  display: block;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  z-index: 1;
+}
+
+.grill-station-ingredient-highlight {
+  position: absolute;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.grill-station-ingredient:hover .grill-station-ingredient-highlight,
+.grill-station-ingredient:focus-visible .grill-station-ingredient-highlight {
+  visibility: visible;
+}
+
+.grill-station-ingredient-highlight img {
+  position: absolute;
+  inset: 0;
+  filter: drop-shadow(
+    calc(var(--outline-x) * var(--station-pixel)) calc(var(--outline-y) * var(--station-pixel)) 0
+      #fff0d5
+  );
+}
+
+.grill-station-back {
+  position: absolute;
+  right: 16px;
+  bottom: 12px;
+  margin: 0;
+  border: 1px solid #676c70;
+  padding: 6px 10px;
+  border-radius: 0;
+  background: #322c38;
+  color: #fff0d5;
+  font:
+    14px ui-monospace,
+    monospace;
+  cursor: pointer;
+}
+
+.grill-station-back:hover,
+.grill-station-back:focus-visible {
+  border-color: #fff0d5;
+  outline: 1px solid #fff0d5;
+}

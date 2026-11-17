@@ -1,0 +1,250 @@
+{
+  "activeProjectUnchanged": true,
+  "allInstancesAtNativeScale": true,
+  "assemblyOffsetsMatchWorldPositions": true,
+  "assetCount": 32,
+  "assetSizes": [
+    {
+      "height": 16,
+      "id": "floor",
+      "width": 16
+    },
+    {
+      "height": 32,
+      "id": "wall",
+      "width": 16
+    },
+    {
+      "height": 32,
+      "id": "wall-left",
+      "width": 16
+    },
+    {
+      "height": 32,
+      "id": "wall-right",
+      "width": 16
+    },
+    {
+      "height": 16,
+      "id": "wall-side-left",
+      "width": 8
+    },
+    {
+      "height": 16,
+      "id": "wall-side-right",
+      "width": 8
+    },
+    {
+      "height": 8,
+      "id": "wall-base",
+      "width": 16
+    },
+    {
+      "height": 34,
+      "id": "mixer",
+      "width": 20
+    },
+    {
+      "height": 10,
+      "id": "cups",
+      "width": 8
+    },
+    {
+      "height": 18,
+      "id": "counter-top",
+      "width": 16
+    },
+    {
+      "height": 13,
+      "id": "counter-front",
+      "width": 16
+    },
+    {
+      "height": 31,
+      "id": "counter-left",
+      "width": 16
+    },
+    {
+      "height": 31,
+      "id": "counter-right",
+      "width": 16
+    },
+    {
+      "height": 16,
+      "id": "counter-vertical",
+      "width": 20
+    },
+    {
+      "height": 13,
+      "id": "counter-near",
+      "width": 20
+    },
+    {
+      "height": 18,
+      "id": "counter-turn",
+      "width": 20
+    },
+    {
+      "height": 60,
+      "id": "fridge-shadow",
+      "width": 40
+    },
+    {
+      "height": 60,
+      "id": "fridge",
+      "width": 40
+    },
+    {
+      "height": 40,
+      "id": "grill-shadow",
+      "width": 96
+    },
+    {
+      "height": 40,
+      "id": "grill",
+      "width": 96
+    },
+    {
+      "height": 40,
+      "id": "fryer-shadow",
+      "width": 32
+    },
+    {
+      "height": 40,
+      "id": "fryer",
+      "width": 32
+    },
+    {
+      "height": 24,
+      "id": "trash-shadow",
+      "width": 20
+    },
+    {
+      "height": 24,
+      "id": "trash",
+      "width": 20
+    },
+    {
+      "height": 32,
+      "id": "sink",
+      "width": 48
+    },
+    {
+      "height": 32,
+      "id": "toppings",
+      "width": 48
+    },
+    {
+      "height": 32,
+      "id": "prep-bins",
+      "width": 56
+    },
+    {
+      "height": 14,
+      "id": "serving-tray",
+      "width": 20
+    },
+    {
+      "height": 14,
+      "id": "grill-ingredient-tray",
+      "width": 8
+    },
+    {
+      "height": 12,
+      "id": "raw-patty",
+      "width": 8
+    },
+    {
+      "height": 12,
+      "id": "raw-sausage",
+      "width": 8
+    },
+    {
+      "height": 12,
+      "id": "pancake-batter",
+      "width": 8
+    }
+  ],
+  "celByteSizes": [466944, 466944, 466944, 466944, 466944, 466944, 466944, 466944, 466944],
+  "clearPrepWorktopOccupiedPropPixels": 0,
+  "corridorChecks": [
+    {
+      "clearance": 55,
+      "id": "rear-work-aisle",
+      "occupiedVisualPixels": 0,
+      "visuallyClear": true
+    },
+    {
+      "clearance": 102,
+      "id": "middle-work-aisle",
+      "occupiedVisualPixels": 0,
+      "visuallyClear": true
+    },
+    {
+      "clearance": 76,
+      "id": "left-main-aisle",
+      "occupiedVisualPixels": 0,
+      "visuallyClear": true
+    },
+    {
+      "clearance": 56,
+      "id": "right-main-aisle",
+      "occupiedVisualPixels": 0,
+      "visuallyClear": true
+    },
+    {
+      "clearance": 48,
+      "id": "west-opening-access",
+      "occupiedVisualPixels": 0,
+      "visuallyClear": true
+    },
+    {
+      "clearance": 48,
+      "id": "east-opening-access",
+      "occupiedVisualPixels": 0,
+      "visuallyClear": true
+    }
+  ],
+  "exportCodes": {
+    "native": 0,
+    "preview": 0,
+    "publicPreview": 0
+  },
+  "fixedCuttingBoardInstances": 0,
+  "fps": 1,
+  "frames": 1,
+  "instanceCount": 154,
+  "layers": 9,
+  "nativeSize": [384, 304],
+  "opaquePixels": 104448,
+  "paletteSwatches": 21,
+  "populatedLayers": 9,
+  "privateCompositeMatchesSavedSource": true,
+  "revisionChecks": {
+    "archwayInstances": 0,
+    "bottomWallInteriorY": 288,
+    "counterLeftEdge": 228,
+    "flatOpenings": 2,
+    "grillJoinProfileMismatches": 0,
+    "grillRightEdge": 228,
+    "leftWallInteriorX": 16,
+    "milkshakeCounterLeftEdgeX": 16,
+    "plateInstances": 0,
+    "platingCounterNearEdgeY": 288,
+    "platingCounterVisibleDepth": 18,
+    "platingCounterVisibleFasciaPixels": 0,
+    "platingCounterVisibleTopY": 270,
+    "servingTrayInstances": 3,
+    "sharedCounterTopY": 48,
+    "sharedFasciaY": 66,
+    "trashAdjacentToFryer": true
+  },
+  "saved": true,
+  "semitransparentPixels": 0,
+  "sourcePixelsMatchNativePng": true,
+  "tag": "kitchen-layout-v5-static",
+  "tileCount": 336,
+  "visibleColors": 16,
+  "independentBrowserPixelDifferences": 0,
+  "sharedWorldInstancesVerified": true
+}

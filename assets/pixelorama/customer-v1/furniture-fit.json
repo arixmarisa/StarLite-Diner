@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Native-scale seated art/occlusion review only; not implemented seating, collision or gameplay.",
+  "canvas": {
+    "width": 240,
+    "height": 132,
+    "previewScale": 4,
+    "background": "transparent"
+  },
+  "characterFrame": {
+    "width": 16,
+    "height": 24
+  },
+  "seatAnchor": {
+    "x": 8,
+    "y": 19
+  },
+  "headTranslation": {
+    "x": 0,
+    "y": 1
+  },
+  "drawOrder": "Execute commands in order. Image paths are repository-relative. Actor x/y are full-frame top-left coordinates. Crop destinations stay at image origin plus destinationOffset.",
+  "furnitureSources": {
+    "chairsAndStools": {
+      "source": "assets/pixelorama/front-of-house-v1/front-of-house.pxo",
+      "manifest": "apps/web/public/art/front-of-house-v1/manifest.json"
+    },
+    "booth": {
+      "source": "assets/pixelorama/booth-orientations-review/booth-above-below.pxo",
+      "splitMetadata": "apps/web/public/art/front-of-house-layout-review/layout.json",
+      "pixels": "Existing 80x104 split exports, unscaled and unchanged."
+    }
+  },
+  "limitations": [
+    "Seat points are authored art-fit proposals, not authoritative gameplay attachment/collision data.",
+    "Four static seated facings only. No eating, talking, interaction or sit-down transition frames.",
+    "Actor heads and upper-torso dimensions remain unchanged; upper anatomy shifts one pixel down within the frame.",
+    "The high-stool example uses a dangling-foot posture; no foot-ring contact is asserted.",
+    "Chair foreground crops reuse original pixels; no new chair designs or rescaled furniture are made."
+  ],
+  "placements": [
+    {
+      "furniture": "chair-south",
+      "furnitureOrigin": {
+        "x": 12,
+        "y": 36
+      },
+      "customer": "male-tee-jeans",
+      "direction": "south",
+      "seatPointLocal": {
+        "x": 8,
+        "y": 16
+      },
+      "customerSeatAnchor": {
+        "x": 8,
+        "y": 19
+      },
+      "customerOrigin": {
+        "x": 12,
+        "y": 33
+      },
+      "foregroundCrop": null,
+      "notes": "Existing chair native pixels are replayed only for the backrest-facing foreground; actor pixels remain complete."
+    },
+    {
+      "furniture": "chair-north",
+      "furnitureOrigin": {
+        "x": 44,
+        "y": 36
+      },
+      "customer": "female-tee-jeans",
+      "direction": "north",
+      "seatPointLocal": {
+        "x": 8,
+        "y": 16
+      },
+      "customerSeatAnchor": {
+        "x": 8,
+        "y": 19
+      },
+      "customerOrigin": {
+        "x": 44,
+        "y": 33
+      },
+      "foregroundCrop": {
+        "x": 2,
+        "y": 8,
+        "width": 12,
+        "height": 14
+      },
+      "notes": "Existing chair native pixels are replayed only for the backrest-facing foreground; actor pixels remain complete."
+    },
+    {
+      "furniture": "chair-west",
+      "furnitureOrigin": {
+        "x": 76,
+        "y": 36
+      },
+      "customer": "male-polo-khakis",
+      "direction": "west",
+      "seatPointLocal": {
+        "x": 8,
+        "y": 16
+      },
+      "customerSeatAnchor": {
+        "x": 8,
+        "y": 19
+      },
+      "customerOrigin": {
+        "x": 76,
+        "y": 33
+      },
+      "foregroundCrop": {
+        "x": 11,
+        "y": 3,
+        "width": 4,
+        "height": 16
+      },
+      "notes": "Existing chair native pixels are replayed only for the backrest-facing foreground; actor pixels remain complete."
+    },
+    {
+      "furniture": "chair-east",
+      "furnitureOrigin": {
+        "x": 108,
+        "y": 36
+      },
+      "customer": "female-polo-khakis",
+      "direction": "east",
+      "seatPointLocal": {
+        "x": 8,
+        "y": 16
+      },
+      "customerSeatAnchor": {
+        "x": 8,
+        "y": 19
+      },
+      "customerOrigin": {
+        "x": 108,
+        "y": 33
+      },
+      "foregroundCrop": {
+        "x": 1,
+        "y": 3,
+        "width": 4,
+        "height": 16
+      },
+      "notes": "Existing chair native pixels are replayed only for the backrest-facing foreground; actor pixels remain complete."
+    },
+    {
+      "furniture": "stool-pink",
+      "furnitureOrigin": {
+        "x": 28,
+        "y": 96
+      },
+      "customer": "male-cardigan-shorts",
+      "direction": "west",
+      "seatPointLocal": {
+        "x": 8,
+        "y": 9
+      },
+      "customerSeatAnchor": {
+        "x": 8,
+        "y": 19
+      },
+      "customerOrigin": {
+        "x": 28,
+        "y": 86
+      },
+      "foregroundCrop": null,
+      "notes": "Same seated posture perches on the existing high stool. Feet dangle; no claim that feet reach the foot ring."
+    },
+    {
+      "furniture": "stool-mint",
+      "furnitureOrigin": {
+        "x": 76,
+        "y": 96
+      },
+      "customer": "female-cardigan-shorts",
+      "direction": "east",
+      "seatPointLocal": {
+        "x": 8,
+        "y": 9
+      },
+      "customerSeatAnchor": {
+        "x": 8,
+        "y": 19
+      },
+      "customerOrigin": {
+        "x": 76,
+        "y": 86
+      },
+      "foregroundCrop": null,
+      "notes": "Same seated posture perches on the existing high stool. Feet dangle; no claim that feet reach the foot ring."
+    },
+    {
+      "furniture": "accepted-booth-above-below",
+      "furnitureOrigin": {
+        "x": 144,
+        "y": 12
+      },
+      "source": "assets/pixelorama/booth-orientations-review/booth-above-below.pxo",
+      "rearSeat": {
+        "customer": "female-cardigan-shorts",
+        "direction": "south",
+        "seatPointLocal": {
+          "x": 40,
+          "y": 34
+        },
+        "customerOrigin": {
+          "x": 176,
+          "y": 27
+        }
+      },
+      "frontSeat": {
+        "customer": "male-tee-jeans",
+        "direction": "north",
+        "seatPointLocal": {
+          "x": 40,
+          "y": 70
+        },
+        "customerOrigin": {
+          "x": 176,
+          "y": 63
+        }
+      },
+      "customerSeatAnchor": {
+        "x": 8,
+        "y": 19
+      },
+      "notes": "Rear actor is drawn before the existing table split; near actor after the table and before the existing front backrest split. Lower anatomy remains in the actor source and is hidden by furniture."
+    }
+  ],
+  "commands": [
+    {
+      "type": "image",
+      "path": "apps/web/public/art/front-of-house-v1/chair-south.png",
+      "x": 12,
+      "y": 36
+    },
+    {
+      "type": "actor",
+      "id": "male-tee-jeans",
+      "family": "male",
+      "state": "seated",
+      "direction": "south",
+      "x": 12,
+      "y": 33,
+      "scale": 1
+    },
+    {
+      "type": "image",
+      "path": "apps/web/public/art/front-of-house-v1/chair-north.png",
+      "x": 44,
+      "y": 36
+    },
+    {
+      "type": "actor",
+      "id": "female-tee-jeans",
+      "family": "female",
+      "state": "seated",
+      "direction": "north",
+      "x": 44,
+      "y": 33,
+      "scale": 1
+    },
+    {
+      "type": "image",
+      "path": "apps/web/public/art/front-of-house-v1/chair-north.png",
+      "x": 44,
+      "y": 36,
+      "sourceRect": {
+        "x": 2,
+        "y": 8,
+        "width": 12,
+        "height": 14
+      },
+      "destinationOffset": {
+        "x": 2,
+        "y": 8
+      }
+    },
+    {
+      "type": "image",
+      "path": "apps/web/public/art/front-of-house-v1/chair-west.png",
+      "x": 76,
+      "y": 36
+    },
+    {
+      "type": "actor",
+      "id": "male-polo-khakis",
+      "family": "male",
+      "state": "seated",
+      "direction": "west",
+      "x": 76,
+      "y": 33,
+      "scale": 1
+    },
+    {
+      "type": "image",
+      "path": "apps/web/public/art/front-of-house-v1/chair-west.png",
+      "x": 76,
+      "y": 36,
+      "sourceRect": {
+        "x": 11,
+        "y": 3,
+        "width": 4,
+        "height": 16
+      },
+      "destinationOffset": {
+        "x": 11,
+        "y": 3
+      }
+    },
+    {
+      "type": "image",
+      "path": "apps/web/public/art/front-of-house-v1/chair-east.png",
+      "x": 108,
+      "y": 36
+    },
+    {
+      "type": "actor",
+      "id": "female-polo-khakis",
+      "family": "female",
+      "state": "seated",
+      "direction": "east",
+      "x": 108,
+      "y": 33,
+      "scale": 1
+    },
+    {
+      "type": "image",
+      "path": "apps/web/public/art/front-of-house-v1/chair-east.png",
+      "x": 108,
+      "y": 36,
+      "sourceRect": {
+        "x": 1,
+        "y": 3,
+        "width": 4,
+        "height": 16
+      },
+      "destinationOffset": {
+        "x": 1,
+        "y": 3
+      }
+    },
+    {
+      "type": "image",
+      "path": "apps/web/public/art/front-of-house-v1/stool-pink.png",
+      "x": 28,
+      "y": 96
+    },
+    {
+      "type": "actor",
+      "id": "male-cardigan-shorts",
+      "family": "male",
+      "state": "seated",
+      "direction": "west",
+      "x": 28,
+      "y": 86,
+      "scale": 1
+    },
+    {
+      "type": "image",
+      "path": "apps/web/public/art/front-of-house-v1/stool-mint.png",
+      "x": 76,
+      "y": 96
+    },
+    {
+      "type": "actor",
+      "id": "female-cardigan-shorts",
+      "family": "female",
+      "state": "seated",
+      "direction": "east",
+      "x": 76,
+      "y": 86,
+      "scale": 1
+    },
+    {
+      "type": "image",
+      "path": "apps/web/public/art/front-of-house-layout-review/booth-above-below-base.png",
+      "x": 144,
+      "y": 12
+    },
+    {
+      "type": "actor",
+      "id": "female-cardigan-shorts",
+      "family": "female",
+      "state": "seated",
+      "direction": "south",
+      "x": 176,
+      "y": 27,
+      "scale": 1
+    },
+    {
+      "type": "image",
+      "path": "apps/web/public/art/front-of-house-layout-review/booth-above-below-table.png",
+      "x": 144,
+      "y": 12
+    },
+    {
+      "type": "actor",
+      "id": "male-tee-jeans",
+      "family": "male",
+      "state": "seated",
+      "direction": "north",
+      "x": 176,
+      "y": 63,
+      "scale": 1
+    },
+    {
+      "type": "image",
+      "path": "apps/web/public/art/front-of-house-layout-review/booth-above-below-foreground.png",
+      "x": 144,
+      "y": 12
+    }
+  ]
+}

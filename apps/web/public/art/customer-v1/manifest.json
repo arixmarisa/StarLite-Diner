@@ -1,0 +1,130 @@
+{
+  "columns": ["idle", "walk-1", "walk-2", "walk-3", "walk-4", "seated"],
+  "directions": ["south", "west", "east", "north"],
+  "eatingAnimations": false,
+  "families": {
+    "female": {
+      "atlas": "female-atlas.json",
+      "frames": 72,
+      "idlePreview": "female-idles-preview.png",
+      "motionPreview": "female-motion-preview.png",
+      "roles": {
+        "bottom": {
+          "layerImage": "female-bottom-layer.png",
+          "mask": "female-bottom-mask.png",
+          "sourceLayers": [4.0]
+        },
+        "hair": {
+          "layerImage": "female-hair-layer.png",
+          "mask": "female-hair-mask.png",
+          "sourceLayers": [1.0, 8.0]
+        },
+        "secondary": {
+          "layerImage": "female-secondary-layer.png",
+          "mask": "female-secondary-mask.png",
+          "sourceLayers": [5.0]
+        },
+        "shoes": {
+          "layerImage": "female-shoes-layer.png",
+          "mask": "female-shoes-mask.png",
+          "sourceLayers": [2.0]
+        },
+        "skin": {
+          "layerImage": "female-skin-layer.png",
+          "mask": "female-skin-mask.png",
+          "sourceLayers": [3.0, 7.0]
+        },
+        "top": {
+          "layerImage": "female-top-layer.png",
+          "mask": "female-top-mask.png",
+          "sourceLayers": [6.0]
+        }
+      },
+      "seatedPreview": "female-seated-preview.png",
+      "sheet": "female.png",
+      "source": "../../../../../assets/pixelorama/customer-v1/female.pxo",
+      "tags": 36
+    },
+    "male": {
+      "atlas": "male-atlas.json",
+      "frames": 72,
+      "idlePreview": "male-idles-preview.png",
+      "motionPreview": "male-motion-preview.png",
+      "roles": {
+        "bottom": {
+          "layerImage": "male-bottom-layer.png",
+          "mask": "male-bottom-mask.png",
+          "sourceLayers": [4.0]
+        },
+        "hair": {
+          "layerImage": "male-hair-layer.png",
+          "mask": "male-hair-mask.png",
+          "sourceLayers": [1.0, 8.0]
+        },
+        "secondary": {
+          "layerImage": "male-secondary-layer.png",
+          "mask": "male-secondary-mask.png",
+          "sourceLayers": [5.0]
+        },
+        "shoes": {
+          "layerImage": "male-shoes-layer.png",
+          "mask": "male-shoes-mask.png",
+          "sourceLayers": [2.0]
+        },
+        "skin": {
+          "layerImage": "male-skin-layer.png",
+          "mask": "male-skin-mask.png",
+          "sourceLayers": [3.0, 7.0]
+        },
+        "top": {
+          "layerImage": "male-top-layer.png",
+          "mask": "male-top-mask.png",
+          "sourceLayers": [6.0]
+        }
+      },
+      "seatedPreview": "male-seated-preview.png",
+      "sheet": "male.png",
+      "source": "../../../../../assets/pixelorama/customer-v1/male.pxo",
+      "tags": 36
+    }
+  },
+  "fps": 8,
+  "frameIndexBase": 0,
+  "frameSize": {
+    "height": 24,
+    "width": 16
+  },
+  "furnitureContext": "seated-furniture-context.png",
+  "furnitureContextPreview": "seated-furniture-context-preview.png",
+  "furnitureFit": "furniture-fit.json",
+  "integration": "not integrated",
+  "layers": [
+    "01 - contact shadow",
+    "02 - rear hair",
+    "03 - shoes",
+    "04 - exposed leg skin",
+    "05 - bottoms",
+    "06 - top secondary",
+    "07 - top primary",
+    "08 - skin face neck hands",
+    "09 - front hair",
+    "10 - neutral details"
+  ],
+  "motionPreview": "customers-motion-preview.png",
+  "partSelection": "part-selection.json",
+  "recolorMap": "recolor-map.json",
+  "rowOrder": "outfit then south/west/east/north",
+  "seatAnchor": {
+    "x": 8,
+    "y": 19
+  },
+  "sheetSize": {
+    "height": 288,
+    "width": 96
+  },
+  "tagIndexBase": 0,
+  "walkAnchor": {
+    "x": 8,
+    "y": 23
+  }
+}

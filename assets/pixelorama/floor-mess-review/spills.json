@@ -1,0 +1,47 @@
+{
+  "label": "Flat irregular liquid spill",
+  "frameSize": { "width": 16, "height": 16 },
+  "anchor": { "x": 8, "y": 10 },
+  "frames": [
+    {
+      "id": "spill-water",
+      "label": "Water spill",
+      "colorMap": { "edge": "waterEdge", "body": "waterBase", "light": "waterLight" }
+    },
+    {
+      "id": "spill-coffee",
+      "label": "Coffee spill",
+      "colorMap": { "edge": "coffeeEdge", "body": "coffeeBase", "light": "coffeeLight" }
+    }
+  ],
+  "layers": [
+    [],
+    [
+      { "x": 5, "y": 4, "w": 5, "h": 1, "c": "edge" },
+      { "x": 3, "y": 5, "w": 9, "h": 1, "c": "edge" },
+      { "x": 2, "y": 6, "w": 11, "h": 1, "c": "edge" },
+      { "x": 1, "y": 7, "w": 14, "h": 1, "c": "edge" },
+      { "x": 1, "y": 8, "w": 13, "h": 1, "c": "edge" },
+      { "x": 2, "y": 9, "w": 13, "h": 1, "c": "edge" },
+      { "x": 4, "y": 10, "w": 9, "h": 1, "c": "edge" },
+      { "x": 6, "y": 11, "w": 5, "h": 1, "c": "edge" }
+    ],
+    [
+      { "x": 5, "y": 5, "w": 5, "h": 1, "c": "body" },
+      { "x": 3, "y": 6, "w": 9, "h": 1, "c": "body" },
+      { "x": 2, "y": 7, "w": 12, "h": 1, "c": "body" },
+      { "x": 2, "y": 8, "w": 11, "h": 1, "c": "body" },
+      { "x": 4, "y": 9, "w": 10, "h": 1, "c": "body" },
+      { "x": 6, "y": 10, "w": 5, "h": 1, "c": "body" }
+    ],
+    [
+      { "x": 5, "y": 6, "w": 4, "h": 1, "c": "light" },
+      { "x": 3, "y": 7, "w": 2, "h": 1, "c": "light" }
+    ]
+  ],
+  "notes": [
+    "One flat 14x8 silhouette with two palette variants; no animation or bitmap scaling.",
+    "The empty contact-shadow layer is intentional: liquid has no vertical cast shadow.",
+    "Opaque three-tone clusters with a restrained edge and upper-left broken sheen."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "activeProjectUnchanged": true,
+  "bounds": {
+    "height": 26,
+    "width": 18,
+    "x": 3,
+    "y": 4
+  },
+  "celByteSizes": [3072, 3072, 3072, 3072],
+  "componentsReconstructExactly": true,
+  "exportCodes": {
+    "atlas": 0,
+    "body": 0,
+    "native": 0,
+    "preview": 0,
+    "shadow": 0
+  },
+  "fps": 1.0,
+  "frames": 1,
+  "holes": [],
+  "opaquePixels": 413,
+  "orphans": 0,
+  "paletteSwatches": 14,
+  "populatedLayers": 4,
+  "saved": true,
+  "semitransparentPixels": 0,
+  "sourceLayers": 4,
+  "sourcePixelsMatchNativePng": true,
+  "sourceSize": [24.0, 32.0],
+  "tag": "kitchen-trash-static",
+  "visibleColors": 6
+}

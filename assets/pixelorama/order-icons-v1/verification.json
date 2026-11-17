@@ -1,0 +1,414 @@
+{
+  "activeProjectUnchanged": true,
+  "all31DecodedImagesDistinct": true,
+  "allFitApprovedBubble": true,
+  "approvedBurgerPixelsUnchanged": true,
+  "approvedBurgerReused": true,
+  "contactSheet": {
+    "fps": 1,
+    "frames": 1,
+    "layers": 31,
+    "paletteSwatches": 86,
+    "savedCelsExact": 31,
+    "size": [192, 96],
+    "sourceCompositesExact": true,
+    "tags": 1
+  },
+  "failures": [],
+  "families": {
+    "drinks": {
+      "fps": 1,
+      "frames": 10,
+      "layers": 5,
+      "paletteSwatches": 25,
+      "savedCelsExact": 50,
+      "size": [16, 16],
+      "sourceCompositesExact": true,
+      "tags": 10
+    },
+    "savory": {
+      "fps": 1,
+      "frames": 10,
+      "layers": 5,
+      "paletteSwatches": 42,
+      "savedCelsExact": 50,
+      "size": [16, 16],
+      "sourceCompositesExact": true,
+      "tags": 10
+    },
+    "sweet": {
+      "fps": 1,
+      "frames": 10,
+      "layers": 5,
+      "paletteSwatches": 41,
+      "savedCelsExact": 50,
+      "size": [16, 16],
+      "sourceCompositesExact": true,
+      "tags": 10
+    }
+  },
+  "icons": {
+    "banana": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 12,
+        "width": 13,
+        "x": 2,
+        "y": 2
+      },
+      "opaquePixels": 70,
+      "semitransparentPixels": 0,
+      "visibleColors": 6
+    },
+    "blueberry": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 14,
+        "width": 14,
+        "x": 1,
+        "y": 1
+      },
+      "opaquePixels": 114,
+      "semitransparentPixels": 0,
+      "visibleColors": 7
+    },
+    "cheese": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 12,
+        "width": 13,
+        "x": 2,
+        "y": 2
+      },
+      "opaquePixels": 103,
+      "semitransparentPixels": 0,
+      "visibleColors": 7
+    },
+    "cherry": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 14,
+        "width": 10,
+        "x": 4,
+        "y": 1
+      },
+      "opaquePixels": 68,
+      "semitransparentPixels": 0,
+      "visibleColors": 7
+    },
+    "cherry-drizzle": {
+      "components": 2,
+      "occupiedBounds": {
+        "height": 12,
+        "width": 12,
+        "x": 2,
+        "y": 2
+      },
+      "opaquePixels": 66,
+      "semitransparentPixels": 0,
+      "visibleColors": 6
+    },
+    "chocolate": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 14,
+        "width": 10,
+        "x": 3,
+        "y": 1
+      },
+      "opaquePixels": 136,
+      "semitransparentPixels": 0,
+      "visibleColors": 6
+    },
+    "chocolate-drizzle": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 13,
+        "width": 12,
+        "x": 2,
+        "y": 2
+      },
+      "opaquePixels": 67,
+      "semitransparentPixels": 0,
+      "visibleColors": 6
+    },
+    "coffee": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 13,
+        "width": 13,
+        "x": 1,
+        "y": 1
+      },
+      "opaquePixels": 110,
+      "semitransparentPixels": 0,
+      "visibleColors": 9
+    },
+    "fries": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 14,
+        "width": 12,
+        "x": 2,
+        "y": 1
+      },
+      "opaquePixels": 122,
+      "semitransparentPixels": 0,
+      "visibleColors": 8
+    },
+    "hot-chocolate": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 11,
+        "width": 14,
+        "x": 1,
+        "y": 2
+      },
+      "opaquePixels": 103,
+      "semitransparentPixels": 0,
+      "visibleColors": 8
+    },
+    "hot-dog": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 11,
+        "width": 12,
+        "x": 2,
+        "y": 2
+      },
+      "opaquePixels": 84,
+      "semitransparentPixels": 0,
+      "visibleColors": 8
+    },
+    "ketchup": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 14,
+        "width": 8,
+        "x": 4,
+        "y": 1
+      },
+      "opaquePixels": 88,
+      "semitransparentPixels": 0,
+      "visibleColors": 7
+    },
+    "lettuce": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 14,
+        "width": 14,
+        "x": 1,
+        "y": 1
+      },
+      "opaquePixels": 136,
+      "semitransparentPixels": 0,
+      "visibleColors": 7
+    },
+    "mayonnaise": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 12,
+        "width": 14,
+        "x": 1,
+        "y": 2
+      },
+      "opaquePixels": 116,
+      "semitransparentPixels": 0,
+      "visibleColors": 8
+    },
+    "milkshake-chocolate": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 14,
+        "width": 10,
+        "x": 3,
+        "y": 1
+      },
+      "opaquePixels": 103,
+      "semitransparentPixels": 0,
+      "visibleColors": 8
+    },
+    "milkshake-strawberry": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 14,
+        "width": 10,
+        "x": 3,
+        "y": 1
+      },
+      "opaquePixels": 103,
+      "semitransparentPixels": 0,
+      "visibleColors": 8
+    },
+    "milkshake-vanilla": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 14,
+        "width": 10,
+        "x": 3,
+        "y": 1
+      },
+      "opaquePixels": 103,
+      "semitransparentPixels": 0,
+      "visibleColors": 8
+    },
+    "mustard": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 14,
+        "width": 10,
+        "x": 3,
+        "y": 1
+      },
+      "opaquePixels": 108,
+      "semitransparentPixels": 0,
+      "visibleColors": 7
+    },
+    "onion": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 12,
+        "width": 14,
+        "x": 1,
+        "y": 2
+      },
+      "opaquePixels": 140,
+      "semitransparentPixels": 0,
+      "visibleColors": 6
+    },
+    "onion-rings": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 12,
+        "width": 14,
+        "x": 1,
+        "y": 3
+      },
+      "opaquePixels": 92,
+      "semitransparentPixels": 0,
+      "visibleColors": 6
+    },
+    "pancakes-1": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 4,
+        "width": 12,
+        "x": 2,
+        "y": 6
+      },
+      "opaquePixels": 42,
+      "semitransparentPixels": 0,
+      "visibleColors": 6
+    },
+    "pancakes-2": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 7,
+        "width": 12,
+        "x": 2,
+        "y": 5
+      },
+      "opaquePixels": 76,
+      "semitransparentPixels": 0,
+      "visibleColors": 6
+    },
+    "pancakes-3": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 10,
+        "width": 12,
+        "x": 2,
+        "y": 3
+      },
+      "opaquePixels": 110,
+      "semitransparentPixels": 0,
+      "visibleColors": 6
+    },
+    "pickle": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 14,
+        "width": 14,
+        "x": 1,
+        "y": 1
+      },
+      "opaquePixels": 114,
+      "semitransparentPixels": 0,
+      "visibleColors": 6
+    },
+    "relish": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 11,
+        "width": 14,
+        "x": 1,
+        "y": 3
+      },
+      "opaquePixels": 120,
+      "semitransparentPixels": 0,
+      "visibleColors": 8
+    },
+    "soda": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 13,
+        "width": 10,
+        "x": 3,
+        "y": 1
+      },
+      "opaquePixels": 92,
+      "semitransparentPixels": 0,
+      "visibleColors": 8
+    },
+    "strawberry": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 13,
+        "width": 12,
+        "x": 2,
+        "y": 1
+      },
+      "opaquePixels": 116,
+      "semitransparentPixels": 0,
+      "visibleColors": 7
+    },
+    "tea": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 11,
+        "width": 14,
+        "x": 1,
+        "y": 3
+      },
+      "opaquePixels": 104,
+      "semitransparentPixels": 0,
+      "visibleColors": 9
+    },
+    "tomato": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 12,
+        "width": 12,
+        "x": 2,
+        "y": 2
+      },
+      "opaquePixels": 116,
+      "semitransparentPixels": 0,
+      "visibleColors": 8
+    },
+    "whipped-cream": {
+      "components": 1,
+      "occupiedBounds": {
+        "height": 12,
+        "width": 14,
+        "x": 1,
+        "y": 2
+      },
+      "opaquePixels": 101,
+      "semitransparentPixels": 0,
+      "visibleColors": 6
+    }
+  },
+  "newIcons": 30,
+  "totalIcons": 31
+}

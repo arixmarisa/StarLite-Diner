@@ -1,0 +1,46 @@
+{
+  "activeProjectUnchanged": true,
+  "assetReferences": 52,
+  "backSeamChecks": [
+    {
+      "axis": "y",
+      "gapPixels": 0,
+      "members": ["booth-left-0", "booth-left-1"]
+    },
+    {
+      "axis": "y",
+      "gapPixels": 0,
+      "members": ["booth-right-0", "booth-right-1"]
+    },
+    {
+      "axis": "y",
+      "gapPixels": 0,
+      "members": ["booth-right-1", "booth-right-2"]
+    },
+    {
+      "axis": "x",
+      "gapPixels": 0,
+      "members": ["booth-bottom-0", "booth-bottom-1"]
+    },
+    {
+      "axis": "x",
+      "gapPixels": 0,
+      "members": ["booth-bottom-1", "booth-bottom-2"]
+    }
+  ],
+  "doorwayInteriorPixelsVisible": {
+    "kitchen-east-doorway": true,
+    "kitchen-west-doorway": true
+  },
+  "instances": 277,
+  "layerNamesVerified": true,
+  "layers": 8,
+  "nativeExportCode": 0,
+  "paletteSwatches": 21,
+  "previewExportCode": 0,
+  "saved": true,
+  "savedSourceMatchesPng": true,
+  "size": [624.0, 432.0],
+  "staticFrameMetadataVerified": true,
+  "tag": "compact-layout-static"
+}

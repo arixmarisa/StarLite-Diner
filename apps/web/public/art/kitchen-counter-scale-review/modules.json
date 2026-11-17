@@ -1,0 +1,26 @@
+{
+  "modules": [
+    {
+      "id": "steel-counter-top",
+      "image": "steel-counter-top.png",
+      "sourceRect": [16, 0, 16, 18]
+    },
+    {
+      "id": "steel-counter-front",
+      "image": "steel-counter-front.png",
+      "sourceRect": [16, 18, 16, 13]
+    },
+    {
+      "id": "steel-counter-end-left",
+      "image": "steel-counter-end-left.png",
+      "sourceRect": [0, 0, 16, 31]
+    },
+    {
+      "id": "steel-counter-end-right",
+      "image": "steel-counter-end-right.png",
+      "sourceRect": [48, 0, 16, 31]
+    }
+  ],
+  "nativeScale": 1,
+  "repeatSpacing": 16
+}

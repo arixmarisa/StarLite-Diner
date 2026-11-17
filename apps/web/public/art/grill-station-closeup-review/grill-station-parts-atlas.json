@@ -1,0 +1,70 @@
+{
+  "frames": {
+    "grill-topdown": {
+      "duration": 1000,
+      "frame": {
+        "h": 192,
+        "w": 288,
+        "x": 0,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 192,
+        "w": 288
+      },
+      "spriteSourceSize": {
+        "h": 192,
+        "w": 288,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "ingredient-tray": {
+      "duration": 1000,
+      "frame": {
+        "h": 56,
+        "w": 64,
+        "x": 288,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 56,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "h": 56,
+        "w": 64,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  },
+  "meta": {
+    "app": "Pixelorama MCP explicit native projects",
+    "format": "RGBA8888",
+    "frameTags": [
+      {
+        "direction": "forward",
+        "from": 0,
+        "name": "grill-topdown-static",
+        "to": 0
+      },
+      {
+        "direction": "forward",
+        "from": 1,
+        "name": "ingredient-tray-static",
+        "to": 1
+      }
+    ],
+    "image": "grill-station-parts-atlas.png",
+    "scale": "1",
+    "size": {
+      "h": 192,
+      "w": 352
+    }
+  }
+}
